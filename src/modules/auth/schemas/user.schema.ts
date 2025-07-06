@@ -1,4 +1,5 @@
-import { Entity, Column, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn } from 'typeorm';
+import { Entity, Column, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn, OneToMany } from 'typeorm';
+import { Session } from './session.schema';
 
 @Entity('user')
 export class User {
@@ -66,6 +67,13 @@ export class User {
     updated_at?: Date;
   };
 
+  // @Column({ type: 'simple-array', nullable: true })
+  // sessions: string[];
+
+  // sessions relation
+  @OneToMany(() => Session, (session) => session.user)
+  sessions: Session[];
+
   @Column({ type: 'simple-array', nullable: true })
   children: string[];
 
@@ -75,8 +83,6 @@ export class User {
   @Column({ type: 'simple-array', nullable: true })
   classrooms: string[];
 
-  @Column({ type: 'simple-array', nullable: true })
-  sessions: string[];
 
   @CreateDateColumn({ name: 'created_at' })
   created_at: Date;

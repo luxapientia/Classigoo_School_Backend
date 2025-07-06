@@ -49,6 +49,7 @@ export class UserGuard implements CanActivate {
           session_token: session,
           expired: false,
         },
+        relations: ['user'],
       });
 
       if (!dbSession) {
@@ -86,6 +87,7 @@ export class UserGuard implements CanActivate {
         where: {
           id: user_id,
         },
+        relations: ['sessions'],
       });
 
       if (!user) {
@@ -113,7 +115,7 @@ export class UserGuard implements CanActivate {
       }
 
       // Check if session belongs to user
-      if (!user.sessions.includes(dbSession.id)) {
+      if (!user.sessions.some(s => s.id === dbSession.id)) {
         throw new UnauthorizedException({
           status: 'error',
           message: 'Session does not belong to user',

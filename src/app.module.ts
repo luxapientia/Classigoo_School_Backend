@@ -3,6 +3,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule } from './config/config.module';
 import { ConfigService } from '@nestjs/config';
 import { AuthModule } from './modules/auth/auth.module';
+import { AccountModule } from './modules/account/account.module';
 import { SharedModule } from './shared/shared.module';
 
 @Module({
@@ -24,6 +25,7 @@ import { SharedModule } from './shared/shared.module';
     }),
     SharedModule,
     AuthModule,
+    AccountModule,
   ],
 })
 export class AppModule {}
