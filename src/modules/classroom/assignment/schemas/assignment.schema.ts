@@ -14,15 +14,23 @@ export class Assignment {
   @Column({ type: 'text', nullable: false })
   content: string;
 
-  @ManyToOne(() => Classroom, { nullable: false })
+  @ManyToOne(() => Classroom, {
+    nullable: false,
+    onDelete: 'CASCADE'
+  })
   @JoinColumn({ name: 'class_id' })
   classroom: Classroom;
 
-  @ManyToOne(() => User, { nullable: false })
+  @ManyToOne(() => User, {
+    nullable: false,
+    onDelete: 'CASCADE'
+  })
   @JoinColumn({ name: 'creator_id' })
   creator: User;
 
-  @OneToMany(() => AssignmentSubmission, submission => submission.assignment)
+  @OneToMany(() => AssignmentSubmission, submission => submission.assignment, {
+    cascade: true
+  })
   submissions: AssignmentSubmission[];
 
   @Column({ type: 'simple-array', default: ['*'] })

@@ -19,7 +19,10 @@ export class Classroom {
   @Column({ type: 'varchar', nullable: true })
   subject?: string;
 
-  @ManyToOne(() => User, { nullable: false })
+  @ManyToOne(() => User, {
+    nullable: false,
+    onDelete: 'CASCADE'
+  })
   @JoinColumn({ name: 'owner_id' })
   owner: User;
 
@@ -32,7 +35,9 @@ export class Classroom {
   @Column({ type: 'varchar', nullable: false })
   cover_img: string;
 
-  @OneToMany(() => ClassroomAccess, access => access.classroom)
+  @OneToMany(() => ClassroomAccess, access => access.classroom, {
+    cascade: true,
+  })
   classroom_relation: ClassroomAccess[];
 
   @CreateDateColumn({ name: 'created_at' })

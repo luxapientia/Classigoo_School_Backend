@@ -7,11 +7,17 @@ export class Message {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
-  @ManyToOne(() => MessageRoom, { nullable: false })
+  @ManyToOne(() => MessageRoom, room => room.messages, { 
+    nullable: false,
+    onDelete: 'CASCADE'
+  })
   @JoinColumn({ name: 'room_id' })
   room: MessageRoom;
 
-  @ManyToOne(() => User, { nullable: false })
+  @ManyToOne(() => User, { 
+    nullable: false,
+    onDelete: 'CASCADE'
+  })
   @JoinColumn({ name: 'user_id' })
   user: User;
 

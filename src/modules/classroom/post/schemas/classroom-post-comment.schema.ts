@@ -8,15 +8,24 @@ export class ClassroomPostComment {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
-  @ManyToOne(() => ClassroomPost, { nullable: false })
+  @ManyToOne(() => ClassroomPost, {
+    nullable: false,
+    onDelete: 'CASCADE'
+  })
   @JoinColumn({ name: 'post_id' })
   post: ClassroomPost;
 
-  @ManyToOne(() => Classroom, { nullable: false })
+  @ManyToOne(() => Classroom, {
+    nullable: false,
+    onDelete: 'CASCADE'
+  })
   @JoinColumn({ name: 'class_id' })
   classroom: Classroom;
 
-  @ManyToOne(() => User, { nullable: false })
+  @ManyToOne(() => User, {
+    nullable: false,
+    onDelete: 'CASCADE'
+  })
   @JoinColumn({ name: 'user_id' })
   user: User;
 

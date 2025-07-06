@@ -7,11 +7,17 @@ export class AssignmentSubmission {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
-  @ManyToOne(() => Assignment, { nullable: false })
+  @ManyToOne(() => Assignment, {
+    nullable: false,
+    onDelete: 'CASCADE'
+  })
   @JoinColumn({ name: 'assignment_id' })
   assignment: Assignment;
 
-  @ManyToOne(() => User, { nullable: false })
+  @ManyToOne(() => User, {
+    nullable: false,
+    onDelete: 'CASCADE'
+  })
   @JoinColumn({ name: 'user_id' })
   user: User;
 

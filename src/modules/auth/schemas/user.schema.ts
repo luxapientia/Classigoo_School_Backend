@@ -1,5 +1,6 @@
 import { Entity, Column, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn, OneToMany } from 'typeorm';
 import { Session } from './session.schema';
+import { Classroom } from '../../classroom/core/schemas/classroom.schema';
 
 @Entity('user')
 export class User {
@@ -71,18 +72,22 @@ export class User {
   // sessions: string[];
 
   // sessions relation
-  @OneToMany(() => Session, (session) => session.user)
+  @OneToMany(() => Session, (session) => session.user, {
+    cascade: true
+  })
   sessions: Session[];
+
+  // classroom relation
+  @OneToMany(() => Classroom, (classroom) => classroom.owner, {
+    cascade: true
+  })
+  classrooms: Classroom[];
 
   @Column({ type: 'simple-array', nullable: true })
   children: string[];
 
   @Column({ type: 'simple-array', nullable: true })
   parents: string[];
-
-  @Column({ type: 'simple-array', nullable: true })
-  classrooms: string[];
-
 
   @CreateDateColumn({ name: 'created_at' })
   created_at: Date;

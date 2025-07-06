@@ -24,7 +24,7 @@ export interface MessageResponse {
   user: {
     id: string;
     name: string;
-    avatar: string;
+    avatar: object;
   };
   content: Record<string, any>;
   created_at: Date;

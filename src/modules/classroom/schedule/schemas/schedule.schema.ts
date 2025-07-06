@@ -13,11 +13,17 @@ export class Schedule {
   @Column({ type: 'text', nullable: false })
   description: string;
 
-  @ManyToOne(() => User, { nullable: false })
+  @ManyToOne(() => User, {
+    nullable: false,
+    onDelete: 'CASCADE'
+  })
   @JoinColumn({ name: 'owner_id' })
   owner: User;
 
-  @ManyToOne(() => Classroom, { nullable: false })
+  @ManyToOne(() => Classroom, {
+    nullable: false,
+    onDelete: 'CASCADE'
+  })
   @JoinColumn({ name: 'class_id' })
   classroom: Classroom;
 

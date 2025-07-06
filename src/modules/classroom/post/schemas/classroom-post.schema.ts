@@ -8,11 +8,17 @@ export class ClassroomPost {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
-  @ManyToOne(() => Classroom, { nullable: false })
+  @ManyToOne(() => Classroom, {
+    nullable: false,
+    onDelete: 'CASCADE'
+  })
   @JoinColumn({ name: 'classroom_id' })
   classroom: Classroom;
 
-  @ManyToOne(() => User, { nullable: false })
+  @ManyToOne(() => User, {
+    nullable: false,
+    onDelete: 'CASCADE'
+  })
   @JoinColumn({ name: 'user_id' })
   user: User;
 
@@ -34,7 +40,9 @@ export class ClassroomPost {
   @Column({ type: 'timestamp', nullable: false })
   published_at: Date;
 
-  @OneToMany(() => ClassroomPostComment, comment => comment.post)
+  @OneToMany(() => ClassroomPostComment, comment => comment.post, {
+    cascade: true
+  })
   comments: ClassroomPostComment[];
 
   @CreateDateColumn({ name: 'created_at' })

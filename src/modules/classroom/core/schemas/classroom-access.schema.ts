@@ -7,11 +7,17 @@ export class ClassroomAccess {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
-  @ManyToOne(() => Classroom, classroom => classroom.classroom_relation, { nullable: false })
+  @ManyToOne(() => Classroom, classroom => classroom.classroom_relation, {
+    nullable: false,
+    onDelete: 'CASCADE'
+  })
   @JoinColumn({ name: 'class_id' })
   classroom: Classroom;
 
-  @ManyToOne(() => User, { nullable: false })
+  @ManyToOne(() => User, {
+    nullable: false,
+    onDelete: 'CASCADE'
+  })
   @JoinColumn({ name: 'user_id' })
   user: User;
 
