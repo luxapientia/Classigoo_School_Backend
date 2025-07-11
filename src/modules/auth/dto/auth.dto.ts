@@ -21,6 +21,10 @@ export class SendOtpDto {
 
   @IsString()
   @IsOptional()
+  school_id?: string;
+
+  @IsString()
+  @IsOptional()
   platform?: string;
 
   @IsString()

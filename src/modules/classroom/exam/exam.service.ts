@@ -234,7 +234,7 @@ export class ExamService {
         where: {
           classroom: { id: submission.exam.classroom.id },
           user: { id: user.user_id },
-          status: 'accepted'
+        status: 'accepted'
         }
       });
 
@@ -263,9 +263,9 @@ export class ExamService {
         relations: ['classroom']
       });
 
-      if (!exam) {
-        throw new NotFoundException('Exam not found');
-      }
+    if (!exam) {
+      throw new NotFoundException('Exam not found');
+    }
 
       // Check if user is a member of the classroom
       const access = await this.classroomAccessRepo.findOne({
@@ -275,11 +275,11 @@ export class ExamService {
           status: 'accepted',
           role: 'student'
         }
-      });
+    });
 
-      if (!access) {
+    if (!access) {
         throw new UnauthorizedException('You do not have permission to submit to this exam');
-      }
+    }
 
       // Check if user already has a submission
       const existingSubmission = await this.examSubmissionRepo.findOne({
@@ -287,11 +287,11 @@ export class ExamService {
           exam: { id: createExamSubmissionDto.exam_id },
           user: { id: user.user_id }
         }
-      });
+    });
 
-      if (existingSubmission) {
+    if (existingSubmission) {
         throw new BadRequestException('You have already submitted to this exam');
-      }
+    }
 
       const submission = new ExamSubmission();
       submission.status = createExamSubmissionDto.status;
@@ -304,7 +304,7 @@ export class ExamService {
       await this.pubSubService.publish('exam.updated', {
         eid: createExamSubmissionDto.exam_id,
         cid: exam.classroom.id
-      });
+    });
 
       return savedSubmission;
     } catch (error) {
@@ -322,9 +322,9 @@ export class ExamService {
         relations: ['user', 'exam', 'exam.classroom']
       });
 
-      if (!submission) {
-        throw new NotFoundException('Submission not found');
-      }
+    if (!submission) {
+      throw new NotFoundException('Submission not found');
+    }
 
       // Check if user owns this submission
       if (submission.user.id !== user.user_id) {
@@ -336,13 +336,13 @@ export class ExamService {
 
       const updatedSubmission = await this.examSubmissionRepo.save(submission);
 
-      // publish event
+    // publish event
       await this.pubSubService.publish('exam.updated', {
         eid: submission.exam.id,
         cid: submission.exam.classroom.id
       });
 
-      return updatedSubmission;
+    return updatedSubmission;
     } catch (error) {
       if (error instanceof UnauthorizedException || error instanceof NotFoundException) {
         throw error;
@@ -358,9 +358,9 @@ export class ExamService {
         relations: ['exam', 'exam.classroom']
       });
 
-      if (!submission) {
-        throw new NotFoundException('Submission not found');
-      }
+    if (!submission) {
+      throw new NotFoundException('Submission not found');
+    }
 
       // Check if user has permission to mark submissions
       const access = await this.classroomAccessRepo.findOne({
@@ -379,17 +379,17 @@ export class ExamService {
       submission.markings = updateMarkingsDto.markings;
       const updatedSubmission = await this.examSubmissionRepo.save(submission);
 
-      // publish event
+    // publish event
       await this.pubSubService.publish('exam.updated', {
         eid: submission.exam.id,
         cid: submission.exam.classroom.id
       });
 
-      return {
-        status: 'success',
+    return {
+      status: 'success',
         message: 'Markings updated successfully',
-        data: updatedSubmission
-      };
+      data: updatedSubmission
+    };
     } catch (error) {
       if (error instanceof UnauthorizedException || error instanceof NotFoundException) {
         throw error;
@@ -454,7 +454,7 @@ export class ExamService {
         where: { id },
         relations: ['classroom', 'owner', 'submissions', 'submissions.user']
       });
-
+      
       if (!exam) {
         throw new NotFoundException('Exam not found');
       }
@@ -532,7 +532,7 @@ export class ExamService {
         where: {
           classroom: { id: exam.classroom.id },
           user: { id: user.user_id },
-          status: 'accepted',
+        status: 'accepted',
           role: In(['owner', 'teacher'])
         }
       });
@@ -589,7 +589,7 @@ export class ExamService {
         where: {
           classroom: { id: exam.classroom.id },
           user: { id: user.user_id },
-          status: 'accepted'
+        status: 'accepted'
         }
       });
 
@@ -643,10 +643,10 @@ export class ExamService {
         where: {
           classroom: { id: classId },
           user: { id: user.user_id },
-          status: 'accepted'
+        status: 'accepted'
         }
       });
-
+      
       if (!access) {
         throw new UnauthorizedException('You do not have permission to view grades');
       }

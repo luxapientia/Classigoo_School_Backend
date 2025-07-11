@@ -42,7 +42,7 @@ export class MemberService {
         where: {
           classroom: { id: class_id },
           user: { id: user.user_id },
-          status: 'accepted',
+        status: 'accepted',
           role: In(['owner', 'teacher'])
         }
       });
@@ -154,7 +154,7 @@ export class MemberService {
         where: {
           classroom: { id: access.classroom.id },
           user: { id: user.user_id },
-          status: 'accepted',
+        status: 'accepted',
           role: In(['owner', 'teacher'])
         }
       });
@@ -214,7 +214,7 @@ export class MemberService {
         where: {
           classroom: { id: access.classroom.id },
           user: { id: user.user_id },
-          status: 'accepted',
+        status: 'accepted',
           role: In(['owner', 'teacher'])
         }
       });

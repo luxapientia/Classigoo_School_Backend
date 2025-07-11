@@ -1,6 +1,6 @@
 import { Entity, Column, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn, OneToMany } from 'typeorm';
 import { Session } from './session.schema';
-import { Classroom } from '../../classroom/core/schemas/classroom.schema';
+// import { Classroom } from '../../classroom/core/schemas/classroom.schema';
 
 @Entity('user')
 export class User {
@@ -13,9 +13,10 @@ export class User {
   @Column({ type: 'varchar', unique: true, nullable: false })
   email: string;
 
-  @Column({ type: 'varchar', default: 'user' })
+  @Column({ type: 'varchar', default: '' })
+  // role: 'principal' | 'assistant_principal' | 'teacher' | 'staff' | 'student' | 'parent' | 'class_monitor' | 'admin';
   role: string;
-
+  
   @Column({ type: 'varchar', nullable: true })
   gender?: string;
 
@@ -46,7 +47,7 @@ export class User {
     country?: string;
   };
 
-  @Column({ type: 'varchar', default: 'active' })
+  @Column({ type: 'varchar', default: 'pending' })
   status: string;
 
   @Column({ type: 'boolean', default: false })
@@ -78,10 +79,10 @@ export class User {
   sessions: Session[];
 
   // classroom relation
-  @OneToMany(() => Classroom, (classroom) => classroom.owner, {
-    cascade: true
-  })
-  classrooms: Classroom[];
+  // @OneToMany(() => Classroom, (classroom) => classroom.owner, {
+  //   cascade: true
+  // })
+  // classrooms: Classroom[];
 
   @Column({ type: 'simple-array', nullable: true })
   children: string[];

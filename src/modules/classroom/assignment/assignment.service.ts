@@ -36,7 +36,7 @@ export class AssignmentService {
         where: {
           classroom: { id: createAssignmentDto.class_id },
           user: { id: user.user_id },
-          status: 'accepted',
+        status: 'accepted',
           role: In(['owner', 'teacher'])
         }
       });
@@ -88,7 +88,7 @@ export class AssignmentService {
         where: {
           classroom: { id: assignment.classroom.id },
           user: { id: user.user_id },
-          status: 'accepted',
+        status: 'accepted',
           role: In(['owner', 'teacher'])
         }
       });
@@ -134,7 +134,7 @@ export class AssignmentService {
         where: {
           classroom: { id: deleteFileDto.classroom_id },
           user: { id: user.user_id },
-          status: 'accepted',
+        status: 'accepted',
         }
       });
 
@@ -170,7 +170,7 @@ export class AssignmentService {
         where: {
           classroom: { id: assignment.classroom.id },
           user: { id: user.user_id },
-          status: 'accepted',
+        status: 'accepted',
           role: In(['owner', 'teacher'])
         }
       });
@@ -226,7 +226,7 @@ export class AssignmentService {
         where: {
           classroom: { id: assignment.classroom.id },
           user: { id: user.user_id },
-          status: 'accepted'
+        status: 'accepted'
         }
       });
 
@@ -268,8 +268,8 @@ export class AssignmentService {
         where: {
           classroom: { id: assignment.classroom.id },
           user: { id: user.user_id },
-          status: 'accepted',
-          role: 'student'
+        status: 'accepted',
+        role: 'student'
         }
       });
 
@@ -357,7 +357,7 @@ export class AssignmentService {
         where: {
           classroom: { id: classId },
           user: { id: user.user_id },
-          status: 'accepted',
+        status: 'accepted',
         }
       });
 
@@ -415,7 +415,7 @@ export class AssignmentService {
         where: {
           classroom: { id: assignment.classroom.id },
           user: { id: user.user_id },
-          status: 'accepted',
+        status: 'accepted',
         }
       });
 

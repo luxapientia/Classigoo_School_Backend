@@ -12,6 +12,9 @@ import * as moment from 'moment';
 import * as randomstring from 'randomstring';
 import { v4 as uuidv4 } from 'uuid';
 import { User } from './schemas/user.schema';
+import { School } from './schemas/school.schema';
+import { SchoolStaff } from './schemas/school_staff.schema';
+import { CommunityMember } from './schemas/community_member.schema';
 import { Otp } from './schemas/otp.schema';
 import { Session } from './schemas/session.schema';
 import { Blacklist } from './schemas/blacklist.schema';
@@ -28,13 +31,19 @@ const generateAvatar = (username: string): string => {
 export class AuthService {
   constructor(
     @InjectRepository(User) private userRepo: Repository<User>,
+    @InjectRepository(School) private schoolRepo: Repository<School>,
+    @InjectRepository(SchoolStaff) private schoolStaffRepo: Repository<SchoolStaff>,
+    @InjectRepository(CommunityMember) private communityMemberRepo: Repository<CommunityMember>,
     @InjectRepository(Otp) private otpRepo: Repository<Otp>,
     @InjectRepository(Session) private sessionRepo: Repository<Session>,
     @InjectRepository(Blacklist) private blacklistRepo: Repository<Blacklist>,
     @InjectRepository(AuthNotification) private notificationRepo: Repository<AuthNotification>,
     private jwtService: JwtService,
-    private mailService: MailService
+    private mailService: MailService,
   ) {}
+
+  private readonly schoolStaffRoles = ['principal', 'assistant_principal', 'teacher', 'staff'];
+  private readonly communityMemberRoles = ['student', 'parent', 'class_monitor'];
 
   async sendOtp(sendOtpDto: SendOtpDto) {
     const {
@@ -47,11 +56,28 @@ export class AuthService {
       device,
       location,
       role,
+      school_id: schoolId,
       remember_me,
       push_token,
     } = sendOtpDto;
 
+    // Check if role is valid
+    if (!this.schoolStaffRoles.includes(role) && !this.communityMemberRoles.includes(role)) {
+      throw new BadRequestException({
+        status: 'error',
+        message: 'Role is not valid, Please contact support',
+        i18n: 'role_not_valid',
+      });
+    }
     
+    // Check if school staff selected school
+    if (this.schoolStaffRoles.includes(role) && !schoolId) {
+      throw new BadRequestException({
+        status: 'error',
+        message: 'School is required, Please select a school',
+        i18n: 'school_required',
+      });
+    }
 
     // Check blacklist
     const blacklist = await this.blacklistRepo.findOne({ where: { ip_address: ip } });
@@ -103,13 +129,6 @@ export class AuthService {
     }
     
     if (!user) {
-      // if (!['teacher', 'student', 'parent'].includes(role)) {
-      //   throw new BadRequestException({
-      //     status: 'error',
-      //     message: 'Role is not valid',
-      //     i18n: 'role_not_valid',
-      //   });
-      // }
       let avatar;
 
       if (fullName) {
@@ -130,6 +149,19 @@ export class AuthService {
           updated_at: new Date(),
         },
       });
+
+      if (this.schoolStaffRoles.includes(role)) {
+        await this.schoolStaffRepo.save({
+          user: { id: user.id },
+          school: { id: schoolId },
+          is_verified: false
+        });
+      } else {
+        await this.communityMemberRepo.save({
+          user: { id: user.id },
+          // school: { id: schoolId }
+        });
+      }
 
       await this.notificationRepo.save({
         user: { id: user.id },
@@ -375,6 +407,11 @@ export class AuthService {
     });
 
     await this.userRepo.update({ email: dbOTP.email }, { status: 'active' });
+
+    // verify school staff
+    if (this.schoolStaffRoles.includes(user.role)) {
+      await this.schoolStaffRepo.update({ user: { id: user.id } }, { is_verified: true });
+    }
 
     // Reset blacklist attempts
     // await this.blacklistRepo.update({ ip_address: ip }, { $set: { attempts: 0 } });

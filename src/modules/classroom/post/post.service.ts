@@ -57,7 +57,7 @@ export class PostService {
         where: {
           classroom: { id: classroom_id },
           user: { id: user.user_id },
-          status: 'accepted'
+        status: 'accepted'
         }
       });
 
@@ -74,7 +74,7 @@ export class PostService {
       const allMembers = await this.classroomAccessRepository.find({
         where: {
           classroom: { id: classroom_id },
-          status: 'accepted'
+        status: 'accepted'
         },
         relations: ['user']
       });
@@ -131,7 +131,7 @@ export class PostService {
         where: {
           classroom: { id: deleteFileDto.classroom_id },
           user: { id: user.user_id },
-          status: 'accepted',
+        status: 'accepted',
         }
       });
 
@@ -170,7 +170,7 @@ export class PostService {
         where: {
           classroom: { id: addCommentDto.class_id },
           user: { id: user.user_id },
-          status: 'accepted'
+        status: 'accepted'
         }
       });
 
@@ -272,7 +272,7 @@ export class PostService {
         where: {
           classroom: { id: comment.classroom.id },
           user: { id: user.user_id },
-          status: 'accepted'
+        status: 'accepted'
         }
       });
 
@@ -318,7 +318,7 @@ export class PostService {
         where: {
           classroom: { id: post.classroom.id },
           user: { id: user.user_id },
-          status: 'accepted'
+        status: 'accepted'
         }
       });
 
@@ -369,7 +369,7 @@ export class PostService {
         where: {
           classroom: { id: cid },
           user: { id: user.user_id },
-          status: 'accepted'
+        status: 'accepted'
         }
       });
 
@@ -448,7 +448,7 @@ export class PostService {
         where: {
           classroom: { id: post.classroom.id },
           user: { id: user.user_id },
-          status: 'accepted'
+        status: 'accepted'
         }
       });
 
@@ -473,7 +473,7 @@ export class PostService {
           name: comment.user.name,
           email: comment.user.email,
           avatar: comment.user.avatar
-        }
+          }
       }));
 
       return {

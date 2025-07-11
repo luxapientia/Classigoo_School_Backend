@@ -170,7 +170,7 @@ export class CoreService {
         where: {
           classroom: { id: updateClassroomDto.id },
           user: { id: user.user_id },
-          status: 'accepted',
+        status: 'accepted',
           role: In(['owner', 'teacher'])
         }
       });
@@ -214,7 +214,7 @@ export class CoreService {
       const result = await this.classroomAccessRepo.find({
         where: {
           user: { id: user.user_id },
-          status: 'accepted'
+            status: 'accepted'
         },
         relations: ['classroom']
       });
@@ -228,10 +228,10 @@ export class CoreService {
         subject: access.classroom.subject,
         invitation_code: access.classroom.invitation_code,
         cover_img: access.classroom.cover_img,
-        ownerDetails: {
+            ownerDetails: {
           avatar: access.user.avatar,
           name: access.user.name
-        }
+            }
       }));
     } catch (error) {
       if (error instanceof UnauthorizedException || error instanceof NotFoundException) {
@@ -248,7 +248,7 @@ export class CoreService {
         where: {
           classroom: { id },
           user: { id: user.user_id },
-          status: 'accepted'
+        status: 'accepted'
         }
       });
 
@@ -277,7 +277,7 @@ export class CoreService {
             name: true,
             avatar: true
           },
-          classroom_relation: {
+            classroom_relation: {
             id: true,
             role: true,
             status: true,
@@ -291,7 +291,7 @@ export class CoreService {
           }
         }
       });
-
+      
       if (!result) {
         throw new NotFoundException('Classroom not found');
       }
@@ -325,8 +325,8 @@ export class CoreService {
         where: {
           classroom: { id: id },
           user: { id: user.user_id },
-          status: 'accepted',
-          role: 'owner'
+        status: 'accepted',
+        role: 'owner'
         }
       });
 
@@ -377,7 +377,7 @@ export class CoreService {
         where: {
           classroom: { id: input.classroom_id },
           user: { id: user.user_id },
-          status: 'accepted',
+        status: 'accepted',
           role: In(['owner', 'teacher'])
         }
       });
@@ -425,7 +425,7 @@ export class CoreService {
         where: {
           classroom: { id: input.classroom_id },
           user: { id: user.user_id },
-          status: 'accepted',
+        status: 'accepted',
           role: In(['owner', 'teacher'])
         }
       });
@@ -496,7 +496,7 @@ export class CoreService {
       const results = await this.classroomAccessRepo.find({
         where: {
           user: { id: uid },
-          status: 'accepted',
+            status: 'accepted',
           role: In(['owner', 'teacher'])
         },
         relations: ['classroom']
