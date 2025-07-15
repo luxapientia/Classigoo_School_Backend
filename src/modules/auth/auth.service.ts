@@ -56,11 +56,12 @@ export class AuthService {
       device,
       location,
       role,
-      school_id: schoolId,
+      school_id,
       remember_me,
       push_token,
     } = sendOtpDto;
 
+    let schoolId = school_id;
     // Check if role is valid
     if (!this.schoolStaffRoles.includes(role) && !this.communityMemberRoles.includes(role)) {
       throw new BadRequestException({
@@ -70,8 +71,8 @@ export class AuthService {
       });
     }
     
-    // Check if school staff selected school
-    if (this.schoolStaffRoles.includes(role) && !schoolId) {
+    // Check if school staff selected school in signup
+    if (this.schoolStaffRoles.includes(role) && isSignup && !schoolId) {
       throw new BadRequestException({
         status: 'error',
         message: 'School is required, Please select a school',
@@ -150,7 +151,16 @@ export class AuthService {
         },
       });
 
-      if (this.schoolStaffRoles.includes(role)) {
+      if (this.schoolStaffRoles.includes(role) && isSignup) {
+        // check if school exists and if not create it
+        // const school = await this.schoolRepo.findOne({ where: { id: schoolId } });
+        // if (!school) {
+        // }
+        const newSchool = await this.schoolRepo.save({
+          name: school_id,
+        });
+        schoolId = newSchool.id;
+
         await this.schoolStaffRepo.save({
           user: { id: user.id },
           school: { id: schoolId },

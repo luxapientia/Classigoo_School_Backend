@@ -170,7 +170,7 @@ export class CoreService {
         where: {
           classroom: { id: updateClassroomDto.id },
           user: { id: user.user_id },
-        status: 'accepted',
+          status: 'accepted',
           role: In(['owner', 'teacher'])
         }
       });
@@ -214,24 +214,25 @@ export class CoreService {
       const result = await this.classroomAccessRepo.find({
         where: {
           user: { id: user.user_id },
-            status: 'accepted'
+          status: 'accepted'
         },
-        relations: ['classroom']
+        relations: ['classroom', 'classroom.owner']
+
       });
 
       return result.map(access => ({
         _id: access.classroom.id,
         name: access.classroom.name,
-        owner: access.classroom.owner,
+        // owner: access.classroom.owner,
         room: access.classroom.room,
         section: access.classroom.section,
         subject: access.classroom.subject,
         invitation_code: access.classroom.invitation_code,
         cover_img: access.classroom.cover_img,
-            ownerDetails: {
-          avatar: access.user.avatar,
-          name: access.user.name
-            }
+        ownerDetails: {
+          avatar: access.classroom.owner.avatar,
+          name: access.classroom.owner.name
+        }
       }));
     } catch (error) {
       if (error instanceof UnauthorizedException || error instanceof NotFoundException) {
@@ -248,7 +249,7 @@ export class CoreService {
         where: {
           classroom: { id },
           user: { id: user.user_id },
-        status: 'accepted'
+          status: 'accepted'
         }
       });
 
@@ -277,7 +278,7 @@ export class CoreService {
             name: true,
             avatar: true
           },
-            classroom_relation: {
+          classroom_relation: {
             id: true,
             role: true,
             status: true,

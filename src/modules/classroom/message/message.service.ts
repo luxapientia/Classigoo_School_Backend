@@ -1,6 +1,6 @@
 import { Injectable, NotFoundException, UnauthorizedException, BadRequestException, InternalServerErrorException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Repository } from 'typeorm';
+import { Repository, Brackets } from 'typeorm';
 import { JwtPayload } from '../../../common/decorators/user.decorator';
 import { Message } from './schemas/message.schema';
 import { MessageRoom } from './schemas/message-room.schema';
@@ -183,15 +183,15 @@ export class MessageService {
         throw new UnauthorizedException('One or both users are not members of the classroom');
       }
 
-      // Find if there's any room where both users are members using TypeORM relations
+      // Check for existing chat room
       const existingChat = await this.messageRoomRepository
         .createQueryBuilder('room')
         .innerJoin('room.users', 'user1')
         .innerJoin('room.users', 'user2')
-        .where('user1.user_id = :userId1', { userId1: user.user_id })
-        .andWhere('user2.user_id = :userId2', { userId2: startChatDto.with_user })
-        .andWhere('room.type = :type', { type: 'single' })
-        .andWhere('room.classroom_id = :classroomId', { classroomId: startChatDto.classroom_id })
+        .where('room.type = :type', { type: 'single' })
+        .andWhere('room.classroom = :classroomId', { classroomId: startChatDto.classroom_id })
+        .andWhere('user1.user = :userId1', { userId1: user.user_id })
+        .andWhere('user2.user = :userId2', { userId2: startChatDto.with_user })
         .getOne();
 
       if (existingChat) {
@@ -220,13 +220,27 @@ export class MessageService {
       ];
       await this.messageRoomUserRepository.save(roomUsers);
 
+      // Add initial system message
+      const systemMessage = this.messageRepository.create({
+        room: { id: savedRoom.id },
+        user: { id: user.user_id },
+        content: { type: 'system', text: 'Chat initiated' }
+      });
+      await this.messageRepository.save(systemMessage);
+
+      // publish event
+      await this.pubsubService.publish('chatroom.created', {
+        class_id: startChatDto.classroom_id,
+        room_id: savedRoom.id,
+      });
+
       return {
         status: 'success',
         message: 'Chat room created successfully',
         id: savedRoom.id
       };
     } catch (error) {
-      if (error instanceof UnauthorizedException || error instanceof NotFoundException) {
+      if (error instanceof UnauthorizedException || error instanceof NotFoundException || error instanceof BadRequestException) {
         throw error;
       }
       throw new InternalServerErrorException('Could not start chat');
@@ -255,22 +269,41 @@ export class MessageService {
         throw new UnauthorizedException('You are not a member of this classroom');
       }
 
-      // Get all classroom members except the current user
-      const recipients = await this.classroomAccessRepository
-        .createQueryBuilder('access')
-        .leftJoinAndSelect('access.user', 'user')
-        .where('access.classroom_id = :classroomId', { classroomId })
-        .andWhere('access.user_id != :userId', { userId: user.user_id })
-        .andWhere('access.status = :status', { status: 'accepted' })
-        .select([
-          'user.id as id',
-          'user.name as name',
-          'user.email as email',
-          'user.avatar as avatar'
-        ])
-        .getRawMany();
+      // Get all message rooms in the classroom
+      const messageRooms = await this.messageRoomRepository
+        .createQueryBuilder('room')
+        .leftJoinAndSelect('room.users', 'roomUser')
+        .leftJoinAndSelect('roomUser.user', 'user')
+        .leftJoinAndSelect('user.classroomAccesses', 'access', 'access.classroom = :classroomId', { classroomId })
+        .where('room.classroom = :classroomId', { classroomId })
+        .andWhere(new Brackets(qb => {
+          qb.where('room.type = :allType', { allType: 'all' })
+            .orWhere(qb2 => {
+              qb2.where('room.type = :singleType', { singleType: 'single' })
+                .andWhere('roomUser.user = :userId', { userId: user.user_id });
+            });
+        }))
+        .orderBy('room.updated_at', 'DESC')
+        .getMany();
 
-      return recipients as ListMessageRecipientsResponse[];
+      // Format response to match expected type
+      const formattedRooms: ListMessageRecipientsResponse[] = messageRooms.map(room => ({
+        id: room.id,
+        name: room.name,
+        type: room.type,
+        users: room.users.map(ru => ({
+          id: ru.id,
+          user: {
+            id: ru.user.id,
+            name: ru.user.name,
+            email: ru.user.email,
+            avatar: ru.user.avatar,
+            role: ru.user.classroomAccesses[0]?.role
+          }
+        }))
+      }));
+
+      return formattedRooms;
     } catch (error) {
       if (error instanceof UnauthorizedException || error instanceof NotFoundException) {
         throw error;
@@ -281,56 +314,57 @@ export class MessageService {
 
   async getRoomMessages(roomId: string, limit: number, offset: number, user: JwtPayload): Promise<{ messages: MessageResponse[] }> {
     try {
-      const room = await this.messageRoomRepository.findOne({
-        where: { id: roomId },
-        relations: ['users']
-      });
+      // Check if room exists and user is a member
+      const room = await this.messageRoomRepository
+        .createQueryBuilder('room')
+        .leftJoinAndSelect('room.users', 'roomUser')
+        .where('room.id = :roomId', { roomId })
+        .getOne();
 
       if (!room) {
         throw new NotFoundException('Message room not found');
       }
 
-      // Check access for single type rooms
       if (room.type === 'single') {
-        const hasAccess = room.users.some(ru => ru.user.id === user.user_id);
-        if (!hasAccess) {
-          throw new UnauthorizedException('You do not have access to this chat room');
+        const isMember = room.users.some(ru => ru.user.id === user.user_id);
+        if (!isMember) {
+          throw new UnauthorizedException('You are not a member of this chat room');
         }
       }
 
+      // Get messages with user data
       const messages = await this.messageRepository
         .createQueryBuilder('message')
         .leftJoinAndSelect('message.user', 'user')
-        .where('message.room_id = :roomId', { roomId })
-        .orderBy('message.created_at', 'DESC')
-        .skip(offset)
-        .take(limit)
+        .where('message.room = :roomId', { roomId })
         .select([
-          'message.id',
-          'message.content',
-          'message.created_at',
-          'message.updated_at',
-          'user.id',
-          'user.name',
-          'user.email',
-          'user.avatar'
+          'message.id as id',
+          'message.content as content',
+          'message.created_at as created_at',
+          'message.updated_at as updated_at',
+          'user.id as user_id',
+          'user.name as user_name',
+          'user.avatar as user_avatar'
         ])
-        .getMany();
+        .orderBy('message.created_at', 'DESC')
+        .offset(offset)
+        .limit(limit)
+        .getRawMany();
 
-      const formattedMessages = messages.map(msg => ({
+      // Format messages to match expected type
+      const formattedMessages: MessageResponse[] = messages.map(msg => ({
         id: msg.id,
         content: msg.content,
         created_at: msg.created_at,
         updated_at: msg.updated_at,
         user: {
-          id: msg.user.id,
-          name: msg.user.name,
-          email: msg.user.email,
-          avatar: msg.user.avatar
+          id: msg.user_id,
+          name: msg.user_name,
+          avatar: msg.user_avatar
         }
       }));
 
-      return { messages: formattedMessages as MessageResponse[] };
+      return { messages: formattedMessages };
     } catch (error) {
       if (error instanceof UnauthorizedException || error instanceof NotFoundException) {
         throw error;
@@ -341,89 +375,94 @@ export class MessageService {
 
   async getRoomLatestMessage(roomId: string, user: JwtPayload): Promise<MessageResponse | null> {
     try {
-      const room = await this.messageRoomRepository.findOne({
-        where: { id: roomId },
-        relations: ['users']
-      });
+      // Check if room exists and user is a member
+      const room = await this.messageRoomRepository
+        .createQueryBuilder('room')
+        .leftJoinAndSelect('room.users', 'roomUser')
+        .where('room.id = :roomId', { roomId })
+        .getOne();
 
       if (!room) {
         throw new NotFoundException('Message room not found');
       }
 
-      // Check access for single type rooms
       if (room.type === 'single') {
-        const hasAccess = room.users.some(ru => ru.user.id === user.user_id);
-        if (!hasAccess) {
-          throw new UnauthorizedException('You do not have access to this chat room');
+        const isMember = room.users.some(ru => ru.user.id === user.user_id);
+        if (!isMember) {
+          throw new UnauthorizedException('You are not a member of this chat room');
         }
       }
 
-      const latestMessage = await this.messageRepository
+      // Get latest message with user data
+      const message = await this.messageRepository
         .createQueryBuilder('message')
         .leftJoinAndSelect('message.user', 'user')
-        .where('message.room_id = :roomId', { roomId })
-        .orderBy('message.created_at', 'DESC')
+        .where('message.room = :roomId', { roomId })
         .select([
-          'message.id',
-          'message.content',
-          'message.created_at',
-          'message.updated_at',
-          'user.id',
-          'user.name',
-          'user.email',
-          'user.avatar'
+          'message.id as id',
+          'message.content as content',
+          'message.created_at as created_at',
+          'message.updated_at as updated_at',
+          'user.id as user_id',
+          'user.name as user_name',
+          'user.avatar as user_avatar'
         ])
-        .getOne();
+        .orderBy('message.created_at', 'DESC')
+        .limit(1)
+        .getRawOne();
 
-      if (!latestMessage) {
+      if (!message) {
         return null;
       }
 
+      // Format message to match expected type
       return {
-        id: latestMessage.id,
-        content: latestMessage.content,
-        created_at: latestMessage.created_at,
-        updated_at: latestMessage.updated_at,
+        id: message.id,
+        content: message.content,
+        created_at: message.created_at,
+        updated_at: message.updated_at,
         user: {
-          id: latestMessage.user.id,
-          name: latestMessage.user.name,
-          avatar: latestMessage.user.avatar
+          id: message.user_id,
+          name: message.user_name,
+          avatar: message.user_avatar
         }
       };
     } catch (error) {
       if (error instanceof UnauthorizedException || error instanceof NotFoundException) {
         throw error;
       }
-      throw new InternalServerErrorException('Could not get room latest message');
+      throw new InternalServerErrorException('Could not get latest room message');
     }
   }
 
   async getRoomMessageIds(roomId: string, user: JwtPayload): Promise<{ id: string }[]> {
     try {
-      const room = await this.messageRoomRepository.findOne({
-        where: { id: roomId },
-        relations: ['users']
-      });
+      // Check if room exists and user is a member
+      const room = await this.messageRoomRepository
+        .createQueryBuilder('room')
+        .leftJoinAndSelect('room.users', 'roomUser')
+        .where('room.id = :roomId', { roomId })
+        .getOne();
 
       if (!room) {
         throw new NotFoundException('Message room not found');
       }
 
-      // Check access for single type rooms
       if (room.type === 'single') {
-        const hasAccess = room.users.some(ru => ru.user.id === user.user_id);
-        if (!hasAccess) {
-          throw new UnauthorizedException('You do not have access to this chat room');
+        const isMember = room.users.some(ru => ru.user.id === user.user_id);
+        if (!isMember) {
+          throw new UnauthorizedException('You are not a member of this chat room');
         }
       }
 
+      // Get message IDs
       const messages = await this.messageRepository
         .createQueryBuilder('message')
-        .where('message.room_id = :roomId', { roomId })
-        .select(['message.id'])
-        .getMany();
+        .where('message.room = :roomId', { roomId })
+        .select(['message.id as id'])
+        .getRawMany();
 
-      return messages.map(msg => ({ id: msg.id }));
+      return messages;
     } catch (error) {
       if (error instanceof UnauthorizedException || error instanceof NotFoundException) {
         throw error;

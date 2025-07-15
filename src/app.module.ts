@@ -5,6 +5,8 @@ import { ConfigService } from '@nestjs/config';
 import { AuthModule } from './modules/auth/auth.module';
 import { AccountModule } from './modules/account/account.module';
 import { SharedModule } from './shared/shared.module';
+import { ClassroomModule } from './modules/classroom/classroom.module';
+import { NoteModule } from './modules/note/note.module';
 
 @Module({
   imports: [
@@ -26,6 +28,8 @@ import { SharedModule } from './shared/shared.module';
     SharedModule,
     AuthModule,
     AccountModule,
+    ClassroomModule,
+    NoteModule,
   ],
 })
 export class AppModule {}

@@ -1,6 +1,6 @@
 import { Entity, Column, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn, OneToMany } from 'typeorm';
 import { Session } from './session.schema';
-// import { Classroom } from '../../classroom/core/schemas/classroom.schema';
+import { ClassroomAccess } from '../../classroom/core/schemas/classroom-access.schema';
 
 @Entity('user')
 export class User {
@@ -77,6 +77,11 @@ export class User {
     cascade: true
   })
   sessions: Session[];
+
+  @OneToMany(() => ClassroomAccess, (access) => access.user, {
+    cascade: true
+  })
+  classroomAccesses: ClassroomAccess[];
 
   // classroom relation
   // @OneToMany(() => Classroom, (classroom) => classroom.owner, {

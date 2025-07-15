@@ -15,7 +15,7 @@ export class AccountService {
     private fileService: FileService,
   ) {}
 
-  async getProfile(userId: string, user: JwtPayload): Promise<User> {
+  async getProfile(userId: string, user: JwtPayload): Promise<any> {
     if (user.user_id !== userId) {
       throw new UnauthorizedException('You are not authorized to access this resource');
     }
@@ -24,7 +24,10 @@ export class AccountService {
     if (!userData) {
       throw new NotFoundException('User not found');
     }
-    return userData;
+    return {
+      ...userData,
+      _id: userData.id,
+    };
   }
 
   async uploadAvatar(files: Array<ProcessedFile>, user: JwtPayload): Promise<boolean> {
