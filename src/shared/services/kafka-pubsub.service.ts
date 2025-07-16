@@ -1,6 +1,7 @@
 import { Injectable, OnModuleInit, OnModuleDestroy } from '@nestjs/common';
 import { Kafka, Consumer, Producer, EachMessagePayload } from 'kafkajs';
 import { EventPayload, EventTypes } from '../../common/interfaces/events.interface';
+import { ConfigService } from '@nestjs/config';
 
 @Injectable()
 export class KafkaPubSubService implements OnModuleInit, OnModuleDestroy {
@@ -10,13 +11,12 @@ export class KafkaPubSubService implements OnModuleInit, OnModuleDestroy {
   private listeners: Map<string, Set<(payload: EventPayload) => void>> = new Map();
   private isConsumerRunning: boolean = false;
 
-  constructor() {
+  constructor(private readonly configService: ConfigService) {
     this.kafka = new Kafka({
-      clientId: 'pubsub-service',
-      // brokers: ['192.168.217.129:9092'],
-      brokers: ['localhost:9092'],
+      clientId: configService.get<string>('env.kafka.clientId'),
+      brokers: configService.get<string>('env.kafka.brokers')?.split(',') || ['localhost:9092'],
     });
-    this.consumer = this.kafka.consumer({ groupId: 'pubsub-group' });
+    this.consumer = this.kafka.consumer({ groupId: configService.get<string>('env.kafka.groupId') || 'pubsub-group' });
     this.producer = this.kafka.producer();
   }
 

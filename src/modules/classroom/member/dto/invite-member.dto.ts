@@ -11,7 +11,7 @@ export class InviteMemberDto {
   email: string;
 
   @IsNotEmpty()
-  @IsEnum(['student', 'teacher'])
+  @IsEnum(['parent', 'teacher'])
   role: string;
 }
 

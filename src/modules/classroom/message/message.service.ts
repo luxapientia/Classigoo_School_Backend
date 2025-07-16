@@ -269,25 +269,26 @@ export class MessageService {
         throw new UnauthorizedException('You are not a member of this classroom');
       }
 
-      // Get all message rooms in the classroom
-      const messageRooms = await this.messageRoomRepository
+      // First get all message rooms in the classroom
+      const allRooms = await this.messageRoomRepository
         .createQueryBuilder('room')
         .leftJoinAndSelect('room.users', 'roomUser')
         .leftJoinAndSelect('roomUser.user', 'user')
         .leftJoinAndSelect('user.classroomAccesses', 'access', 'access.classroom = :classroomId', { classroomId })
         .where('room.classroom = :classroomId', { classroomId })
-        .andWhere(new Brackets(qb => {
-          qb.where('room.type = :allType', { allType: 'all' })
-            .orWhere(qb2 => {
-              qb2.where('room.type = :singleType', { singleType: 'single' })
-                .andWhere('roomUser.user = :userId', { userId: user.user_id });
-            });
-        }))
-        .orderBy('room.updated_at', 'DESC')
         .getMany();
 
+      // Filter rooms based on type and user membership
+      const filteredRooms = allRooms.filter(room => {
+        if (room.type === 'all') {
+          return true; // Include all type rooms without checking membership
+        }
+        // For single type rooms, check if user is a member
+        return room.users.some(ru => ru.user.id === user.user_id);
+      });
+
       // Format response to match expected type
-      const formattedRooms: ListMessageRecipientsResponse[] = messageRooms.map(room => ({
+      const formattedRooms: ListMessageRecipientsResponse[] = filteredRooms.map(room => ({
         id: room.id,
         name: room.name,
         type: room.type,
@@ -302,6 +303,14 @@ export class MessageService {
           }
         }))
       }));
+
+      // Sort by updated_at in descending order
+      formattedRooms.sort((a, b) => {
+        const roomA = allRooms.find(r => r.id === a.id);
+        const roomB = allRooms.find(r => r.id === b.id);
+        if (!roomA || !roomB) return 0;
+        return roomB.updated_at.getTime() - roomA.updated_at.getTime();
+      });
 
       return formattedRooms;
     } catch (error) {

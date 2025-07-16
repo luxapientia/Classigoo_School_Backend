@@ -15,6 +15,11 @@ export default registerAs('env', () => ({
       domain: process.env.MAILGUN_DOMAIN,
     },
   },
+  kafka: {
+    brokers: process.env.KAFKA_BROKERS,
+    groupId: process.env.KAFKA_GROUP_ID,
+    clientId: process.env.KAFKA_CLIENT_ID,
+  },
   aws: {
     region: process.env.AWS_REGION,
     accessKeyId: process.env.AWS_ACCESS_KEY_ID,

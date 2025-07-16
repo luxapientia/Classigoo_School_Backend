@@ -80,19 +80,19 @@ export class NoteService {
         title: note.title,
         content: note.content,
         updated_at: note.updated_at,
-        owner_data: {
+            owner_data: {
           id: note.owner.id,
           name: note.owner.name,
           email: note.owner.email,
           avatar: note.owner.avatar
-        },
+            },
         classroom_notes: note.classroom_notes
           .filter(cn => cn.classroom) // Only include if classroom exists
           .map(cn => ({
             classroom: {
               id: cn.classroom.id,
               name: cn.classroom.name
-            }
+          }
           }))
       };
 
@@ -161,14 +161,14 @@ export class NoteService {
 
       // Update note
       await this.noteRepository.update(note.id, {
-        title: updateNoteDto.title,
-        content: updateNoteDto.content,
-        status: updateNoteDto.status
+          title: updateNoteDto.title,
+          content: updateNoteDto.content,
+          status: updateNoteDto.status
       });
 
       // Update classroom associations
       await this.classroomNoteRepository.delete({ note: { id: note.id } });
-
+      
       const validClassroomIds = updateNoteDto.classroom_ids.filter(id => id !== '');
       if (validClassroomIds.length > 0) {
         const classroomNotes = validClassroomIds.map(classroomId =>
@@ -234,13 +234,13 @@ export class NoteService {
       if (!classroom) {
         throw new NotFoundException('Classroom not found');
       }
-
+      
       // Check user access
       const classroomAccess = await this.classroomAccessRepository.findOne({
         where: {
           classroom: { id: classId },
           user: { id: user.user_id },
-          status: 'accepted'
+        status: 'accepted'
         }
       });
 
@@ -271,9 +271,9 @@ export class NoteService {
         status: note.status,
         title: note.title,
         updated_at: note.updated_at,
-        owner_data: {
+            owner_data: {
           name: note.owner_name
-        }
+            }
       }));
 
       return {

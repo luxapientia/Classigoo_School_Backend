@@ -44,7 +44,7 @@ export class CoreService {
 
       // Generate random cover image number (1-10)
       const randomInt = Math.floor(Math.random() * (10 - 1 + 1)) + 1;
-      const coverImg = `${this.configService.get('env.aws.s3.staticCdnUrl')}/content/cover/${randomInt}.jpeg`;
+      const coverImg = `${this.configService.get<string>('env.aws.s3.staticCdnUrl')}/content/cover/${randomInt}.jpeg`;
 
       // Create classroom
       const createdClassroom = await this.classroomRepo.save({
