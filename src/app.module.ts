@@ -1,4 +1,5 @@
 import { Module } from '@nestjs/common';
+import { MongooseModule } from '@nestjs/mongoose';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule } from './config/config.module';
 import { ConfigService } from '@nestjs/config';
@@ -7,10 +8,18 @@ import { AccountModule } from './modules/account/account.module';
 import { SharedModule } from './shared/shared.module';
 import { ClassroomModule } from './modules/classroom/classroom.module';
 import { NoteModule } from './modules/note/note.module';
+import { LearningModule } from './modules/learning/learning.module';
 
 @Module({
   imports: [
     ConfigModule,
+    MongooseModule.forRootAsync({
+      imports: [ConfigModule],
+      useFactory: (configService: ConfigService) => ({
+        uri: configService.get<string>('database.mongodb.uri'),
+      }),
+      inject: [ConfigService],
+    }),
     TypeOrmModule.forRootAsync({
       imports: [ConfigModule],
       useFactory: (configService: ConfigService) => ({
@@ -30,6 +39,7 @@ import { NoteModule } from './modules/note/note.module';
     AccountModule,
     ClassroomModule,
     NoteModule,
+    LearningModule,
   ],
 })
 export class AppModule {}

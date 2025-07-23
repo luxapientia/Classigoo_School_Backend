@@ -1,0 +1,5392 @@
+[
+  {
+    "sentence": "She has a radiant smile",
+    "target": "radiant",
+    "options": [
+      "tearful",
+      "dull",
+      "gleaming"
+    ],
+    "correctAnswer": "gleaming"
+  },
+  {
+    "sentence": "The room was filled with a pungent odor",
+    "target": "pungent",
+    "options": [
+      "fragrant",
+      "strong",
+      "pleasant"
+    ],
+    "correctAnswer": "strong"
+  },
+  {
+    "sentence": "His speech was eloquent and persuasive",
+    "target": "eloquent",
+    "options": [
+      "articulate",
+      "mumbled",
+      "verbose"
+    ],
+    "correctAnswer": "articulate"
+  },
+  {
+    "sentence": "The children were ecstatic when they heard the news",
+    "target": "ecstatic",
+    "options": [
+      "sad",
+      "excited",
+      "disappointed"
+    ],
+    "correctAnswer": "excited"
+  },
+  {
+    "sentence": "The baby's laughter was contagious",
+    "target": "contagious",
+    "options": [
+      "infectious",
+      "happy",
+      "isolated"
+    ],
+    "correctAnswer": "infectious"
+  },
+  {
+    "sentence": "The old man had a stoic expression on his face",
+    "target": "stoic",
+    "options": [
+      "emotional",
+      "unemotional",
+      "calm"
+    ],
+    "correctAnswer": "unemotional"
+  },
+  {
+    "sentence": "She exhibited impeccable manners at the dinner party",
+    "target": "impeccable",
+    "options": [
+      "flawless",
+      "messy",
+      "disorganized"
+    ],
+    "correctAnswer": "flawless"
+  },
+  {
+    "sentence": "The team showed remarkable teamwork during the game",
+    "target": "remarkable",
+    "options": [
+      "ordinary",
+      "extraordinary",
+      "unusual"
+    ],
+    "correctAnswer": "extraordinary"
+  },
+  {
+    "sentence": "The movie had a profound impact on the audience",
+    "target": "profound",
+    "options": [
+      "superficial",
+      "deep",
+      "shallow"
+    ],
+    "correctAnswer": "deep"
+  },
+  {
+    "sentence": "He was known for his jovial personality",
+    "target": "jovial",
+    "options": [
+      "serious",
+      "happy",
+      "gloomy"
+    ],
+    "correctAnswer": "happy"
+  },
+  {
+    "sentence": "The comedian had the audience in stitches",
+    "target": "stitches",
+    "options": [
+      "tears",
+      "laughter",
+      "pain"
+    ],
+    "correctAnswer": "laughter"
+  },
+  {
+    "sentence": "The orchestra played a melodic tune",
+    "target": "melodic",
+    "options": [
+      "harsh",
+      "pleasant",
+      "discordant"
+    ],
+    "correctAnswer": "pleasant"
+  },
+  {
+    "sentence": "She was a voracious reader, devouring books in a single sitting",
+    "target": "voracious",
+    "options": [
+      "greedy",
+      "enthusiastic",
+      "indifferent"
+    ],
+    "correctAnswer": "greedy"
+  },
+  {
+    "sentence": "The teacher commended him for his diligent work",
+    "target": "diligent",
+    "options": [
+      "lazy",
+      "hardworking",
+      "playful"
+    ],
+    "correctAnswer": "hardworking"
+  },
+  {
+    "sentence": "The acrobat performed an impressive feat",
+    "target": "impressive",
+    "options": [
+      "mediocre",
+      "awe-inspiring",
+      "ordinary"
+    ],
+    "correctAnswer": "awe-inspiring"
+  },
+  {
+    "sentence": "The book was filled with intricate details",
+    "target": "intricate",
+    "options": [
+      "simple",
+      "complex",
+      "plain"
+    ],
+    "correctAnswer": "complex"
+  },
+  {
+    "sentence": "The artist used vibrant colors in his painting",
+    "target": "vibrant",
+    "options": [
+      "dull",
+      "bright",
+      "colorful"
+    ],
+    "correctAnswer": "bright"
+  },
+  {
+    "sentence": "She was ecstatic when she received the good news",
+    "target": "ecstatic",
+    "options": [
+      "sad",
+      "excited",
+      "disappointed"
+    ],
+    "correctAnswer": "excited"
+  },
+  {
+    "sentence": "The food had a savory taste",
+    "target": "savory",
+    "options": [
+      "sweet",
+      "delicious",
+      "bland"
+    ],
+    "correctAnswer": "delicious"
+  },
+  {
+    "sentence": "The comedian's jokes were hilarious",
+    "target": "hilarious",
+    "options": [
+      "serious",
+      "funny",
+      "boring"
+    ],
+    "correctAnswer": "funny"
+  },
+  {
+    "sentence": "The sun cast a warm glow over the horizon",
+    "target": "glow",
+    "options": [
+      "shine",
+      "dim",
+      "dull"
+    ],
+    "correctAnswer": "shine"
+  },
+  {
+    "sentence": "The detective was astute in his observations",
+    "target": "astute",
+    "options": [
+      "sharp",
+      "dull",
+      "stupid"
+    ],
+    "correctAnswer": "sharp"
+  },
+  {
+    "sentence": "The child's laughter was infectious",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "happy",
+      "isolated"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "The mountain range was majestic in its beauty",
+    "target": "majestic",
+    "options": [
+      "ordinary",
+      "royal",
+      "grand"
+    ],
+    "correctAnswer": "grand"
+  },
+  {
+    "sentence": "The company's success was attributed to its innovative approach",
+    "target": "innovative",
+    "options": [
+      "traditional",
+      "creative",
+      "old-fashioned"
+    ],
+    "correctAnswer": "creative"
+  },
+  {
+    "sentence": "The athlete displayed immense strength during the competition",
+    "target": "immense",
+    "options": [
+      "small",
+      "huge",
+      "enormous"
+    ],
+    "correctAnswer": "enormous"
+  },
+  {
+    "sentence": "The dress was made of luxurious silk",
+    "target": "luxurious",
+    "options": [
+      "expensive",
+      "comfortable",
+      "lavish"
+    ],
+    "correctAnswer": "lavish"
+  },
+  {
+    "sentence": "The child's laughter was contagious",
+    "target": "contagious",
+    "options": [
+      "infectious",
+      "happy",
+      "isolated"
+    ],
+    "correctAnswer": "infectious"
+  },
+  {
+    "sentence": "The artist's work was intricate and detailed",
+    "target": "intricate",
+    "options": [
+      "simple",
+      "complex",
+      "plain"
+    ],
+    "correctAnswer": "complex"
+  },
+  {
+    "sentence": "The politician's speech was eloquent and moving",
+    "target": "eloquent",
+    "options": [
+      "articulate",
+      "mumbled",
+      "verbose"
+    ],
+    "correctAnswer": "articulate"
+  },
+  {
+    "sentence": "The dessert had a rich and decadent flavor",
+    "target": "decadent",
+    "options": [
+      "luxurious",
+      "indulgent",
+      "plain"
+    ],
+    "correctAnswer": "indulgent"
+  },
+  {
+    "sentence": "The movie had a profound impact on the audience",
+    "target": "profound",
+    "options": [
+      "superficial",
+      "deep",
+      "shallow"
+    ],
+    "correctAnswer": "deep"
+  },
+  {
+    "sentence": "The chef prepared a delectable meal for the guests",
+    "target": "delectable",
+    "options": [
+      "tasty",
+      "unappetizing",
+      "delicious"
+    ],
+    "correctAnswer": "delicious"
+  },
+  {
+    "sentence": "The children were ecstatic when they heard the news",
+    "target": "ecstatic",
+    "options": [
+      "sad",
+      "excited",
+      "disappointed"
+    ],
+    "correctAnswer": "excited"
+  },
+  {
+    "sentence": "The athlete displayed immense strength during the competition",
+    "target": "immense",
+    "options": [
+      "small",
+      "huge",
+      "enormous"
+    ],
+    "correctAnswer": "enormous"
+  },
+  {
+    "sentence": "The mountain range was majestic in its beauty",
+    "target": "majestic",
+    "options": [
+      "ordinary",
+      "royal",
+      "grand"
+    ],
+    "correctAnswer": "grand"
+  },
+  {
+    "sentence": "The company's success was attributed to its innovative approach",
+    "target": "innovative",
+    "options": [
+      "traditional",
+      "creative",
+      "old-fashioned"
+    ],
+    "correctAnswer": "creative"
+  },
+  {
+    "sentence": "The dress was made of luxurious silk",
+    "target": "luxurious",
+    "options": [
+      "expensive",
+      "comfortable",
+      "lavish"
+    ],
+    "correctAnswer": "lavish"
+  },
+  {
+    "sentence": "The politician's speech was eloquent and moving",
+    "target": "eloquent",
+    "options": [
+      "articulate",
+      "mumbled",
+      "verbose"
+    ],
+    "correctAnswer": "articulate"
+  },
+  {
+    "sentence": "The dessert had a rich and decadent flavor",
+    "target": "decadent",
+    "options": [
+      "luxurious",
+      "indulgent",
+      "plain"
+    ],
+    "correctAnswer": "indulgent"
+  },
+  {
+    "sentence": "The chef prepared a delectable meal for the guests",
+    "target": "delectable",
+    "options": [
+      "tasty",
+      "unappetizing",
+      "delicious"
+    ],
+    "correctAnswer": "delicious"
+  },
+  {
+    "sentence": "The movie had a profound impact on the audience",
+    "target": "profound",
+    "options": [
+      "superficial",
+      "deep",
+      "shallow"
+    ],
+    "correctAnswer": "deep"
+  },
+  {
+    "sentence": "The artist's work was intricate and detailed",
+    "target": "intricate",
+    "options": [
+      "simple",
+      "complex",
+      "plain"
+    ],
+    "correctAnswer": "complex"
+  },
+  {
+    "sentence": "The politician's speech was eloquent and moving",
+    "target": "eloquent",
+    "options": [
+      "articulate",
+      "mumbled",
+      "verbose"
+    ],
+    "correctAnswer": "articulate"
+  },
+  {
+    "sentence": "She has a vivacious personality",
+    "target": "vivacious",
+    "options": [
+      "dull",
+      "energetic",
+      "boring"
+    ],
+    "correctAnswer": "energetic"
+  },
+  {
+    "sentence": "The mountain air was invigorating",
+    "target": "invigorating",
+    "options": [
+      "tiring",
+      "refreshing",
+      "stale"
+    ],
+    "correctAnswer": "refreshing"
+  },
+  {
+    "sentence": "He is known for his altruistic deeds",
+    "target": "altruistic",
+    "options": [
+      "selfish",
+      "generous",
+      "greedy"
+    ],
+    "correctAnswer": "generous"
+  },
+  {
+    "sentence": "The music was so melodic that it brought tears to her eyes",
+    "target": "melodic",
+    "options": [
+      "harsh",
+      "rhythmic",
+      "tuneful"
+    ],
+    "correctAnswer": "tuneful"
+  },
+  {
+    "sentence": "The detective's intuition led him to the culprit",
+    "target": "intuition",
+    "options": [
+      "logic",
+      "guesswork",
+      "instinct"
+    ],
+    "correctAnswer": "instinct"
+  },
+  {
+    "sentence": "The chef's culinary skills were unmatched",
+    "target": "culinary",
+    "options": [
+      "cooking",
+      "gourmet",
+      "edible"
+    ],
+    "correctAnswer": "cooking"
+  },
+  {
+    "sentence": "The rainforest is teeming with wildlife",
+    "target": "teeming",
+    "options": [
+      "sparse",
+      "abundant",
+      "empty"
+    ],
+    "correctAnswer": "abundant"
+  },
+  {
+    "sentence": "Her laughter was infectious",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "annoying",
+      "pleasant"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "The sunset painted the sky with vibrant colors",
+    "target": "vibrant",
+    "options": [
+      "dull",
+      "bright",
+      "faded"
+    ],
+    "correctAnswer": "bright"
+  },
+  {
+    "sentence": "The athlete displayed remarkable endurance during the race",
+    "target": "endurance",
+    "options": [
+      "strength",
+      "stamina",
+      "weakness"
+    ],
+    "correctAnswer": "stamina"
+  },
+  {
+    "sentence": "The storm caused widespread destruction",
+    "target": "destruction",
+    "options": [
+      "ruin",
+      "repair",
+      "damage"
+    ],
+    "correctAnswer": "ruin"
+  },
+  {
+    "sentence": "His attire was elegant and sophisticated",
+    "target": "sophisticated",
+    "options": [
+      "simple",
+      "classy",
+      "smart"
+    ],
+    "correctAnswer": "classy"
+  },
+  {
+    "sentence": "The aroma of freshly baked bread wafted through the air",
+    "target": "aroma",
+    "options": [
+      "scent",
+      "odor",
+      "fragrance"
+    ],
+    "correctAnswer": "fragrance"
+  },
+  {
+    "sentence": "Her voice was melodious and soothing",
+    "target": "melodious",
+    "options": [
+      "harsh",
+      "musical",
+      "pleasant"
+    ],
+    "correctAnswer": "musical"
+  },
+  {
+    "sentence": "He was renowned for his exceptional talent",
+    "target": "renowned",
+    "options": [
+      "unknown",
+      "famous",
+      "notorious"
+    ],
+    "correctAnswer": "famous"
+  },
+  {
+    "sentence": "The old house had a charming and quaint appearance",
+    "target": "quaint",
+    "options": [
+      "modern",
+      "charming",
+      "old-fashioned"
+    ],
+    "correctAnswer": "old-fashioned"
+  },
+  {
+    "sentence": "The book provided a comprehensive overview of the topic",
+    "target": "comprehensive",
+    "options": [
+      "brief",
+      "detailed",
+      "complete"
+    ],
+    "correctAnswer": "complete"
+  },
+  {
+    "sentence": "The movie was a gripping thriller that kept the audience on the edge of their seats",
+    "target": "gripping",
+    "options": [
+      "boring",
+      "exciting",
+      "intense"
+    ],
+    "correctAnswer": "exciting"
+  },
+  {
+    "sentence": "The performance was lackluster and failed to impress the critics",
+    "target": "lackluster",
+    "options": [
+      "dull",
+      "exciting",
+      "mediocre"
+    ],
+    "correctAnswer": "dull"
+  },
+  {
+    "sentence": "Her kindness and compassion were evident in her actions",
+    "target": "compassion",
+    "options": [
+      "empathy",
+      "sympathy",
+      "cruelty"
+    ],
+    "correctAnswer": "empathy"
+  },
+  {
+    "sentence": "The artist's work was innovative and avant-garde",
+    "target": "avant-garde",
+    "options": [
+      "traditional",
+      "modern",
+      "experimental"
+    ],
+    "correctAnswer": "experimental"
+  },
+  {
+    "sentence": "The meeting was contentious and filled with heated arguments",
+    "target": "contentious",
+    "options": [
+      "peaceful",
+      "conflict",
+      "controversial"
+    ],
+    "correctAnswer": "controversial"
+  },
+  {
+    "sentence": "His perseverance and determination paid off in the end",
+    "target": "perseverance",
+    "options": [
+      "persistence",
+      "resilience",
+      "giving up"
+    ],
+    "correctAnswer": "persistence"
+  },
+  {
+    "sentence": "The garden was lush and verdant with blooming flowers",
+    "target": "verdant",
+    "options": [
+      "barren",
+      "green",
+      "vibrant"
+    ],
+    "correctAnswer": "green"
+  },
+  {
+    "sentence": "The play had a tragic and poignant ending",
+    "target": "poignant",
+    "options": [
+      "emotional",
+      "touching",
+      "bittersweet"
+    ],
+    "correctAnswer": "emotional"
+  },
+  {
+    "sentence": "Her speech was eloquent and persuasive",
+    "target": "eloquent",
+    "options": [
+      "articulate",
+      "rambling",
+      "eloquent"
+    ],
+    "correctAnswer": "articulate"
+  },
+  {
+    "sentence": "The novel was a compelling and engrossing read",
+    "target": "engrossing",
+    "options": [
+      "boring",
+      "captivating",
+      "distracting"
+    ],
+    "correctAnswer": "captivating"
+  },
+  {
+    "sentence": "The film received rave reviews from critics and audiences alike",
+    "target": "rave",
+    "options": [
+      "praise",
+      "criticism",
+      "negative"
+    ],
+    "correctAnswer": "praise"
+  },
+  {
+    "sentence": "His conduct was honorable and admirable",
+    "target": "honorable",
+    "options": [
+      "dishonorable",
+      "respectable",
+      "shameful"
+    ],
+    "correctAnswer": "respectable"
+  },
+  {
+    "sentence": "The decision was unanimous and supported by all members",
+    "target": "unanimous",
+    "options": [
+      "divided",
+      "agreed",
+      "united"
+    ],
+    "correctAnswer": "agreed"
+  },
+  {
+    "sentence": "The children were exuberant and full of energy",
+    "target": "exuberant",
+    "options": [
+      "tired",
+      "enthusiastic",
+      "passive"
+    ],
+    "correctAnswer": "enthusiastic"
+  },
+  {
+    "sentence": "The building had a grand and majestic presence",
+    "target": "majestic",
+    "options": [
+      "small",
+      "impressive",
+      "humble"
+    ],
+    "correctAnswer": "impressive"
+  },
+  {
+    "sentence": "The comedian's jokes were witty and humorous",
+    "target": "witty",
+    "options": [
+      "serious",
+      "funny",
+      "clever"
+    ],
+    "correctAnswer": "clever"
+  },
+  {
+    "sentence": "The novel was a poignant and heart-wrenching tale",
+    "target": "heart-wrenching",
+    "options": [
+      "emotional",
+      "uplifting",
+      "painful"
+    ],
+    "correctAnswer": "painful"
+  },
+  {
+    "sentence": "Her smile was radiant and filled the room with warmth",
+    "target": "radiant",
+    "options": [
+      "dull",
+      "bright",
+      "gleaming"
+    ],
+    "correctAnswer": "bright"
+  },
+  {
+    "sentence": "The conference provided valuable insights and knowledge",
+    "target": "insights",
+    "options": [
+      "ideas",
+      "wisdom",
+      "information"
+    ],
+    "correctAnswer": "ideas"
+  },
+  {
+    "sentence": "The city was bustling with activity and excitement",
+    "target": "bustling",
+    "options": [
+      "quiet",
+      "busy",
+      "noisy"
+    ],
+    "correctAnswer": "busy"
+  },
+  {
+    "sentence": "The play had a tragic and somber tone",
+    "target": "somber",
+    "options": [
+      "serious",
+      "sad",
+      "cheerful"
+    ],
+    "correctAnswer": "sad"
+  },
+  {
+    "sentence": "The painting was vibrant and full of life",
+    "target": "vibrant",
+    "options": [
+      "dull",
+      "bright",
+      "faded"
+    ],
+    "correctAnswer": "bright"
+  },
+  {
+    "sentence": "His speech was eloquent and persuasive",
+    "target": "eloquent",
+    "options": [
+      "articulate",
+      "rambling",
+      "eloquent"
+    ],
+    "correctAnswer": "articulate"
+  },
+  {
+    "sentence": "The novel was a compelling and engrossing read",
+    "target": "engrossing",
+    "options": [
+      "boring",
+      "captivating",
+      "distracting"
+    ],
+    "correctAnswer": "captivating"
+  },
+  {
+    "sentence": "The film received rave reviews from critics and audiences alike",
+    "target": "rave",
+    "options": [
+      "praise",
+      "criticism",
+      "negative"
+    ],
+    "correctAnswer": "praise"
+  },
+  {
+    "sentence": "His conduct was honorable and admirable",
+    "target": "honorable",
+    "options": [
+      "dishonorable",
+      "respectable",
+      "shameful"
+    ],
+    "correctAnswer": "respectable"
+  },
+  {
+    "sentence": "The decision was unanimous and supported by all members",
+    "target": "unanimous",
+    "options": [
+      "divided",
+      "agreed",
+      "united"
+    ],
+    "correctAnswer": "agreed"
+  },
+  {
+    "sentence": "The children were exuberant and full of energy",
+    "target": "exuberant",
+    "options": [
+      "tired",
+      "enthusiastic",
+      "passive"
+    ],
+    "correctAnswer": "enthusiastic"
+  },
+  {
+    "sentence": "The building had a grand and majestic presence",
+    "target": "majestic",
+    "options": [
+      "small",
+      "impressive",
+      "humble"
+    ],
+    "correctAnswer": "impressive"
+  },
+  {
+    "sentence": "The comedian's jokes were witty and humorous",
+    "target": "witty",
+    "options": [
+      "serious",
+      "funny",
+      "clever"
+    ],
+    "correctAnswer": "clever"
+  },
+  {
+    "sentence": "The novel was a poignant and heart-wrenching tale",
+    "target": "heart-wrenching",
+    "options": [
+      "emotional",
+      "uplifting",
+      "painful"
+    ],
+    "correctAnswer": "painful"
+  },
+  {
+    "sentence": "Her smile was radiant and filled the room with warmth",
+    "target": "radiant",
+    "options": [
+      "dull",
+      "bright",
+      "gleaming"
+    ],
+    "correctAnswer": "bright"
+  },
+  {
+    "sentence": "The conference provided valuable insights and knowledge",
+    "target": "insights",
+    "options": [
+      "ideas",
+      "wisdom",
+      "information"
+    ],
+    "correctAnswer": "ideas"
+  },
+  {
+    "sentence": "The city was bustling with activity and excitement",
+    "target": "bustling",
+    "options": [
+      "quiet",
+      "busy",
+      "noisy"
+    ],
+    "correctAnswer": "busy"
+  },
+  {
+    "sentence": "The play had a tragic and somber tone",
+    "target": "somber",
+    "options": [
+      "serious",
+      "sad",
+      "cheerful"
+    ],
+    "correctAnswer": "sad"
+  },
+  {
+    "sentence": "The flowers in the garden are vibrant",
+    "target": "vibrant",
+    "options": [
+      "dull",
+      "colorful",
+      "faded"
+    ],
+    "correctAnswer": "colorful"
+  },
+  {
+    "sentence": "She has a radiant smile",
+    "target": "radiant",
+    "options": [
+      "gloomy",
+      "bright",
+      "dull"
+    ],
+    "correctAnswer": "bright"
+  },
+  {
+    "sentence": "The old man is wise and experienced",
+    "target": "wise",
+    "options": [
+      "foolish",
+      "intelligent",
+      "ignorant"
+    ],
+    "correctAnswer": "intelligent"
+  },
+  {
+    "sentence": "The stormy weather was tumultuous",
+    "target": "tumultuous",
+    "options": [
+      "calm",
+      "violent",
+      "chaotic"
+    ],
+    "correctAnswer": "chaotic"
+  },
+  {
+    "sentence": "Her voice is melodious",
+    "target": "melodious",
+    "options": [
+      "harsh",
+      "musical",
+      "flat"
+    ],
+    "correctAnswer": "musical"
+  },
+  {
+    "sentence": "He was very courageous in the face of danger",
+    "target": "courageous",
+    "options": [
+      "cowardly",
+      "brave",
+      "timid"
+    ],
+    "correctAnswer": "brave"
+  },
+  {
+    "sentence": "The old book had a musty smell",
+    "target": "musty",
+    "options": [
+      "fresh",
+      "dusty",
+      "stale"
+    ],
+    "correctAnswer": "stale"
+  },
+  {
+    "sentence": "The new employee was very diligent in his work",
+    "target": "diligent",
+    "options": [
+      "lazy",
+      "hardworking",
+      "careless"
+    ],
+    "correctAnswer": "hardworking"
+  },
+  {
+    "sentence": "The moonlight was ethereal",
+    "target": "ethereal",
+    "options": [
+      "earthly",
+      "otherworldly",
+      "mysterious"
+    ],
+    "correctAnswer": "otherworldly"
+  },
+  {
+    "sentence": "The children were full of exuberance at the party",
+    "target": "exuberance",
+    "options": [
+      "sadness",
+      "enthusiasm",
+      "apathy"
+    ],
+    "correctAnswer": "enthusiasm"
+  },
+  {
+    "sentence": "The mountain air was invigorating",
+    "target": "invigorating",
+    "options": [
+      "stifling",
+      "refreshing",
+      "suffocating"
+    ],
+    "correctAnswer": "refreshing"
+  },
+  {
+    "sentence": "She has an infectious laugh",
+    "target": "infectious",
+    "options": [
+      "harmless",
+      "contagious",
+      "pleasing"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "The detective was very astute in his observations",
+    "target": "astute",
+    "options": [
+      "naive",
+      "clever",
+      "foolish"
+    ],
+    "correctAnswer": "clever"
+  },
+  {
+    "sentence": "The forest was dark and mysterious",
+    "target": "mysterious",
+    "options": [
+      "clear",
+      "enigmatic",
+      "obvious"
+    ],
+    "correctAnswer": "enigmatic"
+  },
+  {
+    "sentence": "The old house was eerie at night",
+    "target": "eerie",
+    "options": [
+      "unsettling",
+      "creepy",
+      "comforting"
+    ],
+    "correctAnswer": "unsettling"
+  },
+  {
+    "sentence": "The artist created a beautiful masterpiece",
+    "target": "masterpiece",
+    "options": [
+      "failure",
+      "work of art",
+      "disaster"
+    ],
+    "correctAnswer": "work of art"
+  },
+  {
+    "sentence": "The baby's laughter was infectious",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "healing",
+      "joyful"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "The music was soothing and melodic",
+    "target": "melodic",
+    "options": [
+      "harsh",
+      "rhythmic",
+      "smooth"
+    ],
+    "correctAnswer": "smooth"
+  },
+  {
+    "sentence": "The chef's cooking was exquisite",
+    "target": "exquisite",
+    "options": [
+      "plain",
+      "superb",
+      "ordinary"
+    ],
+    "correctAnswer": "superb"
+  },
+  {
+    "sentence": "The garden was filled with fragrant flowers",
+    "target": "fragrant",
+    "options": [
+      "stinky",
+      "perfumed",
+      "aromatic"
+    ],
+    "correctAnswer": "aromatic"
+  },
+  {
+    "sentence": "The movie's plot was intricate and complex",
+    "target": "intricate",
+    "options": [
+      "simple",
+      "complicated",
+      "elaborate"
+    ],
+    "correctAnswer": "complicated"
+  },
+  {
+    "sentence": "The teacher was very patient with her students",
+    "target": "patient",
+    "options": [
+      "impatient",
+      "tolerant",
+      "forbearing"
+    ],
+    "correctAnswer": "tolerant"
+  },
+  {
+    "sentence": "The children were very boisterous in the playground",
+    "target": "boisterous",
+    "options": [
+      "noisy",
+      "rowdy",
+      "quiet"
+    ],
+    "correctAnswer": "rowdy"
+  },
+  {
+    "sentence": "The old man was very frail and weak",
+    "target": "frail",
+    "options": [
+      "strong",
+      "feeble",
+      "fragile"
+    ],
+    "correctAnswer": "feeble"
+  },
+  {
+    "sentence": "The room was filled with an overpowering stench",
+    "target": "overpowering",
+    "options": [
+      "pleasant",
+      "strong",
+      "overbearing"
+    ],
+    "correctAnswer": "strong"
+  },
+  {
+    "sentence": "The child's laughter was infectious",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "joyful",
+      "pleasing"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "The singer's voice was melodious and sweet",
+    "target": "melodious",
+    "options": [
+      "harsh",
+      "musical",
+      "pleasant"
+    ],
+    "correctAnswer": "musical"
+  },
+  {
+    "sentence": "The stormy weather was tumultuous and chaotic",
+    "target": "tumultuous",
+    "options": [
+      "calm",
+      "violent",
+      "disorderly"
+    ],
+    "correctAnswer": "violent"
+  },
+  {
+    "sentence": "The forest was dark and mysterious",
+    "target": "mysterious",
+    "options": [
+      "clear",
+      "enigmatic",
+      "obscure"
+    ],
+    "correctAnswer": "enigmatic"
+  },
+  {
+    "sentence": "The artist created a beautiful masterpiece",
+    "target": "masterpiece",
+    "options": [
+      "failure",
+      "work of art",
+      "disaster"
+    ],
+    "correctAnswer": "work of art"
+  },
+  {
+    "sentence": "The baby's laughter was infectious",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "healing",
+      "joyful"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "The music was soothing and melodic",
+    "target": "melodic",
+    "options": [
+      "harsh",
+      "rhythmic",
+      "smooth"
+    ],
+    "correctAnswer": "smooth"
+  },
+  {
+    "sentence": "The chef's cooking was exquisite",
+    "target": "exquisite",
+    "options": [
+      "plain",
+      "superb",
+      "ordinary"
+    ],
+    "correctAnswer": "superb"
+  },
+  {
+    "sentence": "The garden was filled with fragrant flowers",
+    "target": "fragrant",
+    "options": [
+      "stinky",
+      "perfumed",
+      "aromatic"
+    ],
+    "correctAnswer": "aromatic"
+  },
+  {
+    "sentence": "The movie's plot was intricate and complex",
+    "target": "intricate",
+    "options": [
+      "simple",
+      "complicated",
+      "elaborate"
+    ],
+    "correctAnswer": "complicated"
+  },
+  {
+    "sentence": "The teacher was very patient with her students",
+    "target": "patient",
+    "options": [
+      "impatient",
+      "tolerant",
+      "forbearing"
+    ],
+    "correctAnswer": "tolerant"
+  },
+  {
+    "sentence": "The children were very boisterous in the playground",
+    "target": "boisterous",
+    "options": [
+      "noisy",
+      "rowdy",
+      "quiet"
+    ],
+    "correctAnswer": "rowdy"
+  },
+  {
+    "sentence": "The old man was very frail and weak",
+    "target": "frail",
+    "options": [
+      "strong",
+      "feeble",
+      "fragile"
+    ],
+    "correctAnswer": "feeble"
+  },
+  {
+    "sentence": "The room was filled with an overpowering stench",
+    "target": "overpowering",
+    "options": [
+      "pleasant",
+      "strong",
+      "overbearing"
+    ],
+    "correctAnswer": "strong"
+  },
+  {
+    "sentence": "The sun was shining brightly in the sky",
+    "target": "brightly",
+    "options": [
+      "dimly",
+      "vividly",
+      "gloomily"
+    ],
+    "correctAnswer": "vividly"
+  },
+  {
+    "sentence": "She was feeling extremely tired after the long day",
+    "target": "tired",
+    "options": [
+      "energetic",
+      "exhausted",
+      "rested"
+    ],
+    "correctAnswer": "exhausted"
+  },
+  {
+    "sentence": "The baby was peacefully sleeping in the crib",
+    "target": "peacefully",
+    "options": [
+      "restlessly",
+      "serenely",
+      "frantically"
+    ],
+    "correctAnswer": "serenely"
+  },
+  {
+    "sentence": "The old man's voice was hoarse from shouting",
+    "target": "hoarse",
+    "options": [
+      "clear",
+      "raspy",
+      "smooth"
+    ],
+    "correctAnswer": "raspy"
+  },
+  {
+    "sentence": "The cake was incredibly delicious",
+    "target": "delicious",
+    "options": [
+      "bland",
+      "tasty",
+      "yummy"
+    ],
+    "correctAnswer": "yummy"
+  },
+  {
+    "sentence": "The room was filled with a pleasant aroma",
+    "target": "pleasant",
+    "options": [
+      "unpleasant",
+      "nice",
+      "satisfying"
+    ],
+    "correctAnswer": "nice"
+  },
+  {
+    "sentence": "The movie was extremely boring and uninteresting",
+    "target": "boring",
+    "options": [
+      "thrilling",
+      "dull",
+      "exciting"
+    ],
+    "correctAnswer": "dull"
+  },
+  {
+    "sentence": "The children were playing happily in the park",
+    "target": "happily",
+    "options": [
+      "sadly",
+      "joyfully",
+      "merrily"
+    ],
+    "correctAnswer": "joyfully"
+  },
+  {
+    "sentence": "The mountain peak was covered in a blanket of snow",
+    "target": "blanket",
+    "options": [
+      "layer",
+      "cover",
+      "sheet"
+    ],
+    "correctAnswer": "cover"
+  },
+  {
+    "sentence": "The flowers in the garden were blooming beautifully",
+    "target": "blooming",
+    "options": [
+      "withering",
+      "growing",
+      "blossoming"
+    ],
+    "correctAnswer": "blossoming"
+  },
+  {
+    "sentence": "The storm clouds were gathering ominously in the sky",
+    "target": "ominously",
+    "options": [
+      "darkly",
+      "threateningly",
+      "forebodingly"
+    ],
+    "correctAnswer": "forebodingly"
+  },
+  {
+    "sentence": "The cat was lazily lounging in the sun",
+    "target": "lazily",
+    "options": [
+      "actively",
+      "lethargically",
+      "energetically"
+    ],
+    "correctAnswer": "lethargically"
+  },
+  {
+    "sentence": "The river flowed gently through the valley",
+    "target": "gently",
+    "options": [
+      "harshly",
+      "softly",
+      "calmly"
+    ],
+    "correctAnswer": "softly"
+  },
+  {
+    "sentence": "The detective was investigating the mysterious case",
+    "target": "mysterious",
+    "options": [
+      "obvious",
+      "puzzling",
+      "enigmatic"
+    ],
+    "correctAnswer": "enigmatic"
+  },
+  {
+    "sentence": "The music was playing softly in the background",
+    "target": "softly",
+    "options": [
+      "loudly",
+      "quietly",
+      "gently"
+    ],
+    "correctAnswer": "quietly"
+  },
+  {
+    "sentence": "The forest was teeming with wildlife and plants",
+    "target": "teeming",
+    "options": [
+      "empty",
+      "overflowing",
+      "abundant"
+    ],
+    "correctAnswer": "abundant"
+  },
+  {
+    "sentence": "The fire crackled merrily in the fireplace",
+    "target": "merrily",
+    "options": [
+      "sadly",
+      "happily",
+      "joyfully"
+    ],
+    "correctAnswer": "happily"
+  },
+  {
+    "sentence": "The field was covered in a blanket of colorful flowers",
+    "target": "blanket",
+    "options": [
+      "layer",
+      "cover",
+      "sheet"
+    ],
+    "correctAnswer": "cover"
+  },
+  {
+    "sentence": "The baby was crying loudly in the next room",
+    "target": "loudly",
+    "options": [
+      "silently",
+      "noisily",
+      "quietly"
+    ],
+    "correctAnswer": "noisily"
+  },
+  {
+    "sentence": "The old house creaked eerily in the night",
+    "target": "eerily",
+    "options": [
+      "spookily",
+      "creepily",
+      "scarily"
+    ],
+    "correctAnswer": "spookily"
+  },
+  {
+    "sentence": "The students were diligently studying for the exam",
+    "target": "diligently",
+    "options": [
+      "carelessly",
+      "industriously",
+      "thoroughly"
+    ],
+    "correctAnswer": "industriously"
+  },
+  {
+    "sentence": "The cat was purring contentedly on the couch",
+    "target": "contentedly",
+    "options": [
+      "sadly",
+      "happily",
+      "peacefully"
+    ],
+    "correctAnswer": "happily"
+  },
+  {
+    "sentence": "The waves crashed loudly against the shore",
+    "target": "loudly",
+    "options": [
+      "quietly",
+      "noisily",
+      "softly"
+    ],
+    "correctAnswer": "noisily"
+  },
+  {
+    "sentence": "The forest was dark and foreboding at night",
+    "target": "foreboding",
+    "options": [
+      "threatening",
+      "ominous",
+      "eerie"
+    ],
+    "correctAnswer": "ominous"
+  },
+  {
+    "sentence": "The children were playing happily in the park",
+    "target": "happily",
+    "options": [
+      "sadly",
+      "joyfully",
+      "merrily"
+    ],
+    "correctAnswer": "joyfully"
+  },
+  {
+    "sentence": "The mountain peak was covered in a blanket of snow",
+    "target": "blanket",
+    "options": [
+      "layer",
+      "cover",
+      "sheet"
+    ],
+    "correctAnswer": "cover"
+  },
+  {
+    "sentence": "The flowers in the garden were blooming beautifully",
+    "target": "blooming",
+    "options": [
+      "withering",
+      "growing",
+      "blossoming"
+    ],
+    "correctAnswer": "blossoming"
+  },
+  {
+    "sentence": "The storm clouds were gathering ominously in the sky",
+    "target": "ominously",
+    "options": [
+      "darkly",
+      "threateningly",
+      "forebodingly"
+    ],
+    "correctAnswer": "forebodingly"
+  },
+  {
+    "sentence": "The cat was lazily lounging in the sun",
+    "target": "lazily",
+    "options": [
+      "actively",
+      "lethargically",
+      "energetically"
+    ],
+    "correctAnswer": "lethargically"
+  },
+  {
+    "sentence": "The river flowed gently through the valley",
+    "target": "gently",
+    "options": [
+      "harshly",
+      "softly",
+      "calmly"
+    ],
+    "correctAnswer": "softly"
+  },
+  {
+    "sentence": "The detective was investigating the mysterious case",
+    "target": "mysterious",
+    "options": [
+      "obvious",
+      "puzzling",
+      "enigmatic"
+    ],
+    "correctAnswer": "enigmatic"
+  },
+  {
+    "sentence": "The music was playing softly in the background",
+    "target": "softly",
+    "options": [
+      "loudly",
+      "quietly",
+      "gently"
+    ],
+    "correctAnswer": "quietly"
+  },
+  {
+    "sentence": "The forest was teeming with wildlife and plants",
+    "target": "teeming",
+    "options": [
+      "empty",
+      "overflowing",
+      "abundant"
+    ],
+    "correctAnswer": "abundant"
+  },
+  {
+    "sentence": "The fire crackled merrily in the fireplace",
+    "target": "merrily",
+    "options": [
+      "sadly",
+      "happily",
+      "joyfully"
+    ],
+    "correctAnswer": "happily"
+  },
+  {
+    "sentence": "The field was covered in a blanket of colorful flowers",
+    "target": "blanket",
+    "options": [
+      "layer",
+      "cover",
+      "sheet"
+    ],
+    "correctAnswer": "cover"
+  },
+  {
+    "sentence": "The baby was crying loudly in the next room",
+    "target": "loudly",
+    "options": [
+      "silently",
+      "noisily",
+      "quietly"
+    ],
+    "correctAnswer": "noisily"
+  },
+  {
+    "sentence": "The old house creaked eerily in the night",
+    "target": "eerily",
+    "options": [
+      "spookily",
+      "creepily",
+      "scarily"
+    ],
+    "correctAnswer": "spookily"
+  },
+  {
+    "sentence": "The students were diligently studying for the exam",
+    "target": "diligently",
+    "options": [
+      "carelessly",
+      "industriously",
+      "thoroughly"
+    ],
+    "correctAnswer": "industriously"
+  },
+  {
+    "sentence": "The cat was purring contentedly on the couch",
+    "target": "contentedly",
+    "options": [
+      "sadly",
+      "happily",
+      "peacefully"
+    ],
+    "correctAnswer": "happily"
+  },
+  {
+    "sentence": "The waves crashed loudly against the shore",
+    "target": "loudly",
+    "options": [
+      "quietly",
+      "noisily",
+      "softly"
+    ],
+    "correctAnswer": "noisily"
+  },
+  {
+    "sentence": "The forest was dark and foreboding at night",
+    "target": "foreboding",
+    "options": [
+      "threatening",
+      "ominous",
+      "eerie"
+    ],
+    "correctAnswer": "ominous"
+  },
+  {
+    "sentence": "The children were playing happily in the park",
+    "target": "happily",
+    "options": [
+      "sadly",
+      "joyfully",
+      "merrily"
+    ],
+    "correctAnswer": "joyfully"
+  },
+  {
+    "sentence": "The mountain peak was covered in a blanket of snow",
+    "target": "blanket",
+    "options": [
+      "layer",
+      "cover",
+      "sheet"
+    ],
+    "correctAnswer": "cover"
+  },
+  {
+    "sentence": "The flowers in the garden were blooming beautifully",
+    "target": "blooming",
+    "options": [
+      "withering",
+      "growing",
+      "blossoming"
+    ],
+    "correctAnswer": "blossoming"
+  },
+  {
+    "sentence": "The storm clouds were gathering ominously in the sky",
+    "target": "ominously",
+    "options": [
+      "darkly",
+      "threateningly",
+      "forebodingly"
+    ],
+    "correctAnswer": "forebodingly"
+  },
+  {
+    "sentence": "The cat was lazily lounging in the sun",
+    "target": "lazily",
+    "options": [
+      "actively",
+      "lethargically",
+      "energetically"
+    ],
+    "correctAnswer": "lethargically"
+  },
+  {
+    "sentence": "The river flowed gently through the valley",
+    "target": "gently",
+    "options": [
+      "harshly",
+      "softly",
+      "calmly"
+    ],
+    "correctAnswer": "softly"
+  },
+  {
+    "sentence": "The detective was investigating the mysterious case",
+    "target": "mysterious",
+    "options": [
+      "obvious",
+      "puzzling",
+      "enigmatic"
+    ],
+    "correctAnswer": "enigmatic"
+  },
+  {
+    "sentence": "The music was playing softly in the background",
+    "target": "softly",
+    "options": [
+      "loudly",
+      "quietly",
+      "gently"
+    ],
+    "correctAnswer": "quietly"
+  },
+  {
+    "sentence": "The forest was teeming with wildlife and plants",
+    "target": "teeming",
+    "options": [
+      "empty",
+      "overflowing",
+      "abundant"
+    ],
+    "correctAnswer": "abundant"
+  },
+  {
+    "sentence": "The fire crackled merrily in the fireplace",
+    "target": "merrily",
+    "options": [
+      "sadly",
+      "happily",
+      "joyfully"
+    ],
+    "correctAnswer": "happily"
+  },
+  {
+    "sentence": "The field was covered in a blanket of colorful flowers",
+    "target": "blanket",
+    "options": [
+      "layer",
+      "cover",
+      "sheet"
+    ],
+    "correctAnswer": "cover"
+  },
+  {
+    "sentence": "The baby was crying loudly in the next room",
+    "target": "loudly",
+    "options": [
+      "silently",
+      "noisily",
+      "quietly"
+    ],
+    "correctAnswer": "noisily"
+  },
+  {
+    "sentence": "The old house creaked eerily in the night",
+    "target": "eerily",
+    "options": [
+      "spookily",
+      "creepily",
+      "scarily"
+    ],
+    "correctAnswer": "spookily"
+  },
+  {
+    "sentence": "The students were diligently studying for the exam",
+    "target": "diligently",
+    "options": [
+      "carelessly",
+      "industriously",
+      "thoroughly"
+    ],
+    "correctAnswer": "industriously"
+  },
+  {
+    "sentence": "The cat was purring contentedly on the couch",
+    "target": "contentedly",
+    "options": [
+      "sadly",
+      "happily",
+      "peacefully"
+    ],
+    "correctAnswer": "happily"
+  },
+  {
+    "sentence": "The waves crashed loudly against the shore",
+    "target": "loudly",
+    "options": [
+      "quietly",
+      "noisily",
+      "softly"
+    ],
+    "correctAnswer": "noisily"
+  },
+  {
+    "sentence": "The forest was dark and foreboding at night",
+    "target": "foreboding",
+    "options": [
+      "threatening",
+      "ominous",
+      "eerie"
+    ],
+    "correctAnswer": "ominous"
+  },
+  {
+    "sentence": "The sun was shining brightly in the sky",
+    "target": "brightly",
+    "options": [
+      "dully",
+      "vividly",
+      "gloomily"
+    ],
+    "correctAnswer": "vividly"
+  },
+  {
+    "sentence": "She was feeling extremely exhausted after the long day",
+    "target": "exhausted",
+    "options": [
+      "energetic",
+      "weary",
+      "tired"
+    ],
+    "correctAnswer": "weary"
+  },
+  {
+    "sentence": "The children were very excited about the upcoming trip",
+    "target": "excited",
+    "options": [
+      "bored",
+      "enthusiastic",
+      "apathetic"
+    ],
+    "correctAnswer": "enthusiastic"
+  },
+  {
+    "sentence": "The old man was wise and experienced",
+    "target": "wise",
+    "options": [
+      "foolish",
+      "sensible",
+      "intelligent"
+    ],
+    "correctAnswer": "intelligent"
+  },
+  {
+    "sentence": "The room was filled with a pleasant fragrance",
+    "target": "fragrance",
+    "options": [
+      "odor",
+      "scent",
+      "aroma"
+    ],
+    "correctAnswer": "scent"
+  },
+  {
+    "sentence": "He was upset when he lost the game",
+    "target": "upset",
+    "options": [
+      "happy",
+      "disturbed",
+      "frustrated"
+    ],
+    "correctAnswer": "frustrated"
+  },
+  {
+    "sentence": "The garden was full of colorful flowers",
+    "target": "colorful",
+    "options": [
+      "dull",
+      "vibrant",
+      "plain"
+    ],
+    "correctAnswer": "vibrant"
+  },
+  {
+    "sentence": "The book was very interesting and engaging",
+    "target": "engaging",
+    "options": [
+      "boring",
+      "captivating",
+      "dull"
+    ],
+    "correctAnswer": "captivating"
+  },
+  {
+    "sentence": "She was very cheerful and optimistic",
+    "target": "cheerful",
+    "options": [
+      "gloomy",
+      "happy",
+      "merry"
+    ],
+    "correctAnswer": "happy"
+  },
+  {
+    "sentence": "The movie was full of suspense and excitement",
+    "target": "suspense",
+    "options": [
+      "predictability",
+      "tension",
+      "thrill"
+    ],
+    "correctAnswer": "tension"
+  },
+  {
+    "sentence": "The candy tasted very sweet and sugary",
+    "target": "sugary",
+    "options": [
+      "bitter",
+      "salty",
+      "sweet"
+    ],
+    "correctAnswer": "sweet"
+  },
+  {
+    "sentence": "The forest was dark and mysterious",
+    "target": "mysterious",
+    "options": [
+      "obvious",
+      "enigmatic",
+      "cryptic"
+    ],
+    "correctAnswer": "enigmatic"
+  },
+  {
+    "sentence": "He was very determined to succeed in his goals",
+    "target": "determined",
+    "options": [
+      "indecisive",
+      "resolute",
+      "strong-willed"
+    ],
+    "correctAnswer": "resolute"
+  },
+  {
+    "sentence": "The baby was very cute and adorable",
+    "target": "adorable",
+    "options": [
+      "ugly",
+      "charming",
+      "lovable"
+    ],
+    "correctAnswer": "lovable"
+  },
+  {
+    "sentence": "The weather was very cold and frosty",
+    "target": "frosty",
+    "options": [
+      "warm",
+      "freezing",
+      "icy"
+    ],
+    "correctAnswer": "freezing"
+  },
+  {
+    "sentence": "The music was very loud and deafening",
+    "target": "deafening",
+    "options": [
+      "quiet",
+      "thunderous",
+      "ear-splitting"
+    ],
+    "correctAnswer": "ear-splitting"
+  },
+  {
+    "sentence": "The water was very clear and transparent",
+    "target": "transparent",
+    "options": [
+      "opaque",
+      "see-through",
+      "crystal-clear"
+    ],
+    "correctAnswer": "see-through"
+  },
+  {
+    "sentence": "The cake was very delicious and scrumptious",
+    "target": "scrumptious",
+    "options": [
+      "tasteless",
+      "appetizing",
+      "yummy"
+    ],
+    "correctAnswer": "yummy"
+  },
+  {
+    "sentence": "The child was very mischievous and naughty",
+    "target": "mischievous",
+    "options": [
+      "good",
+      "troublesome",
+      "playful"
+    ],
+    "correctAnswer": "playful"
+  },
+  {
+    "sentence": "The beach was very crowded and bustling",
+    "target": "bustling",
+    "options": [
+      "quiet",
+      "busy",
+      "noisy"
+    ],
+    "correctAnswer": "busy"
+  },
+  {
+    "sentence": "The mountain was very majestic and grand",
+    "target": "majestic",
+    "options": [
+      "humble",
+      "imposing",
+      "regal"
+    ],
+    "correctAnswer": "regal"
+  },
+  {
+    "sentence": "The speech was very inspiring and motivating",
+    "target": "inspiring",
+    "options": [
+      "discouraging",
+      "uplifting",
+      "encouraging"
+    ],
+    "correctAnswer": "uplifting"
+  },
+  {
+    "sentence": "The building was very tall and towering",
+    "target": "towering",
+    "options": [
+      "short",
+      "lofty",
+      "sky-high"
+    ],
+    "correctAnswer": "lofty"
+  },
+  {
+    "sentence": "The sky was very clear and cloudless",
+    "target": "cloudless",
+    "options": [
+      "overcast",
+      "sunny",
+      "blue"
+    ],
+    "correctAnswer": "blue"
+  },
+  {
+    "sentence": "The road was very long and endless",
+    "target": "endless",
+    "options": [
+      "short",
+      "never-ending",
+      "infinite"
+    ],
+    "correctAnswer": "never-ending"
+  },
+  {
+    "sentence": "The painting was very beautiful and picturesque",
+    "target": "picturesque",
+    "options": [
+      "ugly",
+      "scenic",
+      "lovely"
+    ],
+    "correctAnswer": "scenic"
+  },
+  {
+    "sentence": "The dress was very elegant and sophisticated",
+    "target": "sophisticated",
+    "options": [
+      "simple",
+      "fancy",
+      "classy"
+    ],
+    "correctAnswer": "classy"
+  },
+  {
+    "sentence": "The car was very fast and speedy",
+    "target": "speedy",
+    "options": [
+      "slow",
+      "quick",
+      "rapid"
+    ],
+    "correctAnswer": "quick"
+  },
+  {
+    "sentence": "The forest was very quiet and peaceful",
+    "target": "peaceful",
+    "options": [
+      "noisy",
+      "serene",
+      "calm"
+    ],
+    "correctAnswer": "serene"
+  },
+  {
+    "sentence": "The child was very shy and timid",
+    "target": "timid",
+    "options": [
+      "bold",
+      "introverted",
+      "reserved"
+    ],
+    "correctAnswer": "reserved"
+  },
+  {
+    "sentence": "The storm was very violent and destructive",
+    "target": "violent",
+    "options": [
+      "gentle",
+      "harmful",
+      "intense"
+    ],
+    "correctAnswer": "intense"
+  },
+  {
+    "sentence": "The flower was very fragrant and aromatic",
+    "target": "fragrant",
+    "options": [
+      "smelly",
+      "scented",
+      "perfumed"
+    ],
+    "correctAnswer": "perfumed"
+  },
+  {
+    "sentence": "The beach was very sandy and shore",
+    "target": "sandy",
+    "options": [
+      "rocky",
+      "gritty",
+      "dusty"
+    ],
+    "correctAnswer": "gritty"
+  },
+  {
+    "sentence": "The sunset was very beautiful and stunning",
+    "target": "stunning",
+    "options": [
+      "ugly",
+      "gorgeous",
+      "breathtaking"
+    ],
+    "correctAnswer": "gorgeous"
+  },
+  {
+    "sentence": "The dessert was very sweet and sugary",
+    "target": "sweet",
+    "options": [
+      "sour",
+      "bitter",
+      "tasty"
+    ],
+    "correctAnswer": "tasty"
+  },
+  {
+    "sentence": "The mountain was very steep and rugged",
+    "target": "rugged",
+    "options": [
+      "smooth",
+      "uneven",
+      "rough"
+    ],
+    "correctAnswer": "rough"
+  },
+  {
+    "sentence": "The painting was very detailed and intricate",
+    "target": "intricate",
+    "options": [
+      "simple",
+      "complex",
+      "elaborate"
+    ],
+    "correctAnswer": "complex"
+  },
+  {
+    "sentence": "The person was very wealthy and affluent",
+    "target": "wealthy",
+    "options": [
+      "poor",
+      "rich",
+      "prosperous"
+    ],
+    "correctAnswer": "rich"
+  },
+  {
+    "sentence": "The flower was very delicate and fragile",
+    "target": "delicate",
+    "options": [
+      "robust",
+      "fragile",
+      "dainty"
+    ],
+    "correctAnswer": "fragile"
+  },
+  {
+    "sentence": "The road was very narrow and cramped",
+    "target": "narrow",
+    "options": [
+      "wide",
+      "tight",
+      "constricted"
+    ],
+    "correctAnswer": "tight"
+  },
+  {
+    "sentence": "The coffee was very bitter and strong",
+    "target": "bitter",
+    "options": [
+      "sweet",
+      "sour",
+      "tart"
+    ],
+    "correctAnswer": "sour"
+  },
+  {
+    "sentence": "The movie was very scary and terrifying",
+    "target": "terrifying",
+    "options": [
+      "funny",
+      "horrifying",
+      "frightening"
+    ],
+    "correctAnswer": "horrifying"
+  },
+  {
+    "sentence": "The party was very lively and vibrant",
+    "target": "lively",
+    "options": [
+      "dull",
+      "energetic",
+      "animated"
+    ],
+    "correctAnswer": "energetic"
+  },
+  {
+    "sentence": "The cat was very playful and mischievous",
+    "target": "playful",
+    "options": [
+      "serious",
+      "fun",
+      "frisky"
+    ],
+    "correctAnswer": "frisky"
+  },
+  {
+    "sentence": "The mountain was very high and towering",
+    "target": "towering",
+    "options": [
+      "low",
+      "immense",
+      "lofty"
+    ],
+    "correctAnswer": "immense"
+  },
+  {
+    "sentence": "The river was very wide and expansive",
+    "target": "expansive",
+    "options": [
+      "narrow",
+      "broad",
+      "vast"
+    ],
+    "correctAnswer": "broad"
+  },
+  {
+    "sentence": "The book was very boring and dull",
+    "target": "boring",
+    "options": [
+      "interesting",
+      "tedious",
+      "monotonous"
+    ],
+    "correctAnswer": "tedious"
+  },
+  {
+    "sentence": "The house was very big and spacious",
+    "target": "spacious",
+    "options": [
+      "cramped",
+      "roomy",
+      "large"
+    ],
+    "correctAnswer": "roomy"
+  },
+  {
+    "sentence": "The baby looked content after finishing his meal",
+    "target": "content",
+    "options": [
+      "happy",
+      "sad",
+      "angry"
+    ],
+    "correctAnswer": "happy"
+  },
+  {
+    "sentence": "She was ecstatic when she received the promotion",
+    "target": "ecstatic",
+    "options": [
+      "depressed",
+      "joyful",
+      "bored"
+    ],
+    "correctAnswer": "joyful"
+  },
+  {
+    "sentence": "The old man was frail and needed assistance",
+    "target": "frail",
+    "options": [
+      "strong",
+      "weak",
+      "healthy"
+    ],
+    "correctAnswer": "weak"
+  },
+  {
+    "sentence": "The teacher praised the student for being diligent",
+    "target": "diligent",
+    "options": [
+      "lazy",
+      "hardworking",
+      "playful"
+    ],
+    "correctAnswer": "hardworking"
+  },
+  {
+    "sentence": "The sunset painted the sky in vibrant colors",
+    "target": "vibrant",
+    "options": [
+      "dull",
+      "bright",
+      "colorful"
+    ],
+    "correctAnswer": "colorful"
+  },
+  {
+    "sentence": "The toddler was full of energy and couldn't sit still",
+    "target": "energy",
+    "options": [
+      "tiredness",
+      "enthusiasm",
+      "boredom"
+    ],
+    "correctAnswer": "enthusiasm"
+  },
+  {
+    "sentence": "The speaker was articulate and easily conveyed his message",
+    "target": "articulate",
+    "options": [
+      "clear",
+      "mumbled",
+      "confused"
+    ],
+    "correctAnswer": "clear"
+  },
+  {
+    "sentence": "The boxer was fierce in the ring",
+    "target": "fierce",
+    "options": [
+      "gentle",
+      "aggressive",
+      "calm"
+    ],
+    "correctAnswer": "aggressive"
+  },
+  {
+    "sentence": "The song was haunting and stayed with her for days",
+    "target": "haunting",
+    "options": [
+      "forgetful",
+      "memorable",
+      "scary"
+    ],
+    "correctAnswer": "memorable"
+  },
+  {
+    "sentence": "The mountain air was crisp and refreshing",
+    "target": "crisp",
+    "options": [
+      "stale",
+      "clean",
+      "fresh"
+    ],
+    "correctAnswer": "fresh"
+  },
+  {
+    "sentence": "His sudden departure left her feeling desolate",
+    "target": "desolate",
+    "options": [
+      "happy",
+      "lonely",
+      "crowded"
+    ],
+    "correctAnswer": "lonely"
+  },
+  {
+    "sentence": "The villain's evil plan was thwarted by the hero",
+    "target": "evil",
+    "options": [
+      "kind",
+      "wicked",
+      "good"
+    ],
+    "correctAnswer": "wicked"
+  },
+  {
+    "sentence": "The book was filled with intriguing mysteries",
+    "target": "intriguing",
+    "options": [
+      "boring",
+      "interesting",
+      "confusing"
+    ],
+    "correctAnswer": "interesting"
+  },
+  {
+    "sentence": "The stormy weather caused chaos in the city",
+    "target": "chaos",
+    "options": [
+      "order",
+      "disorder",
+      "confusion"
+    ],
+    "correctAnswer": "disorder"
+  },
+  {
+    "sentence": "His infectious laughter brightened up the room",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "harmless",
+      "deadly"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "The movie's plot was predictable and lacked suspense",
+    "target": "predictable",
+    "options": [
+      "surprising",
+      "expected",
+      "boring"
+    ],
+    "correctAnswer": "boring"
+  },
+  {
+    "sentence": "The new employee was enthusiastic and eager to learn",
+    "target": "enthusiastic",
+    "options": [
+      "apathetic",
+      "excited",
+      "passionate"
+    ],
+    "correctAnswer": "excited"
+  },
+  {
+    "sentence": "The diamond ring sparkled in the sunlight",
+    "target": "sparkled",
+    "options": [
+      "shone",
+      "dull",
+      "glowed"
+    ],
+    "correctAnswer": "shone"
+  },
+  {
+    "sentence": "The forest was lush and teeming with life",
+    "target": "teeming",
+    "options": [
+      "empty",
+      "full",
+      "overflowing"
+    ],
+    "correctAnswer": "full"
+  },
+  {
+    "sentence": "Her infectious smile brightened everyone's day",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "harmless",
+      "deadly"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "The detective was determined to solve the case",
+    "target": "determined",
+    "options": [
+      "uncertain",
+      "resolute",
+      "hesitant"
+    ],
+    "correctAnswer": "resolute"
+  },
+  {
+    "sentence": "The artist's masterpiece was breathtaking",
+    "target": "breathtaking",
+    "options": [
+      "ordinary",
+      "amazing",
+      "spectacular"
+    ],
+    "correctAnswer": "spectacular"
+  },
+  {
+    "sentence": "The stormy weather caused chaos in the city",
+    "target": "chaos",
+    "options": [
+      "order",
+      "disorder",
+      "confusion"
+    ],
+    "correctAnswer": "disorder"
+  },
+  {
+    "sentence": "The puppy was playful and full of energy",
+    "target": "playful",
+    "options": [
+      "serious",
+      "active",
+      "fun"
+    ],
+    "correctAnswer": "fun"
+  },
+  {
+    "sentence": "The old man was frail and needed assistance",
+    "target": "frail",
+    "options": [
+      "strong",
+      "weak",
+      "healthy"
+    ],
+    "correctAnswer": "weak"
+  },
+  {
+    "sentence": "The baby looked content after finishing his meal",
+    "target": "content",
+    "options": [
+      "happy",
+      "sad",
+      "angry"
+    ],
+    "correctAnswer": "happy"
+  },
+  {
+    "sentence": "The movie's plot was predictable and lacked suspense",
+    "target": "predictable",
+    "options": [
+      "surprising",
+      "expected",
+      "boring"
+    ],
+    "correctAnswer": "boring"
+  },
+  {
+    "sentence": "The speaker was articulate and easily conveyed his message",
+    "target": "articulate",
+    "options": [
+      "clear",
+      "mumbled",
+      "confused"
+    ],
+    "correctAnswer": "clear"
+  },
+  {
+    "sentence": "The new employee was enthusiastic and eager to learn",
+    "target": "enthusiastic",
+    "options": [
+      "apathetic",
+      "excited",
+      "passionate"
+    ],
+    "correctAnswer": "excited"
+  },
+  {
+    "sentence": "His infectious laughter brightened up the room",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "harmless",
+      "deadly"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "The book was filled with intriguing mysteries",
+    "target": "intriguing",
+    "options": [
+      "boring",
+      "interesting",
+      "confusing"
+    ],
+    "correctAnswer": "interesting"
+  },
+  {
+    "sentence": "The villain's evil plan was thwarted by the hero",
+    "target": "evil",
+    "options": [
+      "kind",
+      "wicked",
+      "good"
+    ],
+    "correctAnswer": "wicked"
+  },
+  {
+    "sentence": "The stormy weather caused chaos in the city",
+    "target": "chaos",
+    "options": [
+      "order",
+      "disorder",
+      "confusion"
+    ],
+    "correctAnswer": "disorder"
+  },
+  {
+    "sentence": "The forest was lush and teeming with life",
+    "target": "teeming",
+    "options": [
+      "empty",
+      "full",
+      "overflowing"
+    ],
+    "correctAnswer": "full"
+  },
+  {
+    "sentence": "Her infectious smile brightened everyone's day",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "harmless",
+      "deadly"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "The detective was determined to solve the case",
+    "target": "determined",
+    "options": [
+      "uncertain",
+      "resolute",
+      "hesitant"
+    ],
+    "correctAnswer": "resolute"
+  },
+  {
+    "sentence": "The artist's masterpiece was breathtaking",
+    "target": "breathtaking",
+    "options": [
+      "ordinary",
+      "amazing",
+      "spectacular"
+    ],
+    "correctAnswer": "spectacular"
+  },
+  {
+    "sentence": "The stormy weather caused chaos in the city",
+    "target": "chaos",
+    "options": [
+      "order",
+      "disorder",
+      "confusion"
+    ],
+    "correctAnswer": "disorder"
+  },
+  {
+    "sentence": "The puppy was playful and full of energy",
+    "target": "playful",
+    "options": [
+      "serious",
+      "active",
+      "fun"
+    ],
+    "correctAnswer": "fun"
+  },
+  {
+    "sentence": "The old man was frail and needed assistance",
+    "target": "frail",
+    "options": [
+      "strong",
+      "weak",
+      "healthy"
+    ],
+    "correctAnswer": "weak"
+  },
+  {
+    "sentence": "The baby looked content after finishing his meal",
+    "target": "content",
+    "options": [
+      "happy",
+      "sad",
+      "angry"
+    ],
+    "correctAnswer": "happy"
+  },
+  {
+    "sentence": "The movie's plot was predictable and lacked suspense",
+    "target": "predictable",
+    "options": [
+      "surprising",
+      "expected",
+      "boring"
+    ],
+    "correctAnswer": "boring"
+  },
+  {
+    "sentence": "The speaker was articulate and easily conveyed his message",
+    "target": "articulate",
+    "options": [
+      "clear",
+      "mumbled",
+      "confused"
+    ],
+    "correctAnswer": "clear"
+  },
+  {
+    "sentence": "The new employee was enthusiastic and eager to learn",
+    "target": "enthusiastic",
+    "options": [
+      "apathetic",
+      "excited",
+      "passionate"
+    ],
+    "correctAnswer": "excited"
+  },
+  {
+    "sentence": "His infectious laughter brightened up the room",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "harmless",
+      "deadly"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "The book was filled with intriguing mysteries",
+    "target": "intriguing",
+    "options": [
+      "boring",
+      "interesting",
+      "confusing"
+    ],
+    "correctAnswer": "interesting"
+  },
+  {
+    "sentence": "The villain's evil plan was thwarted by the hero",
+    "target": "evil",
+    "options": [
+      "kind",
+      "wicked",
+      "good"
+    ],
+    "correctAnswer": "wicked"
+  },
+  {
+    "sentence": "The stormy weather caused chaos in the city",
+    "target": "chaos",
+    "options": [
+      "order",
+      "disorder",
+      "confusion"
+    ],
+    "correctAnswer": "disorder"
+  },
+  {
+    "sentence": "The forest was lush and teeming with life",
+    "target": "teeming",
+    "options": [
+      "empty",
+      "full",
+      "overflowing"
+    ],
+    "correctAnswer": "full"
+  },
+  {
+    "sentence": "Her infectious smile brightened everyone's day",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "harmless",
+      "deadly"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "The detective was determined to solve the case",
+    "target": "determined",
+    "options": [
+      "uncertain",
+      "resolute",
+      "hesitant"
+    ],
+    "correctAnswer": "resolute"
+  },
+  {
+    "sentence": "The artist's masterpiece was breathtaking",
+    "target": "breathtaking",
+    "options": [
+      "ordinary",
+      "amazing",
+      "spectacular"
+    ],
+    "correctAnswer": "spectacular"
+  },
+  {
+    "sentence": "The stormy weather caused chaos in the city",
+    "target": "chaos",
+    "options": [
+      "order",
+      "disorder",
+      "confusion"
+    ],
+    "correctAnswer": "disorder"
+  },
+  {
+    "sentence": "The puppy was playful and full of energy",
+    "target": "playful",
+    "options": [
+      "serious",
+      "active",
+      "fun"
+    ],
+    "correctAnswer": "fun"
+  },
+  {
+    "sentence": "The old man was frail and needed assistance",
+    "target": "frail",
+    "options": [
+      "strong",
+      "weak",
+      "healthy"
+    ],
+    "correctAnswer": "weak"
+  },
+  {
+    "sentence": "The baby looked content after finishing his meal",
+    "target": "content",
+    "options": [
+      "happy",
+      "sad",
+      "angry"
+    ],
+    "correctAnswer": "happy"
+  },
+  {
+    "sentence": "The movie's plot was predictable and lacked suspense",
+    "target": "predictable",
+    "options": [
+      "surprising",
+      "expected",
+      "boring"
+    ],
+    "correctAnswer": "boring"
+  },
+  {
+    "sentence": "The speaker was articulate and easily conveyed his message",
+    "target": "articulate",
+    "options": [
+      "clear",
+      "mumbled",
+      "confused"
+    ],
+    "correctAnswer": "clear"
+  },
+  {
+    "sentence": "The new employee was enthusiastic and eager to learn",
+    "target": "enthusiastic",
+    "options": [
+      "apathetic",
+      "excited",
+      "passionate"
+    ],
+    "correctAnswer": "excited"
+  },
+  {
+    "sentence": "His infectious laughter brightened up the room",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "harmless",
+      "deadly"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "The book was filled with intriguing mysteries",
+    "target": "intriguing",
+    "options": [
+      "boring",
+      "interesting",
+      "confusing"
+    ],
+    "correctAnswer": "interesting"
+  },
+  {
+    "sentence": "The villain's evil plan was thwarted by the hero",
+    "target": "evil",
+    "options": [
+      "kind",
+      "wicked",
+      "good"
+    ],
+    "correctAnswer": "wicked"
+  },
+  {
+    "sentence": "The stormy weather caused chaos in the city",
+    "target": "chaos",
+    "options": [
+      "order",
+      "disorder",
+      "confusion"
+    ],
+    "correctAnswer": "disorder"
+  },
+  {
+    "sentence": "The forest was lush and teeming with life",
+    "target": "teeming",
+    "options": [
+      "empty",
+      "full",
+      "overflowing"
+    ],
+    "correctAnswer": "full"
+  },
+  {
+    "sentence": "Her infectious smile brightened everyone's day",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "harmless",
+      "deadly"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "The detective was determined to solve the case",
+    "target": "determined",
+    "options": [
+      "uncertain",
+      "resolute",
+      "hesitant"
+    ],
+    "correctAnswer": "resolute"
+  },
+  {
+    "sentence": "The artist's masterpiece was breathtaking",
+    "target": "breathtaking",
+    "options": [
+      "ordinary",
+      "amazing",
+      "spectacular"
+    ],
+    "correctAnswer": "spectacular"
+  },
+  {
+    "sentence": "The flowers in the garden are blooming beautifully",
+    "target": "blooming",
+    "options": [
+      "wilting",
+      "growing",
+      "flowering"
+    ],
+    "correctAnswer": "flowering"
+  },
+  {
+    "sentence": "She has a charming personality",
+    "target": "charming",
+    "options": [
+      "unpleasant",
+      "attractive",
+      "friendly"
+    ],
+    "correctAnswer": "attractive"
+  },
+  {
+    "sentence": "The baby smiled at the colorful balloons",
+    "target": "colorful",
+    "options": [
+      "dull",
+      "vibrant",
+      "monochrome"
+    ],
+    "correctAnswer": "vibrant"
+  },
+  {
+    "sentence": "The chef prepared a delicious meal",
+    "target": "delicious",
+    "options": [
+      "tasteless",
+      "yummy",
+      "appetizing"
+    ],
+    "correctAnswer": "yummy"
+  },
+  {
+    "sentence": "The boxer was defeated in the intense match",
+    "target": "intense",
+    "options": [
+      "relaxed",
+      "fierce",
+      "mild"
+    ],
+    "correctAnswer": "fierce"
+  },
+  {
+    "sentence": "The detective solved the mysterious case",
+    "target": "mysterious",
+    "options": [
+      "obvious",
+      "enigmatic",
+      "puzzling"
+    ],
+    "correctAnswer": "enigmatic"
+  },
+  {
+    "sentence": "The new student was very nervous on the first day of school",
+    "target": "nervous",
+    "options": [
+      "calm",
+      "anxious",
+      "worried"
+    ],
+    "correctAnswer": "anxious"
+  },
+  {
+    "sentence": "The mountain peak was covered in a blanket of snow",
+    "target": "blanket",
+    "options": [
+      "layer",
+      "comforter",
+      "sheet"
+    ],
+    "correctAnswer": "layer"
+  },
+  {
+    "sentence": "The children were excited to visit the amusement park",
+    "target": "excited",
+    "options": [
+      "bored",
+      "enthusiastic",
+      "thrilled"
+    ],
+    "correctAnswer": "enthusiastic"
+  },
+  {
+    "sentence": "The old house had a musty smell",
+    "target": "musty",
+    "options": [
+      "fresh",
+      "stale",
+      "mildewy"
+    ],
+    "correctAnswer": "stale"
+  },
+  {
+    "sentence": "The gymnast displayed impressive flexibility",
+    "target": "flexibility",
+    "options": [
+      "rigidity",
+      "adaptability",
+      "limberness"
+    ],
+    "correctAnswer": "limberness"
+  },
+  {
+    "sentence": "The author used vivid imagery in the novel",
+    "target": "vivid",
+    "options": [
+      "dull",
+      "colorful",
+      "lively"
+    ],
+    "correctAnswer": "colorful"
+  },
+  {
+    "sentence": "The singer's voice was melodious",
+    "target": "melodious",
+    "options": [
+      "harsh",
+      "tuneful",
+      "sweet-sounding"
+    ],
+    "correctAnswer": "sweet-sounding"
+  },
+  {
+    "sentence": "The teacher was very patient with her students",
+    "target": "patient",
+    "options": [
+      "impatient",
+      "tolerant",
+      "forbearing"
+    ],
+    "correctAnswer": "tolerant"
+  },
+  {
+    "sentence": "The film had a tragic ending",
+    "target": "tragic",
+    "options": [
+      "happy",
+      "dramatic",
+      "heartbreaking"
+    ],
+    "correctAnswer": "heartbreaking"
+  },
+  {
+    "sentence": "The athlete was determined to win the race",
+    "target": "determined",
+    "options": [
+      "undecided",
+      "resolute",
+      "persistent"
+    ],
+    "correctAnswer": "resolute"
+  },
+  {
+    "sentence": "The artist's work was intricate and detailed",
+    "target": "intricate",
+    "options": [
+      "simple",
+      "complex",
+      "elaborate"
+    ],
+    "correctAnswer": "complex"
+  },
+  {
+    "sentence": "The storm caused widespread destruction",
+    "target": "destruction",
+    "options": [
+      "construction",
+      "ruin",
+      "devastation"
+    ],
+    "correctAnswer": "devastation"
+  },
+  {
+    "sentence": "The baby's laughter was infectious",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "harmful",
+      "transmittable"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "The clown's performance was entertaining",
+    "target": "entertaining",
+    "options": [
+      "boring",
+      "amusing",
+      "engaging"
+    ],
+    "correctAnswer": "amusing"
+  },
+  {
+    "sentence": "The scientist made a groundbreaking discovery",
+    "target": "groundbreaking",
+    "options": [
+      "commonplace",
+      "innovative",
+      "revolutionary"
+    ],
+    "correctAnswer": "revolutionary"
+  },
+  {
+    "sentence": "The dog was loyal to its owner",
+    "target": "loyal",
+    "options": [
+      "disloyal",
+      "faithful",
+      "devoted"
+    ],
+    "correctAnswer": "faithful"
+  },
+  {
+    "sentence": "The sun was shining brightly in the clear sky",
+    "target": "brightly",
+    "options": [
+      "dimly",
+      "vividly",
+      "radiantly"
+    ],
+    "correctAnswer": "radiantly"
+  },
+  {
+    "sentence": "The mountain climber reached the summit successfully",
+    "target": "successfully",
+    "options": [
+      "unsuccessfully",
+      "effectively",
+      "triumphantly"
+    ],
+    "correctAnswer": "triumphantly"
+  },
+  {
+    "sentence": "The baby's eyes were wide with wonder",
+    "target": "wonder",
+    "options": [
+      "curiosity",
+      "amazement",
+      "puzzlement"
+    ],
+    "correctAnswer": "amazement"
+  },
+  {
+    "sentence": "The dancer moved gracefully across the stage",
+    "target": "gracefully",
+    "options": [
+      "clumsily",
+      "elegantly",
+      "smoothly"
+    ],
+    "correctAnswer": "elegantly"
+  },
+  {
+    "sentence": "The chef's dish was flavorful and aromatic",
+    "target": "flavorful",
+    "options": [
+      "tasteless",
+      "savory",
+      "delicious"
+    ],
+    "correctAnswer": "savory"
+  },
+  {
+    "sentence": "The athlete's performance was exceptional",
+    "target": "exceptional",
+    "options": [
+      "mediocre",
+      "outstanding",
+      "remarkable"
+    ],
+    "correctAnswer": "outstanding"
+  },
+  {
+    "sentence": "The magician performed an amazing trick",
+    "target": "amazing",
+    "options": [
+      "ordinary",
+      "astonishing",
+      "incredible"
+    ],
+    "correctAnswer": "astonishing"
+  },
+  {
+    "sentence": "The party was lively and full of energy",
+    "target": "lively",
+    "options": [
+      "dull",
+      "vibrant",
+      "animated"
+    ],
+    "correctAnswer": "animated"
+  },
+  {
+    "sentence": "The violinist played a haunting melody",
+    "target": "haunting",
+    "options": [
+      "pleasant",
+      "eerie",
+      "memorable"
+    ],
+    "correctAnswer": "eerie"
+  },
+  {
+    "sentence": "The novel had a captivating plot",
+    "target": "captivating",
+    "options": [
+      "boring",
+      "engrossing",
+      "fascinating"
+    ],
+    "correctAnswer": "engrossing"
+  },
+  {
+    "sentence": "The baby was fast asleep in the cozy crib",
+    "target": "cozy",
+    "options": [
+      "uncomfortable",
+      "warm",
+      "comfortable"
+    ],
+    "correctAnswer": "comfortable"
+  },
+  {
+    "sentence": "The movie was suspenseful with unexpected twists",
+    "target": "suspenseful",
+    "options": [
+      "predictable",
+      "thrilling",
+      "exciting"
+    ],
+    "correctAnswer": "thrilling"
+  },
+  {
+    "sentence": "The baby's face was chubby and adorable",
+    "target": "adorable",
+    "options": [
+      "ugly",
+      "lovable",
+      "cute"
+    ],
+    "correctAnswer": "cute"
+  },
+  {
+    "sentence": "The forest was quiet and serene in the early morning",
+    "target": "serene",
+    "options": [
+      "chaotic",
+      "peaceful",
+      "calm"
+    ],
+    "correctAnswer": "peaceful"
+  },
+  {
+    "sentence": "The painting was bright and colorful",
+    "target": "colorful",
+    "options": [
+      "drab",
+      "vivid",
+      "lively"
+    ],
+    "correctAnswer": "vivid"
+  },
+  {
+    "sentence": "The child's laughter was infectious",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "harmful",
+      "transmittable"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "The magician's trick was astounding",
+    "target": "astounding",
+    "options": [
+      "ordinary",
+      "amazing",
+      "incredible"
+    ],
+    "correctAnswer": "amazing"
+  },
+  {
+    "sentence": "The party was lively and animated",
+    "target": "lively",
+    "options": [
+      "dull",
+      "vibrant",
+      "animated"
+    ],
+    "correctAnswer": "vibrant"
+  },
+  {
+    "sentence": "The violinist played a haunting tune",
+    "target": "haunting",
+    "options": [
+      "pleasant",
+      "eerie",
+      "memorable"
+    ],
+    "correctAnswer": "eerie"
+  },
+  {
+    "sentence": "The novel had a fascinating storyline",
+    "target": "fascinating",
+    "options": [
+      "boring",
+      "engrossing",
+      "captivating"
+    ],
+    "correctAnswer": "engrossing"
+  },
+  {
+    "sentence": "The baby was sound asleep in the warm crib",
+    "target": "warm",
+    "options": [
+      "uncomfortable",
+      "cozy",
+      "comfortable"
+    ],
+    "correctAnswer": "comfortable"
+  },
+  {
+    "sentence": "The movie was thrilling with unexpected turns",
+    "target": "thrilling",
+    "options": [
+      "predictable",
+      "suspenseful",
+      "exciting"
+    ],
+    "correctAnswer": "exciting"
+  },
+  {
+    "sentence": "The baby's face was chubby and cute",
+    "target": "cute",
+    "options": [
+      "ugly",
+      "adorable",
+      "lovable"
+    ],
+    "correctAnswer": "adorable"
+  },
+  {
+    "sentence": "The forest was peaceful and calm in the early morning",
+    "target": "calm",
+    "options": [
+      "chaotic",
+      "serene",
+      "peaceful"
+    ],
+    "correctAnswer": "serene"
+  },
+  {
+    "sentence": "The painting was vivid and lively",
+    "target": "lively",
+    "options": [
+      "drab",
+      "bright",
+      "colorful"
+    ],
+    "correctAnswer": "colorful"
+  },
+  {
+    "sentence": "The child's laughter was contagious",
+    "target": "contagious",
+    "options": [
+      "infectious",
+      "harmful",
+      "transmittable"
+    ],
+    "correctAnswer": "infectious"
+  },
+  {
+    "sentence": "The magician's performance was incredible",
+    "target": "incredible",
+    "options": [
+      "ordinary",
+      "astounding",
+      "amazing"
+    ],
+    "correctAnswer": "amazing"
+  },
+  {
+    "sentence": "She is known for her generosity",
+    "target": "generosity",
+    "options": [
+      "selfishness",
+      "kindness",
+      "greed"
+    ],
+    "correctAnswer": "kindness"
+  },
+  {
+    "sentence": "The storm caused widespread destruction",
+    "target": "destruction",
+    "options": [
+      "building",
+      "damage",
+      "repair"
+    ],
+    "correctAnswer": "damage"
+  },
+  {
+    "sentence": "His speech was very eloquent",
+    "target": "eloquent",
+    "options": [
+      "inarticulate",
+      "fluent",
+      "verbose"
+    ],
+    "correctAnswer": "fluent"
+  },
+  {
+    "sentence": "The movie was incredibly suspenseful",
+    "target": "suspenseful",
+    "options": [
+      "boring",
+      "exciting",
+      "predictable"
+    ],
+    "correctAnswer": "exciting"
+  },
+  {
+    "sentence": "She has a reputation for being reliable",
+    "target": "reliable",
+    "options": [
+      "trustworthy",
+      "unreliable",
+      "dependable"
+    ],
+    "correctAnswer": "trustworthy"
+  },
+  {
+    "sentence": "The baby had a mischievous glint in his eye",
+    "target": "mischievous",
+    "options": [
+      "innocent",
+      "naughty",
+      "playful"
+    ],
+    "correctAnswer": "naughty"
+  },
+  {
+    "sentence": "He was always punctual for meetings",
+    "target": "punctual",
+    "options": [
+      "late",
+      "early",
+      "on time"
+    ],
+    "correctAnswer": "on time"
+  },
+  {
+    "sentence": "The cake had a rich and decadent flavor",
+    "target": "decadent",
+    "options": [
+      "plain",
+      "indulgent",
+      "luxurious"
+    ],
+    "correctAnswer": "indulgent"
+  },
+  {
+    "sentence": "Her laughter was infectious",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "joyful",
+      "spreading"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "The mountain peak was majestic",
+    "target": "majestic",
+    "options": [
+      "plain",
+      "grand",
+      "impressive"
+    ],
+    "correctAnswer": "grand"
+  },
+  {
+    "sentence": "His behavior was inappropriate",
+    "target": "inappropriate",
+    "options": [
+      "suitable",
+      "unfit",
+      "wrong"
+    ],
+    "correctAnswer": "wrong"
+  },
+  {
+    "sentence": "She was filled with gratitude",
+    "target": "gratitude",
+    "options": [
+      "thankfulness",
+      "resentment",
+      "bitterness"
+    ],
+    "correctAnswer": "thankfulness"
+  },
+  {
+    "sentence": "The singer had a melodious voice",
+    "target": "melodious",
+    "options": [
+      "harsh",
+      "tuneful",
+      "sweet"
+    ],
+    "correctAnswer": "sweet"
+  },
+  {
+    "sentence": "The decision was unanimous",
+    "target": "unanimous",
+    "options": [
+      "divided",
+      "agreed",
+      "consensual"
+    ],
+    "correctAnswer": "agreed"
+  },
+  {
+    "sentence": "Her dress was elegant",
+    "target": "elegant",
+    "options": [
+      "stylish",
+      "graceful",
+      "fancy"
+    ],
+    "correctAnswer": "graceful"
+  },
+  {
+    "sentence": "The meeting was productive",
+    "target": "productive",
+    "options": [
+      "inactive",
+      "fruitful",
+      "busy"
+    ],
+    "correctAnswer": "fruitful"
+  },
+  {
+    "sentence": "The garden was lush with greenery",
+    "target": "lush",
+    "options": [
+      "dry",
+      "abundant",
+      "luxuriant"
+    ],
+    "correctAnswer": "luxuriant"
+  },
+  {
+    "sentence": "His argument was persuasive",
+    "target": "persuasive",
+    "options": [
+      "convincing",
+      "doubtful",
+      "forceful"
+    ],
+    "correctAnswer": "convincing"
+  },
+  {
+    "sentence": "The room was dimly lit",
+    "target": "dimly",
+    "options": [
+      "brightly",
+      "gloomily",
+      "faintly"
+    ],
+    "correctAnswer": "faintly"
+  },
+  {
+    "sentence": "The author's writing was captivating",
+    "target": "captivating",
+    "options": [
+      "boring",
+      "engaging",
+      "absorbing"
+    ],
+    "correctAnswer": "engaging"
+  },
+  {
+    "sentence": "The child's behavior was unruly",
+    "target": "unruly",
+    "options": [
+      "obedient",
+      "disorderly",
+      "wild"
+    ],
+    "correctAnswer": "disorderly"
+  },
+  {
+    "sentence": "The dog was fiercely protective",
+    "target": "protective",
+    "options": [
+      "hostile",
+      "defensive",
+      "guarding"
+    ],
+    "correctAnswer": "defensive"
+  },
+  {
+    "sentence": "The weather was scorching hot",
+    "target": "scorching",
+    "options": [
+      "freezing",
+      "burning",
+      "blistering"
+    ],
+    "correctAnswer": "burning"
+  },
+  {
+    "sentence": "His behavior was reprehensible",
+    "target": "reprehensible",
+    "options": [
+      "acceptable",
+      "blameworthy",
+      "praiseworthy"
+    ],
+    "correctAnswer": "blameworthy"
+  },
+  {
+    "sentence": "The flowers had a delightful fragrance",
+    "target": "delightful",
+    "options": [
+      "unpleasant",
+      "pleasant",
+      "enjoyable"
+    ],
+    "correctAnswer": "pleasant"
+  },
+  {
+    "sentence": "Her smile was radiant",
+    "target": "radiant",
+    "options": [
+      "dull",
+      "bright",
+      "shining"
+    ],
+    "correctAnswer": "shining"
+  },
+  {
+    "sentence": "He was always courteous to everyone",
+    "target": "courteous",
+    "options": [
+      "rude",
+      "polite",
+      "respectful"
+    ],
+    "correctAnswer": "polite"
+  },
+  {
+    "sentence": "The house was immaculately clean",
+    "target": "immaculately",
+    "options": [
+      "dirty",
+      "spotless",
+      "perfectly"
+    ],
+    "correctAnswer": "spotless"
+  },
+  {
+    "sentence": "The city was bustling with activity",
+    "target": "bustling",
+    "options": [
+      "quiet",
+      "busy",
+      "noisy"
+    ],
+    "correctAnswer": "busy"
+  },
+  {
+    "sentence": "His jokes were always witty",
+    "target": "witty",
+    "options": [
+      "dull",
+      "clever",
+      "humorous"
+    ],
+    "correctAnswer": "clever"
+  },
+  {
+    "sentence": "The music was soothing to the ears",
+    "target": "soothing",
+    "options": [
+      "calming",
+      "distressing",
+      "relaxing"
+    ],
+    "correctAnswer": "calming"
+  },
+  {
+    "sentence": "His actions were altruistic",
+    "target": "altruistic",
+    "options": [
+      "selfish",
+      "unselfish",
+      "benevolent"
+    ],
+    "correctAnswer": "benevolent"
+  },
+  {
+    "sentence": "The painting was absolutely stunning",
+    "target": "stunning",
+    "options": [
+      "ordinary",
+      "gorgeous",
+      "breathtaking"
+    ],
+    "correctAnswer": "breathtaking"
+  },
+  {
+    "sentence": "The situation was dire",
+    "target": "dire",
+    "options": [
+      "hopeful",
+      "urgent",
+      "grave"
+    ],
+    "correctAnswer": "grave"
+  },
+  {
+    "sentence": "The movie was filled with suspense",
+    "target": "suspense",
+    "options": [
+      "boredom",
+      "excitement",
+      "tension"
+    ],
+    "correctAnswer": "excitement"
+  },
+  {
+    "sentence": "His cooking was exquisite",
+    "target": "exquisite",
+    "options": [
+      "ordinary",
+      "delicate",
+      "beautiful"
+    ],
+    "correctAnswer": "delicate"
+  },
+  {
+    "sentence": "The child was very mischievous",
+    "target": "mischievous",
+    "options": [
+      "innocent",
+      "naughty",
+      "playful"
+    ],
+    "correctAnswer": "naughty"
+  },
+  {
+    "sentence": "The performance was flawless",
+    "target": "flawless",
+    "options": [
+      "perfect",
+      "impeccable",
+      "defective"
+    ],
+    "correctAnswer": "perfect"
+  },
+  {
+    "sentence": "The movie was a huge success",
+    "target": "success",
+    "options": [
+      "failure",
+      "victory",
+      "win"
+    ],
+    "correctAnswer": "victory"
+  },
+  {
+    "sentence": "His clothes were always stylish",
+    "target": "stylish",
+    "options": [
+      "fashionable",
+      "trendy",
+      "elegant"
+    ],
+    "correctAnswer": "fashionable"
+  },
+  {
+    "sentence": "The dessert was absolutely delicious",
+    "target": "delicious",
+    "options": [
+      "gross",
+      "tasty",
+      "yummy"
+    ],
+    "correctAnswer": "tasty"
+  },
+  {
+    "sentence": "His words were very sincere",
+    "target": "sincere",
+    "options": [
+      "fake",
+      "honest",
+      "genuine"
+    ],
+    "correctAnswer": "honest"
+  },
+  {
+    "sentence": "The day was gloomy and overcast",
+    "target": "gloomy",
+    "options": [
+      "cheerful",
+      "sad",
+      "dark"
+    ],
+    "correctAnswer": "sad"
+  },
+  {
+    "sentence": "The dog was fiercely protective",
+    "target": "protective",
+    "options": [
+      "hostile",
+      "defensive",
+      "guarding"
+    ],
+    "correctAnswer": "defensive"
+  },
+  {
+    "sentence": "The weather was scorching hot",
+    "target": "scorching",
+    "options": [
+      "freezing",
+      "burning",
+      "blistering"
+    ],
+    "correctAnswer": "burning"
+  },
+  {
+    "sentence": "His behavior was reprehensible",
+    "target": "reprehensible",
+    "options": [
+      "acceptable",
+      "blameworthy",
+      "praiseworthy"
+    ],
+    "correctAnswer": "blameworthy"
+  },
+  {
+    "sentence": "The flowers had a delightful fragrance",
+    "target": "delightful",
+    "options": [
+      "unpleasant",
+      "pleasant",
+      "enjoyable"
+    ],
+    "correctAnswer": "pleasant"
+  },
+  {
+    "sentence": "Her smile was radiant",
+    "target": "radiant",
+    "options": [
+      "dull",
+      "bright",
+      "shining"
+    ],
+    "correctAnswer": "shining"
+  },
+  {
+    "sentence": "He was always courteous to everyone",
+    "target": "courteous",
+    "options": [
+      "rude",
+      "polite",
+      "respectful"
+    ],
+    "correctAnswer": "polite"
+  },
+  {
+    "sentence": "The house was immaculately clean",
+    "target": "immaculately",
+    "options": [
+      "dirty",
+      "spotless",
+      "perfectly"
+    ],
+    "correctAnswer": "spotless"
+  },
+  {
+    "sentence": "The city was bustling with activity",
+    "target": "bustling",
+    "options": [
+      "quiet",
+      "busy",
+      "noisy"
+    ],
+    "correctAnswer": "busy"
+  },
+  {
+    "sentence": "His jokes were always witty",
+    "target": "witty",
+    "options": [
+      "dull",
+      "clever",
+      "humorous"
+    ],
+    "correctAnswer": "clever"
+  },
+  {
+    "sentence": "The music was soothing to the ears",
+    "target": "soothing",
+    "options": [
+      "calming",
+      "distressing",
+      "relaxing"
+    ],
+    "correctAnswer": "calming"
+  },
+  {
+    "sentence": "His actions were altruistic",
+    "target": "altruistic",
+    "options": [
+      "selfish",
+      "unselfish",
+      "benevolent"
+    ],
+    "correctAnswer": "benevolent"
+  },
+  {
+    "sentence": "The painting was absolutely stunning",
+    "target": "stunning",
+    "options": [
+      "ordinary",
+      "gorgeous",
+      "breathtaking"
+    ],
+    "correctAnswer": "breathtaking"
+  },
+  {
+    "sentence": "The situation was dire",
+    "target": "dire",
+    "options": [
+      "hopeful",
+      "urgent",
+      "grave"
+    ],
+    "correctAnswer": "grave"
+  },
+  {
+    "sentence": "The movie was filled with suspense",
+    "target": "suspense",
+    "options": [
+      "boredom",
+      "excitement",
+      "tension"
+    ],
+    "correctAnswer": "excitement"
+  },
+  {
+    "sentence": "His cooking was exquisite",
+    "target": "exquisite",
+    "options": [
+      "ordinary",
+      "delicate",
+      "beautiful"
+    ],
+    "correctAnswer": "delicate"
+  },
+  {
+    "sentence": "The child was very mischievous",
+    "target": "mischievous",
+    "options": [
+      "innocent",
+      "naughty",
+      "playful"
+    ],
+    "correctAnswer": "naughty"
+  },
+  {
+    "sentence": "The performance was flawless",
+    "target": "flawless",
+    "options": [
+      "perfect",
+      "impeccable",
+      "defective"
+    ],
+    "correctAnswer": "perfect"
+  },
+  {
+    "sentence": "The movie was a huge success",
+    "target": "success",
+    "options": [
+      "failure",
+      "victory",
+      "win"
+    ],
+    "correctAnswer": "victory"
+  },
+  {
+    "sentence": "His clothes were always stylish",
+    "target": "stylish",
+    "options": [
+      "fashionable",
+      "trendy",
+      "elegant"
+    ],
+    "correctAnswer": "fashionable"
+  },
+  {
+    "sentence": "The dessert was absolutely delicious",
+    "target": "delicious",
+    "options": [
+      "gross",
+      "tasty",
+      "yummy"
+    ],
+    "correctAnswer": "tasty"
+  },
+  {
+    "sentence": "His words were very sincere",
+    "target": "sincere",
+    "options": [
+      "fake",
+      "honest",
+      "genuine"
+    ],
+    "correctAnswer": "honest"
+  },
+  {
+    "sentence": "The day was gloomy and overcast",
+    "target": "gloomy",
+    "options": [
+      "cheerful",
+      "sad",
+      "dark"
+    ],
+    "correctAnswer": "sad"
+  },
+  {
+    "sentence": "The flowers in the garden are vibrant",
+    "target": "vibrant",
+    "options": [
+      "dull",
+      "colorful",
+      "quiet"
+    ],
+    "correctAnswer": "colorful"
+  },
+  {
+    "sentence": "She has a contagious laugh",
+    "target": "contagious",
+    "options": [
+      "infectious",
+      "harmless",
+      "contaminated"
+    ],
+    "correctAnswer": "infectious"
+  },
+  {
+    "sentence": "The child was curious about everything",
+    "target": "curious",
+    "options": [
+      "indifferent",
+      "inquisitive",
+      "nosy"
+    ],
+    "correctAnswer": "inquisitive"
+  },
+  {
+    "sentence": "The movie was thrilling from start to finish",
+    "target": "thrilling",
+    "options": [
+      "boring",
+      "exciting",
+      "frightening"
+    ],
+    "correctAnswer": "exciting"
+  },
+  {
+    "sentence": "The mountain air was crisp and refreshing",
+    "target": "crisp",
+    "options": [
+      "smooth",
+      "fresh",
+      "stale"
+    ],
+    "correctAnswer": "fresh"
+  },
+  {
+    "sentence": "She is a compassionate person who always helps others",
+    "target": "compassionate",
+    "options": [
+      "cold-hearted",
+      "kind-hearted",
+      "empathetic"
+    ],
+    "correctAnswer": "kind-hearted"
+  },
+  {
+    "sentence": "The storm outside was fierce and powerful",
+    "target": "fierce",
+    "options": [
+      "gentle",
+      "intense",
+      "violent"
+    ],
+    "correctAnswer": "violent"
+  },
+  {
+    "sentence": "He has a sharp wit and is always making jokes",
+    "target": "sharp",
+    "options": [
+      "dull",
+      "clever",
+      "pointed"
+    ],
+    "correctAnswer": "clever"
+  },
+  {
+    "sentence": "The music was soothing and calming",
+    "target": "soothing",
+    "options": [
+      "irritating",
+      "relaxing",
+      "unsettling"
+    ],
+    "correctAnswer": "relaxing"
+  },
+  {
+    "sentence": "The chef's cooking was exquisite and delicious",
+    "target": "exquisite",
+    "options": [
+      "average",
+      "gorgeous",
+      "delicate"
+    ],
+    "correctAnswer": "delicate"
+  },
+  {
+    "sentence": "His smile was genuine and heartfelt",
+    "target": "genuine",
+    "options": [
+      "fake",
+      "authentic",
+      "sincere"
+    ],
+    "correctAnswer": "authentic"
+  },
+  {
+    "sentence": "The child's laughter was infectious and joyful",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "harmless",
+      "addictive"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "She is a talented artist who creates beautiful paintings",
+    "target": "talented",
+    "options": [
+      "average",
+      "skilled",
+      "gifted"
+    ],
+    "correctAnswer": "gifted"
+  },
+  {
+    "sentence": "The sun was shining brightly in the clear blue sky",
+    "target": "brightly",
+    "options": [
+      "dimly",
+      "vividly",
+      "intensely"
+    ],
+    "correctAnswer": "intensely"
+  },
+  {
+    "sentence": "The old man was wise and full of knowledge",
+    "target": "wise",
+    "options": [
+      "foolish",
+      "intelligent",
+      "sensible"
+    ],
+    "correctAnswer": "intelligent"
+  },
+  {
+    "sentence": "The baby's laughter was infectious and brought smiles to everyone",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "harmless",
+      "addictive"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "The storm outside was fierce and powerful",
+    "target": "fierce",
+    "options": [
+      "gentle",
+      "intense",
+      "violent"
+    ],
+    "correctAnswer": "violent"
+  },
+  {
+    "sentence": "He has a sharp wit and is always making jokes",
+    "target": "sharp",
+    "options": [
+      "dull",
+      "clever",
+      "pointed"
+    ],
+    "correctAnswer": "clever"
+  },
+  {
+    "sentence": "The music was soothing and calming",
+    "target": "soothing",
+    "options": [
+      "irritating",
+      "relaxing",
+      "unsettling"
+    ],
+    "correctAnswer": "relaxing"
+  },
+  {
+    "sentence": "The chef's cooking was exquisite and delicious",
+    "target": "exquisite",
+    "options": [
+      "average",
+      "gorgeous",
+      "delicate"
+    ],
+    "correctAnswer": "delicate"
+  },
+  {
+    "sentence": "His smile was genuine and heartfelt",
+    "target": "genuine",
+    "options": [
+      "fake",
+      "authentic",
+      "sincere"
+    ],
+    "correctAnswer": "authentic"
+  },
+  {
+    "sentence": "The child's laughter was infectious and joyful",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "harmless",
+      "addictive"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "She is a talented artist who creates beautiful paintings",
+    "target": "talented",
+    "options": [
+      "average",
+      "skilled",
+      "gifted"
+    ],
+    "correctAnswer": "gifted"
+  },
+  {
+    "sentence": "The sun was shining brightly in the clear blue sky",
+    "target": "brightly",
+    "options": [
+      "dimly",
+      "vividly",
+      "intensely"
+    ],
+    "correctAnswer": "intensely"
+  },
+  {
+    "sentence": "The old man was wise and full of knowledge",
+    "target": "wise",
+    "options": [
+      "foolish",
+      "intelligent",
+      "sensible"
+    ],
+    "correctAnswer": "intelligent"
+  },
+  {
+    "sentence": "The baby's laughter was infectious and brought smiles to everyone",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "harmless",
+      "addictive"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "The storm outside was fierce and powerful",
+    "target": "fierce",
+    "options": [
+      "gentle",
+      "intense",
+      "violent"
+    ],
+    "correctAnswer": "violent"
+  },
+  {
+    "sentence": "He has a sharp wit and is always making jokes",
+    "target": "sharp",
+    "options": [
+      "dull",
+      "clever",
+      "pointed"
+    ],
+    "correctAnswer": "clever"
+  },
+  {
+    "sentence": "The music was soothing and calming",
+    "target": "soothing",
+    "options": [
+      "irritating",
+      "relaxing",
+      "unsettling"
+    ],
+    "correctAnswer": "relaxing"
+  },
+  {
+    "sentence": "The chef's cooking was exquisite and delicious",
+    "target": "exquisite",
+    "options": [
+      "average",
+      "gorgeous",
+      "delicate"
+    ],
+    "correctAnswer": "delicate"
+  },
+  {
+    "sentence": "His smile was genuine and heartfelt",
+    "target": "genuine",
+    "options": [
+      "fake",
+      "authentic",
+      "sincere"
+    ],
+    "correctAnswer": "authentic"
+  },
+  {
+    "sentence": "The child's laughter was infectious and joyful",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "harmless",
+      "addictive"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "She is a talented artist who creates beautiful paintings",
+    "target": "talented",
+    "options": [
+      "average",
+      "skilled",
+      "gifted"
+    ],
+    "correctAnswer": "gifted"
+  },
+  {
+    "sentence": "The sun was shining brightly in the clear blue sky",
+    "target": "brightly",
+    "options": [
+      "dimly",
+      "vividly",
+      "intensely"
+    ],
+    "correctAnswer": "intensely"
+  },
+  {
+    "sentence": "The old man was wise and full of knowledge",
+    "target": "wise",
+    "options": [
+      "foolish",
+      "intelligent",
+      "sensible"
+    ],
+    "correctAnswer": "intelligent"
+  },
+  {
+    "sentence": "The baby's laughter was infectious and brought smiles to everyone",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "harmless",
+      "addictive"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "The storm outside was fierce and powerful",
+    "target": "fierce",
+    "options": [
+      "gentle",
+      "intense",
+      "violent"
+    ],
+    "correctAnswer": "violent"
+  },
+  {
+    "sentence": "He has a sharp wit and is always making jokes",
+    "target": "sharp",
+    "options": [
+      "dull",
+      "clever",
+      "pointed"
+    ],
+    "correctAnswer": "clever"
+  },
+  {
+    "sentence": "The music was soothing and calming",
+    "target": "soothing",
+    "options": [
+      "irritating",
+      "relaxing",
+      "unsettling"
+    ],
+    "correctAnswer": "relaxing"
+  },
+  {
+    "sentence": "The chef's cooking was exquisite and delicious",
+    "target": "exquisite",
+    "options": [
+      "average",
+      "gorgeous",
+      "delicate"
+    ],
+    "correctAnswer": "delicate"
+  },
+  {
+    "sentence": "His smile was genuine and heartfelt",
+    "target": "genuine",
+    "options": [
+      "fake",
+      "authentic",
+      "sincere"
+    ],
+    "correctAnswer": "authentic"
+  },
+  {
+    "sentence": "The child's laughter was infectious and joyful",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "harmless",
+      "addictive"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "She is a talented artist who creates beautiful paintings",
+    "target": "talented",
+    "options": [
+      "average",
+      "skilled",
+      "gifted"
+    ],
+    "correctAnswer": "gifted"
+  },
+  {
+    "sentence": "The sun was shining brightly in the clear blue sky",
+    "target": "brightly",
+    "options": [
+      "dimly",
+      "vividly",
+      "intensely"
+    ],
+    "correctAnswer": "intensely"
+  },
+  {
+    "sentence": "The old man was wise and full of knowledge",
+    "target": "wise",
+    "options": [
+      "foolish",
+      "intelligent",
+      "sensible"
+    ],
+    "correctAnswer": "intelligent"
+  },
+  {
+    "sentence": "The baby's laughter was infectious and brought smiles to everyone",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "harmless",
+      "addictive"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "The storm outside was fierce and powerful",
+    "target": "fierce",
+    "options": [
+      "gentle",
+      "intense",
+      "violent"
+    ],
+    "correctAnswer": "violent"
+  },
+  {
+    "sentence": "He has a sharp wit and is always making jokes",
+    "target": "sharp",
+    "options": [
+      "dull",
+      "clever",
+      "pointed"
+    ],
+    "correctAnswer": "clever"
+  },
+  {
+    "sentence": "The music was soothing and calming",
+    "target": "soothing",
+    "options": [
+      "irritating",
+      "relaxing",
+      "unsettling"
+    ],
+    "correctAnswer": "relaxing"
+  },
+  {
+    "sentence": "The chef's cooking was exquisite and delicious",
+    "target": "exquisite",
+    "options": [
+      "average",
+      "gorgeous",
+      "delicate"
+    ],
+    "correctAnswer": "delicate"
+  },
+  {
+    "sentence": "His smile was genuine and heartfelt",
+    "target": "genuine",
+    "options": [
+      "fake",
+      "authentic",
+      "sincere"
+    ],
+    "correctAnswer": "authentic"
+  },
+  {
+    "sentence": "The child's laughter was infectious and joyful",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "harmless",
+      "addictive"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "She is a talented artist who creates beautiful paintings",
+    "target": "talented",
+    "options": [
+      "average",
+      "skilled",
+      "gifted"
+    ],
+    "correctAnswer": "gifted"
+  },
+  {
+    "sentence": "The sun was shining brightly in the clear blue sky",
+    "target": "brightly",
+    "options": [
+      "dimly",
+      "vividly",
+      "intensely"
+    ],
+    "correctAnswer": "intensely"
+  },
+  {
+    "sentence": "The old man was wise and full of knowledge",
+    "target": "wise",
+    "options": [
+      "foolish",
+      "intelligent",
+      "sensible"
+    ],
+    "correctAnswer": "intelligent"
+  },
+  {
+    "sentence": "The baby's laughter was infectious and brought smiles to everyone",
+    "target": "infectious",
+    "options": [
+      "contagious",
+      "harmless",
+      "addictive"
+    ],
+    "correctAnswer": "contagious"
+  },
+  {
+    "sentence": "The sun was shining brightly in the sky",
+    "target": "brightly",
+    "options": [
+      "dimly",
+      "vividly",
+      "strongly"
+    ],
+    "correctAnswer": "strongly"
+  },
+  {
+    "sentence": "She was feeling very anxious about the exam",
+    "target": "anxious",
+    "options": [
+      "calm",
+      "worried",
+      "nervous"
+    ],
+    "correctAnswer": "worried"
+  },
+  {
+    "sentence": "The old man was very wise and experienced",
+    "target": "wise",
+    "options": [
+      "foolish",
+      "intelligent",
+      "knowledgeable"
+    ],
+    "correctAnswer": "knowledgeable"
+  },
+  {
+    "sentence": "The children were ecstatic when they heard about the snow day",
+    "target": "ecstatic",
+    "options": [
+      "sad",
+      "excited",
+      "depressed"
+    ],
+    "correctAnswer": "excited"
+  },
+  {
+    "sentence": "The river flowed gently through the forest",
+    "target": "gently",
+    "options": [
+      "roughly",
+      "softly",
+      "smoothly"
+    ],
+    "correctAnswer": "softly"
+  },
+  {
+    "sentence": "The movie was very entertaining and kept the audience engaged",
+    "target": "entertaining",
+    "options": [
+      "boring",
+      "funny",
+      "captivating"
+    ],
+    "correctAnswer": "captivating"
+  },
+  {
+    "sentence": "The storm brought heavy rain and strong winds",
+    "target": "heavy",
+    "options": [
+      "light",
+      "dense",
+      "thick"
+    ],
+    "correctAnswer": "dense"
+  },
+  {
+    "sentence": "The little girl was very curious about the world around her",
+    "target": "curious",
+    "options": [
+      "indifferent",
+      "inquisitive",
+      "eager"
+    ],
+    "correctAnswer": "inquisitive"
+  },
+  {
+    "sentence": "The mountain peak was covered in a blanket of snow",
+    "target": "blanket",
+    "options": [
+      "sheet",
+      "layer",
+      "cover"
+    ],
+    "correctAnswer": "cover"
+  },
+  {
+    "sentence": "The flowers in the garden were blooming beautifully",
+    "target": "blooming",
+    "options": [
+      "wilting",
+      "growing",
+      "blossoming"
+    ],
+    "correctAnswer": "blossoming"
+  },
+  {
+    "sentence": "The chef prepared a delicious meal for his guests",
+    "target": "delicious",
+    "options": [
+      "tasty",
+      "yummy",
+      "bland"
+    ],
+    "correctAnswer": "tasty"
+  },
+  {
+    "sentence": "The detective was determined to solve the case",
+    "target": "determined",
+    "options": [
+      "uncertain",
+      "resolute",
+      "persistent"
+    ],
+    "correctAnswer": "resolute"
+  },
+  {
+    "sentence": "The forest was filled with a symphony of chirping birds",
+    "target": "symphony",
+    "options": [
+      "orchestra",
+      "harmony",
+      "cacophony"
+    ],
+    "correctAnswer": "orchestra"
+  },
+  {
+    "sentence": "The child's laughter was contagious and brought joy to everyone",
+    "target": "contagious",
+    "options": [
+      "infectious",
+      "harmful",
+      "transmittable"
+    ],
+    "correctAnswer": "infectious"
+  },
+  {
+    "sentence": "The athlete was determined to win the race",
+    "target": "determined",
+    "options": [
+      "hesitant",
+      "motivated",
+      "driven"
+    ],
+    "correctAnswer": "driven"
+  },
+  {
+    "sentence": "The old house was filled with antique furniture and vintage decor",
+    "target": "antique",
+    "options": [
+      "modern",
+      "old-fashioned",
+      "classic"
+    ],
+    "correctAnswer": "old-fashioned"
+  },
+  {
+    "sentence": "The professor was very knowledgeable about the subject",
+    "target": "knowledgeable",
+    "options": [
+      "ignorant",
+      "informed",
+      "learned"
+    ],
+    "correctAnswer": "learned"
+  },
+  {
+    "sentence": "The concert was canceled due to inclement weather",
+    "target": "inclement",
+    "options": [
+      "severe",
+      "harsh",
+      "unfavorable"
+    ],
+    "correctAnswer": "unfavorable"
+  },
+  {
+    "sentence": "The baby was fast asleep in his crib",
+    "target": "fast",
+    "options": [
+      "quick",
+      "speedy",
+      "slow"
+    ],
+    "correctAnswer": "quick"
+  },
+  {
+    "sentence": "The room was filled with a pungent odor",
+    "target": "pungent",
+    "options": [
+      "fragrant",
+      "strong",
+      "aromatic"
+    ],
+    "correctAnswer": "strong"
+  },
+  {
+    "sentence": "The child was very mischievous and always getting into trouble",
+    "target": "mischievous",
+    "options": [
+      "troublemaker",
+      "playful",
+      "naughty"
+    ],
+    "correctAnswer": "naughty"
+  },
+  {
+    "sentence": "The actress gave a brilliant performance in the play",
+    "target": "brilliant",
+    "options": [
+      "mediocre",
+      "excellent",
+      "outstanding"
+    ],
+    "correctAnswer": "excellent"
+  },
+  {
+    "sentence": "The artist created a beautiful masterpiece that took everyone's breath away",
+    "target": "beautiful",
+    "options": [
+      "pretty",
+      "gorgeous",
+      "stunning"
+    ],
+    "correctAnswer": "stunning"
+  },
+  {
+    "sentence": "The storm caused widespread destruction and chaos",
+    "target": "destruction",
+    "options": [
+      "damage",
+      "ruin",
+      "devastation"
+    ],
+    "correctAnswer": "damage"
+  },
+  {
+    "sentence": "The flowers in the garden were vibrant and colorful",
+    "target": "vibrant",
+    "options": [
+      "dull",
+      "lively",
+      "bright"
+    ],
+    "correctAnswer": "bright"
+  },
+  {
+    "sentence": "The teacher was very patient with her students",
+    "target": "patient",
+    "options": [
+      "impatient",
+      "tolerant",
+      "forbearing"
+    ],
+    "correctAnswer": "forbearing"
+  },
+  {
+    "sentence": "The dog was very loyal to his owner and never left his side",
+    "target": "loyal",
+    "options": [
+      "faithful",
+      "devoted",
+      "treacherous"
+    ],
+    "correctAnswer": "faithful"
+  },
+  {
+    "sentence": "The knight was brave and fearless in battle",
+    "target": "brave",
+    "options": [
+      "courageous",
+      "bold",
+      "cowardly"
+    ],
+    "correctAnswer": "courageous"
+  },
+  {
+    "sentence": "The magician performed an amazing trick that left the audience in awe",
+    "target": "amazing",
+    "options": [
+      "incredible",
+      "astonishing",
+      "ordinary"
+    ],
+    "correctAnswer": "astonishing"
+  },
+  {
+    "sentence": "The old man was very frail and weak from illness",
+    "target": "frail",
+    "options": [
+      "fragile",
+      "feeble",
+      "strong"
+    ],
+    "correctAnswer": "feeble"
+  },
+  {
+    "sentence": "The baby was very fussy and cried all night",
+    "target": "fussy",
+    "options": [
+      "picky",
+      "irritable",
+      "complacent"
+    ],
+    "correctAnswer": "irritable"
+  },
+  {
+    "sentence": "The mountain was covered in a dense fog that obscured the view",
+    "target": "dense",
+    "options": [
+      "thick",
+      "heavy",
+      "light"
+    ],
+    "correctAnswer": "thick"
+  },
+  {
+    "sentence": "The child was very precocious and advanced for his age",
+    "target": "precocious",
+    "options": [
+      "talented",
+      "gifted",
+      "advanced"
+    ],
+    "correctAnswer": "advanced"
+  },
+  {
+    "sentence": "The old house had a musty smell from years of neglect",
+    "target": "musty",
+    "options": [
+      "moldy",
+      "stale",
+      "dusty"
+    ],
+    "correctAnswer": "stale"
+  },
+  {
+    "sentence": "The young girl was full of exuberance and energy",
+    "target": "exuberance",
+    "options": [
+      "enthusiasm",
+      "vitality",
+      "excitement"
+    ],
+    "correctAnswer": "enthusiasm"
+  },
+  {
+    "sentence": "The singer had a melodious voice that captivated the audience",
+    "target": "melodious",
+    "options": [
+      "harmonious",
+      "tuneful",
+      "musical"
+    ],
+    "correctAnswer": "musical"
+  },
+  {
+    "sentence": "The baby was very restless and couldn't sleep through the night",
+    "target": "restless",
+    "options": [
+      "antsy",
+      "agitated",
+      "calm"
+    ],
+    "correctAnswer": "agitated"
+  },
+  {
+    "sentence": "The old man was very frail and weak from illness",
+    "target": "frail",
+    "options": [
+      "fragile",
+      "feeble",
+      "strong"
+    ],
+    "correctAnswer": "feeble"
+  },
+  {
+    "sentence": "The baby was very fussy and cried all night",
+    "target": "fussy",
+    "options": [
+      "picky",
+      "irritable",
+      "complacent"
+    ],
+    "correctAnswer": "irritable"
+  },
+  {
+    "sentence": "The mountain was covered in a dense fog that obscured the view",
+    "target": "dense",
+    "options": [
+      "thick",
+      "heavy",
+      "light"
+    ],
+    "correctAnswer": "thick"
+  },
+  {
+    "sentence": "The child was very precocious and advanced for his age",
+    "target": "precocious",
+    "options": [
+      "talented",
+      "gifted",
+      "advanced"
+    ],
+    "correctAnswer": "advanced"
+  },
+  {
+    "sentence": "The old house had a musty smell from years of neglect",
+    "target": "musty",
+    "options": [
+      "moldy",
+      "stale",
+      "dusty"
+    ],
+    "correctAnswer": "stale"
+  },
+  {
+    "sentence": "The young girl was full of exuberance and energy",
+    "target": "exuberance",
+    "options": [
+      "enthusiasm",
+      "vitality",
+      "excitement"
+    ],
+    "correctAnswer": "enthusiasm"
+  },
+  {
+    "sentence": "The singer had a melodious voice that captivated the audience",
+    "target": "melodious",
+    "options": [
+      "harmonious",
+      "tuneful",
+      "musical"
+    ],
+    "correctAnswer": "musical"
+  },
+  {
+    "sentence": "The baby was very restless and couldn't sleep through the night",
+    "target": "restless",
+    "options": [
+      "antsy",
+      "agitated",
+      "calm"
+    ],
+    "correctAnswer": "agitated"
+  },
+  {
+    "sentence": "The old man was very frail and weak from illness",
+    "target": "frail",
+    "options": [
+      "fragile",
+      "feeble",
+      "strong"
+    ],
+    "correctAnswer": "feeble"
+  },
+  {
+    "sentence": "The baby was very fussy and cried all night",
+    "target": "fussy",
+    "options": [
+      "picky",
+      "irritable",
+      "complacent"
+    ],
+    "correctAnswer": "irritable"
+  },
+  {
+    "sentence": "The mountain was covered in a dense fog that obscured the view",
+    "target": "dense",
+    "options": [
+      "thick",
+      "heavy",
+      "light"
+    ],
+    "correctAnswer": "thick"
+  },
+  {
+    "sentence": "The child was very precocious and advanced for his age",
+    "target": "precocious",
+    "options": [
+      "talented",
+      "gifted",
+      "advanced"
+    ],
+    "correctAnswer": "advanced"
+  },
+  {
+    "sentence": "The old house had a musty smell from years of neglect",
+    "target": "musty",
+    "options": [
+      "moldy",
+      "stale",
+      "dusty"
+    ],
+    "correctAnswer": "stale"
+  },
+  {
+    "sentence": "The young girl was full of exuberance and energy",
+    "target": "exuberance",
+    "options": [
+      "enthusiasm",
+      "vitality",
+      "excitement"
+    ],
+    "correctAnswer": "enthusiasm"
+  },
+  {
+    "sentence": "The singer had a melodious voice that captivated the audience",
+    "target": "melodious",
+    "options": [
+      "harmonious",
+      "tuneful",
+      "musical"
+    ],
+    "correctAnswer": "musical"
+  },
+  {
+    "sentence": "The baby was very restless and couldn't sleep through the night",
+    "target": "restless",
+    "options": [
+      "antsy",
+      "agitated",
+      "calm"
+    ],
+    "correctAnswer": "agitated"
+  },
+  {
+    "sentence": "The old man was very frail and weak from illness",
+    "target": "frail",
+    "options": [
+      "fragile",
+      "feeble",
+      "strong"
+    ],
+    "correctAnswer": "feeble"
+  },
+  {
+    "sentence": "The baby was very fussy and cried all night",
+    "target": "fussy",
+    "options": [
+      "picky",
+      "irritable",
+      "complacent"
+    ],
+    "correctAnswer": "irritable"
+  },
+  {
+    "sentence": "The mountain was covered in a dense fog that obscured the view",
+    "target": "dense",
+    "options": [
+      "thick",
+      "heavy",
+      "light"
+    ],
+    "correctAnswer": "thick"
+  },
+  {
+    "sentence": "The child was very precocious and advanced for his age",
+    "target": "precocious",
+    "options": [
+      "talented",
+      "gifted",
+      "advanced"
+    ],
+    "correctAnswer": "advanced"
+  },
+  {
+    "sentence": "The old house had a musty smell from years of neglect",
+    "target": "musty",
+    "options": [
+      "moldy",
+      "stale",
+      "dusty"
+    ],
+    "correctAnswer": "stale"
+  },
+  {
+    "sentence": "The young girl was full of exuberance and energy",
+    "target": "exuberance",
+    "options": [
+      "enthusiasm",
+      "vitality",
+      "excitement"
+    ],
+    "correctAnswer": "enthusiasm"
+  },
+  {
+    "sentence": "The singer had a melodious voice that captivated the audience",
+    "target": "melodious",
+    "options": [
+      "harmonious",
+      "tuneful",
+      "musical"
+    ],
+    "correctAnswer": "musical"
+  },
+  {
+    "sentence": "The baby was very restless and couldn't sleep through the night",
+    "target": "restless",
+    "options": [
+      "antsy",
+      "agitated",
+      "calm"
+    ],
+    "correctAnswer": "agitated"
+  }
+]
