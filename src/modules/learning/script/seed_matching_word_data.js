@@ -13,6 +13,15 @@ const MatchingWordSchema = new mongoose.Schema({
   collection: 'matching_words',
 });
 
+const CompleteWordSchema = new mongoose.Schema({
+  sentence: { type: String, required: true },
+  options: { type: [String], required: true },
+  correctAnswer: { type: String, required: true },
+}, {
+  timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' },
+  collection: 'complete_words',
+});
+
 const MathsDataSchema = new mongoose.Schema({
   problem: { type: String, required: true },
   grade: { type: String, required: true },
@@ -58,6 +67,8 @@ const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/classi
 
 const dataPath = path.join(__dirname, 'matching_word_data.json');
 const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+const completeWordPath = path.join(__dirname, 'complete_word_data.json');
+const completeWordData = JSON.parse(fs.readFileSync(completeWordPath, 'utf-8'));
 const biologyPath = path.join(__dirname, 'biology_data.json');
 const biologyData = JSON.parse(fs.readFileSync(biologyPath, 'utf-8'));
 const chemistryPath = path.join(__dirname, 'chemistry_data.json');
@@ -68,6 +79,7 @@ const mathsPath = path.join(__dirname, 'maths_data.json');
 const mathsData = JSON.parse(fs.readFileSync(mathsPath, 'utf-8'));
 
 const MatchingWord = mongoose.model('MatchingWord', MatchingWordSchema);
+const CompleteWord = mongoose.model('CompleteWord', CompleteWordSchema);
 const BiologyData = mongoose.model('BiologyData', BiologyDataSchema);
 const ChemistryData = mongoose.model('ChemistryData', ChemistryDataSchema);
 const PhysicsData = mongoose.model('PhysicsData', PhysicsDataSchema);
@@ -79,6 +91,9 @@ async function seed() {
   await MatchingWord.deleteMany({}); // Optional: clear existing
   await MatchingWord.insertMany(data);
   console.log('Seeded matching word data!');
+  await CompleteWord.deleteMany({}); // Optional: clear existing
+  await CompleteWord.insertMany(completeWordData);
+  console.log('Seeded complete word data!');
   await BiologyData.deleteMany({}); // Optional: clear existing
   await BiologyData.insertMany(biologyData);
   console.log('Seeded biology data!');

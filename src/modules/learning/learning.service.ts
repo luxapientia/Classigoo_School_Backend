@@ -2,6 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { MatchingWord } from './schemas/matching-word.schema';
+import { CompleteWord } from './schemas/complete_word.schema';
 import { BiologyData } from './schemas/biology_data.schema';
 import { ChemistryData } from './schemas/chemistry_data.schema';
 import { PhysicsData } from './schemas/physics_data.schema';
@@ -12,6 +13,8 @@ export class LearningService {
   constructor(
     @InjectModel(MatchingWord.name)
     private readonly matchingWordModel: Model<MatchingWord>,
+    @InjectModel(CompleteWord.name)
+    private readonly completeWordModel: Model<CompleteWord>,
     @InjectModel(BiologyData.name)
     private readonly biologyDataModel: Model<BiologyData>,
     @InjectModel(ChemistryData.name)
@@ -37,6 +40,26 @@ export class LearningService {
       return {
         status: 'error',
         message: 'Failed to retrieve matching word',
+        data: null,
+      };
+    }
+  }
+
+  async getRandomCompleteWord(): Promise<{ status: string, message: string, data: CompleteWord | null } | null> {
+    try {
+      const count = await this.completeWordModel.countDocuments();
+      if (count === 0) return null;
+      const random = Math.floor(Math.random() * count);
+      const docs = await this.completeWordModel.find().skip(random).limit(1);
+      return {
+        status: 'success',
+        message: 'Complete word retrieved successfully',
+        data: docs[0] || null,
+      };
+    } catch (error) {
+      return {
+        status: 'error',
+        message: 'Failed to retrieve complete word',
         data: null,
       };
     }

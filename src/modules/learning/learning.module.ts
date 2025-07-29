@@ -1,6 +1,7 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { MatchingWord, MatchingWordSchema } from './schemas/matching-word.schema';
+import { CompleteWord, CompleteWordSchema } from './schemas/complete_word.schema';
 import { BiologyData, BiologyDataSchema } from './schemas/biology_data.schema';
 import { ChemistryData, ChemistryDataSchema } from './schemas/chemistry_data.schema';
 import { PhysicsData, PhysicsDataSchema } from './schemas/physics_data.schema';
@@ -13,6 +14,7 @@ import { SharedModule } from '../../shared/shared.module';
   imports: [
     MongooseModule.forFeature([
       { name: MatchingWord.name, schema: MatchingWordSchema },
+      { name: CompleteWord.name, schema: CompleteWordSchema },
       { name: BiologyData.name, schema: BiologyDataSchema },
       { name: ChemistryData.name, schema: ChemistryDataSchema },
       { name: PhysicsData.name, schema: PhysicsDataSchema },

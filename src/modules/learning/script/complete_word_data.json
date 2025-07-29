@@ -1,0 +1,2783 @@
+[
+  {
+    "sentence": "Photosynthesis helps plants produce oxygen",
+    "correctAnswer": "oxygen",
+    "options": [
+      "carbon",
+      "water",
+      "oxygen"
+    ]
+  },
+  {
+    "sentence": "Dogs wag their tails when they are happy",
+    "correctAnswer": "tails",
+    "options": [
+      "ears",
+      "noses",
+      "tails"
+    ]
+  },
+  {
+    "sentence": "A triangle has three sides",
+    "correctAnswer": "triangle",
+    "options": [
+      "square",
+      "circle",
+      "triangle"
+    ]
+  },
+  {
+    "sentence": "Rainbows appear after a rain shower",
+    "correctAnswer": "rain",
+    "options": [
+      "snow",
+      "wind",
+      "rain"
+    ]
+  },
+  {
+    "sentence": "Students learn new things in school",
+    "correctAnswer": "school",
+    "options": [
+      "park",
+      "beach",
+      "school"
+    ]
+  },
+  {
+    "sentence": "Apples are a healthy snack",
+    "correctAnswer": "apples",
+    "options": [
+      "cookies",
+      "chips",
+      "apples"
+    ]
+  },
+  {
+    "sentence": "Trains run on tracks",
+    "correctAnswer": "tracks",
+    "options": [
+      "roads",
+      "rivers",
+      "tracks"
+    ]
+  },
+  {
+    "sentence": "Sisters share a special bond",
+    "correctAnswer": "sisters",
+    "options": [
+      "brothers",
+      "cousins",
+      "sisters"
+    ]
+  },
+  {
+    "sentence": "The sun sets in the evening",
+    "correctAnswer": "sun",
+    "options": [
+      "moon",
+      "stars",
+      "sun"
+    ]
+  },
+  {
+    "sentence": "Bees collect nectar from flowers",
+    "correctAnswer": "flowers",
+    "options": [
+      "rocks",
+      "clouds",
+      "flowers"
+    ]
+  },
+  {
+    "sentence": "Mountains are tall and majestic",
+    "correctAnswer": "mountains",
+    "options": [
+      "valleys",
+      "rivers",
+      "mountains"
+    ]
+  },
+  {
+    "sentence": "Bats sleep upside down in caves",
+    "correctAnswer": "caves",
+    "options": [
+      "hives",
+      "nests",
+      "caves"
+    ]
+  },
+  {
+    "sentence": "Bananas are a good source of potassium",
+    "correctAnswer": "bananas",
+    "options": [
+      "chocolate",
+      "potatoes",
+      "bananas"
+    ]
+  },
+  {
+    "sentence": "Planes fly in the sky",
+    "correctAnswer": "sky",
+    "options": [
+      "ocean",
+      "desert",
+      "sky"
+    ]
+  },
+  {
+    "sentence": "Grandparents tell stories to grandchildren",
+    "correctAnswer": "grandparents",
+    "options": [
+      "parents",
+      "siblings",
+      "grandparents"
+    ]
+  },
+  {
+    "sentence": "A rectangle has two pairs of equal sides",
+    "correctAnswer": "rectangle",
+    "options": [
+      "circle",
+      "triangle",
+      "rectangle"
+    ]
+  },
+  {
+    "sentence": "Lightning strikes during thunderstorms",
+    "correctAnswer": "thunderstorms",
+    "options": [
+      "snowstorms",
+      "hailstorms",
+      "thunderstorms"
+    ]
+  },
+  {
+    "sentence": "Books contain stories and knowledge",
+    "correctAnswer": "books",
+    "options": [
+      "toys",
+      "games",
+      "books"
+    ]
+  },
+  {
+    "sentence": "Cats purr when they are content",
+    "correctAnswer": "cats",
+    "options": [
+      "dogs",
+      "birds",
+      "cats"
+    ]
+  },
+  {
+    "sentence": "The wind blows leaves off trees",
+    "correctAnswer": "leaves",
+    "options": [
+      "flowers",
+      "fruits",
+      "leaves"
+    ]
+  },
+  {
+    "sentence": "Doctors help people stay healthy",
+    "correctAnswer": "doctors",
+    "options": [
+      "artists",
+      "athletes",
+      "doctors"
+    ]
+  },
+  {
+    "sentence": "A circle has no straight lines",
+    "correctAnswer": "circle",
+    "options": [
+      "square",
+      "rectangle",
+      "circle"
+    ]
+  },
+  {
+    "sentence": "Snowflakes are unique and delicate",
+    "correctAnswer": "snowflakes",
+    "options": [
+      "raindrops",
+      "hailstones",
+      "snowflakes"
+    ]
+  },
+  {
+    "sentence": "Firefighters rescue people from fires",
+    "correctAnswer": "fires",
+    "options": [
+      "floods",
+      "earthquakes",
+      "fires"
+    ]
+  },
+  {
+    "sentence": "Milk is a good source of calcium",
+    "correctAnswer": "milk",
+    "options": [
+      "soda",
+      "juice",
+      "milk"
+    ]
+  },
+  {
+    "sentence": "Cars drive on roads and highways",
+    "correctAnswer": "cars",
+    "options": [
+      "trains",
+      "planes",
+      "cars"
+    ]
+  },
+  {
+    "sentence": "Siblings play together in the backyard",
+    "correctAnswer": "backyard",
+    "options": [
+      "frontyard",
+      "bedroom",
+      "backyard"
+    ]
+  },
+  {
+    "sentence": "The ocean is home to many sea creatures",
+    "correctAnswer": "ocean",
+    "options": [
+      "forest",
+      "desert",
+      "ocean"
+    ]
+  },
+  {
+    "sentence": "Teachers help students learn new things",
+    "correctAnswer": "teachers",
+    "options": [
+      "doctors",
+      "pilots",
+      "teachers"
+    ]
+  },
+  {
+    "sentence": "A square has four corners",
+    "correctAnswer": "square",
+    "options": [
+      "triangle",
+      "circle",
+      "square"
+    ]
+  },
+  {
+    "sentence": "Clouds bring rain and thunderstorms",
+    "correctAnswer": "clouds",
+    "options": [
+      "sun",
+      "moon",
+      "clouds"
+    ]
+  },
+  {
+    "sentence": "Families gather for meals and celebrations",
+    "correctAnswer": "families",
+    "options": [
+      "friends",
+      "neighbors",
+      "families"
+    ]
+  },
+  {
+    "sentence": "Bees collect nectar from flowers",
+    "correctAnswer": "flowers",
+    "options": [
+      "trees",
+      "nectar",
+      "flowers"
+    ]
+  },
+  {
+    "sentence": "The sun rises in the east",
+    "correctAnswer": "east",
+    "options": [
+      "west",
+      "north",
+      "east"
+    ]
+  },
+  {
+    "sentence": "Cats like to chase mice",
+    "correctAnswer": "mice",
+    "options": [
+      "birds",
+      "mice",
+      "fish"
+    ]
+  },
+  {
+    "sentence": "Watermelon is a juicy fruit",
+    "correctAnswer": "fruit",
+    "options": [
+      "vegetable",
+      "juice",
+      "fruit"
+    ]
+  },
+  {
+    "sentence": "The clock tells the time",
+    "correctAnswer": "time",
+    "options": [
+      "numbers",
+      "hands",
+      "time"
+    ]
+  },
+  {
+    "sentence": "Dogs bark to communicate",
+    "correctAnswer": "communicate",
+    "options": [
+      "run",
+      "play",
+      "communicate"
+    ]
+  },
+  {
+    "sentence": "Mountains are tall and rocky",
+    "correctAnswer": "rocky",
+    "options": [
+      "sandy",
+      "green",
+      "rocky"
+    ]
+  },
+  {
+    "sentence": "The pencil writes on paper",
+    "correctAnswer": "paper",
+    "options": [
+      "table",
+      "pen",
+      "paper"
+    ]
+  },
+  {
+    "sentence": "Rainbows appear after rain",
+    "correctAnswer": "rain",
+    "options": [
+      "snow",
+      "sun",
+      "rain"
+    ]
+  },
+  {
+    "sentence": "Apples are crunchy and sweet",
+    "correctAnswer": "sweet",
+    "options": [
+      "sour",
+      "bitter",
+      "sweet"
+    ]
+  },
+  {
+    "sentence": "The bus takes children to school",
+    "correctAnswer": "school",
+    "options": [
+      "park",
+      "mall",
+      "school"
+    ]
+  },
+  {
+    "sentence": "Birds have feathers for flying",
+    "correctAnswer": "feathers",
+    "options": [
+      "fur",
+      "scales",
+      "feathers"
+    ]
+  },
+  {
+    "sentence": "The sun warms the earth",
+    "correctAnswer": "earth",
+    "options": [
+      "sky",
+      "moon",
+      "earth"
+    ]
+  },
+  {
+    "sentence": "Books are filled with stories",
+    "correctAnswer": "stories",
+    "options": [
+      "pictures",
+      "words",
+      "stories"
+    ]
+  },
+  {
+    "sentence": "The doctor checks your heartbeat",
+    "correctAnswer": "heartbeat",
+    "options": [
+      "temperature",
+      "blood",
+      "heartbeat"
+    ]
+  },
+  {
+    "sentence": "The bicycle has two wheels",
+    "correctAnswer": "wheels",
+    "options": [
+      "seats",
+      "handles",
+      "wheels"
+    ]
+  },
+  {
+    "sentence": "The stars shine in the night sky",
+    "correctAnswer": "stars",
+    "options": [
+      "clouds",
+      "moon",
+      "stars"
+    ]
+  },
+  {
+    "sentence": "Bananas are a healthy snack",
+    "correctAnswer": "snack",
+    "options": [
+      "drink",
+      "meal",
+      "snack"
+    ]
+  },
+  {
+    "sentence": "The teacher writes on the whiteboard",
+    "correctAnswer": "whiteboard",
+    "options": [
+      "blackboard",
+      "chalk",
+      "whiteboard"
+    ]
+  },
+  {
+    "sentence": "Dolphins are known for their intelligence",
+    "correctAnswer": "intelligence",
+    "options": [
+      "speed",
+      "strength",
+      "intelligence"
+    ]
+  },
+  {
+    "sentence": "The moon reflects the sun's light",
+    "correctAnswer": "light",
+    "options": [
+      "heat",
+      "sound",
+      "light"
+    ]
+  },
+  {
+    "sentence": "The doctor uses a stethoscope to listen",
+    "correctAnswer": "stethoscope",
+    "options": [
+      "thermometer",
+      "syringe",
+      "stethoscope"
+    ]
+  },
+  {
+    "sentence": "Ice cream melts when it's hot",
+    "correctAnswer": "melts",
+    "options": [
+      "freezes",
+      "burns",
+      "melts"
+    ]
+  },
+  {
+    "sentence": "The bee pollinates flowers to make honey",
+    "correctAnswer": "pollinates",
+    "options": [
+      "eats",
+      "builds",
+      "pollinates"
+    ]
+  },
+  {
+    "sentence": "The cat purrs when it's happy",
+    "correctAnswer": "purrs",
+    "options": [
+      "barks",
+      "meows",
+      "purrs"
+    ]
+  },
+  {
+    "sentence": "The farmer grows vegetables in the garden",
+    "correctAnswer": "vegetables",
+    "options": [
+      "fruits",
+      "flowers",
+      "vegetables"
+    ]
+  },
+  {
+    "sentence": "The train travels on tracks",
+    "correctAnswer": "tracks",
+    "options": [
+      "roads",
+      "air",
+      "tracks"
+    ]
+  },
+  {
+    "sentence": "Honey bees live in hives",
+    "correctAnswer": "hives",
+    "options": [
+      "nests",
+      "dens",
+      "hives"
+    ]
+  },
+  {
+    "sentence": "The computer helps us learn and play",
+    "correctAnswer": "computer",
+    "options": [
+      "book",
+      "ball",
+      "computer"
+    ]
+  },
+  {
+    "sentence": "The sunflower follows the sun",
+    "correctAnswer": "sun",
+    "options": [
+      "clouds",
+      "rain",
+      "sun"
+    ]
+  },
+  {
+    "sentence": "Squirrels gather nuts for winter",
+    "correctAnswer": "nuts",
+    "options": [
+      "fruits",
+      "seeds",
+      "nuts"
+    ]
+  },
+  {
+    "sentence": "The sun sets in the west",
+    "correctAnswer": "west",
+    "options": [
+      "south",
+      "east",
+      "west"
+    ]
+  },
+  {
+    "sentence": "Dogs bark loudly at strangers",
+    "correctAnswer": "bark",
+    "options": [
+      "meow",
+      "bark",
+      "growl"
+    ]
+  },
+  {
+    "sentence": "Apples are red or green",
+    "correctAnswer": "green",
+    "options": [
+      "yellow",
+      "green",
+      "blue"
+    ]
+  },
+  {
+    "sentence": "The bird sings sweetly in the morning",
+    "correctAnswer": "sings",
+    "options": [
+      "flies",
+      "sings",
+      "hops"
+    ]
+  },
+  {
+    "sentence": "Mountains are tall and rocky",
+    "correctAnswer": "rocky",
+    "options": [
+      "smooth",
+      "rocky",
+      "fuzzy"
+    ]
+  },
+  {
+    "sentence": "Mathematics involves numbers and equations",
+    "correctAnswer": "equations",
+    "options": [
+      "shapes",
+      "equations",
+      "colors"
+    ]
+  },
+  {
+    "sentence": "The rain falls from the sky",
+    "correctAnswer": "rain",
+    "options": [
+      "snow",
+      "rain",
+      "hail"
+    ]
+  },
+  {
+    "sentence": "Bicycles have two wheels",
+    "correctAnswer": "wheels",
+    "options": [
+      "wings",
+      "wheels",
+      "legs"
+    ]
+  },
+  {
+    "sentence": "Books contain stories and information",
+    "correctAnswer": "information",
+    "options": [
+      "jokes",
+      "information",
+      "colors"
+    ]
+  },
+  {
+    "sentence": "Cats purr when they are happy",
+    "correctAnswer": "purr",
+    "options": [
+      "bark",
+      "purr",
+      "meow"
+    ]
+  },
+  {
+    "sentence": "Trees provide shade on hot days",
+    "correctAnswer": "shade",
+    "options": [
+      "light",
+      "shade",
+      "heat"
+    ]
+  },
+  {
+    "sentence": "The clock tells the time",
+    "correctAnswer": "time",
+    "options": [
+      "space",
+      "time",
+      "money"
+    ]
+  },
+  {
+    "sentence": "Elephants have long trunks",
+    "correctAnswer": "trunks",
+    "options": [
+      "tails",
+      "trunks",
+      "ears"
+    ]
+  },
+  {
+    "sentence": "The wind blows the leaves off the trees",
+    "correctAnswer": "leaves",
+    "options": [
+      "flowers",
+      "leaves",
+      "fruits"
+    ]
+  },
+  {
+    "sentence": "A rectangle has four corners",
+    "correctAnswer": "corners",
+    "options": [
+      "edges",
+      "corners",
+      "curves"
+    ]
+  },
+  {
+    "sentence": "Honey is made by bees",
+    "correctAnswer": "bees",
+    "options": [
+      "ants",
+      "bees",
+      "spiders"
+    ]
+  },
+  {
+    "sentence": "The bus stops at the station",
+    "correctAnswer": "station",
+    "options": [
+      "park",
+      "station",
+      "home"
+    ]
+  },
+  {
+    "sentence": "Families have parents and children",
+    "correctAnswer": "children",
+    "options": [
+      "siblings",
+      "pets",
+      "children"
+    ]
+  },
+  {
+    "sentence": "Fish swim in the ocean",
+    "correctAnswer": "ocean",
+    "options": [
+      "river",
+      "ocean",
+      "lake"
+    ]
+  },
+  {
+    "sentence": "The moon shines in the night sky",
+    "correctAnswer": "night",
+    "options": [
+      "day",
+      "night",
+      "morning"
+    ]
+  },
+  {
+    "sentence": "Bread is made from wheat",
+    "correctAnswer": "wheat",
+    "options": [
+      "corn",
+      "wheat",
+      "rice"
+    ]
+  },
+  {
+    "sentence": "Birds build nests from twigs",
+    "correctAnswer": "twigs",
+    "options": [
+      "rocks",
+      "twigs",
+      "leaves"
+    ]
+  },
+  {
+    "sentence": "Planes fly in the sky",
+    "correctAnswer": "sky",
+    "options": [
+      "ocean",
+      "sky",
+      "desert"
+    ]
+  },
+  {
+    "sentence": "The flower blooms in the spring",
+    "correctAnswer": "spring",
+    "options": [
+      "winter",
+      "spring",
+      "fall"
+    ]
+  },
+  {
+    "sentence": "A triangle has three sides",
+    "correctAnswer": "sides",
+    "options": [
+      "corners",
+      "sides",
+      "curves"
+    ]
+  },
+  {
+    "sentence": "Watermelon is juicy and sweet",
+    "correctAnswer": "sweet",
+    "options": [
+      "sour",
+      "sweet",
+      "bitter"
+    ]
+  },
+  {
+    "sentence": "Cars drive on roads",
+    "correctAnswer": "roads",
+    "options": [
+      "skies",
+      "roads",
+      "seas"
+    ]
+  },
+  {
+    "sentence": "The dog wags its tail when happy",
+    "correctAnswer": "tail",
+    "options": [
+      "fin",
+      "tail",
+      "wing"
+    ]
+  },
+  {
+    "sentence": "Schools have teachers and students",
+    "correctAnswer": "students",
+    "options": [
+      "animals",
+      "students",
+      "buildings"
+    ]
+  },
+  {
+    "sentence": "Ice cream melts in the sun",
+    "correctAnswer": "melts",
+    "options": [
+      "freezes",
+      "melts",
+      "evaporates"
+    ]
+  },
+  {
+    "sentence": "Horses gallop in the fields",
+    "correctAnswer": "fields",
+    "options": [
+      "forests",
+      "fields",
+      "oceans"
+    ]
+  },
+  {
+    "sentence": "Bees collect nectar from flowers",
+    "correctAnswer": "flowers",
+    "options": [
+      "bees",
+      "nectar",
+      "flowers"
+    ]
+  },
+  {
+    "sentence": "Mountains are very tall",
+    "correctAnswer": "tall",
+    "options": [
+      "big",
+      "tall",
+      "small"
+    ]
+  },
+  {
+    "sentence": "The sun shines brightly in the sky",
+    "correctAnswer": "sky",
+    "options": [
+      "grass",
+      "sky",
+      "clouds"
+    ]
+  },
+  {
+    "sentence": "Dogs bark loudly at strangers",
+    "correctAnswer": "strangers",
+    "options": [
+      "friends",
+      "strangers",
+      "neighbors"
+    ]
+  },
+  {
+    "sentence": "Rainbows appear after the rain",
+    "correctAnswer": "rain",
+    "options": [
+      "snow",
+      "rain",
+      "wind"
+    ]
+  },
+  {
+    "sentence": "The cat purrs when petted",
+    "correctAnswer": "petted",
+    "options": [
+      "fed",
+      "petted",
+      "chased"
+    ]
+  },
+  {
+    "sentence": "Planes fly high in the sky",
+    "correctAnswer": "sky",
+    "options": [
+      "ocean",
+      "sky",
+      "desert"
+    ]
+  },
+  {
+    "sentence": "Apples are a type of fruit",
+    "correctAnswer": "fruit",
+    "options": [
+      "vegetable",
+      "meat",
+      "fruit"
+    ]
+  },
+  {
+    "sentence": "The clock shows the time",
+    "correctAnswer": "time",
+    "options": [
+      "money",
+      "time",
+      "weather"
+    ]
+  },
+  {
+    "sentence": "Books have many pages",
+    "correctAnswer": "pages",
+    "options": [
+      "covers",
+      "pages",
+      "words"
+    ]
+  },
+  {
+    "sentence": "The car honks loudly in traffic",
+    "correctAnswer": "traffic",
+    "options": [
+      "park",
+      "traffic",
+      "garage"
+    ]
+  },
+  {
+    "sentence": "Trees provide shade in the park",
+    "correctAnswer": "shade",
+    "options": [
+      "sun",
+      "shade",
+      "rain"
+    ]
+  },
+  {
+    "sentence": "The doctor helps sick patients",
+    "correctAnswer": "sick",
+    "options": [
+      "happy",
+      "sick",
+      "tired"
+    ]
+  },
+  {
+    "sentence": "Bicycles have two wheels",
+    "correctAnswer": "wheels",
+    "options": [
+      "seats",
+      "wheels",
+      "lights"
+    ]
+  },
+  {
+    "sentence": "The teacher writes on the whiteboard",
+    "correctAnswer": "whiteboard",
+    "options": [
+      "blackboard",
+      "whiteboard",
+      "chalkboard"
+    ]
+  },
+  {
+    "sentence": "Bananas are yellow when ripe",
+    "correctAnswer": "yellow",
+    "options": [
+      "green",
+      "yellow",
+      "red"
+    ]
+  },
+  {
+    "sentence": "The bee buzzes around the garden",
+    "correctAnswer": "garden",
+    "options": [
+      "house",
+      "garden",
+      "school"
+    ]
+  },
+  {
+    "sentence": "The river flows towards the ocean",
+    "correctAnswer": "ocean",
+    "options": [
+      "mountain",
+      "river",
+      "ocean"
+    ]
+  },
+  {
+    "sentence": "The fish swims in the pond",
+    "correctAnswer": "pond",
+    "options": [
+      "lake",
+      "pond",
+      "sea"
+    ]
+  },
+  {
+    "sentence": "The doctor wears a white coat",
+    "correctAnswer": "coat",
+    "options": [
+      "hat",
+      "coat",
+      "shoes"
+    ]
+  },
+  {
+    "sentence": "The cat meows when hungry",
+    "correctAnswer": "hungry",
+    "options": [
+      "thirsty",
+      "hungry",
+      "playful"
+    ]
+  },
+  {
+    "sentence": "The sun sets in the evening",
+    "correctAnswer": "evening",
+    "options": [
+      "morning",
+      "evening",
+      "afternoon"
+    ]
+  },
+  {
+    "sentence": "The train travels on tracks",
+    "correctAnswer": "tracks",
+    "options": [
+      "roads",
+      "tracks",
+      "sidewalk"
+    ]
+  },
+  {
+    "sentence": "The bear hibernates in winter",
+    "correctAnswer": "winter",
+    "options": [
+      "summer",
+      "spring",
+      "winter"
+    ]
+  },
+  {
+    "sentence": "The dog wags its tail when happy",
+    "correctAnswer": "happy",
+    "options": [
+      "sad",
+      "happy",
+      "angry"
+    ]
+  },
+  {
+    "sentence": "The sunflower follows the sun",
+    "correctAnswer": "sun",
+    "options": [
+      "moon",
+      "sun",
+      "star"
+    ]
+  },
+  {
+    "sentence": "The farmer plows the field",
+    "correctAnswer": "field",
+    "options": [
+      "forest",
+      "field",
+      "city"
+    ]
+  },
+  {
+    "sentence": "The baby giggles when tickled",
+    "correctAnswer": "tickled",
+    "options": [
+      "fed",
+      "tickled",
+      "scolded"
+    ]
+  },
+  {
+    "sentence": "The owl hoots at night",
+    "correctAnswer": "night",
+    "options": [
+      "day",
+      "night",
+      "evening"
+    ]
+  },
+  {
+    "sentence": "The horse gallops in the meadow",
+    "correctAnswer": "meadow",
+    "options": [
+      "jungle",
+      "desert",
+      "meadow"
+    ]
+  },
+  {
+    "sentence": "The chef cooks delicious meals",
+    "correctAnswer": "meals",
+    "options": [
+      "snacks",
+      "meals",
+      "drinks"
+    ]
+  },
+  {
+    "sentence": "Bees collect nectar from flowers",
+    "correctAnswer": "flowers",
+    "options": [
+      "trees",
+      "grass",
+      "flowers"
+    ]
+  },
+  {
+    "sentence": "Snowflakes fall from the sky",
+    "correctAnswer": "sky",
+    "options": [
+      "ground",
+      "sky",
+      "clouds"
+    ]
+  },
+  {
+    "sentence": "Cats purr when they are happy",
+    "correctAnswer": "happy",
+    "options": [
+      "hungry",
+      "sad",
+      "happy"
+    ]
+  },
+  {
+    "sentence": "The sun rises in the east",
+    "correctAnswer": "east",
+    "options": [
+      "west",
+      "north",
+      "east"
+    ]
+  },
+  {
+    "sentence": "Books have pages to read",
+    "correctAnswer": "pages",
+    "options": [
+      "covers",
+      "pages",
+      "spines"
+    ]
+  },
+  {
+    "sentence": "Bicycles have two wheels",
+    "correctAnswer": "wheels",
+    "options": [
+      "seats",
+      "wheels",
+      "handles"
+    ]
+  },
+  {
+    "sentence": "Dogs bark to communicate",
+    "correctAnswer": "communicate",
+    "options": [
+      "sleep",
+      "communicate",
+      "eat"
+    ]
+  },
+  {
+    "sentence": "Apples are a type of fruit",
+    "correctAnswer": "fruit",
+    "options": [
+      "vegetable",
+      "grain",
+      "fruit"
+    ]
+  },
+  {
+    "sentence": "The Earth rotates on its axis",
+    "correctAnswer": "axis",
+    "options": [
+      "pole",
+      "axis",
+      "equator"
+    ]
+  },
+  {
+    "sentence": "Soccer players kick the ball",
+    "correctAnswer": "ball",
+    "options": [
+      "goal",
+      "net",
+      "ball"
+    ]
+  },
+  {
+    "sentence": "Butterflies have colorful wings",
+    "correctAnswer": "wings",
+    "options": [
+      "legs",
+      "wings",
+      "antennae"
+    ]
+  },
+  {
+    "sentence": "Clocks have hands to show time",
+    "correctAnswer": "time",
+    "options": [
+      "date",
+      "color",
+      "time"
+    ]
+  },
+  {
+    "sentence": "Horses gallop in the fields",
+    "correctAnswer": "fields",
+    "options": [
+      "forests",
+      "fields",
+      "deserts"
+    ]
+  },
+  {
+    "sentence": "Rainbows appear after the rain",
+    "correctAnswer": "rain",
+    "options": [
+      "snow",
+      "wind",
+      "rain"
+    ]
+  },
+  {
+    "sentence": "The moon reflects sunlight",
+    "correctAnswer": "sunlight",
+    "options": [
+      "moonlight",
+      "starlight",
+      "sunlight"
+    ]
+  },
+  {
+    "sentence": "Fish breathe through gills",
+    "correctAnswer": "gills",
+    "options": [
+      "fins",
+      "gills",
+      "scales"
+    ]
+  },
+  {
+    "sentence": "Trees provide oxygen for us",
+    "correctAnswer": "oxygen",
+    "options": [
+      "carbon",
+      "nitrogen",
+      "oxygen"
+    ]
+  },
+  {
+    "sentence": "Raindrops fall from the clouds",
+    "correctAnswer": "clouds",
+    "options": [
+      "sun",
+      "moon",
+      "clouds"
+    ]
+  },
+  {
+    "sentence": "Doctors help people when they are sick",
+    "correctAnswer": "sick",
+    "options": [
+      "tired",
+      "happy",
+      "sick"
+    ]
+  },
+  {
+    "sentence": "Bears hibernate during winter",
+    "correctAnswer": "winter",
+    "options": [
+      "summer",
+      "spring",
+      "winter"
+    ]
+  },
+  {
+    "sentence": "Computers have keyboards to type",
+    "correctAnswer": "keyboards",
+    "options": [
+      "screens",
+      "keyboards",
+      "mouses"
+    ]
+  },
+  {
+    "sentence": "Giraffes have long necks to reach leaves",
+    "correctAnswer": "necks",
+    "options": [
+      "legs",
+      "necks",
+      "tails"
+    ]
+  },
+  {
+    "sentence": "The teacher writes with chalk on the board",
+    "correctAnswer": "chalk",
+    "options": [
+      "pen",
+      "pencil",
+      "chalk"
+    ]
+  },
+  {
+    "sentence": "Bananas are a source of potassium",
+    "correctAnswer": "potassium",
+    "options": [
+      "calcium",
+      "sodium",
+      "potassium"
+    ]
+  },
+  {
+    "sentence": "Eagles soar high in the sky",
+    "correctAnswer": "soar",
+    "options": [
+      "crawl",
+      "jump",
+      "soar"
+    ]
+  },
+  {
+    "sentence": "Music brings joy to many people",
+    "correctAnswer": "joy",
+    "options": [
+      "anger",
+      "sadness",
+      "joy"
+    ]
+  },
+  {
+    "sentence": "Frogs croak in the pond at night",
+    "correctAnswer": "pond",
+    "options": [
+      "lake",
+      "river",
+      "pond"
+    ]
+  },
+  {
+    "sentence": "Doctors wear white coats in hospitals",
+    "correctAnswer": "white",
+    "options": [
+      "blue",
+      "green",
+      "white"
+    ]
+  },
+  {
+    "sentence": "Schools have classrooms for learning",
+    "correctAnswer": "classrooms",
+    "options": [
+      "playgrounds",
+      "libraries",
+      "classrooms"
+    ]
+  },
+  {
+    "sentence": "Beavers build dams with wood",
+    "correctAnswer": "dams",
+    "options": [
+      "holes",
+      "piles",
+      "dams"
+    ]
+  },
+  {
+    "sentence": "Bees collect nectar from flowers",
+    "correctAnswer": "flowers",
+    "options": [
+      "trees",
+      "bees",
+      "flowers"
+    ]
+  },
+  {
+    "sentence": "The sun gives us light and heat",
+    "correctAnswer": "sun",
+    "options": [
+      "moon",
+      "earth",
+      "sun"
+    ]
+  },
+  {
+    "sentence": "Cats chase mice for fun",
+    "correctAnswer": "mice",
+    "options": [
+      "birds",
+      "mice",
+      "dogs"
+    ]
+  },
+  {
+    "sentence": "The river flows towards the ocean",
+    "correctAnswer": "river",
+    "options": [
+      "lake",
+      "river",
+      "sea"
+    ]
+  },
+  {
+    "sentence": "Books are a great source of knowledge",
+    "correctAnswer": "books",
+    "options": [
+      "pencils",
+      "books",
+      "toys"
+    ]
+  },
+  {
+    "sentence": "An apple a day keeps the doctor away",
+    "correctAnswer": "apple",
+    "options": [
+      "banana",
+      "apple",
+      "orange"
+    ]
+  },
+  {
+    "sentence": "Planes fly high in the sky",
+    "correctAnswer": "sky",
+    "options": [
+      "ground",
+      "sky",
+      "space"
+    ]
+  },
+  {
+    "sentence": "A triangle has three sides",
+    "correctAnswer": "triangle",
+    "options": [
+      "square",
+      "circle",
+      "triangle"
+    ]
+  },
+  {
+    "sentence": "The wind blows leaves off the trees",
+    "correctAnswer": "wind",
+    "options": [
+      "clouds",
+      "wind",
+      "rain"
+    ]
+  },
+  {
+    "sentence": "Students learn new things in school",
+    "correctAnswer": "school",
+    "options": [
+      "park",
+      "school",
+      "mall"
+    ]
+  },
+  {
+    "sentence": "Bears hibernate during the winter",
+    "correctAnswer": "winter",
+    "options": [
+      "summer",
+      "spring",
+      "winter"
+    ]
+  },
+  {
+    "sentence": "Dogs bark to communicate with others",
+    "correctAnswer": "dogs",
+    "options": [
+      "cats",
+      "dogs",
+      "birds"
+    ]
+  },
+  {
+    "sentence": "We need water to stay hydrated",
+    "correctAnswer": "water",
+    "options": [
+      "juice",
+      "water",
+      "soda"
+    ]
+  },
+  {
+    "sentence": "Cars drive on roads and highways",
+    "correctAnswer": "cars",
+    "options": [
+      "bikes",
+      "cars",
+      "trains"
+    ]
+  },
+  {
+    "sentence": "Siblings share toys and play together",
+    "correctAnswer": "siblings",
+    "options": [
+      "parents",
+      "siblings",
+      "friends"
+    ]
+  },
+  {
+    "sentence": "The moon shines bright at night",
+    "correctAnswer": "moon",
+    "options": [
+      "sun",
+      "moon",
+      "stars"
+    ]
+  },
+  {
+    "sentence": "Trees provide oxygen for us to breathe",
+    "correctAnswer": "trees",
+    "options": [
+      "rocks",
+      "trees",
+      "clouds"
+    ]
+  },
+  {
+    "sentence": "Fish swim in the ocean and rivers",
+    "correctAnswer": "fish",
+    "options": [
+      "birds",
+      "fish",
+      "insects"
+    ]
+  },
+  {
+    "sentence": "A circle has no corners or edges",
+    "correctAnswer": "circle",
+    "options": [
+      "rectangle",
+      "circle",
+      "triangle"
+    ]
+  },
+  {
+    "sentence": "The rain makes the plants grow",
+    "correctAnswer": "rain",
+    "options": [
+      "snow",
+      "rain",
+      "wind"
+    ]
+  },
+  {
+    "sentence": "Doctors help people when they are sick",
+    "correctAnswer": "doctors",
+    "options": [
+      "teachers",
+      "doctors",
+      "firefighters"
+    ]
+  },
+  {
+    "sentence": "The beach is a fun place to play in the sand",
+    "correctAnswer": "beach",
+    "options": [
+      "forest",
+      "beach",
+      "mountain"
+    ]
+  },
+  {
+    "sentence": "Apples are a healthy snack option",
+    "correctAnswer": "apples",
+    "options": [
+      "chocolate",
+      "apples",
+      "chips"
+    ]
+  },
+  {
+    "sentence": "Trains transport people and goods",
+    "correctAnswer": "trains",
+    "options": [
+      "planes",
+      "trains",
+      "boats"
+    ]
+  },
+  {
+    "sentence": "Grandparents love spending time with grandchildren",
+    "correctAnswer": "grandparents",
+    "options": [
+      "siblings",
+      "grandparents",
+      "cousins"
+    ]
+  },
+  {
+    "sentence": "The stars twinkle in the night sky",
+    "correctAnswer": "stars",
+    "options": [
+      "clouds",
+      "stars",
+      "moon"
+    ]
+  },
+  {
+    "sentence": "Horses gallop across fields and meadows",
+    "correctAnswer": "horses",
+    "options": [
+      "cows",
+      "horses",
+      "sheep"
+    ]
+  },
+  {
+    "sentence": "Milk is a good source of calcium",
+    "correctAnswer": "milk",
+    "options": [
+      "soda",
+      "milk",
+      "coffee"
+    ]
+  },
+  {
+    "sentence": "School buses transport students to and from school",
+    "correctAnswer": "buses",
+    "options": [
+      "cars",
+      "buses",
+      "trucks"
+    ]
+  },
+  {
+    "sentence": "A rectangle has four right angles",
+    "correctAnswer": "rectangle",
+    "options": [
+      "circle",
+      "rectangle",
+      "triangle"
+    ]
+  },
+  {
+    "sentence": "The sunflowers sway in the breeze",
+    "correctAnswer": "sunflowers",
+    "options": [
+      "roses",
+      "sunflowers",
+      "tulips"
+    ]
+  },
+  {
+    "sentence": "Bees collect nectar from flowers",
+    "correctAnswer": "flowers",
+    "options": [
+      "trees",
+      "grass",
+      "flowers"
+    ]
+  },
+  {
+    "sentence": "A triangle has three sides",
+    "correctAnswer": "triangle",
+    "options": [
+      "circle",
+      "square",
+      "triangle"
+    ]
+  },
+  {
+    "sentence": "Apples are a type of fruit",
+    "correctAnswer": "fruit",
+    "options": [
+      "vegetable",
+      "grain",
+      "fruit"
+    ]
+  },
+  {
+    "sentence": "Dogs bark to communicate",
+    "correctAnswer": "bark",
+    "options": [
+      "meow",
+      "bark",
+      "tweet"
+    ]
+  },
+  {
+    "sentence": "Rainbows appear after the rain",
+    "correctAnswer": "rain",
+    "options": [
+      "snow",
+      "rain",
+      "wind"
+    ]
+  },
+  {
+    "sentence": "The sun rises in the east",
+    "correctAnswer": "east",
+    "options": [
+      "west",
+      "north",
+      "east"
+    ]
+  },
+  {
+    "sentence": "Books contain knowledge and stories",
+    "correctAnswer": "stories",
+    "options": [
+      "songs",
+      "pictures",
+      "stories"
+    ]
+  },
+  {
+    "sentence": "Doctors help people when they are sick",
+    "correctAnswer": "sick",
+    "options": [
+      "happy",
+      "sad",
+      "sick"
+    ]
+  },
+  {
+    "sentence": "Bicycles have two wheels",
+    "correctAnswer": "wheels",
+    "options": [
+      "wings",
+      "wheels",
+      "legs"
+    ]
+  },
+  {
+    "sentence": "Cats purr when they are content",
+    "correctAnswer": "content",
+    "options": [
+      "angry",
+      "content",
+      "scared"
+    ]
+  },
+  {
+    "sentence": "Planes fly in the sky",
+    "correctAnswer": "sky",
+    "options": [
+      "ocean",
+      "forest",
+      "sky"
+    ]
+  },
+  {
+    "sentence": "Mathematics involves numbers and calculations",
+    "correctAnswer": "numbers",
+    "options": [
+      "colors",
+      "shapes",
+      "numbers"
+    ]
+  },
+  {
+    "sentence": "The ocean is home to many marine animals",
+    "correctAnswer": "ocean",
+    "options": [
+      "river",
+      "desert",
+      "ocean"
+    ]
+  },
+  {
+    "sentence": "Trees provide shade and oxygen",
+    "correctAnswer": "oxygen",
+    "options": [
+      "carbon",
+      "nitrogen",
+      "oxygen"
+    ]
+  },
+  {
+    "sentence": "Students learn new things at school",
+    "correctAnswer": "school",
+    "options": [
+      "zoo",
+      "park",
+      "school"
+    ]
+  },
+  {
+    "sentence": "Horses gallop in the fields",
+    "correctAnswer": "fields",
+    "options": [
+      "mountains",
+      "beach",
+      "fields"
+    ]
+  },
+  {
+    "sentence": "Oranges are a good source of vitamin C",
+    "correctAnswer": "vitamin",
+    "options": [
+      "protein",
+      "fiber",
+      "vitamin"
+    ]
+  },
+  {
+    "sentence": "Firefighters extinguish fires to save lives",
+    "correctAnswer": "fires",
+    "options": [
+      "floods",
+      "storms",
+      "fires"
+    ]
+  },
+  {
+    "sentence": "Squirrels gather nuts for the winter",
+    "correctAnswer": "nuts",
+    "options": [
+      "berries",
+      "seeds",
+      "nuts"
+    ]
+  },
+  {
+    "sentence": "Mountains are tall and majestic",
+    "correctAnswer": "mountains",
+    "options": [
+      "valleys",
+      "plains",
+      "mountains"
+    ]
+  },
+  {
+    "sentence": "Doctors use stethoscopes to listen to the heart",
+    "correctAnswer": "heart",
+    "options": [
+      "lungs",
+      "brain",
+      "heart"
+    ]
+  },
+  {
+    "sentence": "The piano produces beautiful music",
+    "correctAnswer": "music",
+    "options": [
+      "painting",
+      "sculpture",
+      "music"
+    ]
+  },
+  {
+    "sentence": "Beavers build dams in rivers",
+    "correctAnswer": "rivers",
+    "options": [
+      "lakes",
+      "oceans",
+      "rivers"
+    ]
+  },
+  {
+    "sentence": "The earth rotates on its axis",
+    "correctAnswer": "axis",
+    "options": [
+      "pole",
+      "line",
+      "axis"
+    ]
+  },
+  {
+    "sentence": "Doctors wear white coats in hospitals",
+    "correctAnswer": "hospitals",
+    "options": [
+      "supermarkets",
+      "parks",
+      "hospitals"
+    ]
+  },
+  {
+    "sentence": "Birds migrate to warmer climates in winter",
+    "correctAnswer": "climates",
+    "options": [
+      "cities",
+      "forests",
+      "climates"
+    ]
+  },
+  {
+    "sentence": "Grapes are a type of fruit",
+    "correctAnswer": "fruit",
+    "options": [
+      "vegetable",
+      "grain",
+      "fruit"
+    ]
+  },
+  {
+    "sentence": "The clock tells us the time",
+    "correctAnswer": "time",
+    "options": [
+      "weather",
+      "direction",
+      "time"
+    ]
+  },
+  {
+    "sentence": "Bears hibernate in winter",
+    "correctAnswer": "hibernate",
+    "options": [
+      "migrate",
+      "sleep",
+      "hibernate"
+    ]
+  },
+  {
+    "sentence": "The car runs on gasoline",
+    "correctAnswer": "gasoline",
+    "options": [
+      "electricity",
+      "water",
+      "gasoline"
+    ]
+  },
+  {
+    "sentence": "Families celebrate holidays together",
+    "correctAnswer": "holidays",
+    "options": [
+      "parties",
+      "picnics",
+      "holidays"
+    ]
+  },
+  {
+    "sentence": "Bees collect nectar from flowers",
+    "correctAnswer": "flowers",
+    "options": [
+      "trees",
+      "leaves",
+      "flowers"
+    ]
+  },
+  {
+    "sentence": "The sun rises in the east",
+    "correctAnswer": "east",
+    "options": [
+      "north",
+      "south",
+      "east"
+    ]
+  },
+  {
+    "sentence": "Dogs bark when they are excited",
+    "correctAnswer": "bark",
+    "options": [
+      "meow",
+      "bark",
+      "howl"
+    ]
+  },
+  {
+    "sentence": "Babies drink milk from bottles",
+    "correctAnswer": "bottles",
+    "options": [
+      "cups",
+      "glasses",
+      "bottles"
+    ]
+  },
+  {
+    "sentence": "Rainbows appear after the rain stops",
+    "correctAnswer": "rain",
+    "options": [
+      "snow",
+      "rain",
+      "hail"
+    ]
+  },
+  {
+    "sentence": "Doctors help sick patients feel better",
+    "correctAnswer": "patients",
+    "options": [
+      "nurses",
+      "doctors",
+      "patients"
+    ]
+  },
+  {
+    "sentence": "Bicycles have two wheels",
+    "correctAnswer": "wheels",
+    "options": [
+      "doors",
+      "wheels",
+      "windows"
+    ]
+  },
+  {
+    "sentence": "A triangle has three sides",
+    "correctAnswer": "triangle",
+    "options": [
+      "square",
+      "circle",
+      "triangle"
+    ]
+  },
+  {
+    "sentence": "Apples are a type of fruit",
+    "correctAnswer": "fruit",
+    "options": [
+      "vegetable",
+      "candy",
+      "fruit"
+    ]
+  },
+  {
+    "sentence": "Teachers write with chalk on the board",
+    "correctAnswer": "chalk",
+    "options": [
+      "pen",
+      "chalk",
+      "pencil"
+    ]
+  },
+  {
+    "sentence": "The cat sleeps on the windowsill",
+    "correctAnswer": "windowsill",
+    "options": [
+      "bed",
+      "chair",
+      "windowsill"
+    ]
+  },
+  {
+    "sentence": "Fish live in water",
+    "correctAnswer": "water",
+    "options": [
+      "sand",
+      "sky",
+      "water"
+    ]
+  },
+  {
+    "sentence": "Ducks quack loudly in the pond",
+    "correctAnswer": "pond",
+    "options": [
+      "lake",
+      "river",
+      "pond"
+    ]
+  },
+  {
+    "sentence": "Planes fly high in the sky",
+    "correctAnswer": "sky",
+    "options": [
+      "ocean",
+      "forest",
+      "sky"
+    ]
+  },
+  {
+    "sentence": "The sun sets in the west",
+    "correctAnswer": "west",
+    "options": [
+      "east",
+      "north",
+      "west"
+    ]
+  },
+  {
+    "sentence": "Firefighters extinguish fires with water",
+    "correctAnswer": "water",
+    "options": [
+      "sand",
+      "oil",
+      "water"
+    ]
+  },
+  {
+    "sentence": "Books have pages with words",
+    "correctAnswer": "pages",
+    "options": [
+      "covers",
+      "pages",
+      "spines"
+    ]
+  },
+  {
+    "sentence": "Cats purr when they are happy",
+    "correctAnswer": "purr",
+    "options": [
+      "bark",
+      "meow",
+      "purr"
+    ]
+  },
+  {
+    "sentence": "Monkeys swing from branch to branch",
+    "correctAnswer": "branch",
+    "options": [
+      "leaf",
+      "trunk",
+      "branch"
+    ]
+  },
+  {
+    "sentence": "Rain falls from the clouds",
+    "correctAnswer": "clouds",
+    "options": [
+      "sun",
+      "moon",
+      "clouds"
+    ]
+  },
+  {
+    "sentence": "Students study in classrooms",
+    "correctAnswer": "classrooms",
+    "options": [
+      "offices",
+      "gyms",
+      "classrooms"
+    ]
+  },
+  {
+    "sentence": "Bears hibernate during the winter",
+    "correctAnswer": "winter",
+    "options": [
+      "summer",
+      "spring",
+      "winter"
+    ]
+  },
+  {
+    "sentence": "Doctors wear white coats in hospitals",
+    "correctAnswer": "hospitals",
+    "options": [
+      "schools",
+      "parks",
+      "hospitals"
+    ]
+  },
+  {
+    "sentence": "Elephants have long trunks for grabbing things",
+    "correctAnswer": "trunks",
+    "options": [
+      "tails",
+      "ears",
+      "trunks"
+    ]
+  },
+  {
+    "sentence": "People eat vegetables for a healthy diet",
+    "correctAnswer": "vegetables",
+    "options": [
+      "candy",
+      "pizza",
+      "vegetables"
+    ]
+  },
+  {
+    "sentence": "Cars drive on roads and highways",
+    "correctAnswer": "roads",
+    "options": [
+      "rivers",
+      "forests",
+      "roads"
+    ]
+  },
+  {
+    "sentence": "Birds chirp early in the morning",
+    "correctAnswer": "morning",
+    "options": [
+      "afternoon",
+      "evening",
+      "morning"
+    ]
+  },
+  {
+    "sentence": "The dog wags its tail when it's happy",
+    "correctAnswer": "tail",
+    "options": [
+      "ears",
+      "nose",
+      "tail"
+    ]
+  },
+  {
+    "sentence": "Doctors use stethoscopes to listen to heartbeats",
+    "correctAnswer": "stethoscopes",
+    "options": [
+      "thermometers",
+      "microscopes",
+      "stethoscopes"
+    ]
+  },
+  {
+    "sentence": "Raincoats protect people from getting wet in the rain",
+    "correctAnswer": "rain",
+    "options": [
+      "snow",
+      "hail",
+      "rain"
+    ]
+  },
+  {
+    "sentence": "Buses transport passengers to different destinations",
+    "correctAnswer": "passengers",
+    "options": [
+      "drivers",
+      "conductors",
+      "passengers"
+    ]
+  },
+  {
+    "sentence": "The sun shines brightly in the sky",
+    "correctAnswer": "sun",
+    "options": [
+      "moon",
+      "star",
+      "sun"
+    ]
+  },
+  {
+    "sentence": "Dogs bark to communicate with humans",
+    "correctAnswer": "dogs",
+    "options": [
+      "cats",
+      "dogs",
+      "birds"
+    ]
+  },
+  {
+    "sentence": "Apples are a type of fruit",
+    "correctAnswer": "fruit",
+    "options": [
+      "vegetable",
+      "meat",
+      "fruit"
+    ]
+  },
+  {
+    "sentence": "Books contain stories and information",
+    "correctAnswer": "books",
+    "options": [
+      "pencils",
+      "books",
+      "tables"
+    ]
+  },
+  {
+    "sentence": "Watermelon is a juicy summer fruit",
+    "correctAnswer": "fruit",
+    "options": [
+      "vegetable",
+      "meat",
+      "fruit"
+    ]
+  },
+  {
+    "sentence": "The clock tells the time",
+    "correctAnswer": "clock",
+    "options": [
+      "chair",
+      "table",
+      "clock"
+    ]
+  },
+  {
+    "sentence": "Elephants have long trunks",
+    "correctAnswer": "elephants",
+    "options": [
+      "giraffes",
+      "elephants",
+      "lions"
+    ]
+  },
+  {
+    "sentence": "The nurse helps sick patients",
+    "correctAnswer": "nurse",
+    "options": [
+      "doctor",
+      "nurse",
+      "teacher"
+    ]
+  },
+  {
+    "sentence": "Cats purr when they are happy",
+    "correctAnswer": "cats",
+    "options": [
+      "dogs",
+      "cats",
+      "fish"
+    ]
+  },
+  {
+    "sentence": "Mountains are tall and majestic",
+    "correctAnswer": "mountains",
+    "options": [
+      "hills",
+      "mountains",
+      "valleys"
+    ]
+  },
+  {
+    "sentence": "Bicycles have two wheels",
+    "correctAnswer": "bicycles",
+    "options": [
+      "cars",
+      "bicycles",
+      "trucks"
+    ]
+  },
+  {
+    "sentence": "The moon glows at night",
+    "correctAnswer": "moon",
+    "options": [
+      "sun",
+      "moon",
+      "star"
+    ]
+  },
+  {
+    "sentence": "The doctor wears a white coat",
+    "correctAnswer": "doctor",
+    "options": [
+      "teacher",
+      "doctor",
+      "chef"
+    ]
+  },
+  {
+    "sentence": "Butterflies have colorful wings",
+    "correctAnswer": "butterflies",
+    "options": [
+      "bees",
+      "butterflies",
+      "ants"
+    ]
+  },
+  {
+    "sentence": "The police officer helps keep us safe",
+    "correctAnswer": "police",
+    "options": [
+      "firefighter",
+      "police",
+      "artist"
+    ]
+  },
+  {
+    "sentence": "The garden is filled with pretty flowers",
+    "correctAnswer": "garden",
+    "options": [
+      "desert",
+      "garden",
+      "ocean"
+    ]
+  },
+  {
+    "sentence": "Pencils are used for writing and drawing",
+    "correctAnswer": "pencils",
+    "options": [
+      "erasers",
+      "pencils",
+      "crayons"
+    ]
+  },
+  {
+    "sentence": "Horses gallop in the fields",
+    "correctAnswer": "horses",
+    "options": [
+      "cows",
+      "horses",
+      "sheep"
+    ]
+  },
+  {
+    "sentence": "The chef cooks delicious meals",
+    "correctAnswer": "chef",
+    "options": [
+      "teacher",
+      "chef",
+      "doctor"
+    ]
+  },
+  {
+    "sentence": "The bus takes children to school",
+    "correctAnswer": "bus",
+    "options": [
+      "boat",
+      "bus",
+      "plane"
+    ]
+  },
+  {
+    "sentence": "The astronaut floats in space",
+    "correctAnswer": "astronaut",
+    "options": [
+      "pilot",
+      "astronaut",
+      "sailor"
+    ]
+  },
+  {
+    "sentence": "The river flows through the valley",
+    "correctAnswer": "river",
+    "options": [
+      "mountain",
+      "river",
+      "forest"
+    ]
+  },
+  {
+    "sentence": "The firefighter rescues people from fires",
+    "correctAnswer": "firefighter",
+    "options": [
+      "police",
+      "firefighter",
+      "chef"
+    ]
+  },
+  {
+    "sentence": "The beach is a sandy playground",
+    "correctAnswer": "beach",
+    "options": [
+      "forest",
+      "beach",
+      "mountain"
+    ]
+  },
+  {
+    "sentence": "The baker makes delicious bread",
+    "correctAnswer": "baker",
+    "options": [
+      "gardener",
+      "baker",
+      "painter"
+    ]
+  },
+  {
+    "sentence": "The artist paints colorful pictures",
+    "correctAnswer": "artist",
+    "options": [
+      "builder",
+      "artist",
+      "driver"
+    ]
+  },
+  {
+    "sentence": "The zoo is home to many animals",
+    "correctAnswer": "zoo",
+    "options": [
+      "park",
+      "zoo",
+      "museum"
+    ]
+  },
+  {
+    "sentence": "The captain steers the ship",
+    "correctAnswer": "captain",
+    "options": [
+      "singer",
+      "captain",
+      "dancer"
+    ]
+  },
+  {
+    "sentence": "The squirrel collects nuts for winter",
+    "correctAnswer": "squirrel",
+    "options": [
+      "rabbit",
+      "squirrel",
+      "frog"
+    ]
+  },
+  {
+    "sentence": "The farmer grows crops on the farm",
+    "correctAnswer": "farmer",
+    "options": [
+      "scientist",
+      "farmer",
+      "engineer"
+    ]
+  },
+  {
+    "sentence": "The librarian helps find books",
+    "correctAnswer": "librarian",
+    "options": [
+      "waiter",
+      "librarian",
+      "barber"
+    ]
+  },
+  {
+    "sentence": "The sun provides light during the day",
+    "correctAnswer": "sun",
+    "options": [
+      "moon",
+      "sun",
+      "star"
+    ]
+  },
+  {
+    "sentence": "Dogs bark to communicate with others",
+    "correctAnswer": "dogs",
+    "options": [
+      "cats",
+      "dogs",
+      "birds"
+    ]
+  },
+  {
+    "sentence": "Cats purr when they are happy",
+    "correctAnswer": "cats",
+    "options": [
+      "dogs",
+      "cats",
+      "fish"
+    ]
+  },
+  {
+    "sentence": "The earth rotates on its axis",
+    "correctAnswer": "earth",
+    "options": [
+      "moon",
+      "sun",
+      "earth"
+    ]
+  },
+  {
+    "sentence": "Apples are a type of fruit",
+    "correctAnswer": "apples",
+    "options": [
+      "bananas",
+      "apples",
+      "carrots"
+    ]
+  },
+  {
+    "sentence": "Cars run on gasoline or electricity",
+    "correctAnswer": "cars",
+    "options": [
+      "planes",
+      "trains",
+      "cars"
+    ]
+  },
+  {
+    "sentence": "Rabbits hop around in the garden",
+    "correctAnswer": "rabbits",
+    "options": [
+      "birds",
+      "rabbits",
+      "snakes"
+    ]
+  },
+  {
+    "sentence": "Mathematics involves numbers and shapes",
+    "correctAnswer": "mathematics",
+    "options": [
+      "history",
+      "mathematics",
+      "science"
+    ]
+  },
+  {
+    "sentence": "The wind blows leaves off the trees",
+    "correctAnswer": "wind",
+    "options": [
+      "rain",
+      "wind",
+      "snow"
+    ]
+  },
+  {
+    "sentence": "Books contain stories and information",
+    "correctAnswer": "books",
+    "options": [
+      "toys",
+      "books",
+      "food"
+    ]
+  },
+  {
+    "sentence": "The owl hoots at night in the forest",
+    "correctAnswer": "owl",
+    "options": [
+      "eagle",
+      "owl",
+      "parrot"
+    ]
+  },
+  {
+    "sentence": "Watermelon is a refreshing summer fruit",
+    "correctAnswer": "watermelon",
+    "options": [
+      "strawberry",
+      "watermelon",
+      "orange"
+    ]
+  },
+  {
+    "sentence": "Students learn new things in school",
+    "correctAnswer": "school",
+    "options": [
+      "park",
+      "school",
+      "beach"
+    ]
+  },
+  {
+    "sentence": "The butterfly emerges from its chrysalis",
+    "correctAnswer": "butterfly",
+    "options": [
+      "spider",
+      "butterfly",
+      "ant"
+    ]
+  },
+  {
+    "sentence": "The chef cooks delicious meals in the kitchen",
+    "correctAnswer": "chef",
+    "options": [
+      "doctor",
+      "chef",
+      "teacher"
+    ]
+  },
+  {
+    "sentence": "Mountains are tall landforms on the earth",
+    "correctAnswer": "mountains",
+    "options": [
+      "rivers",
+      "mountains",
+      "forests"
+    ]
+  },
+  {
+    "sentence": "The family eats dinner together every evening",
+    "correctAnswer": "family",
+    "options": [
+      "friends",
+      "family",
+      "neighbors"
+    ]
+  },
+  {
+    "sentence": "The police officer helps keep the community safe",
+    "correctAnswer": "police",
+    "options": [
+      "firefighter",
+      "police",
+      "doctor"
+    ]
+  },
+  {
+    "sentence": "Astronauts travel to space in rockets",
+    "correctAnswer": "astronauts",
+    "options": [
+      "pilots",
+      "astronauts",
+      "soldiers"
+    ]
+  },
+  {
+    "sentence": "The sunflower follows the movement of the sun",
+    "correctAnswer": "sunflower",
+    "options": [
+      "rose",
+      "sunflower",
+      "daisy"
+    ]
+  },
+  {
+    "sentence": "The soccer player kicks the ball into the goal",
+    "correctAnswer": "soccer",
+    "options": [
+      "basketball",
+      "soccer",
+      "baseball"
+    ]
+  },
+  {
+    "sentence": "The farmer grows crops on the farm",
+    "correctAnswer": "farmer",
+    "options": [
+      "singer",
+      "farmer",
+      "dancer"
+    ]
+  },
+  {
+    "sentence": "The doctor helps sick patients feel better",
+    "correctAnswer": "doctor",
+    "options": [
+      "artist",
+      "doctor",
+      "musician"
+    ]
+  },
+  {
+    "sentence": "The snake slithers through the grass silently",
+    "correctAnswer": "snake",
+    "options": [
+      "monkey",
+      "snake",
+      "elephant"
+    ]
+  },
+  {
+    "sentence": "The scientist conducts experiments in the laboratory",
+    "correctAnswer": "scientist",
+    "options": [
+      "actor",
+      "scientist",
+      "athlete"
+    ]
+  },
+  {
+    "sentence": "Music is a form of art that expresses emotions",
+    "correctAnswer": "music",
+    "options": [
+      "painting",
+      "music",
+      "sculpture"
+    ]
+  },
+  {
+    "sentence": "The nurse cares for patients in the hospital",
+    "correctAnswer": "nurse",
+    "options": [
+      "pilot",
+      "nurse",
+      "chef"
+    ]
+  },
+  {
+    "sentence": "The beach is a sandy shore by the ocean",
+    "correctAnswer": "beach",
+    "options": [
+      "mountain",
+      "beach",
+      "desert"
+    ]
+  },
+  {
+    "sentence": "The magician performs tricks to entertain the audience",
+    "correctAnswer": "magician",
+    "options": [
+      "clown",
+      "magician",
+      "juggler"
+    ]
+  },
+  {
+    "sentence": "The artist paints beautiful pictures on canvas",
+    "correctAnswer": "artist",
+    "options": [
+      "writer",
+      "artist",
+      "dancer"
+    ]
+  }
+]

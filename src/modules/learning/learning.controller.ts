@@ -10,6 +10,11 @@ export class LearningController {
     return this.learningService.getRandomMatchingWord();
   }
 
+  @Get('complete-word/random')
+  async getRandomCompleteWord() {
+    return this.learningService.getRandomCompleteWord();
+  }
+
   @Get('biology/random')
   async getRandomBiologyQuestion(@Query('grade') grade: string) {
     if (!grade) {
