@@ -1,0 +1,6262 @@
+[
+  {
+    "problem": "What force pulls things down to the ground?",
+    "grade": "3",
+    "options": ["Gravity", "Magnetism", "Friction"],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "What do we use to measure temperature?",
+    "grade": "3",
+    "options": ["Thermometer", "Scale", "Clock"],
+    "correctAnswer": "Thermometer"
+  },
+  {
+    "problem": "What makes a toy car move when you push it?",
+    "grade": "3",
+    "options": ["Light", "Force", "Heat"],
+    "correctAnswer": "Force"
+  },
+  {
+    "problem": "What material will a magnet attract?",
+    "grade": "3",
+    "options": ["Plastic", "Wood", "Iron"],
+    "correctAnswer": "Iron"
+  },
+  {
+    "problem": "Which one is a source of light?",
+    "grade": "3",
+    "options": ["Moon", "Sun", "Mirror"],
+    "correctAnswer": "Sun"
+  },
+  {
+    "problem": "Which of these is a solid?",
+    "grade": "3",
+    "options": ["Water", "Ice", "Air"],
+    "correctAnswer": "Ice"
+  },
+  {
+    "problem": "What do we call the path that electricity flows through?",
+    "grade": "3",
+    "options": ["Wire", "Circuit", "Battery"],
+    "correctAnswer": "Circuit"
+  },
+  {
+    "problem": "What happens to most things when they are heated?",
+    "grade": "3",
+    "options": ["They shrink", "They melt", "They expand"],
+    "correctAnswer": "They expand"
+  },
+  {
+    "problem": "Which tool can help you see tiny objects?",
+    "grade": "3",
+    "options": ["Telescope", "Microscope", "Thermometer"],
+    "correctAnswer": "Microscope"
+  },
+  {
+    "problem": "What do we call anything that takes up space and has mass?",
+    "grade": "3",
+    "options": ["Energy", "Matter", "Force"],
+    "correctAnswer": "Matter"
+  },
+  {
+    "problem": "What force makes a ball roll when you push it?",
+    "grade": "3",
+    "options": [
+      "Magnetism",
+      "Gravity",
+      "Force"
+    ],
+    "correctAnswer": "Force"
+  },
+  {
+    "problem": "What type of energy do we get from the sun?",
+    "grade": "3",
+    "options": [
+      "Solar",
+      "Wind",
+      "Hydropower"
+    ],
+    "correctAnswer": "Solar"
+  },
+  {
+    "problem": "Which of these is a source of light and heat?",
+    "grade": "3",
+    "options": [
+      "Lamp",
+      "Table",
+      "Chair"
+    ],
+    "correctAnswer": "Lamp"
+  },
+  {
+    "problem": "What do we call the flow of electric charge?",
+    "grade": "3",
+    "options": [
+      "Current",
+      "Voltage",
+      "Resistance"
+    ],
+    "correctAnswer": "Current"
+  },
+  {
+    "problem": "What type of wave allows us to hear sound?",
+    "grade": "3",
+    "options": [
+      "Light wave",
+      "Sound wave",
+      "Water wave"
+    ],
+    "correctAnswer": "Sound wave"
+  },
+  {
+    "problem": "What happens to a metal spoon when you put it in hot soup?",
+    "grade": "3",
+    "options": [
+      "It freezes",
+      "It melts",
+      "It bends"
+    ],
+    "correctAnswer": "It bends"
+  },
+  {
+    "problem": "What simple machine can you use to lift heavy objects?",
+    "grade": "3",
+    "options": [
+      "Wheel",
+      "Pulley",
+      "Screw"
+    ],
+    "correctAnswer": "Pulley"
+  },
+  {
+    "problem": "What force slows down a moving bicycle when you apply the brakes?",
+    "grade": "3",
+    "options": [
+      "Gravity",
+      "Friction",
+      "Magnetism"
+    ],
+    "correctAnswer": "Friction"
+  },
+  {
+    "problem": "What type of energy do we get from wind turbines?",
+    "grade": "3",
+    "options": [
+      "Wind",
+      "Solar",
+      "Geothermal"
+    ],
+    "correctAnswer": "Wind"
+  },
+  {
+    "problem": "What simple machine can you use to hold things together?",
+    "grade": "3",
+    "options": [
+      "Lever",
+      "Screw",
+      "Clip"
+    ],
+    "correctAnswer": "Clip"
+  },
+  {
+    "problem": "What do we call the force that pulls objects towards Earth?",
+    "grade": "3",
+    "options": [
+      "Magnetism",
+      "Friction",
+      "Gravity"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "What type of energy do we get from moving water in rivers?",
+    "grade": "3",
+    "options": [
+      "Solar",
+      "Hydropower",
+      "Wind"
+    ],
+    "correctAnswer": "Hydropower"
+  },
+  {
+    "problem": "Which of these allows us to see objects in the dark?",
+    "grade": "3",
+    "options": [
+      "Flashlight",
+      "Blanket",
+      "Shoes"
+    ],
+    "correctAnswer": "Flashlight"
+  },
+  {
+    "problem": "What do we call the force that pushes objects away from each other?",
+    "grade": "3",
+    "options": [
+      "Repulsion",
+      "Attraction",
+      "Gravity"
+    ],
+    "correctAnswer": "Repulsion"
+  },
+  {
+    "problem": "What type of wave allows us to see objects?",
+    "grade": "3",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "Heat wave"
+    ],
+    "correctAnswer": "Light wave"
+  },
+  {
+    "problem": "What do we call the flow of electrons in a circuit?",
+    "grade": "3",
+    "options": [
+      "Voltage",
+      "Current",
+      "Resistance"
+    ],
+    "correctAnswer": "Current"
+  },
+  {
+    "problem": "What happens to the pitch of a sound when you tighten a guitar string?",
+    "grade": "3",
+    "options": [
+      "It gets lower",
+      "It stays the same",
+      "It gets higher"
+    ],
+    "correctAnswer": "It gets higher"
+  },
+  {
+    "problem": "What tool can you use to measure how hot something is?",
+    "grade": "3",
+    "options": [
+      "Thermometer",
+      "Scale",
+      "Ruler"
+    ],
+    "correctAnswer": "Thermometer"
+  },
+  {
+    "problem": "What type of simple machine can you use to move heavy objects up stairs?",
+    "grade": "3",
+    "options": [
+      "Wheel and axle",
+      "Inclined plane",
+      "Wedge"
+    ],
+    "correctAnswer": "Inclined plane"
+  },
+  {
+    "problem": "What force keeps you from floating away into space?",
+    "grade": "3",
+    "options": [
+      "Gravity",
+      "Wind",
+      "Magnetism"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "Which of these is a form of energy that comes from the sun?",
+    "grade": "3",
+    "options": [
+      "Wind",
+      "Solar",
+      "Water"
+    ],
+    "correctAnswer": "Solar"
+  },
+  {
+    "problem": "What travels faster: light or sound?",
+    "grade": "3",
+    "options": [
+      "Light",
+      "Sound",
+      "They travel at the same speed"
+    ],
+    "correctAnswer": "Light"
+  },
+  {
+    "problem": "What do we call the flow of electric charge through a conductor?",
+    "grade": "3",
+    "options": [
+      "Current",
+      "Voltage",
+      "Resistance"
+    ],
+    "correctAnswer": "Current"
+  },
+  {
+    "problem": "What type of wave can you create by shaking a rope up and down?",
+    "grade": "3",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "Transverse wave"
+    ],
+    "correctAnswer": "Transverse wave"
+  },
+  {
+    "problem": "What do we use to measure how hot or cold something is?",
+    "grade": "3",
+    "options": [
+      "Thermometer",
+      "Barometer",
+      "Compass"
+    ],
+    "correctAnswer": "Thermometer"
+  },
+  {
+    "problem": "Which simple machine can you use to lift heavy objects?",
+    "grade": "3",
+    "options": [
+      "Pulley",
+      "Lever",
+      "Screw"
+    ],
+    "correctAnswer": "Pulley"
+  },
+  {
+    "problem": "What force causes an object to speed up or slow down?",
+    "grade": "3",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Acceleration"
+    ],
+    "correctAnswer": "Acceleration"
+  },
+  {
+    "problem": "What type of energy does a moving car have?",
+    "grade": "3",
+    "options": [
+      "Potential energy",
+      "Kinetic energy",
+      "Thermal energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "Which simple machine can you use to hold two pieces of wood together?",
+    "grade": "3",
+    "options": [
+      "Wedge",
+      "Screw",
+      "Nail"
+    ],
+    "correctAnswer": "Screw"
+  },
+  {
+    "problem": "How do we call the force that keeps us from falling off the Earth?",
+    "grade": "3",
+    "options": [
+      "Magnetism",
+      "Gravity",
+      "Friction"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "What do we call the energy of motion?",
+    "grade": "3",
+    "options": [
+      "Potential energy",
+      "Kinetic energy",
+      "Sound energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "Which of these is a good conductor of electricity?",
+    "grade": "3",
+    "options": [
+      "Plastic",
+      "Wood",
+      "Metal"
+    ],
+    "correctAnswer": "Metal"
+  },
+  {
+    "problem": "What do we call a repeating disturbance that transfers energy through a medium?",
+    "grade": "3",
+    "options": [
+      "Wave",
+      "Particle",
+      "Molecule"
+    ],
+    "correctAnswer": "Wave"
+  },
+  {
+    "problem": "Which of these is a source of heat in our homes?",
+    "grade": "3",
+    "options": [
+      "Fan",
+      "Heater",
+      "Light bulb"
+    ],
+    "correctAnswer": "Heater"
+  },
+  {
+    "problem": "What do we call a machine with few or no moving parts that makes work easier?",
+    "grade": "3",
+    "options": [
+      "Complex machine",
+      "Simple machine",
+      "Compound machine"
+    ],
+    "correctAnswer": "Simple machine"
+  },
+  {
+    "problem": "What force causes an apple to fall from a tree to the ground?",
+    "grade": "3",
+    "options": [
+      "Magnetism",
+      "Gravity",
+      "Buoyancy"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "What do we call the ability to do work?",
+    "grade": "3",
+    "options": [
+      "Power",
+      "Energy",
+      "Force"
+    ],
+    "correctAnswer": "Energy"
+  },
+  {
+    "problem": "Which simple machine can you use to open a can of soda?",
+    "grade": "3",
+    "options": [
+      "Wedge",
+      "Lever",
+      "Wheel and axle"
+    ],
+    "correctAnswer": "Wedge"
+  },
+  {
+    "problem": "What force keeps a ball rolling after you give it a push?",
+    "grade": "3",
+    "options": [
+      "Gravity",
+      "Friction",
+      "Magnetism"
+    ],
+    "correctAnswer": "Friction"
+  },
+  {
+    "problem": "Which one of these is an example of potential energy?",
+    "grade": "3",
+    "options": [
+      "Running",
+      "Sleeping",
+      "A stretched rubber band"
+    ],
+    "correctAnswer": "A stretched rubber band"
+  },
+  {
+    "problem": "What type of energy does a flashlight use to produce light?",
+    "grade": "3",
+    "options": [
+      "Solar energy",
+      "Chemical energy",
+      "Wind energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "What do we call the flow of electric charge through a circuit?",
+    "grade": "3",
+    "options": [
+      "Voltage",
+      "Current",
+      "Resistance"
+    ],
+    "correctAnswer": "Current"
+  },
+  {
+    "problem": "Which one of these is a type of wave that we can hear?",
+    "grade": "3",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "X-ray wave"
+    ],
+    "correctAnswer": "Sound wave"
+  },
+  {
+    "problem": "What do we call the movement of heat from a hot object to a cold object?",
+    "grade": "3",
+    "options": [
+      "Conduction",
+      "Insulation",
+      "Evaporation"
+    ],
+    "correctAnswer": "Conduction"
+  },
+  {
+    "problem": "Which simple machine is a ramp that makes it easier to move heavy objects?",
+    "grade": "3",
+    "options": [
+      "Pulley",
+      "Lever",
+      "Inclined plane"
+    ],
+    "correctAnswer": "Inclined plane"
+  },
+  {
+    "problem": "What force makes a kite go up in the sky when the wind blows?",
+    "grade": "3",
+    "options": [
+      "Gravity",
+      "Friction",
+      "Lift"
+    ],
+    "correctAnswer": "Lift"
+  },
+  {
+    "problem": "What type of energy do we get from eating food and drinking water?",
+    "grade": "3",
+    "options": [
+      "Chemical energy",
+      "Solar energy",
+      "Wind energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "Which simple machine is a seesaw that helps lift heavy objects?",
+    "grade": "3",
+    "options": [
+      "Pulley",
+      "Lever",
+      "Wheel and axle"
+    ],
+    "correctAnswer": "Lever"
+  },
+  {
+    "problem": "What force causes a ball to bounce when it hits the ground?",
+    "grade": "3",
+    "options": [
+      "Gravity",
+      "Friction",
+      "Elastic force"
+    ],
+    "correctAnswer": "Elastic force"
+  },
+  {
+    "problem": "What do we call the energy of motion?",
+    "grade": "3",
+    "options": [
+      "Potential energy",
+      "Chemical energy",
+      "Kinetic energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "Which one of these is a good conductor of electricity?",
+    "grade": "3",
+    "options": [
+      "Rubber",
+      "Wood",
+      "Metal"
+    ],
+    "correctAnswer": "Metal"
+  },
+  {
+    "problem": "What do we call the bending of light when it passes through a prism?",
+    "grade": "3",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Absorption"
+    ],
+    "correctAnswer": "Refraction"
+  },
+  {
+    "problem": "Which type of energy does a windmill use to generate power?",
+    "grade": "3",
+    "options": [
+      "Solar energy",
+      "Wind energy",
+      "Geothermal energy"
+    ],
+    "correctAnswer": "Wind energy"
+  },
+  {
+    "problem": "What do we call the shaking of the ground during an earthquake?",
+    "grade": "3",
+    "options": [
+      "Tsunami",
+      "Tornado",
+      "Earthquake"
+    ],
+    "correctAnswer": "Earthquake"
+  },
+  {
+    "problem": "Which simple machine is a wheel attached to an axle that helps move heavy loads?",
+    "grade": "3",
+    "options": [
+      "Pulley",
+      "Lever",
+      "Wheel and axle"
+    ],
+    "correctAnswer": "Wheel and axle"
+  },
+  {
+    "problem": "What force pulls a book down when you drop it?",
+    "grade": "3",
+    "options": [
+      "Gravity",
+      "Friction",
+      "Magnetism"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "What happens to the temperature of water when it is heated?",
+    "grade": "3",
+    "options": [
+      "It stays the same",
+      "It decreases",
+      "It increases"
+    ],
+    "correctAnswer": "It increases"
+  },
+  {
+    "problem": "What type of energy do we get from the sun's rays?",
+    "grade": "3",
+    "options": [
+      "Solar energy",
+      "Chemical energy",
+      "Wind energy"
+    ],
+    "correctAnswer": "Solar energy"
+  },
+  {
+    "problem": "What force causes a ball to bounce when it is dropped?",
+    "grade": "3",
+    "options": [
+      "Magnetism",
+      "Gravity",
+      "Friction"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "Which type of energy allows you to run and play?",
+    "grade": "3",
+    "options": [
+      "Wind energy",
+      "Kinetic energy",
+      "Light energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "What produces light and allows us to see during the day?",
+    "grade": "3",
+    "options": [
+      "Stars",
+      "Moon",
+      "Sun"
+    ],
+    "correctAnswer": "Sun"
+  },
+  {
+    "problem": "What type of energy powers a flashlight?",
+    "grade": "3",
+    "options": [
+      "Solar energy",
+      "Chemical energy",
+      "Wind energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "How do we hear sound?",
+    "grade": "3",
+    "options": [
+      "Through sight",
+      "Through smell",
+      "Through ears"
+    ],
+    "correctAnswer": "Through ears"
+  },
+  {
+    "problem": "What allows a light bulb to turn on when plugged into an outlet?",
+    "grade": "3",
+    "options": [
+      "Water",
+      "Electricity",
+      "Air"
+    ],
+    "correctAnswer": "Electricity"
+  },
+  {
+    "problem": "What type of wave can you see at the beach?",
+    "grade": "3",
+    "options": [
+      "Sound wave",
+      "Ocean wave",
+      "Light wave"
+    ],
+    "correctAnswer": "Ocean wave"
+  },
+  {
+    "problem": "What do we use to measure how hot or cold something is?",
+    "grade": "3",
+    "options": [
+      "Ruler",
+      "Thermometer",
+      "Compass"
+    ],
+    "correctAnswer": "Thermometer"
+  },
+  {
+    "problem": "Which simple machine helps you lift heavy objects?",
+    "grade": "3",
+    "options": [
+      "Wheel and axle",
+      "Pulley",
+      "Screw"
+    ],
+    "correctAnswer": "Pulley"
+  },
+  {
+    "problem": "What force stops a rolling ball when it hits a wall?",
+    "grade": "3",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Magnetism"
+    ],
+    "correctAnswer": "Friction"
+  },
+  {
+    "problem": "What type of energy makes a windmill turn?",
+    "grade": "3",
+    "options": [
+      "Nuclear energy",
+      "Kinetic energy",
+      "Solar energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "What allows us to see objects in a dark room?",
+    "grade": "3",
+    "options": [
+      "Sound",
+      "Heat",
+      "Light"
+    ],
+    "correctAnswer": "Light"
+  },
+  {
+    "problem": "What do we call the flow of electric current in a closed path?",
+    "grade": "3",
+    "options": [
+      "Circuit",
+      "Battery",
+      "Wire"
+    ],
+    "correctAnswer": "Circuit"
+  },
+  {
+    "problem": "How do we feel the heat from a hot stove?",
+    "grade": "3",
+    "options": [
+      "Through eyes",
+      "Through skin",
+      "Through ears"
+    ],
+    "correctAnswer": "Through skin"
+  },
+  {
+    "problem": "Which simple machine is a ramp?",
+    "grade": "3",
+    "options": [
+      "Lever",
+      "Inclined plane",
+      "Wedge"
+    ],
+    "correctAnswer": "Inclined plane"
+  },
+  {
+    "problem": "What force allows a rocket to launch into space?",
+    "grade": "3",
+    "options": [
+      "Gravity",
+      "Magnetism",
+      "Thrust"
+    ],
+    "correctAnswer": "Thrust"
+  },
+  {
+    "problem": "What type of energy powers a car's engine?",
+    "grade": "3",
+    "options": [
+      "Chemical energy",
+      "Wind energy",
+      "Solar energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "How do we make sounds with a musical instrument?",
+    "grade": "3",
+    "options": [
+      "By smelling it",
+      "By touching it",
+      "By vibrating it"
+    ],
+    "correctAnswer": "By vibrating it"
+  },
+  {
+    "problem": "Which simple machine is used to hold things together?",
+    "grade": "3",
+    "options": [
+      "Screw",
+      "Pulley",
+      "Wheel and axle"
+    ],
+    "correctAnswer": "Screw"
+  },
+  {
+    "problem": "What force allows a ball to roll down a hill?",
+    "grade": "3",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Magnetism"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "What force keeps a ball rolling on the ground?",
+    "grade": "3",
+    "options": [
+      "Gravity",
+      "Friction",
+      "Magnetism"
+    ],
+    "correctAnswer": "Friction"
+  },
+  {
+    "problem": "What type of energy do we get from the sun?",
+    "grade": "3",
+    "options": [
+      "Solar",
+      "Wind",
+      "Nuclear"
+    ],
+    "correctAnswer": "Solar"
+  },
+  {
+    "problem": "Which of these is a source of light and heat?",
+    "grade": "3",
+    "options": [
+      "Fire",
+      "Ice",
+      "Wind"
+    ],
+    "correctAnswer": "Fire"
+  },
+  {
+    "problem": "What do we call the flow of electric charge?",
+    "grade": "3",
+    "options": [
+      "Current",
+      "Voltage",
+      "Resistance"
+    ],
+    "correctAnswer": "Current"
+  },
+  {
+    "problem": "What do we call a sound that is pleasant to hear?",
+    "grade": "3",
+    "options": [
+      "Loud",
+      "Noise",
+      "Music"
+    ],
+    "correctAnswer": "Music"
+  },
+  {
+    "problem": "What do we call the movement of heat from a warmer object to a cooler one?",
+    "grade": "3",
+    "options": [
+      "Conduction",
+      "Insulation",
+      "Reflection"
+    ],
+    "correctAnswer": "Conduction"
+  },
+  {
+    "problem": "Which simple machine helps you lift heavy objects?",
+    "grade": "3",
+    "options": [
+      "Pulley",
+      "Screw",
+      "Wheel"
+    ],
+    "correctAnswer": "Pulley"
+  },
+  {
+    "problem": "What force slows down a bike when the brakes are applied?",
+    "grade": "3",
+    "options": [
+      "Gravity",
+      "Friction",
+      "Magnetism"
+    ],
+    "correctAnswer": "Friction"
+  },
+  {
+    "problem": "What type of energy do we get from moving water?",
+    "grade": "3",
+    "options": [
+      "Hydroelectric",
+      "Geothermal",
+      "Solar"
+    ],
+    "correctAnswer": "Hydroelectric"
+  },
+  {
+    "problem": "What do we call a form of energy that we can hear?",
+    "grade": "3",
+    "options": [
+      "Light",
+      "Sound",
+      "Heat"
+    ],
+    "correctAnswer": "Sound"
+  },
+  {
+    "problem": "What do we call a material that allows electricity to flow through it easily?",
+    "grade": "3",
+    "options": [
+      "Insulator",
+      "Conductor",
+      "Circuit"
+    ],
+    "correctAnswer": "Conductor"
+  },
+  {
+    "problem": "What do we call the up and down movement of water caused by wind?",
+    "grade": "3",
+    "options": [
+      "Tide",
+      "Wave",
+      "Current"
+    ],
+    "correctAnswer": "Wave"
+  },
+  {
+    "problem": "What happens to a metal spoon when it is left in hot soup?",
+    "grade": "3",
+    "options": [
+      "It freezes",
+      "It melts",
+      "It bends"
+    ],
+    "correctAnswer": "It bends"
+  },
+  {
+    "problem": "Which simple machine can you find on a door to help open and close it?",
+    "grade": "3",
+    "options": [
+      "Lever",
+      "Wedge",
+      "Pulley"
+    ],
+    "correctAnswer": "Lever"
+  },
+  {
+    "problem": "What force allows a kite to stay in the air?",
+    "grade": "3",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Lift"
+    ],
+    "correctAnswer": "Lift"
+  },
+  {
+    "problem": "What type of energy do we get from burning wood in a fireplace?",
+    "grade": "3",
+    "options": [
+      "Wind",
+      "Fire",
+      "Solar"
+    ],
+    "correctAnswer": "Fire"
+  },
+  {
+    "problem": "Which of these is a source of light that is not hot?",
+    "grade": "3",
+    "options": [
+      "Lamp",
+      "Sun",
+      "Stove"
+    ],
+    "correctAnswer": "Lamp"
+  },
+  {
+    "problem": "What do we call a material that does not allow heat to pass through it easily?",
+    "grade": "3",
+    "options": [
+      "Conductor",
+      "Insulator",
+      "Circuit"
+    ],
+    "correctAnswer": "Insulator"
+  },
+  {
+    "problem": "What type of energy do we get from wind turbines?",
+    "grade": "3",
+    "options": [
+      "Wind",
+      "Solar",
+      "Hydroelectric"
+    ],
+    "correctAnswer": "Wind"
+  },
+  {
+    "problem": "What simple machine is used to hold things together?",
+    "grade": "3",
+    "options": [
+      "Screw",
+      "Wheel",
+      "Pulley"
+    ],
+    "correctAnswer": "Screw"
+  },
+  {
+    "problem": "What is needed to change the motion of an object?",
+    "grade": "4",
+    "options": ["Friction", "Force", "Heat"],
+    "correctAnswer": "Force"
+  },
+  {
+    "problem": "Which type of energy does the Sun give us?",
+    "grade": "4",
+    "options": ["Light energy", "Sound energy", "Magnetic energy"],
+    "correctAnswer": "Light energy"
+  },
+  {
+    "problem": "What do we call a material that does NOT let electricity pass through?",
+    "grade": "4",
+    "options": ["Conductor", "Insulator", "Battery"],
+    "correctAnswer": "Insulator"
+  },
+  {
+    "problem": "What force slows down a sliding object?",
+    "grade": "4",
+    "options": ["Friction", "Gravity", "Magnetism"],
+    "correctAnswer": "Friction"
+  },
+  {
+    "problem": "What form of energy helps us hear sounds?",
+    "grade": "4",
+    "options": ["Heat energy", "Light energy", "Sound energy"],
+    "correctAnswer": "Sound energy"
+  },
+  {
+    "problem": "What simple machine is used to lift heavy objects more easily?",
+    "grade": "4",
+    "options": ["Pulley", "Ramp", "Wheel"],
+    "correctAnswer": "Pulley"
+  },
+  {
+    "problem": "Which state of matter has a definite shape and volume?",
+    "grade": "4",
+    "options": ["Gas", "Liquid", "Solid"],
+    "correctAnswer": "Solid"
+  },
+  {
+    "problem": "What is the main source of energy for life on Earth?",
+    "grade": "4",
+    "options": ["Wind", "Sun", "Water"],
+    "correctAnswer": "Sun"
+  },
+  {
+    "problem": "Which of the following is a form of kinetic energy?",
+    "grade": "4",
+    "options": ["Stored energy", "Moving energy", "Chemical energy"],
+    "correctAnswer": "Moving energy"
+  },
+  {
+    "problem": "What happens when light hits a mirror?",
+    "grade": "4",
+    "options": ["It reflects", "It melts", "It disappears"],
+    "correctAnswer": "It reflects"
+  },
+  {
+    "problem": "What force pulls objects towards the center of the Earth?",
+    "grade": "4",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Magnetism"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "Which type of energy is produced when you pedal a bicycle?",
+    "grade": "4",
+    "options": [
+      "Electrical energy",
+      "Kinetic energy",
+      "Nuclear energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "What type of energy does a flashlight produce?",
+    "grade": "4",
+    "options": [
+      "Heat energy",
+      "Light energy",
+      "Sound energy"
+    ],
+    "correctAnswer": "Light energy"
+  },
+  {
+    "problem": "What do we call a material that lets electricity pass through easily?",
+    "grade": "4",
+    "options": [
+      "Conductor",
+      "Insulator",
+      "Battery"
+    ],
+    "correctAnswer": "Conductor"
+  },
+  {
+    "problem": "How does sound travel through the air?",
+    "grade": "4",
+    "options": [
+      "Through vibrations",
+      "Through heat",
+      "Through light"
+    ],
+    "correctAnswer": "Through vibrations"
+  },
+  {
+    "problem": "What do we use to measure how hot or cold something is?",
+    "grade": "4",
+    "options": [
+      "Thermometer",
+      "Ruler",
+      "Compass"
+    ],
+    "correctAnswer": "Thermometer"
+  },
+  {
+    "problem": "Which simple machine is a flat surface with one end higher than the other?",
+    "grade": "4",
+    "options": [
+      "Lever",
+      "Inclined plane",
+      "Screw"
+    ],
+    "correctAnswer": "Inclined plane"
+  },
+  {
+    "problem": "What force makes a ball roll down a hill?",
+    "grade": "4",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Magnetism"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "What type of energy is stored in food?",
+    "grade": "4",
+    "options": [
+      "Chemical energy",
+      "Solar energy",
+      "Wind energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "What simple machine is used to lift heavy objects with a rope or chain?",
+    "grade": "4",
+    "options": [
+      "Lever",
+      "Pulley",
+      "Wheel and axle"
+    ],
+    "correctAnswer": "Pulley"
+  },
+  {
+    "problem": "What force makes a kite fly in the sky?",
+    "grade": "4",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Wind"
+    ],
+    "correctAnswer": "Wind"
+  },
+  {
+    "problem": "What do we call the ability to do work?",
+    "grade": "4",
+    "options": [
+      "Motion",
+      "Power",
+      "Speed"
+    ],
+    "correctAnswer": "Power"
+  },
+  {
+    "problem": "What type of energy does a battery store?",
+    "grade": "4",
+    "options": [
+      "Electrical energy",
+      "Magnetic energy",
+      "Mechanical energy"
+    ],
+    "correctAnswer": "Electrical energy"
+  },
+  {
+    "problem": "How does a magnet attract other objects?",
+    "grade": "4",
+    "options": [
+      "Through light",
+      "Through sound",
+      "Through magnetism"
+    ],
+    "correctAnswer": "Through magnetism"
+  },
+  {
+    "problem": "What happens when you pluck a guitar string?",
+    "grade": "4",
+    "options": [
+      "It vibrates and produces sound",
+      "It breaks",
+      "It becomes hot"
+    ],
+    "correctAnswer": "It vibrates and produces sound"
+  },
+  {
+    "problem": "What do we call the transfer of heat through liquids and gases?",
+    "grade": "4",
+    "options": [
+      "Conduction",
+      "Convection",
+      "Radiation"
+    ],
+    "correctAnswer": "Convection"
+  },
+  {
+    "problem": "Which simple machine is made of a wheel with a rod through its center?",
+    "grade": "4",
+    "options": [
+      "Lever",
+      "Pulley",
+      "Wheel and axle"
+    ],
+    "correctAnswer": "Wheel and axle"
+  },
+  {
+    "problem": "What force makes a ball stop rolling?",
+    "grade": "4",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Magnetism"
+    ],
+    "correctAnswer": "Friction"
+  },
+  {
+    "problem": "What type of energy does a windmill convert into electricity?",
+    "grade": "4",
+    "options": [
+      "Solar energy",
+      "Wind energy",
+      "Geothermal energy"
+    ],
+    "correctAnswer": "Wind energy"
+  },
+  {
+    "problem": "Which simple machine is shaped like a spiral staircase?",
+    "grade": "4",
+    "options": [
+      "Lever",
+      "Screw",
+      "Inclined plane"
+    ],
+    "correctAnswer": "Screw"
+  },
+  {
+    "problem": "What force pulls objects towards the Earth?",
+    "grade": "4",
+    "options": [
+      "Magnetism",
+      "Gravity",
+      "Friction"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "Which type of energy allows a bicycle to move?",
+    "grade": "4",
+    "options": [
+      "Heat energy",
+      "Light energy",
+      "Kinetic energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "What form of energy do batteries store?",
+    "grade": "4",
+    "options": [
+      "Electrical energy",
+      "Chemical energy",
+      "Solar energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "How do we hear sounds?",
+    "grade": "4",
+    "options": [
+      "Through our eyes",
+      "Through our nose",
+      "Through our ears"
+    ],
+    "correctAnswer": "Through our ears"
+  },
+  {
+    "problem": "What type of material allows electricity to flow easily?",
+    "grade": "4",
+    "options": [
+      "Insulator",
+      "Conductor",
+      "Magnet"
+    ],
+    "correctAnswer": "Conductor"
+  },
+  {
+    "problem": "What do we call the energy of moving water or air?",
+    "grade": "4",
+    "options": [
+      "Light energy",
+      "Mechanical energy",
+      "Sound energy"
+    ],
+    "correctAnswer": "Mechanical energy"
+  },
+  {
+    "problem": "Which device converts electrical energy into light?",
+    "grade": "4",
+    "options": [
+      "Lamp",
+      "Battery",
+      "Fan"
+    ],
+    "correctAnswer": "Lamp"
+  },
+  {
+    "problem": "What is the unit used to measure temperature?",
+    "grade": "4",
+    "options": [
+      "Liters",
+      "Meters",
+      "Degrees"
+    ],
+    "correctAnswer": "Degrees"
+  },
+  {
+    "problem": "What is the force that resists the motion of an object through a liquid or gas?",
+    "grade": "4",
+    "options": [
+      "Friction",
+      "Buoyancy",
+      "Tension"
+    ],
+    "correctAnswer": "Buoyancy"
+  },
+  {
+    "problem": "Which simple machine is used to split things apart?",
+    "grade": "4",
+    "options": [
+      "Wedge",
+      "Screw",
+      "Lever"
+    ],
+    "correctAnswer": "Wedge"
+  },
+  {
+    "problem": "How does a lever help us lift heavy objects?",
+    "grade": "4",
+    "options": [
+      "By rolling",
+      "By balancing",
+      "By pushing"
+    ],
+    "correctAnswer": "By balancing"
+  },
+  {
+    "problem": "What is the force that pushes objects apart when they are close together?",
+    "grade": "4",
+    "options": [
+      "Attraction",
+      "Repulsion",
+      "Gravity"
+    ],
+    "correctAnswer": "Repulsion"
+  },
+  {
+    "problem": "Which type of energy is stored in food?",
+    "grade": "4",
+    "options": [
+      "Potential energy",
+      "Chemical energy",
+      "Nuclear energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "How does a pulley help us lift heavy objects?",
+    "grade": "4",
+    "options": [
+      "By rolling",
+      "By sliding",
+      "By changing shape"
+    ],
+    "correctAnswer": "By changing shape"
+  },
+  {
+    "problem": "What is the force that pulls objects towards each other?",
+    "grade": "4",
+    "options": [
+      "Attraction",
+      "Repulsion",
+      "Friction"
+    ],
+    "correctAnswer": "Attraction"
+  },
+  {
+    "problem": "Which form of energy powers a flashlight?",
+    "grade": "4",
+    "options": [
+      "Solar energy",
+      "Chemical energy",
+      "Wind energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "What happens to the pitch of a sound when a guitar string is tightened?",
+    "grade": "4",
+    "options": [
+      "It gets higher",
+      "It gets lower",
+      "It stays the same"
+    ],
+    "correctAnswer": "It gets higher"
+  },
+  {
+    "problem": "How do we measure the intensity of sound?",
+    "grade": "4",
+    "options": [
+      "Decibels",
+      "Kilometers",
+      "Degrees"
+    ],
+    "correctAnswer": "Decibels"
+  },
+  {
+    "problem": "What is the force that makes objects float in water?",
+    "grade": "4",
+    "options": [
+      "Friction",
+      "Buoyancy",
+      "Gravity"
+    ],
+    "correctAnswer": "Buoyancy"
+  },
+  {
+    "problem": "What force keeps objects on the ground?",
+    "grade": "4",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Magnetism"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "Which type of energy is produced when a ball rolls down a hill?",
+    "grade": "4",
+    "options": [
+      "Potential energy",
+      "Kinetic energy",
+      "Chemical energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "What type of energy does a flashlight use to produce light?",
+    "grade": "4",
+    "options": [
+      "Electric energy",
+      "Heat energy",
+      "Sound energy"
+    ],
+    "correctAnswer": "Electric energy"
+  },
+  {
+    "problem": "What do we call a material that allows electricity to pass through easily?",
+    "grade": "4",
+    "options": [
+      "Conductor",
+      "Insulator",
+      "Switch"
+    ],
+    "correctAnswer": "Conductor"
+  },
+  {
+    "problem": "What type of energy do we use to hear music from a radio?",
+    "grade": "4",
+    "options": [
+      "Light energy",
+      "Mechanical energy",
+      "Sound energy"
+    ],
+    "correctAnswer": "Sound energy"
+  },
+  {
+    "problem": "What do we call a device that uses a magnet to produce electricity?",
+    "grade": "4",
+    "options": [
+      "Generator",
+      "Battery",
+      "Circuit"
+    ],
+    "correctAnswer": "Generator"
+  },
+  {
+    "problem": "What do we call the up and down movement of water at the beach?",
+    "grade": "4",
+    "options": [
+      "Tides",
+      "Currents",
+      "Waves"
+    ],
+    "correctAnswer": "Waves"
+  },
+  {
+    "problem": "What is the transfer of heat between objects at different temperatures called?",
+    "grade": "4",
+    "options": [
+      "Insulation",
+      "Conduction",
+      "Evaporation"
+    ],
+    "correctAnswer": "Conduction"
+  },
+  {
+    "problem": "Which simple machine is a sloping surface used to move objects up or down?",
+    "grade": "4",
+    "options": [
+      "Lever",
+      "Pulley",
+      "Ramp"
+    ],
+    "correctAnswer": "Ramp"
+  },
+  {
+    "problem": "What force keeps objects in motion?",
+    "grade": "4",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Magnetism"
+    ],
+    "correctAnswer": "Friction"
+  },
+  {
+    "problem": "What type of energy is stored in food and released when we eat it?",
+    "grade": "4",
+    "options": [
+      "Chemical energy",
+      "Solar energy",
+      "Nuclear energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "What do we call energy that is produced by moving water or wind?",
+    "grade": "4",
+    "options": [
+      "Renewable energy",
+      "Fossil fuel energy",
+      "Geothermal energy"
+    ],
+    "correctAnswer": "Renewable energy"
+  },
+  {
+    "problem": "Which type of energy can be transformed into other forms such as light and heat?",
+    "grade": "4",
+    "options": [
+      "Mechanical energy",
+      "Electrical energy",
+      "Nuclear energy"
+    ],
+    "correctAnswer": "Electrical energy"
+  },
+  {
+    "problem": "What happens to the pitch of a sound when the vibrations are faster?",
+    "grade": "4",
+    "options": [
+      "It gets higher",
+      "It gets lower",
+      "It stays the same"
+    ],
+    "correctAnswer": "It gets higher"
+  },
+  {
+    "problem": "What do we call the flow of electric charge in a closed path?",
+    "grade": "4",
+    "options": [
+      "Current",
+      "Voltage",
+      "Resistance"
+    ],
+    "correctAnswer": "Current"
+  },
+  {
+    "problem": "What do we call a simple machine with a bar that pivots on a fixed point?",
+    "grade": "4",
+    "options": [
+      "Pulley",
+      "Wheel and axle",
+      "Lever"
+    ],
+    "correctAnswer": "Lever"
+  },
+  {
+    "problem": "What force causes objects to fall towards the Earth?",
+    "grade": "4",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Magnetism"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "What type of energy is used to power a light bulb?",
+    "grade": "4",
+    "options": [
+      "Solar energy",
+      "Mechanical energy",
+      "Electrical energy"
+    ],
+    "correctAnswer": "Electrical energy"
+  },
+  {
+    "problem": "Which simple machine is a wheel with a rod through its center used to move objects?",
+    "grade": "4",
+    "options": [
+      "Pulley",
+      "Lever",
+      "Wheel and axle"
+    ],
+    "correctAnswer": "Wheel and axle"
+  },
+  {
+    "problem": "What force pulls objects towards the Earth?",
+    "grade": "4",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Magnetism"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "Which type of energy allows us to see things?",
+    "grade": "4",
+    "options": [
+      "Wind energy",
+      "Light energy",
+      "Heat energy"
+    ],
+    "correctAnswer": "Light energy"
+  },
+  {
+    "problem": "What is the source of heat and light for the Earth?",
+    "grade": "4",
+    "options": [
+      "Moon",
+      "Stars",
+      "Planets"
+    ],
+    "correctAnswer": "Stars"
+  },
+  {
+    "problem": "What do we call a material that lets electricity pass through easily?",
+    "grade": "4",
+    "options": [
+      "Conductor",
+      "Insulator",
+      "Battery"
+    ],
+    "correctAnswer": "Conductor"
+  },
+  {
+    "problem": "What do we call the energy that travels in waves and allows us to hear things?",
+    "grade": "4",
+    "options": [
+      "Light energy",
+      "Sound energy",
+      "Heat energy"
+    ],
+    "correctAnswer": "Sound energy"
+  },
+  {
+    "problem": "What do we call a device that uses electricity to produce light?",
+    "grade": "4",
+    "options": [
+      "Lamp",
+      "Fan",
+      "Oven"
+    ],
+    "correctAnswer": "Lamp"
+  },
+  {
+    "problem": "What do we call the transfer of heat between objects that are touching?",
+    "grade": "4",
+    "options": [
+      "Convection",
+      "Radiation",
+      "Conduction"
+    ],
+    "correctAnswer": "Conduction"
+  },
+  {
+    "problem": "Which simple machine is used to split things apart?",
+    "grade": "4",
+    "options": [
+      "Wedge",
+      "Wheel",
+      "Screw"
+    ],
+    "correctAnswer": "Wedge"
+  },
+  {
+    "problem": "What force keeps objects in motion?",
+    "grade": "4",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Inertia"
+    ],
+    "correctAnswer": "Inertia"
+  },
+  {
+    "problem": "What do we call the ability to do work?",
+    "grade": "4",
+    "options": [
+      "Power",
+      "Energy",
+      "Force"
+    ],
+    "correctAnswer": "Energy"
+  },
+  {
+    "problem": "Which simple machine is used to raise heavy objects?",
+    "grade": "4",
+    "options": [
+      "Pulley",
+      "Lever",
+      "Inclined plane"
+    ],
+    "correctAnswer": "Pulley"
+  },
+  {
+    "problem": "What force causes objects to float or sink in water?",
+    "grade": "4",
+    "options": [
+      "Buoyancy",
+      "Friction",
+      "Magnetism"
+    ],
+    "correctAnswer": "Buoyancy"
+  },
+  {
+    "problem": "What is the form of energy that comes from food and fuels?",
+    "grade": "4",
+    "options": [
+      "Solar energy",
+      "Chemical energy",
+      "Nuclear energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "What do we call a force that pulls objects together?",
+    "grade": "4",
+    "options": [
+      "Repulsion",
+      "Attraction",
+      "Friction"
+    ],
+    "correctAnswer": "Attraction"
+  },
+  {
+    "problem": "Which type of energy is produced by moving air?",
+    "grade": "4",
+    "options": [
+      "Wind energy",
+      "Solar energy",
+      "Geothermal energy"
+    ],
+    "correctAnswer": "Wind energy"
+  },
+  {
+    "problem": "What do we call the bending of light when it passes through different materials?",
+    "grade": "4",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Absorption"
+    ],
+    "correctAnswer": "Refraction"
+  },
+  {
+    "problem": "What do we call a material that changes electrical energy into light?",
+    "grade": "4",
+    "options": [
+      "Generator",
+      "Bulb",
+      "Battery"
+    ],
+    "correctAnswer": "Bulb"
+  },
+  {
+    "problem": "Which simple machine is used to hold objects together?",
+    "grade": "4",
+    "options": [
+      "Screw",
+      "Wedge",
+      "Lever"
+    ],
+    "correctAnswer": "Screw"
+  },
+  {
+    "problem": "What force keeps objects from slipping on surfaces?",
+    "grade": "4",
+    "options": [
+      "Gravity",
+      "Friction",
+      "Magnetism"
+    ],
+    "correctAnswer": "Friction"
+  },
+  {
+    "problem": "What happens when you rub a balloon against your hair and stick it to a wall?",
+    "grade": "4",
+    "options": [
+      "It glows",
+      "It bounces",
+      "It sticks"
+    ],
+    "correctAnswer": "It sticks"
+  },
+  {
+    "problem": "What force causes a ball to fall back to the ground when thrown up in the air?",
+    "grade": "4",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Buoyancy"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "Which type of energy is produced when you ride a bike?",
+    "grade": "4",
+    "options": [
+      "Heat energy",
+      "Mechanical energy",
+      "Chemical energy"
+    ],
+    "correctAnswer": "Mechanical energy"
+  },
+  {
+    "problem": "What form of energy allows us to see objects around us?",
+    "grade": "4",
+    "options": [
+      "Heat energy",
+      "Light energy",
+      "Electrical energy"
+    ],
+    "correctAnswer": "Light energy"
+  },
+  {
+    "problem": "What do we call a material that lets electricity pass through easily?",
+    "grade": "4",
+    "options": [
+      "Insulator",
+      "Conductor",
+      "Circuit"
+    ],
+    "correctAnswer": "Conductor"
+  },
+  {
+    "problem": "Which type of wave allows us to hear music from a radio?",
+    "grade": "4",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "Radio wave"
+    ],
+    "correctAnswer": "Sound wave"
+  },
+  {
+    "problem": "What do we call the transfer of heat between two objects in direct contact?",
+    "grade": "4",
+    "options": [
+      "Insulation",
+      "Conduction",
+      "Convection"
+    ],
+    "correctAnswer": "Conduction"
+  },
+  {
+    "problem": "What simple machine is used to split objects apart?",
+    "grade": "4",
+    "options": [
+      "Screw",
+      "Wedge",
+      "Lever"
+    ],
+    "correctAnswer": "Wedge"
+  },
+  {
+    "problem": "What force causes a moving object to slow down?",
+    "grade": "4",
+    "options": [
+      "Gravity",
+      "Magnetism",
+      "Drag"
+    ],
+    "correctAnswer": "Drag"
+  },
+  {
+    "problem": "Which type of energy is produced by wind turbines?",
+    "grade": "4",
+    "options": [
+      "Wind energy",
+      "Solar energy",
+      "Kinetic energy"
+    ],
+    "correctAnswer": "Wind energy"
+  },
+  {
+    "problem": "Which simple machine is used to lift heavy loads with ease?",
+    "grade": "4",
+    "options": [
+      "Inclined plane",
+      "Wedge",
+      "Wheel and axle"
+    ],
+    "correctAnswer": "Wheel and axle"
+  },
+  {
+    "problem": "What force causes a ball to roll down a hill?",
+    "grade": "4",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Tension"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "Which type of energy is used to power a light bulb?",
+    "grade": "4",
+    "options": [
+      "Electric energy",
+      "Sound energy",
+      "Kinetic energy"
+    ],
+    "correctAnswer": "Electric energy"
+  },
+  {
+    "problem": "What do we call the bending of light when it passes through a prism?",
+    "grade": "4",
+    "options": [
+      "Refraction",
+      "Reflection",
+      "Absorption"
+    ],
+    "correctAnswer": "Refraction"
+  },
+  {
+    "problem": "Which type of material allows electricity to flow through easily?",
+    "grade": "4",
+    "options": [
+      "Wood",
+      "Rubber",
+      "Metal"
+    ],
+    "correctAnswer": "Metal"
+  },
+  {
+    "problem": "What do we call a type of wave that carries energy through vibrations?",
+    "grade": "4",
+    "options": [
+      "Electromagnetic wave",
+      "Mechanical wave",
+      "Tidal wave"
+    ],
+    "correctAnswer": "Mechanical wave"
+  },
+  {
+    "problem": "What unit is used to measure temperature?",
+    "grade": "4",
+    "options": [
+      "Meters",
+      "Liters",
+      "Degrees"
+    ],
+    "correctAnswer": "Degrees"
+  },
+  {
+    "problem": "Which simple machine is used to hold objects together?",
+    "grade": "4",
+    "options": [
+      "Pulley",
+      "Screw",
+      "Lever"
+    ],
+    "correctAnswer": "Screw"
+  },
+  {
+    "problem": "What force causes a boat to move forward in water?",
+    "grade": "4",
+    "options": [
+      "Buoyancy",
+      "Gravity",
+      "Thrust"
+    ],
+    "correctAnswer": "Thrust"
+  },
+  {
+    "problem": "Which type of energy is produced by the sun and used by solar panels?",
+    "grade": "4",
+    "options": [
+      "Wind energy",
+      "Solar energy",
+      "Chemical energy"
+    ],
+    "correctAnswer": "Solar energy"
+  },
+  {
+    "problem": "What simple machine is used to lift heavy objects by pulling a rope?",
+    "grade": "4",
+    "options": [
+      "Pulley",
+      "Wedge",
+      "Inclined plane"
+    ],
+    "correctAnswer": "Pulley"
+  },
+  {
+    "problem": "What is the unit used to measure force?",
+    "grade": "5",
+    "options": ["Joule", "Newton", "Watt"],
+    "correctAnswer": "Newton"
+  },
+  {
+    "problem": "What kind of energy is stored in food and fuel?",
+    "grade": "5",
+    "options": ["Thermal energy", "Chemical energy", "Light energy"],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "What happens when light passes through a convex lens?",
+    "grade": "5",
+    "options": ["It reflects", "It spreads out", "It bends inward"],
+    "correctAnswer": "It bends inward"
+  },
+  {
+    "problem": "Which type of energy is produced by vibrating objects?",
+    "grade": "5",
+    "options": ["Sound energy", "Electrical energy", "Magnetic energy"],
+    "correctAnswer": "Sound energy"
+  },
+  {
+    "problem": "Which material is the best conductor of electricity?",
+    "grade": "5",
+    "options": ["Plastic", "Copper", "Rubber"],
+    "correctAnswer": "Copper"
+  },
+  {
+    "problem": "What is friction?",
+    "grade": "5",
+    "options": ["A pushing force", "A pulling force", "A force that resists motion"],
+    "correctAnswer": "A force that resists motion"
+  },
+  {
+    "problem": "What form of energy powers most homes?",
+    "grade": "5",
+    "options": ["Electrical energy", "Nuclear energy", "Kinetic energy"],
+    "correctAnswer": "Electrical energy"
+  },
+  {
+    "problem": "What tool is used to measure force?",
+    "grade": "5",
+    "options": ["Spring scale", "Thermometer", "Balance"],
+    "correctAnswer": "Spring scale"
+  },
+  {
+    "problem": "What do we call the energy of a moving object?",
+    "grade": "5",
+    "options": ["Potential energy", "Chemical energy", "Kinetic energy"],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "Which of these is an example of a simple machine?",
+    "grade": "5",
+    "options": ["Bicycle", "Pulley", "Battery"],
+    "correctAnswer": "Pulley"
+  },
+  {
+    "problem": "What force keeps an object in motion?",
+    "grade": "5",
+    "options": [
+      "Gravity",
+      "Friction",
+      "Inertia"
+    ],
+    "correctAnswer": "Inertia"
+  },
+  {
+    "problem": "What type of energy is produced by a moving bicycle?",
+    "grade": "5",
+    "options": [
+      "Kinetic energy",
+      "Potential energy",
+      "Light energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "How does sound travel through the air?",
+    "grade": "5",
+    "options": [
+      "In waves",
+      "In straight lines",
+      "In circles"
+    ],
+    "correctAnswer": "In waves"
+  },
+  {
+    "problem": "What makes a light bulb glow when you switch it on?",
+    "grade": "5",
+    "options": [
+      "Magnetism",
+      "Electricity",
+      "Heat"
+    ],
+    "correctAnswer": "Electricity"
+  },
+  {
+    "problem": "Which type of wave can be heard by the human ear?",
+    "grade": "5",
+    "options": [
+      "Radio waves",
+      "Microwaves",
+      "Sound waves"
+    ],
+    "correctAnswer": "Sound waves"
+  },
+  {
+    "problem": "What causes an ice cube to melt when left out in the sun?",
+    "grade": "5",
+    "options": [
+      "Friction",
+      "Convection",
+      "Heat"
+    ],
+    "correctAnswer": "Heat"
+  },
+  {
+    "problem": "What type of simple machine is a seesaw?",
+    "grade": "5",
+    "options": [
+      "Inclined plane",
+      "Lever",
+      "Wheel and axle"
+    ],
+    "correctAnswer": "Lever"
+  },
+  {
+    "problem": "What force is needed to change the speed or direction of an object?",
+    "grade": "5",
+    "options": [
+      "Gravity",
+      "Friction",
+      "Force"
+    ],
+    "correctAnswer": "Force"
+  },
+  {
+    "problem": "Which of the following is an example of renewable energy?",
+    "grade": "5",
+    "options": [
+      "Coal",
+      "Solar power",
+      "Natural gas"
+    ],
+    "correctAnswer": "Solar power"
+  },
+  {
+    "problem": "What type of simple machine is a pair of scissors?",
+    "grade": "5",
+    "options": [
+      "Wedge",
+      "Pulley",
+      "Lever"
+    ],
+    "correctAnswer": "Wedge"
+  },
+  {
+    "problem": "How does a rocket take off into space?",
+    "grade": "5",
+    "options": [
+      "Magnetism",
+      "Gravity",
+      "Thrust"
+    ],
+    "correctAnswer": "Thrust"
+  },
+  {
+    "problem": "What type of energy is produced by wind turbines?",
+    "grade": "5",
+    "options": [
+      "Kinetic energy",
+      "Chemical energy",
+      "Nuclear energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "What tool is used to measure temperature?",
+    "grade": "5",
+    "options": [
+      "Protractor",
+      "Thermometer",
+      "Ruler"
+    ],
+    "correctAnswer": "Thermometer"
+  },
+  {
+    "problem": "How does a magnet attract certain objects?",
+    "grade": "5",
+    "options": [
+      "Through heat",
+      "Through sound",
+      "Through magnetism"
+    ],
+    "correctAnswer": "Through magnetism"
+  },
+  {
+    "problem": "What type of wave is produced when you drop a pebble in water?",
+    "grade": "5",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "Ripple wave"
+    ],
+    "correctAnswer": "Ripple wave"
+  },
+  {
+    "problem": "What type of energy is stored in a battery?",
+    "grade": "5",
+    "options": [
+      "Chemical energy",
+      "Light energy",
+      "Heat energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "How does a lever make it easier to lift a heavy object?",
+    "grade": "5",
+    "options": [
+      "By increasing friction",
+      "By decreasing force",
+      "By increasing mechanical advantage"
+    ],
+    "correctAnswer": "By increasing mechanical advantage"
+  },
+  {
+    "problem": "What force causes a ball to bounce back up after being dropped?",
+    "grade": "5",
+    "options": [
+      "Gravity",
+      "Friction",
+      "Elastic force"
+    ],
+    "correctAnswer": "Elastic force"
+  },
+  {
+    "problem": "Which type of energy is produced by a campfire?",
+    "grade": "5",
+    "options": [
+      "Sound energy",
+      "Chemical energy",
+      "Light energy"
+    ],
+    "correctAnswer": "Light energy"
+  },
+  {
+    "problem": "What type of simple machine is a wheelbarrow?",
+    "grade": "5",
+    "options": [
+      "Wheel and axle",
+      "Pulley",
+      "Inclined plane"
+    ],
+    "correctAnswer": "Wheel and axle"
+  },
+  {
+    "problem": "What force keeps objects on the ground from floating away into space?",
+    "grade": "5",
+    "options": [
+      "Gravity",
+      "Friction",
+      "Magnetism"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "Which of the following is an example of potential energy?",
+    "grade": "5",
+    "options": [
+      "A moving car",
+      "A book sitting on a shelf",
+      "A bouncing ball"
+    ],
+    "correctAnswer": "A book sitting on a shelf"
+  },
+  {
+    "problem": "What happens when light hits a mirror and reflects off?",
+    "grade": "5",
+    "options": [
+      "It disappears",
+      "It absorbs the light",
+      "It bounces back"
+    ],
+    "correctAnswer": "It bounces back"
+  },
+  {
+    "problem": "What is the flow of electric charge through a conductor called?",
+    "grade": "5",
+    "options": [
+      "Voltage",
+      "Current",
+      "Resistance"
+    ],
+    "correctAnswer": "Current"
+  },
+  {
+    "problem": "How do sound waves travel through the air?",
+    "grade": "5",
+    "options": [
+      "In straight lines",
+      "In circles",
+      "In waves"
+    ],
+    "correctAnswer": "In waves"
+  },
+  {
+    "problem": "What happens to the temperature of a substance when heat is added?",
+    "grade": "5",
+    "options": [
+      "It decreases",
+      "It stays the same",
+      "It increases"
+    ],
+    "correctAnswer": "It increases"
+  },
+  {
+    "problem": "Which of the following is an example of a lever?",
+    "grade": "5",
+    "options": [
+      "A seesaw",
+      "A light bulb",
+      "A computer"
+    ],
+    "correctAnswer": "A seesaw"
+  },
+  {
+    "problem": "What force is responsible for keeping a ball rolling down a hill?",
+    "grade": "5",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Magnetism"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "What type of energy is stored in a battery?",
+    "grade": "5",
+    "options": [
+      "Kinetic energy",
+      "Electrical energy",
+      "Solar energy"
+    ],
+    "correctAnswer": "Electrical energy"
+  },
+  {
+    "problem": "Which of the following is considered a simple machine?",
+    "grade": "5",
+    "options": [
+      "Television",
+      "Wheelbarrow",
+      "Radio"
+    ],
+    "correctAnswer": "Wheelbarrow"
+  },
+  {
+    "problem": "What force causes a ball to bounce back after hitting the ground?",
+    "grade": "5",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Elastic force"
+    ],
+    "correctAnswer": "Elastic force"
+  },
+  {
+    "problem": "What type of energy is produced when a person runs on a treadmill?",
+    "grade": "5",
+    "options": [
+      "Potential energy",
+      "Chemical energy",
+      "Kinetic energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "How does a magnet attract certain objects?",
+    "grade": "5",
+    "options": [
+      "With heat",
+      "With light",
+      "With magnetic force"
+    ],
+    "correctAnswer": "With magnetic force"
+  },
+  {
+    "problem": "What do we call the bending of light as it passes through different mediums?",
+    "grade": "5",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Absorption"
+    ],
+    "correctAnswer": "Refraction"
+  },
+  {
+    "problem": "Which of the following is a good conductor of electricity?",
+    "grade": "5",
+    "options": [
+      "Wood",
+      "Aluminum",
+      "Glass"
+    ],
+    "correctAnswer": "Aluminum"
+  },
+  {
+    "problem": "What type of energy is produced by wind turbines?",
+    "grade": "5",
+    "options": [
+      "Solar energy",
+      "Wind energy",
+      "Nuclear energy"
+    ],
+    "correctAnswer": "Wind energy"
+  },
+  {
+    "problem": "What is the force that opposes motion when an object slides across a surface?",
+    "grade": "5",
+    "options": [
+      "Magnetism",
+      "Friction",
+      "Gravity"
+    ],
+    "correctAnswer": "Friction"
+  },
+  {
+    "problem": "Which of the following is an example of a pulley?",
+    "grade": "5",
+    "options": [
+      "Swing",
+      "Zipper",
+      "Flagpole"
+    ],
+    "correctAnswer": "Flagpole"
+  },
+  {
+    "problem": "What is the energy of motion called?",
+    "grade": "5",
+    "options": [
+      "Potential energy",
+      "Chemical energy",
+      "Kinetic energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "How does a ramp make it easier to move heavy objects?",
+    "grade": "5",
+    "options": [
+      "By reducing weight",
+      "By increasing friction",
+      "By reducing the force needed"
+    ],
+    "correctAnswer": "By reducing the force needed"
+  },
+  {
+    "problem": "What causes an object to move in a circular path?",
+    "grade": "5",
+    "options": [
+      "Gravity",
+      "Friction",
+      "Centripetal force"
+    ],
+    "correctAnswer": "Centripetal force"
+  },
+  {
+    "problem": "What is the energy of motion called?",
+    "grade": "5",
+    "options": [
+      "Potential energy",
+      "Chemical energy",
+      "Kinetic energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "What type of energy does a flashlight use to produce light?",
+    "grade": "5",
+    "options": [
+      "Electrical energy",
+      "Solar energy",
+      "Heat energy"
+    ],
+    "correctAnswer": "Electrical energy"
+  },
+  {
+    "problem": "What is the flow of electric charge through a conductor called?",
+    "grade": "5",
+    "options": [
+      "Voltage",
+      "Electric current",
+      "Resistance"
+    ],
+    "correctAnswer": "Electric current"
+  },
+  {
+    "problem": "What type of wave requires a medium to travel through?",
+    "grade": "5",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "Radio wave"
+    ],
+    "correctAnswer": "Sound wave"
+  },
+  {
+    "problem": "What is the transfer of heat between objects in direct contact called?",
+    "grade": "5",
+    "options": [
+      "Convection",
+      "Radiation",
+      "Conduction"
+    ],
+    "correctAnswer": "Conduction"
+  },
+  {
+    "problem": "Which of the following is an example of a lever?",
+    "grade": "5",
+    "options": [
+      "Screwdriver",
+      "Wheelbarrow",
+      "Flashlight"
+    ],
+    "correctAnswer": "Wheelbarrow"
+  },
+  {
+    "problem": "What force keeps planets in orbit around the sun?",
+    "grade": "5",
+    "options": [
+      "Magnetic force",
+      "Gravitational force",
+      "Frictional force"
+    ],
+    "correctAnswer": "Gravitational force"
+  },
+  {
+    "problem": "Which type of energy is produced by wind turbines?",
+    "grade": "5",
+    "options": [
+      "Solar energy",
+      "Wind energy",
+      "Geothermal energy"
+    ],
+    "correctAnswer": "Wind energy"
+  },
+  {
+    "problem": "What type of simple machine is a seesaw?",
+    "grade": "5",
+    "options": [
+      "Wheel and axle",
+      "Pulley",
+      "Lever"
+    ],
+    "correctAnswer": "Lever"
+  },
+  {
+    "problem": "What force slows down a rolling ball?",
+    "grade": "5",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Magnetism"
+    ],
+    "correctAnswer": "Friction"
+  },
+  {
+    "problem": "What is the energy of an object due to its position or condition called?",
+    "grade": "5",
+    "options": [
+      "Kinetic energy",
+      "Chemical energy",
+      "Potential energy"
+    ],
+    "correctAnswer": "Potential energy"
+  },
+  {
+    "problem": "What type of energy is produced by a vibrating guitar string?",
+    "grade": "5",
+    "options": [
+      "Heat energy",
+      "Sound energy",
+      "Electrical energy"
+    ],
+    "correctAnswer": "Sound energy"
+  },
+  {
+    "problem": "What material allows electric current to flow easily?",
+    "grade": "5",
+    "options": [
+      "Wood",
+      "Aluminum",
+      "Glass"
+    ],
+    "correctAnswer": "Aluminum"
+  },
+  {
+    "problem": "What is the bending of light when it passes through different materials called?",
+    "grade": "5",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Dispersion"
+    ],
+    "correctAnswer": "Refraction"
+  },
+  {
+    "problem": "Which part of a circuit controls the flow of electric current?",
+    "grade": "5",
+    "options": [
+      "Resistor",
+      "Battery",
+      "Switch"
+    ],
+    "correctAnswer": "Switch"
+  },
+  {
+    "problem": "What type of wave can travel through a vacuum?",
+    "grade": "5",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "Water wave"
+    ],
+    "correctAnswer": "Light wave"
+  },
+  {
+    "problem": "What is the measure of the average kinetic energy of particles in an object called?",
+    "grade": "5",
+    "options": [
+      "Temperature",
+      "Heat",
+      "Thermal energy"
+    ],
+    "correctAnswer": "Temperature"
+  },
+  {
+    "problem": "Which simple machine is used to raise heavy objects?",
+    "grade": "5",
+    "options": [
+      "Pulley",
+      "Wheel and axle",
+      "Inclined plane"
+    ],
+    "correctAnswer": "Pulley"
+  },
+  {
+    "problem": "What force causes a rocket to lift off the ground?",
+    "grade": "5",
+    "options": [
+      "Thrust",
+      "Drag",
+      "Gravity"
+    ],
+    "correctAnswer": "Thrust"
+  },
+  {
+    "problem": "What force keeps objects on the ground and pulls things downward?",
+    "grade": "5",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Magnetism"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "What is the energy of motion called?",
+    "grade": "5",
+    "options": [
+      "Potential energy",
+      "Chemical energy",
+      "Kinetic energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "What type of energy does a flashlight produce?",
+    "grade": "5",
+    "options": [
+      "Light energy",
+      "Sound energy",
+      "Electrical energy"
+    ],
+    "correctAnswer": "Light energy"
+  },
+  {
+    "problem": "Which material allows electricity to flow through it easily?",
+    "grade": "5",
+    "options": [
+      "Aluminum",
+      "Wood",
+      "Glass"
+    ],
+    "correctAnswer": "Aluminum"
+  },
+  {
+    "problem": "What type of wave can travel through empty space?",
+    "grade": "5",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "Water wave"
+    ],
+    "correctAnswer": "Light wave"
+  },
+  {
+    "problem": "What is the transfer of heat from a hot object to a cooler one called?",
+    "grade": "5",
+    "options": [
+      "Conduction",
+      "Insulation",
+      "Radiation"
+    ],
+    "correctAnswer": "Conduction"
+  },
+  {
+    "problem": "Which simple machine is a ramp used to move objects to a higher or lower place?",
+    "grade": "5",
+    "options": [
+      "Screw",
+      "Inclined plane",
+      "Lever"
+    ],
+    "correctAnswer": "Inclined plane"
+  },
+  {
+    "problem": "What force causes a ball to slow down when rolling on the ground?",
+    "grade": "5",
+    "options": [
+      "Magnetism",
+      "Gravity",
+      "Friction"
+    ],
+    "correctAnswer": "Friction"
+  },
+  {
+    "problem": "What is the ability to do work called?",
+    "grade": "5",
+    "options": [
+      "Energy",
+      "Power",
+      "Force"
+    ],
+    "correctAnswer": "Energy"
+  },
+  {
+    "problem": "Which simple machine is a seesaw an example of?",
+    "grade": "5",
+    "options": [
+      "Wheel and axle",
+      "Pulley",
+      "Lever"
+    ],
+    "correctAnswer": "Lever"
+  },
+  {
+    "problem": "What keeps the planets in the solar system moving in their orbits?",
+    "grade": "5",
+    "options": [
+      "Magnetism",
+      "Gravity",
+      "Electricity"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "Which type of energy is stored in a battery?",
+    "grade": "5",
+    "options": [
+      "Electrical energy",
+      "Light energy",
+      "Sound energy"
+    ],
+    "correctAnswer": "Electrical energy"
+  },
+  {
+    "problem": "What type of wave can't travel through empty space?",
+    "grade": "5",
+    "options": [
+      "Light wave",
+      "Sound wave",
+      "Water wave"
+    ],
+    "correctAnswer": "Sound wave"
+  },
+  {
+    "problem": "What happens to the particles in a substance when it is heated?",
+    "grade": "5",
+    "options": [
+      "They stop moving",
+      "They slow down",
+      "They move faster"
+    ],
+    "correctAnswer": "They move faster"
+  },
+  {
+    "problem": "Which simple machine is a screwdriver an example of?",
+    "grade": "5",
+    "options": [
+      "Screw",
+      "Wheel and axle",
+      "Pulley"
+    ],
+    "correctAnswer": "Screw"
+  },
+  {
+    "problem": "What force causes a rocket to launch into space?",
+    "grade": "5",
+    "options": [
+      "Gravity",
+      "Friction",
+      "Thrust"
+    ],
+    "correctAnswer": "Thrust"
+  },
+  {
+    "problem": "Which energy source is used to power vehicles like cars and buses?",
+    "grade": "5",
+    "options": [
+      "Nuclear energy",
+      "Chemical energy",
+      "Solar energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "What type of energy is produced by a ringing bell?",
+    "grade": "5",
+    "options": [
+      "Light energy",
+      "Sound energy",
+      "Thermal energy"
+    ],
+    "correctAnswer": "Sound energy"
+  },
+  {
+    "problem": "What happens when you rub a balloon against your hair and it sticks to the wall?",
+    "grade": "5",
+    "options": [
+      "Gravity",
+      "Magnetism",
+      "Static electricity"
+    ],
+    "correctAnswer": "Static electricity"
+  },
+  {
+    "problem": "What force causes objects to fall towards the Earth?",
+    "grade": "5",
+    "options": [
+      "Magnetic force",
+      "Frictional force",
+      "Gravity"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "What type of energy is produced when a person pedals a bicycle?",
+    "grade": "5",
+    "options": [
+      "Nuclear energy",
+      "Kinetic energy",
+      "Electrical energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "What type of material allows light to pass through easily?",
+    "grade": "5",
+    "options": [
+      "Opaque material",
+      "Translucent material",
+      "Reflective material"
+    ],
+    "correctAnswer": "Translucent material"
+  },
+  {
+    "problem": "Which of the following is a good conductor of electricity and can be found in wires?",
+    "grade": "5",
+    "options": [
+      "Aluminum",
+      "Wood",
+      "Glass"
+    ],
+    "correctAnswer": "Aluminum"
+  },
+  {
+    "problem": "What type of wave does not require a medium to travel through?",
+    "grade": "5",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "Electromagnetic wave"
+    ],
+    "correctAnswer": "Electromagnetic wave"
+  },
+  {
+    "problem": "What is the transfer of thermal energy from a hot object to a cooler object called?",
+    "grade": "5",
+    "options": [
+      "Conduction",
+      "Convection",
+      "Radiation"
+    ],
+    "correctAnswer": "Conduction"
+  },
+  {
+    "problem": "Which of the following is an example of a simple machine used to lift heavy objects?",
+    "grade": "5",
+    "options": [
+      "Screwdriver",
+      "Lever",
+      "Compass"
+    ],
+    "correctAnswer": "Lever"
+  },
+  {
+    "problem": "What force causes a ball to slow down when rolling on a surface?",
+    "grade": "5",
+    "options": [
+      "Magnetic force",
+      "Frictional force",
+      "Gravity"
+    ],
+    "correctAnswer": "Frictional force"
+  },
+  {
+    "problem": "What type of energy is stored in batteries and can power devices?",
+    "grade": "5",
+    "options": [
+      "Solar energy",
+      "Chemical energy",
+      "Wind energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "Which of the following is a simple machine used to lift water from a well?",
+    "grade": "5",
+    "options": [
+      "Wheel and axle",
+      "Pulley",
+      "Screw"
+    ],
+    "correctAnswer": "Wheel and axle"
+  },
+  {
+    "problem": "What is the force that opposes the motion of an object through a fluid called?",
+    "grade": "5",
+    "options": [
+      "Magnetic force",
+      "Frictional force",
+      "Buoyant force"
+    ],
+    "correctAnswer": "Frictional force"
+  },
+  {
+    "problem": "What kind of energy is produced when the wind turns the blades of a windmill?",
+    "grade": "5",
+    "options": [
+      "Kinetic energy",
+      "Sound energy",
+      "Heat energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "What happens when light passes through a prism?",
+    "grade": "5",
+    "options": [
+      "It bends",
+      "It reflects",
+      "It disappears"
+    ],
+    "correctAnswer": "It bends"
+  },
+  {
+    "problem": "Which material is commonly used as an insulator to prevent the flow of electricity?",
+    "grade": "5",
+    "options": [
+      "Silver",
+      "Rubber",
+      "Gold"
+    ],
+    "correctAnswer": "Rubber"
+  },
+  {
+    "problem": "What type of wave is produced when you pluck a guitar string?",
+    "grade": "5",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "Seismic wave"
+    ],
+    "correctAnswer": "Sound wave"
+  },
+  {
+    "problem": "What is the unit used to measure temperature?",
+    "grade": "5",
+    "options": [
+      "Kelvin",
+      "Fahrenheit",
+      "Celsius"
+    ],
+    "correctAnswer": "Celsius"
+  },
+  {
+    "problem": "Which of the following is a simple machine that can be used to lift heavy objects by pulling a rope?",
+    "grade": "5",
+    "options": [
+      "Inclined plane",
+      "Wedge",
+      "Pulley"
+    ],
+    "correctAnswer": "Pulley"
+  },
+  {
+    "problem": "What force causes an object to move in a circular path?",
+    "grade": "5",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Centripetal force"
+    ],
+    "correctAnswer": "Centripetal force"
+  },
+  {
+    "problem": "What type of energy is produced by the sun and can be converted into electricity?",
+    "grade": "5",
+    "options": [
+      "Nuclear energy",
+      "Solar energy",
+      "Geothermal energy"
+    ],
+    "correctAnswer": "Solar energy"
+  },
+  {
+    "problem": "Which of the following is a simple machine used to split wood?",
+    "grade": "5",
+    "options": [
+      "Screw",
+      "Wedge",
+      "Wheel and axle"
+    ],
+    "correctAnswer": "Wedge"
+  },
+  {
+    "problem": "What is the law that states an object at rest stays at rest unless acted on by a force?",
+    "grade": "6",
+    "options": ["Newton's First Law", "Law of Conservation", "Newton's Third Law"],
+    "correctAnswer": "Newton's First Law"
+  },
+  {
+    "problem": "What type of energy is stored due to an object's position?",
+    "grade": "6",
+    "options": ["Kinetic energy", "Potential energy", "Thermal energy"],
+    "correctAnswer": "Potential energy"
+  },
+  {
+    "problem": "What does a prism do to light?",
+    "grade": "6",
+    "options": ["Reflects it", "Blocks it", "Separates it into colors"],
+    "correctAnswer": "Separates it into colors"
+  },
+  {
+    "problem": "Which type of energy increases when you rub your hands together?",
+    "grade": "6",
+    "options": ["Light energy", "Thermal energy", "Sound energy"],
+    "correctAnswer": "Thermal energy"
+  },
+  {
+    "problem": "What is mass measured in?",
+    "grade": "6",
+    "options": ["Liters", "Grams", "Newtons"],
+    "correctAnswer": "Grams"
+  },
+  {
+    "problem": "Which force keeps planets in orbit around the Sun?",
+    "grade": "6",
+    "options": ["Magnetism", "Friction", "Gravity"],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "What type of circuit has only one path for electricity to flow?",
+    "grade": "6",
+    "options": ["Parallel circuit", "Closed circuit", "Series circuit"],
+    "correctAnswer": "Series circuit"
+  },
+  {
+    "problem": "Which of the following is a renewable source of energy?",
+    "grade": "6",
+    "options": ["Coal", "Wind", "Oil"],
+    "correctAnswer": "Wind"
+  },
+  {
+    "problem": "What happens to the speed of an object if the force applied increases?",
+    "grade": "6",
+    "options": ["It stays the same", "It decreases", "It increases"],
+    "correctAnswer": "It increases"
+  },
+  {
+    "problem": "What tool is used to measure electric current?",
+    "grade": "6",
+    "options": ["Voltmeter", "Ammeter", "Thermometer"],
+    "correctAnswer": "Ammeter"
+  },
+  {
+    "problem": "What is the force that opposes motion between two surfaces in contact?",
+    "grade": "6",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Magnetism"
+    ],
+    "correctAnswer": "Friction"
+  },
+  {
+    "problem": "Which type of energy is associated with the motion of an object?",
+    "grade": "6",
+    "options": [
+      "Potential energy",
+      "Thermal energy",
+      "Kinetic energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "What type of energy is produced by the vibration of an object?",
+    "grade": "6",
+    "options": [
+      "Light energy",
+      "Sound energy",
+      "Electrical energy"
+    ],
+    "correctAnswer": "Sound energy"
+  },
+  {
+    "problem": "What is the flow of electric charge through a conductor called?",
+    "grade": "6",
+    "options": [
+      "Voltage",
+      "Current",
+      "Resistance"
+    ],
+    "correctAnswer": "Current"
+  },
+  {
+    "problem": "What type of wave requires a medium to travel through?",
+    "grade": "6",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "Electromagnetic wave"
+    ],
+    "correctAnswer": "Sound wave"
+  },
+  {
+    "problem": "What is the transfer of thermal energy from a hot object to a cooler object?",
+    "grade": "6",
+    "options": [
+      "Convection",
+      "Conduction",
+      "Radiation"
+    ],
+    "correctAnswer": "Conduction"
+  },
+  {
+    "problem": "Which simple machine is used to lift heavy objects?",
+    "grade": "6",
+    "options": [
+      "Pulley",
+      "Lever",
+      "Wheel and axle"
+    ],
+    "correctAnswer": "Pulley"
+  },
+  {
+    "problem": "What is the force that pulls objects towards the center of the Earth?",
+    "grade": "6",
+    "options": [
+      "Friction",
+      "Magnetism",
+      "Gravity"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "What type of energy is stored in food?",
+    "grade": "6",
+    "options": [
+      "Chemical energy",
+      "Nuclear energy",
+      "Solar energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "Which simple machine is a flat, inclined surface?",
+    "grade": "6",
+    "options": [
+      "Screw",
+      "Wedge",
+      "Inclined plane"
+    ],
+    "correctAnswer": "Inclined plane"
+  },
+  {
+    "problem": "What type of force causes a ball to roll downhill?",
+    "grade": "6",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Magnetism"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "Which type of energy is associated with temperature?",
+    "grade": "6",
+    "options": [
+      "Potential energy",
+      "Kinetic energy",
+      "Thermal energy"
+    ],
+    "correctAnswer": "Thermal energy"
+  },
+  {
+    "problem": "What is the unit of measurement for electric current?",
+    "grade": "6",
+    "options": [
+      "Volts",
+      "Ohms",
+      "Amps"
+    ],
+    "correctAnswer": "Amps"
+  },
+  {
+    "problem": "What type of wave can travel through a vacuum?",
+    "grade": "6",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "Water wave"
+    ],
+    "correctAnswer": "Light wave"
+  },
+  {
+    "problem": "What is the flow of heat through a fluid due to density differences called?",
+    "grade": "6",
+    "options": [
+      "Conduction",
+      "Convection",
+      "Radiation"
+    ],
+    "correctAnswer": "Convection"
+  },
+  {
+    "problem": "Which simple machine is a rigid bar that pivots around a fixed point?",
+    "grade": "6",
+    "options": [
+      "Pulley",
+      "Lever",
+      "Wheel and axle"
+    ],
+    "correctAnswer": "Lever"
+  },
+  {
+    "problem": "What force causes an apple to fall to the ground?",
+    "grade": "6",
+    "options": [
+      "Friction",
+      "Magnetism",
+      "Gravity"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "What type of energy is associated with the movement of electrons?",
+    "grade": "6",
+    "options": [
+      "Chemical energy",
+      "Nuclear energy",
+      "Electrical energy"
+    ],
+    "correctAnswer": "Electrical energy"
+  },
+  {
+    "problem": "Which simple machine is a wheel with a rod through its center?",
+    "grade": "6",
+    "options": [
+      "Pulley",
+      "Lever",
+      "Wheel and axle"
+    ],
+    "correctAnswer": "Wheel and axle"
+  },
+  {
+    "problem": "What force causes a ball to fall back to the ground after it is thrown in the air?",
+    "grade": "6",
+    "options": [
+      "Magnetism",
+      "Friction",
+      "Gravity"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "What type of energy does a moving bicycle have?",
+    "grade": "6",
+    "options": [
+      "Potential energy",
+      "Thermal energy",
+      "Kinetic energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "How does light travel through a transparent material?",
+    "grade": "6",
+    "options": [
+      "It reflects off the surface",
+      "It absorbs into the material",
+      "It passes through the material"
+    ],
+    "correctAnswer": "It passes through the material"
+  },
+  {
+    "problem": "What is the flow of electric charge through a conductor called?",
+    "grade": "6",
+    "options": [
+      "Voltage",
+      "Current",
+      "Resistance"
+    ],
+    "correctAnswer": "Current"
+  },
+  {
+    "problem": "What type of wave requires a medium to travel through?",
+    "grade": "6",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "Radio wave"
+    ],
+    "correctAnswer": "Sound wave"
+  },
+  {
+    "problem": "What happens to the particles in a substance when it is heated?",
+    "grade": "6",
+    "options": [
+      "They shrink",
+      "They expand",
+      "They stay the same size"
+    ],
+    "correctAnswer": "They expand"
+  },
+  {
+    "problem": "Which simple machine is used to lift heavy objects?",
+    "grade": "6",
+    "options": [
+      "Pulley",
+      "Screw",
+      "Wheel and axle"
+    ],
+    "correctAnswer": "Pulley"
+  },
+  {
+    "problem": "What is the force that resists the motion of objects sliding against each other?",
+    "grade": "6",
+    "options": [
+      "Air resistance",
+      "Magnetic force",
+      "Friction"
+    ],
+    "correctAnswer": "Friction"
+  },
+  {
+    "problem": "What type of energy is stored in food and can be used to do work?",
+    "grade": "6",
+    "options": [
+      "Electrical energy",
+      "Chemical energy",
+      "Nuclear energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "Which simple machine is used to split objects apart?",
+    "grade": "6",
+    "options": [
+      "Lever",
+      "Wedge",
+      "Inclined plane"
+    ],
+    "correctAnswer": "Wedge"
+  },
+  {
+    "problem": "What is the force that pulls objects towards the center of the Earth called?",
+    "grade": "6",
+    "options": [
+      "Magnetism",
+      "Gravity",
+      "Friction"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "Which type of energy is produced by the movement of electrons through a conductor?",
+    "grade": "6",
+    "options": [
+      "Mechanical energy",
+      "Electrical energy",
+      "Chemical energy"
+    ],
+    "correctAnswer": "Electrical energy"
+  },
+  {
+    "problem": "How does sound travel through a solid object?",
+    "grade": "6",
+    "options": [
+      "It reflects off the surface",
+      "It absorbs into the material",
+      "It vibrates through the material"
+    ],
+    "correctAnswer": "It vibrates through the material"
+  },
+  {
+    "problem": "What is the unit of measurement for temperature?",
+    "grade": "6",
+    "options": [
+      "Meters",
+      "Celsius",
+      "Grams"
+    ],
+    "correctAnswer": "Celsius"
+  },
+  {
+    "problem": "Which simple machine is used to raise and lower objects?",
+    "grade": "6",
+    "options": [
+      "Screw",
+      "Wheel and axle",
+      "Pulley"
+    ],
+    "correctAnswer": "Wheel and axle"
+  },
+  {
+    "problem": "What force slows down a swinging pendulum over time?",
+    "grade": "6",
+    "options": [
+      "Gravity",
+      "Magnetism",
+      "Air resistance"
+    ],
+    "correctAnswer": "Air resistance"
+  },
+  {
+    "problem": "Which type of energy is given off by the Sun and can be used to generate electricity?",
+    "grade": "6",
+    "options": [
+      "Solar energy",
+      "Wind energy",
+      "Geothermal energy"
+    ],
+    "correctAnswer": "Solar energy"
+  },
+  {
+    "problem": "What is the rate at which work is done called?",
+    "grade": "6",
+    "options": [
+      "Speed",
+      "Power",
+      "Force"
+    ],
+    "correctAnswer": "Power"
+  },
+  {
+    "problem": "Which simple machine is used to hold objects together?",
+    "grade": "6",
+    "options": [
+      "Lever",
+      "Screw",
+      "Wedge"
+    ],
+    "correctAnswer": "Screw"
+  },
+  {
+    "problem": "What force causes a moving object to change direction?",
+    "grade": "6",
+    "options": [
+      "Friction",
+      "Magnetism",
+      "Centripetal force"
+    ],
+    "correctAnswer": "Centripetal force"
+  },
+  {
+    "problem": "What is the force that resists motion when two surfaces rub against each other?",
+    "grade": "6",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Magnetism"
+    ],
+    "correctAnswer": "Friction"
+  },
+  {
+    "problem": "Which of the following is an example of potential energy?",
+    "grade": "6",
+    "options": [
+      "A moving car",
+      "A stretched rubber band",
+      "A bouncing ball"
+    ],
+    "correctAnswer": "A stretched rubber band"
+  },
+  {
+    "problem": "Which type of energy is produced by the vibrations of an object?",
+    "grade": "6",
+    "options": [
+      "Thermal energy",
+      "Sound energy",
+      "Kinetic energy"
+    ],
+    "correctAnswer": "Sound energy"
+  },
+  {
+    "problem": "What is the flow of electric charge through a conductor called?",
+    "grade": "6",
+    "options": [
+      "Voltage",
+      "Resistance",
+      "Electric current"
+    ],
+    "correctAnswer": "Electric current"
+  },
+  {
+    "problem": "What type of wave causes an object to move up and down in the same direction as the wave?",
+    "grade": "6",
+    "options": [
+      "Transverse wave",
+      "Longitudinal wave",
+      "Standing wave"
+    ],
+    "correctAnswer": "Longitudinal wave"
+  },
+  {
+    "problem": "Which of the following is a good conductor of heat?",
+    "grade": "6",
+    "options": [
+      "Wood",
+      "Metal",
+      "Plastic"
+    ],
+    "correctAnswer": "Metal"
+  },
+  {
+    "problem": "What simple machine is used to lift heavy objects by pulling a rope?",
+    "grade": "6",
+    "options": [
+      "Pulley",
+      "Wedge",
+      "Lever"
+    ],
+    "correctAnswer": "Pulley"
+  },
+  {
+    "problem": "What is the force that pulls objects towards each other?",
+    "grade": "6",
+    "options": [
+      "Magnetism",
+      "Gravity",
+      "Friction"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "Which type of energy is stored in the food we eat?",
+    "grade": "6",
+    "options": [
+      "Chemical energy",
+      "Solar energy",
+      "Nuclear energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "What simple machine consists of a rigid bar that pivots on a fulcrum?",
+    "grade": "6",
+    "options": [
+      "Wheel and axle",
+      "Screw",
+      "Lever"
+    ],
+    "correctAnswer": "Lever"
+  },
+  {
+    "problem": "When a force is applied to an object in motion, what happens to its speed?",
+    "grade": "6",
+    "options": [
+      "It decreases",
+      "It stays the same",
+      "It increases"
+    ],
+    "correctAnswer": "It increases"
+  },
+  {
+    "problem": "Which type of energy is produced by the movement of electrons?",
+    "grade": "6",
+    "options": [
+      "Electrical energy",
+      "Mechanical energy",
+      "Nuclear energy"
+    ],
+    "correctAnswer": "Electrical energy"
+  },
+  {
+    "problem": "What is the bending of light as it passes through different materials?",
+    "grade": "6",
+    "options": [
+      "Refraction",
+      "Reflection",
+      "Absorption"
+    ],
+    "correctAnswer": "Refraction"
+  },
+  {
+    "problem": "Which of the following is a form of renewable energy?",
+    "grade": "6",
+    "options": [
+      "Natural gas",
+      "Hydropower",
+      "Coal"
+    ],
+    "correctAnswer": "Hydropower"
+  },
+  {
+    "problem": "What is the unit of measurement for temperature?",
+    "grade": "6",
+    "options": [
+      "Celsius",
+      "Grams",
+      "Liters"
+    ],
+    "correctAnswer": "Celsius"
+  },
+  {
+    "problem": "What type of force is used to push or pull objects over a distance?",
+    "grade": "6",
+    "options": [
+      "Contact force",
+      "Gravitational force",
+      "Magnetic force"
+    ],
+    "correctAnswer": "Contact force"
+  },
+  {
+    "problem": "Which of the following is a non-renewable source of energy?",
+    "grade": "6",
+    "options": [
+      "Solar power",
+      "Wind power",
+      "Fossil fuels"
+    ],
+    "correctAnswer": "Fossil fuels"
+  },
+  {
+    "problem": "What is the transfer of heat through a material without any movement of the material itself?",
+    "grade": "6",
+    "options": [
+      "Conduction",
+      "Convection",
+      "Radiation"
+    ],
+    "correctAnswer": "Conduction"
+  },
+  {
+    "problem": "What simple machine consists of a flat surface that is raised at one end?",
+    "grade": "6",
+    "options": [
+      "Inclined plane",
+      "Screw",
+      "Wheel and axle"
+    ],
+    "correctAnswer": "Inclined plane"
+  },
+  {
+    "problem": "How does the pitch of a sound wave change when the frequency increases?",
+    "grade": "6",
+    "options": [
+      "It stays the same",
+      "It gets higher",
+      "It gets lower"
+    ],
+    "correctAnswer": "It gets higher"
+  },
+  {
+    "problem": "What force causes a ball thrown into the air to come back down to the ground?",
+    "grade": "6",
+    "options": [
+      "Gravity",
+      "Magnetism",
+      "Friction"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "Which of the following is an example of potential energy?",
+    "grade": "6",
+    "options": [
+      "A moving car",
+      "A stretched rubber band",
+      "A ringing bell"
+    ],
+    "correctAnswer": "A stretched rubber band"
+  },
+  {
+    "problem": "What type of energy is produced by the Sun and allows us to see objects?",
+    "grade": "6",
+    "options": [
+      "Thermal energy",
+      "Sound energy",
+      "Light energy"
+    ],
+    "correctAnswer": "Light energy"
+  },
+  {
+    "problem": "What is the flow of electric charge called?",
+    "grade": "6",
+    "options": [
+      "Current",
+      "Voltage",
+      "Resistance"
+    ],
+    "correctAnswer": "Current"
+  },
+  {
+    "problem": "Which type of wave requires a medium to travel through?",
+    "grade": "6",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "X-ray wave"
+    ],
+    "correctAnswer": "Sound wave"
+  },
+  {
+    "problem": "What happens to the particles in a substance when it is heated?",
+    "grade": "6",
+    "options": [
+      "They shrink",
+      "They expand",
+      "They stay the same size"
+    ],
+    "correctAnswer": "They expand"
+  },
+  {
+    "problem": "Which simple machine is a sloping surface that reduces the force needed to lift objects?",
+    "grade": "6",
+    "options": [
+      "Pulley",
+      "Inclined plane",
+      "Wedge"
+    ],
+    "correctAnswer": "Inclined plane"
+  },
+  {
+    "problem": "What force causes a book resting on a table to stay in place?",
+    "grade": "6",
+    "options": [
+      "Friction",
+      "Magnetism",
+      "Gravity"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "Which energy source is generated by wind turbines?",
+    "grade": "6",
+    "options": [
+      "Solar energy",
+      "Wind energy",
+      "Geothermal energy"
+    ],
+    "correctAnswer": "Wind energy"
+  },
+  {
+    "problem": "Which simple machine is a wheel with a rope wrapped around it?",
+    "grade": "6",
+    "options": [
+      "Lever",
+      "Wheel and axle",
+      "Screw"
+    ],
+    "correctAnswer": "Wheel and axle"
+  },
+  {
+    "problem": "What force causes a ball rolling on the ground to eventually stop?",
+    "grade": "6",
+    "options": [
+      "Gravity",
+      "Friction",
+      "Magnetism"
+    ],
+    "correctAnswer": "Friction"
+  },
+  {
+    "problem": "Which type of energy is stored in food and used by our bodies for movement?",
+    "grade": "6",
+    "options": [
+      "Chemical energy",
+      "Nuclear energy",
+      "Electric energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "What is the unit of measurement for electric power?",
+    "grade": "6",
+    "options": [
+      "Watt",
+      "Volt",
+      "Ohm"
+    ],
+    "correctAnswer": "Watt"
+  },
+  {
+    "problem": "What type of wave can travel through a vacuum?",
+    "grade": "6",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "Water wave"
+    ],
+    "correctAnswer": "Light wave"
+  },
+  {
+    "problem": "What happens to the temperature of a substance when heat is removed?",
+    "grade": "6",
+    "options": [
+      "It increases",
+      "It stays the same",
+      "It decreases"
+    ],
+    "correctAnswer": "It decreases"
+  },
+  {
+    "problem": "Which simple machine is made up of a wheel with a groove in its edge?",
+    "grade": "6",
+    "options": [
+      "Pulley",
+      "Screw",
+      "Gear"
+    ],
+    "correctAnswer": "Pulley"
+  },
+  {
+    "problem": "What force causes a rocket to launch into space?",
+    "grade": "6",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Thrust"
+    ],
+    "correctAnswer": "Thrust"
+  },
+  {
+    "problem": "Which type of energy is produced by the movement of electrons?",
+    "grade": "6",
+    "options": [
+      "Mechanical energy",
+      "Electric energy",
+      "Solar energy"
+    ],
+    "correctAnswer": "Electric energy"
+  },
+  {
+    "problem": "What simple machine is a sloping surface that allows objects to be raised with less force?",
+    "grade": "6",
+    "options": [
+      "Lever",
+      "Pulley",
+      "Inclined plane"
+    ],
+    "correctAnswer": "Inclined plane"
+  },
+  {
+    "problem": "What force causes a compass needle to point north?",
+    "grade": "6",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Magnetism"
+    ],
+    "correctAnswer": "Magnetism"
+  },
+  {
+    "problem": "What force causes an apple to fall to the ground?",
+    "grade": "6",
+    "options": [
+      "Magnetism",
+      "Gravity",
+      "Friction"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "Which type of energy is associated with the motion of an object?",
+    "grade": "6",
+    "options": [
+      "Potential energy",
+      "Thermal energy",
+      "Kinetic energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "What type of energy is produced by vibrating objects?",
+    "grade": "6",
+    "options": [
+      "Thermal energy",
+      "Light energy",
+      "Sound energy"
+    ],
+    "correctAnswer": "Sound energy"
+  },
+  {
+    "problem": "What is the flow of electric charge through a closed path called?",
+    "grade": "6",
+    "options": [
+      "Voltage",
+      "Current",
+      "Resistance"
+    ],
+    "correctAnswer": "Current"
+  },
+  {
+    "problem": "What type of wave requires a medium to travel through?",
+    "grade": "6",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "Electromagnetic wave"
+    ],
+    "correctAnswer": "Sound wave"
+  },
+  {
+    "problem": "What is the transfer of thermal energy from a warmer object to a cooler object called?",
+    "grade": "6",
+    "options": [
+      "Conduction",
+      "Radiation",
+      "Convection"
+    ],
+    "correctAnswer": "Conduction"
+  },
+  {
+    "problem": "Which simple machine is a sloping surface that reduces the force needed to move an object?",
+    "grade": "6",
+    "options": [
+      "Pulley",
+      "Inclined plane",
+      "Wedge"
+    ],
+    "correctAnswer": "Inclined plane"
+  },
+  {
+    "problem": "What is the force that opposes the motion of an object through a fluid called?",
+    "grade": "6",
+    "options": [
+      "Gravity",
+      "Friction",
+      "Magnetism"
+    ],
+    "correctAnswer": "Friction"
+  },
+  {
+    "problem": "Which type of energy is stored in food and fuels?",
+    "grade": "6",
+    "options": [
+      "Kinetic energy",
+      "Potential energy",
+      "Chemical energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "What simple machine consists of a wheel with a rope or chain wrapped around it?",
+    "grade": "6",
+    "options": [
+      "Lever",
+      "Wheel and axle",
+      "Screw"
+    ],
+    "correctAnswer": "Wheel and axle"
+  },
+  {
+    "problem": "What force causes a ball rolling on the ground to eventually stop?",
+    "grade": "6",
+    "options": [
+      "Gravity",
+      "Friction",
+      "Magnetism"
+    ],
+    "correctAnswer": "Friction"
+  },
+  {
+    "problem": "Which type of energy is associated with the position or height of an object?",
+    "grade": "6",
+    "options": [
+      "Kinetic energy",
+      "Thermal energy",
+      "Potential energy"
+    ],
+    "correctAnswer": "Potential energy"
+  },
+  {
+    "problem": "What type of energy is produced by the Sun and light bulbs?",
+    "grade": "6",
+    "options": [
+      "Heat energy",
+      "Light energy",
+      "Sound energy"
+    ],
+    "correctAnswer": "Light energy"
+  },
+  {
+    "problem": "What is the flow of electric charge through a conductor called?",
+    "grade": "6",
+    "options": [
+      "Voltage",
+      "Current",
+      "Resistance"
+    ],
+    "correctAnswer": "Current"
+  },
+  {
+    "problem": "What type of wave does not require a medium to travel through?",
+    "grade": "6",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "Electromagnetic wave"
+    ],
+    "correctAnswer": "Light wave"
+  },
+  {
+    "problem": "What is the transfer of thermal energy through electromagnetic waves called?",
+    "grade": "6",
+    "options": [
+      "Conduction",
+      "Radiation",
+      "Convection"
+    ],
+    "correctAnswer": "Radiation"
+  },
+  {
+    "problem": "Which simple machine is a rigid object that pivots around a fixed point?",
+    "grade": "6",
+    "options": [
+      "Pulley",
+      "Lever",
+      "Wedge"
+    ],
+    "correctAnswer": "Lever"
+  },
+  {
+    "problem": "What is the force that pulls objects towards each other called?",
+    "grade": "6",
+    "options": [
+      "Gravity",
+      "Friction",
+      "Magnetism"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "Which type of energy is associated with the ability to do work?",
+    "grade": "6",
+    "options": [
+      "Kinetic energy",
+      "Potential energy",
+      "Mechanical energy"
+    ],
+    "correctAnswer": "Mechanical energy"
+  },
+  {
+    "problem": "What is the unit of electrical resistance?",
+    "grade": "7",
+    "options": ["Ohm", "Volt", "Ampere"],
+    "correctAnswer": "Ohm"
+  },
+  {
+    "problem": "Which law explains how current, voltage, and resistance are related?",
+    "grade": "7",
+    "options": ["Newton's Law", "Ohm's Law", "Faraday's Law"],
+    "correctAnswer": "Ohm's Law"
+  },
+  {
+    "problem": "What is the speed of light in a vacuum?",
+    "grade": "7",
+    "options": ["300,000 km/s", "150,000 km/s", "1,000 km/s"],
+    "correctAnswer": "300,000 km/s"
+  },
+  {
+    "problem": "What happens to the frequency of a wave if the wavelength increases?",
+    "grade": "7",
+    "options": ["Frequency increases", "Frequency decreases", "Frequency stays the same"],
+    "correctAnswer": "Frequency decreases"
+  },
+  {
+    "problem": "What type of lens is thicker in the middle than at the edges?",
+    "grade": "7",
+    "options": ["Concave lens", "Convex lens", "Plane lens"],
+    "correctAnswer": "Convex lens"
+  },
+  {
+    "problem": "Which force causes objects to fall toward Earth?",
+    "grade": "7",
+    "options": ["Magnetic force", "Gravity", "Electrostatic force"],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "What is the measure of how much matter an object contains?",
+    "grade": "7",
+    "options": ["Weight", "Mass", "Volume"],
+    "correctAnswer": "Mass"
+  },
+  {
+    "problem": "Which device converts chemical energy into electrical energy?",
+    "grade": "7",
+    "options": ["Battery", "Motor", "Generator"],
+    "correctAnswer": "Battery"
+  },
+  {
+    "problem": "What type of energy transformation occurs when you turn on a flashlight?",
+    "grade": "7",
+    "options": ["Electrical to light", "Light to heat", "Mechanical to electrical"],
+    "correctAnswer": "Electrical to light"
+  },
+  {
+    "problem": "What is the property of a material that allows it to return to its original shape after being stretched?",
+    "grade": "7",
+    "options": ["Elasticity", "Plasticity", "Density"],
+    "correctAnswer": "Elasticity"
+  },
+  {
+    "problem": "What force causes an object to accelerate when a force is applied to it?",
+    "grade": "7",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Inertia"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "What is the unit of energy?",
+    "grade": "7",
+    "options": [
+      "Watt",
+      "Joule",
+      "Newton"
+    ],
+    "correctAnswer": "Joule"
+  },
+  {
+    "problem": "How does sound travel through a medium?",
+    "grade": "7",
+    "options": [
+      "Through waves",
+      "Through particles",
+      "Through rays"
+    ],
+    "correctAnswer": "Through particles"
+  },
+  {
+    "problem": "What is the flow of electric charge called?",
+    "grade": "7",
+    "options": [
+      "Voltage",
+      "Current",
+      "Resistance"
+    ],
+    "correctAnswer": "Current"
+  },
+  {
+    "problem": "What type of waves are sound waves?",
+    "grade": "7",
+    "options": [
+      "Transverse waves",
+      "Longitudinal waves",
+      "Electromagnetic waves"
+    ],
+    "correctAnswer": "Longitudinal waves"
+  },
+  {
+    "problem": "What is the measure of the average kinetic energy of the particles in an object?",
+    "grade": "7",
+    "options": [
+      "Heat",
+      "Temperature",
+      "Thermal energy"
+    ],
+    "correctAnswer": "Temperature"
+  },
+  {
+    "problem": "What type of simple machine is a pair of scissors?",
+    "grade": "7",
+    "options": [
+      "Lever",
+      "Wheel and axle",
+      "Wedge"
+    ],
+    "correctAnswer": "Wedge"
+  },
+  {
+    "problem": "What force causes an object to stay at rest or in motion at a constant speed?",
+    "grade": "7",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Inertia"
+    ],
+    "correctAnswer": "Inertia"
+  },
+  {
+    "problem": "What is the rate at which work is done or energy is transferred?",
+    "grade": "7",
+    "options": [
+      "Voltage",
+      "Power",
+      "Resistance"
+    ],
+    "correctAnswer": "Power"
+  },
+  {
+    "problem": "What type of simple machine is a ramp?",
+    "grade": "7",
+    "options": [
+      "Lever",
+      "Wheel and axle",
+      "Inclined plane"
+    ],
+    "correctAnswer": "Inclined plane"
+  },
+  {
+    "problem": "What is the force that resists the motion of an object through a fluid?",
+    "grade": "7",
+    "options": [
+      "Gravity",
+      "Inertia",
+      "Drag"
+    ],
+    "correctAnswer": "Drag"
+  },
+  {
+    "problem": "How is work calculated?",
+    "grade": "7",
+    "options": [
+      "Force times distance",
+      "Mass times acceleration",
+      "Speed divided by time"
+    ],
+    "correctAnswer": "Force times distance"
+  },
+  {
+    "problem": "What is the bending of light as it passes from one medium to another?",
+    "grade": "7",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Absorption"
+    ],
+    "correctAnswer": "Refraction"
+  },
+  {
+    "problem": "What happens to the resistance of a conductor as its temperature increases?",
+    "grade": "7",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Stays the same"
+    ],
+    "correctAnswer": "Increases"
+  },
+  {
+    "problem": "What is the property of a material that allows it to carry an electric current?",
+    "grade": "7",
+    "options": [
+      "Conductivity",
+      "Insulation",
+      "Resistance"
+    ],
+    "correctAnswer": "Conductivity"
+  },
+  {
+    "problem": "What is the bouncing back of light when it hits a surface?",
+    "grade": "7",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Diffraction"
+    ],
+    "correctAnswer": "Reflection"
+  },
+  {
+    "problem": "What is the SI unit of temperature?",
+    "grade": "7",
+    "options": [
+      "Kelvin",
+      "Celsius",
+      "Fahrenheit"
+    ],
+    "correctAnswer": "Kelvin"
+  },
+  {
+    "problem": "What type of simple machine is a screw?",
+    "grade": "7",
+    "options": [
+      "Lever",
+      "Wheel and axle",
+      "Screw"
+    ],
+    "correctAnswer": "Screw"
+  },
+  {
+    "problem": "How does the force of gravity change when the mass of an object increases?",
+    "grade": "7",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Stays the same"
+    ],
+    "correctAnswer": "Increases"
+  },
+  {
+    "problem": "What is the energy of motion?",
+    "grade": "7",
+    "options": [
+      "Potential energy",
+      "Kinetic energy",
+      "Mechanical energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "What force causes a ball thrown into the air to come back down to the ground?",
+    "grade": "7",
+    "options": [
+      "Magnetic force",
+      "Frictional force",
+      "Gravity"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "Which of the following is a unit of energy?",
+    "grade": "7",
+    "options": [
+      "Newton",
+      "Joule",
+      "Watt"
+    ],
+    "correctAnswer": "Joule"
+  },
+  {
+    "problem": "What type of energy is produced when a guitar string vibrates and creates sound?",
+    "grade": "7",
+    "options": [
+      "Mechanical energy",
+      "Sound energy",
+      "Electrical energy"
+    ],
+    "correctAnswer": "Sound energy"
+  },
+  {
+    "problem": "What component of an atom carries a negative charge?",
+    "grade": "7",
+    "options": [
+      "Proton",
+      "Neutron",
+      "Electron"
+    ],
+    "correctAnswer": "Electron"
+  },
+  {
+    "problem": "What happens to the pitch of a sound wave if the frequency increases?",
+    "grade": "7",
+    "options": [
+      "Pitch increases",
+      "Pitch decreases",
+      "Pitch stays the same"
+    ],
+    "correctAnswer": "Pitch increases"
+  },
+  {
+    "problem": "Which of the following materials is a good conductor of electricity?",
+    "grade": "7",
+    "options": [
+      "Rubber",
+      "Wood",
+      "Copper"
+    ],
+    "correctAnswer": "Copper"
+  },
+  {
+    "problem": "What type of wave causes particles to move perpendicular to the direction of the wave?",
+    "grade": "7",
+    "options": [
+      "Transverse wave",
+      "Longitudinal wave",
+      "Surface wave"
+    ],
+    "correctAnswer": "Transverse wave"
+  },
+  {
+    "problem": "What is the transfer of thermal energy from a warmer object to a cooler object?",
+    "grade": "7",
+    "options": [
+      "Convection",
+      "Conduction",
+      "Radiation"
+    ],
+    "correctAnswer": "Conduction"
+  },
+  {
+    "problem": "Which of the following is an example of a simple machine?",
+    "grade": "7",
+    "options": [
+      "Pulley",
+      "Lever",
+      "Screw"
+    ],
+    "correctAnswer": "Lever"
+  },
+  {
+    "problem": "What force causes a book resting on a table to stay in place?",
+    "grade": "7",
+    "options": [
+      "Friction",
+      "Magnetism",
+      "Buoyancy"
+    ],
+    "correctAnswer": "Friction"
+  },
+  {
+    "problem": "What is the measure of how quickly work is done?",
+    "grade": "7",
+    "options": [
+      "Speed",
+      "Power",
+      "Acceleration"
+    ],
+    "correctAnswer": "Power"
+  },
+  {
+    "problem": "Which of the following is a primary color of light?",
+    "grade": "7",
+    "options": [
+      "Yellow",
+      "Magenta",
+      "Green"
+    ],
+    "correctAnswer": "Green"
+  },
+  {
+    "problem": "What type of current flows in one direction only?",
+    "grade": "7",
+    "options": [
+      "AC",
+      "DC",
+      "MC"
+    ],
+    "correctAnswer": "DC"
+  },
+  {
+    "problem": "What is the bending of light as it passes from one medium to another?",
+    "grade": "7",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Diffraction"
+    ],
+    "correctAnswer": "Refraction"
+  },
+  {
+    "problem": "Which of the following is an example of a non-renewable energy source?",
+    "grade": "7",
+    "options": [
+      "Solar",
+      "Wind",
+      "Coal"
+    ],
+    "correctAnswer": "Coal"
+  },
+  {
+    "problem": "What is the SI unit of temperature?",
+    "grade": "7",
+    "options": [
+      "Celsius",
+      "Kelvin",
+      "Fahrenheit"
+    ],
+    "correctAnswer": "Kelvin"
+  },
+  {
+    "problem": "What type of lever has the load between the fulcrum and the effort?",
+    "grade": "7",
+    "options": [
+      "First-class lever",
+      "Second-class lever",
+      "Third-class lever"
+    ],
+    "correctAnswer": "First-class lever"
+  },
+  {
+    "problem": "What force causes a car moving at a constant speed to come to a stop?",
+    "grade": "7",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Buoyancy"
+    ],
+    "correctAnswer": "Friction"
+  },
+  {
+    "problem": "What is the energy of motion?",
+    "grade": "7",
+    "options": [
+      "Potential energy",
+      "Kinetic energy",
+      "Mechanical energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "What type of simple machine is a wheelbarrow?",
+    "grade": "7",
+    "options": [
+      "Inclined plane",
+      "Wheel and axle",
+      "Wedge"
+    ],
+    "correctAnswer": "Wheel and axle"
+  },
+  {
+    "problem": "What force causes a ball to fall to the ground?",
+    "grade": "7",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Magnetism"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "What is the unit of work and energy?",
+    "grade": "7",
+    "options": [
+      "Joule",
+      "Newton",
+      "Watt"
+    ],
+    "correctAnswer": "Joule"
+  },
+  {
+    "problem": "What type of energy does a moving bicycle have?",
+    "grade": "7",
+    "options": [
+      "Kinetic energy",
+      "Potential energy",
+      "Thermal energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "What is the color of light with the longest wavelength?",
+    "grade": "7",
+    "options": [
+      "Red",
+      "Blue",
+      "Green"
+    ],
+    "correctAnswer": "Red"
+  },
+  {
+    "problem": "What type of material is a good conductor of electricity?",
+    "grade": "7",
+    "options": [
+      "Rubber",
+      "Plastic",
+      "Copper"
+    ],
+    "correctAnswer": "Copper"
+  },
+  {
+    "problem": "What is the speed of sound in air?",
+    "grade": "7",
+    "options": [
+      "343 m/s",
+      "150 m/s",
+      "500 m/s"
+    ],
+    "correctAnswer": "343 m/s"
+  },
+  {
+    "problem": "What is the SI unit of temperature?",
+    "grade": "7",
+    "options": [
+      "Kelvin",
+      "Celsius",
+      "Fahrenheit"
+    ],
+    "correctAnswer": "Kelvin"
+  },
+  {
+    "problem": "Which simple machine is used to lift heavy objects?",
+    "grade": "7",
+    "options": [
+      "Pulley",
+      "Lever",
+      "Inclined plane"
+    ],
+    "correctAnswer": "Pulley"
+  },
+  {
+    "problem": "What force causes a car to accelerate when the gas pedal is pressed?",
+    "grade": "7",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Thrust"
+    ],
+    "correctAnswer": "Thrust"
+  },
+  {
+    "problem": "What type of energy is stored in food?",
+    "grade": "7",
+    "options": [
+      "Chemical energy",
+      "Nuclear energy",
+      "Solar energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "What type of wave does not require a medium to travel through?",
+    "grade": "7",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "Electromagnetic wave"
+    ],
+    "correctAnswer": "Electromagnetic wave"
+  },
+  {
+    "problem": "What is the unit of electric power?",
+    "grade": "7",
+    "options": [
+      "Watt",
+      "Ampere",
+      "Ohm"
+    ],
+    "correctAnswer": "Watt"
+  },
+  {
+    "problem": "What type of simple machine is a seesaw?",
+    "grade": "7",
+    "options": [
+      "Lever",
+      "Wheel and axle",
+      "Screw"
+    ],
+    "correctAnswer": "Lever"
+  },
+  {
+    "problem": "What is the temperature at which water boils?",
+    "grade": "7",
+    "options": [
+      "100 degrees Celsius",
+      "0 degrees Celsius",
+      "50 degrees Celsius"
+    ],
+    "correctAnswer": "100 degrees Celsius"
+  },
+  {
+    "problem": "What force causes an apple to fall from a tree?",
+    "grade": "7",
+    "options": [
+      "Air resistance",
+      "Gravity",
+      "Buoyancy"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "What type of energy transformation occurs in a windmill?",
+    "grade": "7",
+    "options": [
+      "Mechanical to electrical",
+      "Thermal to electrical",
+      "Chemical to electrical"
+    ],
+    "correctAnswer": "Mechanical to electrical"
+  },
+  {
+    "problem": "What is the speed of light in water?",
+    "grade": "7",
+    "options": [
+      "225,000 km/s",
+      "150,000 km/s",
+      "200,000 km/s"
+    ],
+    "correctAnswer": "225,000 km/s"
+  },
+  {
+    "problem": "What is the SI unit of force?",
+    "grade": "7",
+    "options": [
+      "Newton",
+      "Joule",
+      "Watt"
+    ],
+    "correctAnswer": "Newton"
+  },
+  {
+    "problem": "What type of wave is produced by plucking a guitar string?",
+    "grade": "7",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "Electromagnetic wave"
+    ],
+    "correctAnswer": "Sound wave"
+  },
+  {
+    "problem": "What is the purpose of a fulcrum in a lever?",
+    "grade": "7",
+    "options": [
+      "To lift heavy objects",
+      "To provide support",
+      "To multiply force"
+    ],
+    "correctAnswer": "To multiply force"
+  },
+  {
+    "problem": "What force causes an object to speed up, slow down, or change direction?",
+    "grade": "7",
+    "options": [
+      "Friction",
+      "Acceleration",
+      "Gravity"
+    ],
+    "correctAnswer": "Acceleration"
+  },
+  {
+    "problem": "Which of the following is an example of potential energy?",
+    "grade": "7",
+    "options": [
+      "Running",
+      "Jumping",
+      "A stretched rubber band"
+    ],
+    "correctAnswer": "A stretched rubber band"
+  },
+  {
+    "problem": "What type of energy does a light bulb produce?",
+    "grade": "7",
+    "options": [
+      "Sound energy",
+      "Light energy",
+      "Kinetic energy"
+    ],
+    "correctAnswer": "Light energy"
+  },
+  {
+    "problem": "What is the SI unit of electric current?",
+    "grade": "7",
+    "options": [
+      "Ampere",
+      "Volt",
+      "Ohm"
+    ],
+    "correctAnswer": "Ampere"
+  },
+  {
+    "problem": "What happens to the pitch of a sound wave if the frequency increases?",
+    "grade": "7",
+    "options": [
+      "Pitch decreases",
+      "Pitch increases",
+      "Pitch stays the same"
+    ],
+    "correctAnswer": "Pitch increases"
+  },
+  {
+    "problem": "What is the transfer of energy that occurs when two objects at different temperatures come into contact with each other?",
+    "grade": "7",
+    "options": [
+      "Convection",
+      "Radiation",
+      "Conduction"
+    ],
+    "correctAnswer": "Conduction"
+  },
+  {
+    "problem": "Which simple machine is used to lift heavy objects?",
+    "grade": "7",
+    "options": [
+      "Pulley",
+      "Lever",
+      "Screw"
+    ],
+    "correctAnswer": "Pulley"
+  },
+  {
+    "problem": "What force causes an apple to fall to the ground?",
+    "grade": "7",
+    "options": [
+      "Magnetic force",
+      "Friction",
+      "Gravity"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "What is the rate at which work is done or energy is transferred?",
+    "grade": "7",
+    "options": [
+      "Work",
+      "Power",
+      "Force"
+    ],
+    "correctAnswer": "Power"
+  },
+  {
+    "problem": "Which simple machine is used to split wood?",
+    "grade": "7",
+    "options": [
+      "Wedge",
+      "Wheel and axle",
+      "Inclined plane"
+    ],
+    "correctAnswer": "Wedge"
+  },
+  {
+    "problem": "What is the force that opposes the motion of objects through a fluid?",
+    "grade": "7",
+    "options": [
+      "Friction",
+      "Tension",
+      "Drag"
+    ],
+    "correctAnswer": "Drag"
+  },
+  {
+    "problem": "Which type of energy is stored in food?",
+    "grade": "7",
+    "options": [
+      "Chemical energy",
+      "Solar energy",
+      "Nuclear energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "What is the bending of light as it passes from one medium to another?",
+    "grade": "7",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Absorption"
+    ],
+    "correctAnswer": "Refraction"
+  },
+  {
+    "problem": "What is the flow of electric charge through a conductor?",
+    "grade": "7",
+    "options": [
+      "Voltage",
+      "Current",
+      "Resistance"
+    ],
+    "correctAnswer": "Current"
+  },
+  {
+    "problem": "Which type of heat transfer occurs through electromagnetic waves?",
+    "grade": "7",
+    "options": [
+      "Convection",
+      "Conduction",
+      "Radiation"
+    ],
+    "correctAnswer": "Radiation"
+  },
+  {
+    "problem": "What force allows a bicycle to move forward when you pedal?",
+    "grade": "7",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Thrust"
+    ],
+    "correctAnswer": "Thrust"
+  },
+  {
+    "problem": "What is the energy of motion?",
+    "grade": "7",
+    "options": [
+      "Potential energy",
+      "Kinetic energy",
+      "Mechanical energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "Which type of wave can travel through a vacuum?",
+    "grade": "7",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "Water wave"
+    ],
+    "correctAnswer": "Light wave"
+  },
+  {
+    "problem": "What is the unit of temperature in the SI system?",
+    "grade": "7",
+    "options": [
+      "Celsius",
+      "Kelvin",
+      "Fahrenheit"
+    ],
+    "correctAnswer": "Kelvin"
+  },
+  {
+    "problem": "Which simple machine is a flat, sloping surface?",
+    "grade": "7",
+    "options": [
+      "Pulley",
+      "Inclined plane",
+      "Wheel and axle"
+    ],
+    "correctAnswer": "Inclined plane"
+  },
+  {
+    "problem": "What force causes an object to speed up or slow down?",
+    "grade": "7",
+    "options": [
+      "Magnetic force",
+      "Frictional force",
+      "Gravitational force"
+    ],
+    "correctAnswer": "Frictional force"
+  },
+  {
+    "problem": "What is the unit of energy?",
+    "grade": "7",
+    "options": [
+      "Watt",
+      "Joule",
+      "Newton"
+    ],
+    "correctAnswer": "Joule"
+  },
+  {
+    "problem": "Which type of energy is associated with the movement of an object?",
+    "grade": "7",
+    "options": [
+      "Potential energy",
+      "Thermal energy",
+      "Kinetic energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "What is the bending of light as it passes through different materials called?",
+    "grade": "7",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Diffraction"
+    ],
+    "correctAnswer": "Refraction"
+  },
+  {
+    "problem": "Which component of an electric circuit restricts the flow of current?",
+    "grade": "7",
+    "options": [
+      "Resistor",
+      "Conductor",
+      "Insulator"
+    ],
+    "correctAnswer": "Resistor"
+  },
+  {
+    "problem": "What type of wave causes particles in a medium to move perpendicular to the direction of the wave?",
+    "grade": "7",
+    "options": [
+      "Transverse wave",
+      "Longitudinal wave",
+      "Surface wave"
+    ],
+    "correctAnswer": "Transverse wave"
+  },
+  {
+    "problem": "What is the transfer of thermal energy from a warmer object to a cooler object called?",
+    "grade": "7",
+    "options": [
+      "Conduction",
+      "Convection",
+      "Radiation"
+    ],
+    "correctAnswer": "Conduction"
+  },
+  {
+    "problem": "Which simple machine consists of a grooved wheel and a rope or cable wrapped around it?",
+    "grade": "7",
+    "options": [
+      "Lever",
+      "Pulley",
+      "Inclined plane"
+    ],
+    "correctAnswer": "Pulley"
+  },
+  {
+    "problem": "What force causes an object to stay in motion?",
+    "grade": "7",
+    "options": [
+      "Frictional force",
+      "Magnetic force",
+      "Inertia"
+    ],
+    "correctAnswer": "Inertia"
+  },
+  {
+    "problem": "What is the rate at which work is done called?",
+    "grade": "7",
+    "options": [
+      "Energy",
+      "Power",
+      "Force"
+    ],
+    "correctAnswer": "Power"
+  },
+  {
+    "problem": "How does the pitch of a sound wave change if the frequency increases?",
+    "grade": "7",
+    "options": [
+      "Pitch increases",
+      "Pitch decreases",
+      "Pitch stays the same"
+    ],
+    "correctAnswer": "Pitch increases"
+  },
+  {
+    "problem": "Which part of an atom has a negative charge?",
+    "grade": "7",
+    "options": [
+      "Proton",
+      "Neutron",
+      "Electron"
+    ],
+    "correctAnswer": "Electron"
+  },
+  {
+    "problem": "What is the SI unit for temperature?",
+    "grade": "7",
+    "options": [
+      "Kelvin",
+      "Celsius",
+      "Fahrenheit"
+    ],
+    "correctAnswer": "Kelvin"
+  },
+  {
+    "problem": "Which simple machine is often used to lift heavy objects?",
+    "grade": "7",
+    "options": [
+      "Wheel and axle",
+      "Screw",
+      "Lever"
+    ],
+    "correctAnswer": "Lever"
+  },
+  {
+    "problem": "What is the result of unbalanced forces acting on an object?",
+    "grade": "7",
+    "options": [
+      "Acceleration",
+      "Deceleration",
+      "Constant speed"
+    ],
+    "correctAnswer": "Acceleration"
+  },
+  {
+    "problem": "What type of energy is stored in food and fuels?",
+    "grade": "7",
+    "options": [
+      "Chemical energy",
+      "Nuclear energy",
+      "Solar energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "How does the amplitude of a wave affect its energy?",
+    "grade": "7",
+    "options": [
+      "Higher amplitude, higher energy",
+      "Higher amplitude, lower energy",
+      "Amplitude does not affect energy"
+    ],
+    "correctAnswer": "Higher amplitude, higher energy"
+  },
+  {
+    "problem": "Which material is a good conductor of electricity?",
+    "grade": "7",
+    "options": [
+      "Rubber",
+      "Aluminum",
+      "Glass"
+    ],
+    "correctAnswer": "Aluminum"
+  },
+  {
+    "problem": "What is the process of heat transfer by the movement of fluids called?",
+    "grade": "7",
+    "options": [
+      "Conduction",
+      "Convection",
+      "Radiation"
+    ],
+    "correctAnswer": "Convection"
+  },
+  {
+    "problem": "What is the formula for calculating speed?",
+    "grade": "8",
+    "options": ["Speed = Distance ÷ Time", "Speed = Time ÷ Distance", "Speed = Mass × Acceleration"],
+    "correctAnswer": "Speed = Distance ÷ Time"
+  },
+  {
+    "problem": "What is Newton’s Second Law of Motion?",
+    "grade": "8",
+    "options": ["Force = Mass × Acceleration", "Every action has an equal and opposite reaction", "An object at rest stays at rest"],
+    "correctAnswer": "Force = Mass × Acceleration"
+  },
+  {
+    "problem": "What type of wave requires a medium to travel?",
+    "grade": "8",
+    "options": ["Light wave", "Sound wave", "Radio wave"],
+    "correctAnswer": "Sound wave"
+  },
+  {
+    "problem": "What is the SI unit of electric current?",
+    "grade": "8",
+    "options": ["Volt", "Ampere", "Ohm"],
+    "correctAnswer": "Ampere"
+  },
+  {
+    "problem": "What kind of energy is stored in a stretched rubber band?",
+    "grade": "8",
+    "options": ["Kinetic energy", "Thermal energy", "Elastic potential energy"],
+    "correctAnswer": "Elastic potential energy"
+  },
+  {
+    "problem": "Which phenomenon causes a straw in a glass of water to look bent?",
+    "grade": "8",
+    "options": ["Reflection", "Refraction", "Diffraction"],
+    "correctAnswer": "Refraction"
+  },
+  {
+    "problem": "What force opposes motion between two surfaces in contact?",
+    "grade": "8",
+    "options": ["Gravity", "Friction", "Magnetism"],
+    "correctAnswer": "Friction"
+  },
+  {
+    "problem": "What is the name of the process by which plants lose water through their leaves?",
+    "grade": "8",
+    "options": ["Photosynthesis", "Transpiration", "Respiration"],
+    "correctAnswer": "Transpiration"
+  },
+  {
+    "problem": "What type of circuit allows multiple paths for electricity to flow?",
+    "grade": "8",
+    "options": ["Series circuit", "Parallel circuit", "Open circuit"],
+    "correctAnswer": "Parallel circuit"
+  },
+  {
+    "problem": "Which property of sound determines its pitch?",
+    "grade": "8",
+    "options": ["Frequency", "Amplitude", "Wavelength"],
+    "correctAnswer": "Frequency"
+  },
+  {
+    "problem": "What is the force that opposes the motion of an object through a fluid called?",
+    "grade": "8",
+    "options": [
+      "Friction",
+      "Drag",
+      "Tension"
+    ],
+    "correctAnswer": "Drag"
+  },
+  {
+    "problem": "What type of energy is possessed by an object in motion?",
+    "grade": "8",
+    "options": [
+      "Potential energy",
+      "Thermal energy",
+      "Kinetic energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "Which color of light has the longest wavelength?",
+    "grade": "8",
+    "options": [
+      "Red",
+      "Blue",
+      "Green"
+    ],
+    "correctAnswer": "Red"
+  },
+  {
+    "problem": "What is the unit of electric charge?",
+    "grade": "8",
+    "options": [
+      "Coulomb",
+      "Ampere",
+      "Ohm"
+    ],
+    "correctAnswer": "Coulomb"
+  },
+  {
+    "problem": "What type of wave causes particles in the medium to vibrate in the same direction as the wave?",
+    "grade": "8",
+    "options": [
+      "Transverse wave",
+      "Longitudinal wave",
+      "Surface wave"
+    ],
+    "correctAnswer": "Longitudinal wave"
+  },
+  {
+    "problem": "What is the transfer of thermal energy from a warmer object to a cooler object?",
+    "grade": "8",
+    "options": [
+      "Conduction",
+      "Convection",
+      "Radiation"
+    ],
+    "correctAnswer": "Conduction"
+  },
+  {
+    "problem": "Which simple machine is used to raise or lower objects?",
+    "grade": "8",
+    "options": [
+      "Pulley",
+      "Lever",
+      "Wheel and axle"
+    ],
+    "correctAnswer": "Pulley"
+  },
+  {
+    "problem": "What is the unit of force in the SI system?",
+    "grade": "8",
+    "options": [
+      "Newton",
+      "Joule",
+      "Watt"
+    ],
+    "correctAnswer": "Newton"
+  },
+  {
+    "problem": "Which form of energy is stored in food and fuels?",
+    "grade": "8",
+    "options": [
+      "Nuclear energy",
+      "Chemical energy",
+      "Solar energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "Which simple machine consists of a rigid bar that pivots on a fixed point?",
+    "grade": "8",
+    "options": [
+      "Wedge",
+      "Screw",
+      "Lever"
+    ],
+    "correctAnswer": "Lever"
+  },
+  {
+    "problem": "What is the rate at which work is done or energy is transferred?",
+    "grade": "8",
+    "options": [
+      "Velocity",
+      "Power",
+      "Acceleration"
+    ],
+    "correctAnswer": "Power"
+  },
+  {
+    "problem": "Which part of an electromagnet can be changed to control the strength of the magnetic field?",
+    "grade": "8",
+    "options": [
+      "Wire thickness",
+      "Number of coils",
+      "Voltage"
+    ],
+    "correctAnswer": "Number of coils"
+  },
+  {
+    "problem": "What is the bending of light as it passes from one medium to another?",
+    "grade": "8",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Diffraction"
+    ],
+    "correctAnswer": "Refraction"
+  },
+  {
+    "problem": "What is the SI unit of temperature?",
+    "grade": "8",
+    "options": [
+      "Kelvin",
+      "Celsius",
+      "Fahrenheit"
+    ],
+    "correctAnswer": "Kelvin"
+  },
+  {
+    "problem": "Which of the following is an example of a first-class lever?",
+    "grade": "8",
+    "options": [
+      "Scissors",
+      "Wheelbarrow",
+      "Seesaw"
+    ],
+    "correctAnswer": "Seesaw"
+  },
+  {
+    "problem": "What is the force that opposes the motion of an object sliding over a surface?",
+    "grade": "8",
+    "options": [
+      "Air resistance",
+      "Tension",
+      "Friction"
+    ],
+    "correctAnswer": "Friction"
+  },
+  {
+    "problem": "Which form of energy is associated with the position or height of an object?",
+    "grade": "8",
+    "options": [
+      "Kinetic energy",
+      "Thermal energy",
+      "Potential energy"
+    ],
+    "correctAnswer": "Potential energy"
+  },
+  {
+    "problem": "What type of wave does not require a medium to travel through?",
+    "grade": "8",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "Radio wave"
+    ],
+    "correctAnswer": "Light wave"
+  },
+  {
+    "problem": "What is the flow of electric charge through a conductor called?",
+    "grade": "8",
+    "options": [
+      "Voltage",
+      "Current",
+      "Resistance"
+    ],
+    "correctAnswer": "Current"
+  },
+  {
+    "problem": "Which type of force keeps an object moving in a circle?",
+    "grade": "8",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Centripetal force"
+    ],
+    "correctAnswer": "Centripetal force"
+  },
+  {
+    "problem": "What is the force that opposes the motion of an object through air?",
+    "grade": "8",
+    "options": [
+      "Friction",
+      "Air resistance",
+      "Gravity"
+    ],
+    "correctAnswer": "Air resistance"
+  },
+  {
+    "problem": "What is the formula for calculating work?",
+    "grade": "8",
+    "options": [
+      "Work = Force × Distance",
+      "Work = Mass × Acceleration",
+      "Work = Power ÷ Time"
+    ],
+    "correctAnswer": "Work = Force × Distance"
+  },
+  {
+    "problem": "Which type of energy is associated with the motion of an object?",
+    "grade": "8",
+    "options": [
+      "Potential energy",
+      "Chemical energy",
+      "Kinetic energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "What is the color of light that is reflected by a red apple?",
+    "grade": "8",
+    "options": [
+      "Red",
+      "Green",
+      "Blue"
+    ],
+    "correctAnswer": "Red"
+  },
+  {
+    "problem": "What is the SI unit of electric charge?",
+    "grade": "8",
+    "options": [
+      "Volt",
+      "Coulomb",
+      "Ohm"
+    ],
+    "correctAnswer": "Coulomb"
+  },
+  {
+    "problem": "What type of wave is produced when a stone is dropped into a pond?",
+    "grade": "8",
+    "options": [
+      "Transverse wave",
+      "Longitudinal wave",
+      "Surface wave"
+    ],
+    "correctAnswer": "Surface wave"
+  },
+  {
+    "problem": "Which material is a good conductor of heat?",
+    "grade": "8",
+    "options": [
+      "Wood",
+      "Plastic",
+      "Metal"
+    ],
+    "correctAnswer": "Metal"
+  },
+  {
+    "problem": "What is the force that allows a lever to lift heavy objects with less effort?",
+    "grade": "8",
+    "options": [
+      "Friction",
+      "Tension",
+      "Mechanical advantage"
+    ],
+    "correctAnswer": "Mechanical advantage"
+  },
+  {
+    "problem": "Which type of energy is stored in food?",
+    "grade": "8",
+    "options": [
+      "Nuclear energy",
+      "Chemical energy",
+      "Solar energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "What is the name of the simple machine that consists of a wheel with a rope wrapped around it?",
+    "grade": "8",
+    "options": [
+      "Pulley",
+      "Lever",
+      "Inclined plane"
+    ],
+    "correctAnswer": "Pulley"
+  },
+  {
+    "problem": "What is the force that causes a ball to accelerate towards the ground when dropped?",
+    "grade": "8",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Magnetism"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "Which type of energy is associated with the position of an object?",
+    "grade": "8",
+    "options": [
+      "Kinetic energy",
+      "Thermal energy",
+      "Potential energy"
+    ],
+    "correctAnswer": "Potential energy"
+  },
+  {
+    "problem": "What is the angle of reflection for light rays bouncing off a flat mirror?",
+    "grade": "8",
+    "options": [
+      "0 degrees",
+      "45 degrees",
+      "90 degrees"
+    ],
+    "correctAnswer": "0 degrees"
+  },
+  {
+    "problem": "What is the unit of measurement for electrical resistance?",
+    "grade": "8",
+    "options": [
+      "Volt",
+      "Ampere",
+      "Ohm"
+    ],
+    "correctAnswer": "Ohm"
+  },
+  {
+    "problem": "Which type of wave can travel through a vacuum?",
+    "grade": "8",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "Radio wave"
+    ],
+    "correctAnswer": "Light wave"
+  },
+  {
+    "problem": "What is the SI unit of power?",
+    "grade": "8",
+    "options": [
+      "Joule",
+      "Watt",
+      "Newton"
+    ],
+    "correctAnswer": "Watt"
+  },
+  {
+    "problem": "What is the name of the device that changes electrical energy into mechanical energy?",
+    "grade": "8",
+    "options": [
+      "Generator",
+      "Transformer",
+      "Motor"
+    ],
+    "correctAnswer": "Motor"
+  },
+  {
+    "problem": "What is the process by which heat is transferred through direct contact?",
+    "grade": "8",
+    "options": [
+      "Convection",
+      "Conduction",
+      "Radiation"
+    ],
+    "correctAnswer": "Conduction"
+  },
+  {
+    "problem": "Which simple machine is used to lift heavy objects with a sloping surface?",
+    "grade": "8",
+    "options": [
+      "Wedge",
+      "Screw",
+      "Inclined plane"
+    ],
+    "correctAnswer": "Inclined plane"
+  },
+  {
+    "problem": "What is the force that opposes the motion of objects through a fluid like air or water?",
+    "grade": "8",
+    "options": [
+      "Friction",
+      "Drag",
+      "Gravity"
+    ],
+    "correctAnswer": "Drag"
+  },
+  {
+    "problem": "What is the relationship between force, mass, and acceleration according to Newton's Second Law of Motion?",
+    "grade": "8",
+    "options": [
+      "Force = Mass × Acceleration",
+      "Force = Mass ÷ Acceleration",
+      "Force = Acceleration ÷ Mass"
+    ],
+    "correctAnswer": "Force = Mass × Acceleration"
+  },
+  {
+    "problem": "What is the energy of motion called?",
+    "grade": "8",
+    "options": [
+      "Potential energy",
+      "Thermal energy",
+      "Kinetic energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "Which type of electromagnetic wave has the shortest wavelength?",
+    "grade": "8",
+    "options": [
+      "Radio waves",
+      "Microwaves",
+      "Gamma rays"
+    ],
+    "correctAnswer": "Gamma rays"
+  },
+  {
+    "problem": "What is the unit of electric charge?",
+    "grade": "8",
+    "options": [
+      "Coulomb",
+      "Volt",
+      "Ampere"
+    ],
+    "correctAnswer": "Coulomb"
+  },
+  {
+    "problem": "What is the term for the number of complete waves that pass a point in one second?",
+    "grade": "8",
+    "options": [
+      "Amplitude",
+      "Wavelength",
+      "Frequency"
+    ],
+    "correctAnswer": "Frequency"
+  },
+  {
+    "problem": "What is the transfer of thermal energy through direct contact called?",
+    "grade": "8",
+    "options": [
+      "Conduction",
+      "Convection",
+      "Radiation"
+    ],
+    "correctAnswer": "Conduction"
+  },
+  {
+    "problem": "Which simple machine can be described as an inclined plane wrapped around a cylinder?",
+    "grade": "8",
+    "options": [
+      "Wedge",
+      "Screw",
+      "Wheel and axle"
+    ],
+    "correctAnswer": "Screw"
+  },
+  {
+    "problem": "What is the force that opposes the motion of objects through a fluid called?",
+    "grade": "8",
+    "options": [
+      "Gravity",
+      "Friction",
+      "Drag"
+    ],
+    "correctAnswer": "Drag"
+  },
+  {
+    "problem": "What is the energy of an object that is in motion or capable of motion?",
+    "grade": "8",
+    "options": [
+      "Potential energy",
+      "Thermal energy",
+      "Kinetic energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "Which simple machine is made up of a wheel with a rope or chain wrapped around it?",
+    "grade": "8",
+    "options": [
+      "Lever",
+      "Pulley",
+      "Inclined plane"
+    ],
+    "correctAnswer": "Pulley"
+  },
+  {
+    "problem": "What force causes an object to float in a liquid?",
+    "grade": "8",
+    "options": [
+      "Gravity",
+      "Buoyant force",
+      "Friction"
+    ],
+    "correctAnswer": "Buoyant force"
+  },
+  {
+    "problem": "What is the SI unit of power?",
+    "grade": "8",
+    "options": [
+      "Joule",
+      "Watt",
+      "Newton"
+    ],
+    "correctAnswer": "Watt"
+  },
+  {
+    "problem": "Which type of wave can travel through a vacuum?",
+    "grade": "8",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "Water wave"
+    ],
+    "correctAnswer": "Light wave"
+  },
+  {
+    "problem": "What is the force that holds atoms together in a solid called?",
+    "grade": "8",
+    "options": [
+      "Friction",
+      "Tension",
+      "Atomic bonding"
+    ],
+    "correctAnswer": "Atomic bonding"
+  },
+  {
+    "problem": "What type of energy is stored in food?",
+    "grade": "8",
+    "options": [
+      "Chemical energy",
+      "Nuclear energy",
+      "Solar energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "Which simple machine consists of a flat surface that is higher on one end than the other?",
+    "grade": "8",
+    "options": [
+      "Lever",
+      "Inclined plane",
+      "Wheel and axle"
+    ],
+    "correctAnswer": "Inclined plane"
+  },
+  {
+    "problem": "What is the name of the force that causes an object to move in a circular path?",
+    "grade": "8",
+    "options": [
+      "Centripetal force",
+      "Gravity",
+      "Friction"
+    ],
+    "correctAnswer": "Centripetal force"
+  },
+  {
+    "problem": "What is the energy associated with the position of an object called?",
+    "grade": "8",
+    "options": [
+      "Kinetic energy",
+      "Thermal energy",
+      "Potential energy"
+    ],
+    "correctAnswer": "Potential energy"
+  },
+  {
+    "problem": "Which type of circuit has only one path for electricity to flow?",
+    "grade": "8",
+    "options": [
+      "Series circuit",
+      "Parallel circuit",
+      "Closed circuit"
+    ],
+    "correctAnswer": "Series circuit"
+  },
+  {
+    "problem": "What is the unit of measurement for force?",
+    "grade": "8",
+    "options": [
+      "Joule",
+      "Newton",
+      "Watt"
+    ],
+    "correctAnswer": "Newton"
+  },
+  {
+    "problem": "Which type of energy is associated with the motion of an object?",
+    "grade": "8",
+    "options": [
+      "Potential energy",
+      "Thermal energy",
+      "Kinetic energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "What type of wave can travel through empty space?",
+    "grade": "8",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "Water wave"
+    ],
+    "correctAnswer": "Light wave"
+  },
+  {
+    "problem": "What is the unit of measurement for electrical resistance?",
+    "grade": "8",
+    "options": [
+      "Ampere",
+      "Ohm",
+      "Volt"
+    ],
+    "correctAnswer": "Ohm"
+  },
+  {
+    "problem": "What causes a rainbow to form in the sky?",
+    "grade": "8",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Diffraction"
+    ],
+    "correctAnswer": "Refraction"
+  },
+  {
+    "problem": "Which material is a good conductor of electricity?",
+    "grade": "8",
+    "options": [
+      "Wood",
+      "Rubber",
+      "Copper"
+    ],
+    "correctAnswer": "Copper"
+  },
+  {
+    "problem": "What is the SI unit of temperature?",
+    "grade": "8",
+    "options": [
+      "Kelvin",
+      "Celsius",
+      "Fahrenheit"
+    ],
+    "correctAnswer": "Kelvin"
+  },
+  {
+    "problem": "Which simple machine is used to lift heavy objects?",
+    "grade": "8",
+    "options": [
+      "Pulley",
+      "Screw",
+      "Lever"
+    ],
+    "correctAnswer": "Pulley"
+  },
+  {
+    "problem": "What force keeps objects in motion?",
+    "grade": "8",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Tension"
+    ],
+    "correctAnswer": "Friction"
+  },
+  {
+    "problem": "What type of energy is stored in food?",
+    "grade": "8",
+    "options": [
+      "Chemical energy",
+      "Nuclear energy",
+      "Solar energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "How does a convex lens bend light rays?",
+    "grade": "8",
+    "options": [
+      "Converging",
+      "Diverging",
+      "Absorbing"
+    ],
+    "correctAnswer": "Converging"
+  },
+  {
+    "problem": "Which type of circuit has only one path for electricity to flow?",
+    "grade": "8",
+    "options": [
+      "Parallel circuit",
+      "Series circuit",
+      "Closed circuit"
+    ],
+    "correctAnswer": "Series circuit"
+  },
+  {
+    "problem": "What is the transfer of heat through direct contact called?",
+    "grade": "8",
+    "options": [
+      "Conduction",
+      "Convection",
+      "Radiation"
+    ],
+    "correctAnswer": "Conduction"
+  },
+  {
+    "problem": "What simple machine is used to split wood?",
+    "grade": "8",
+    "options": [
+      "Wedge",
+      "Wheel and axle",
+      "Inclined plane"
+    ],
+    "correctAnswer": "Wedge"
+  },
+  {
+    "problem": "What is the force that opposes the motion of objects through air?",
+    "grade": "8",
+    "options": [
+      "Air resistance",
+      "Buoyant force",
+      "Centripetal force"
+    ],
+    "correctAnswer": "Air resistance"
+  },
+  {
+    "problem": "Which type of energy is associated with the position of an object?",
+    "grade": "8",
+    "options": [
+      "Kinetic energy",
+      "Thermal energy",
+      "Potential energy"
+    ],
+    "correctAnswer": "Potential energy"
+  },
+  {
+    "problem": "What type of wave can travel through a vacuum?",
+    "grade": "8",
+    "options": [
+      "Sound wave",
+      "Light wave",
+      "Seismic wave"
+    ],
+    "correctAnswer": "Light wave"
+  },
+  {
+    "problem": "What is the SI unit of electric power?",
+    "grade": "8",
+    "options": [
+      "Watt",
+      "Joule",
+      "Ohm"
+    ],
+    "correctAnswer": "Watt"
+  },
+  {
+    "problem": "Which simple machine is used to change the direction of a force?",
+    "grade": "8",
+    "options": [
+      "Wheel and axle",
+      "Pulley",
+      "Inclined plane"
+    ],
+    "correctAnswer": "Pulley"
+  },
+  {
+    "problem": "What is the force that pulls objects toward the center of the Earth?",
+    "grade": "8",
+    "options": [
+      "Friction",
+      "Gravity",
+      "Tension"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "What is the force that opposes motion when an object is moving through air or water?",
+    "grade": "8",
+    "options": [
+      "Friction",
+      "Drag",
+      "Gravity"
+    ],
+    "correctAnswer": "Drag"
+  },
+  {
+    "problem": "Which type of energy is associated with the motion of an object?",
+    "grade": "8",
+    "options": [
+      "Potential energy",
+      "Mechanical energy",
+      "Kinetic energy"
+    ],
+    "correctAnswer": "Kinetic energy"
+  },
+  {
+    "problem": "What type of energy transformation occurs when a light bulb is turned on?",
+    "grade": "8",
+    "options": [
+      "Electrical to light energy",
+      "Light to electrical energy",
+      "Heat to light energy"
+    ],
+    "correctAnswer": "Electrical to light energy"
+  },
+  {
+    "problem": "What is the SI unit of electric potential difference?",
+    "grade": "8",
+    "options": [
+      "Watt",
+      "Joule",
+      "Volt"
+    ],
+    "correctAnswer": "Volt"
+  },
+  {
+    "problem": "Which part of the electromagnetic spectrum has the shortest wavelength?",
+    "grade": "8",
+    "options": [
+      "Radio waves",
+      "X-rays",
+      "Microwaves"
+    ],
+    "correctAnswer": "X-rays"
+  },
+  {
+    "problem": "What is the unit of measurement for temperature in the metric system?",
+    "grade": "8",
+    "options": [
+      "Celsius",
+      "Kelvin",
+      "Fahrenheit"
+    ],
+    "correctAnswer": "Celsius"
+  },
+  {
+    "problem": "What type of simple machine is a pair of scissors?",
+    "grade": "8",
+    "options": [
+      "Lever",
+      "Wheel and axle",
+      "Inclined plane"
+    ],
+    "correctAnswer": "Lever"
+  },
+  {
+    "problem": "What force keeps a planet in orbit around the sun?",
+    "grade": "8",
+    "options": [
+      "Gravity",
+      "Friction",
+      "Tension"
+    ],
+    "correctAnswer": "Gravity"
+  },
+  {
+    "problem": "What type of energy is stored in food?",
+    "grade": "8",
+    "options": [
+      "Chemical energy",
+      "Nuclear energy",
+      "Solar energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "Which simple machine is used to lift heavy objects?",
+    "grade": "8",
+    "options": [
+      "Pulley",
+      "Screw",
+      "Wedge"
+    ],
+    "correctAnswer": "Pulley"
+  },
+  {
+    "problem": "What is the force that opposes the motion of an object sliding on a surface?",
+    "grade": "8",
+    "options": [
+      "Gravity",
+      "Tension",
+      "Friction"
+    ],
+    "correctAnswer": "Friction"
+  },
+  {
+    "problem": "What type of energy is associated with the position of an object above the ground?",
+    "grade": "8",
+    "options": [
+      "Mechanical energy",
+      "Kinetic energy",
+      "Potential energy"
+    ],
+    "correctAnswer": "Potential energy"
+  },
+  {
+    "problem": "What is the speed of light in a vacuum?",
+    "grade": "8",
+    "options": [
+      "300,000 km/s",
+      "500,000 km/s",
+      "700,000 km/s"
+    ],
+    "correctAnswer": "300,000 km/s"
+  },
+  {
+    "problem": "Which type of circuit has only one path for electricity to flow?",
+    "grade": "8",
+    "options": [
+      "Parallel circuit",
+      "Open circuit",
+      "Series circuit"
+    ],
+    "correctAnswer": "Series circuit"
+  },
+  {
+    "problem": "What is the energy transferred between objects due to a temperature difference?",
+    "grade": "8",
+    "options": [
+      "Thermal energy",
+      "Kinetic energy",
+      "Potential energy"
+    ],
+    "correctAnswer": "Thermal energy"
+  },
+  {
+    "problem": "Which type of wave is used for communication through cell phones?",
+    "grade": "8",
+    "options": [
+      "Radio wave",
+      "Sound wave",
+      "X-ray"
+    ],
+    "correctAnswer": "Radio wave"
+  },
+  {
+    "problem": "What is the SI unit of electric resistance?",
+    "grade": "8",
+    "options": [
+      "Watt",
+      "Ampere",
+      "Ohm"
+    ],
+    "correctAnswer": "Ohm"
+  },
+  {
+    "problem": "What phenomenon causes light to bend when passing from air into water?",
+    "grade": "8",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Diffraction"
+    ],
+    "correctAnswer": "Refraction"
+  },
+  {
+    "problem": "Which type of energy is associated with the vibration of particles in a substance?",
+    "grade": "8",
+    "options": [
+      "Potential energy",
+      "Kinetic energy",
+      "Sound energy"
+    ],
+    "correctAnswer": "Sound energy"
+  }
+]

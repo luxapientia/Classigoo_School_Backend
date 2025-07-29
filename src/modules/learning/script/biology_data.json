@@ -1,0 +1,6272 @@
+[
+  {
+    "problem": "Which part of the plant makes food?",
+    "grade": "3",
+    "options": ["Root", "Leaf", "Stem"],
+    "correctAnswer": "Leaf"
+  },
+  {
+    "problem": "What do animals need to live?",
+    "grade": "3",
+    "options": ["Air, water, food", "Toys", "Clothes"],
+    "correctAnswer": "Air, water, food"
+  },
+  {
+    "problem": "What do we use to breathe?",
+    "grade": "3",
+    "options": ["Eyes", "Lungs", "Stomach"],
+    "correctAnswer": "Lungs"
+  },
+  {
+    "problem": "Which of these is a mammal?",
+    "grade": "3",
+    "options": ["Frog", "Cow", "Lizard"],
+    "correctAnswer": "Cow"
+  },
+  {
+    "problem": "What do roots do for a plant?",
+    "grade": "3",
+    "options": ["Make flowers", "Absorb water", "Give fruit"],
+    "correctAnswer": "Absorb water"
+  },
+  {
+    "problem": "Which organ helps us pump blood?",
+    "grade": "3",
+    "options": ["Brain", "Lungs", "Heart"],
+    "correctAnswer": "Heart"
+  },
+  {
+    "problem": "Which of these animals lays eggs?",
+    "grade": "3",
+    "options": ["Cat", "Snake", "Dog"],
+    "correctAnswer": "Snake"
+  },
+  {
+    "problem": "What do bees collect from flowers?",
+    "grade": "3",
+    "options": ["Water", "Nectar", "Soil"],
+    "correctAnswer": "Nectar"
+  },
+  {
+    "problem": "What is the baby of a butterfly called?",
+    "grade": "3",
+    "options": ["Tadpole", "Larva", "Pup"],
+    "correctAnswer": "Larva"
+  },
+  {
+    "problem": "Where do fish live?",
+    "grade": "3",
+    "options": ["In trees", "In water", "In nests"],
+    "correctAnswer": "In water"
+  },
+  {
+    "problem": "What is the powerhouse of the cell?",
+    "grade": "3",
+    "options": [
+      "Nucleus",
+      "Mitochondria",
+      "Vacuole"
+    ],
+    "correctAnswer": "Mitochondria"
+  },
+  {
+    "problem": "Which part of a plant helps it take in sunlight for photosynthesis?",
+    "grade": "3",
+    "options": [
+      "Roots",
+      "Stem",
+      "Leaves"
+    ],
+    "correctAnswer": "Leaves"
+  },
+  {
+    "problem": "In a food chain, what do plants use sunlight to make?",
+    "grade": "3",
+    "options": [
+      "Oxygen",
+      "Water",
+      "Food"
+    ],
+    "correctAnswer": "Food"
+  },
+  {
+    "problem": "Which organ helps us see?",
+    "grade": "3",
+    "options": [
+      "Liver",
+      "Eyes",
+      "Pancreas"
+    ],
+    "correctAnswer": "Eyes"
+  },
+  {
+    "problem": "What do children inherit from their parents that determines traits like eye color?",
+    "grade": "3",
+    "options": [
+      "Hobbies",
+      "Genes",
+      "Clothes"
+    ],
+    "correctAnswer": "Genes"
+  },
+  {
+    "problem": "What process helps animals develop features that help them survive in their environment?",
+    "grade": "3",
+    "options": [
+      "Photosynthesis",
+      "Evolution",
+      "Decomposition"
+    ],
+    "correctAnswer": "Evolution"
+  },
+  {
+    "problem": "What can we do to help protect the environment?",
+    "grade": "3",
+    "options": [
+      "Throw trash on the ground",
+      "Recycle",
+      "Waste water"
+    ],
+    "correctAnswer": "Recycle"
+  },
+  {
+    "problem": "What are tiny living organisms that can only be seen with a microscope called?",
+    "grade": "3",
+    "options": [
+      "Plants",
+      "Bacteria",
+      "Rocks"
+    ],
+    "correctAnswer": "Bacteria"
+  },
+  {
+    "problem": "What process do plants use to make their own food?",
+    "grade": "3",
+    "options": [
+      "Respiration",
+      "Excretion",
+      "Photosynthesis"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "How are living things classified into different groups based on similar characteristics?",
+    "grade": "3",
+    "options": [
+      "Alphabetically",
+      "By size",
+      "By traits"
+    ],
+    "correctAnswer": "By traits"
+  },
+  {
+    "problem": "Which part of a cell acts like a control center and contains genetic information?",
+    "grade": "3",
+    "options": [
+      "Cytoplasm",
+      "Nucleus",
+      "Cell membrane"
+    ],
+    "correctAnswer": "Nucleus"
+  },
+  {
+    "problem": "What part of the plant holds it upright and helps transport water and nutrients?",
+    "grade": "3",
+    "options": [
+      "Roots",
+      "Leaves",
+      "Stem"
+    ],
+    "correctAnswer": "Stem"
+  },
+  {
+    "problem": "In a food chain, what do animals eat to get energy?",
+    "grade": "3",
+    "options": [
+      "Water",
+      "Rocks",
+      "Food"
+    ],
+    "correctAnswer": "Food"
+  },
+  {
+    "problem": "Which organ helps us hear sounds?",
+    "grade": "3",
+    "options": [
+      "Heart",
+      "Ears",
+      "Kidneys"
+    ],
+    "correctAnswer": "Ears"
+  },
+  {
+    "problem": "What physical traits do children inherit from their parents?",
+    "grade": "3",
+    "options": [
+      "Personality",
+      "Eye color",
+      "Favorite food"
+    ],
+    "correctAnswer": "Eye color"
+  },
+  {
+    "problem": "How do animals adapt to their environment over time?",
+    "grade": "3",
+    "options": [
+      "By staying the same",
+      "By evolving",
+      "By sleeping more"
+    ],
+    "correctAnswer": "By evolving"
+  },
+  {
+    "problem": "What can we do to help reduce pollution in the air and water?",
+    "grade": "3",
+    "options": [
+      "Drive more cars",
+      "Plant trees",
+      "Throw trash in rivers"
+    ],
+    "correctAnswer": "Plant trees"
+  },
+  {
+    "problem": "What are tiny organisms that can cause sickness called?",
+    "grade": "3",
+    "options": [
+      "Viruses",
+      "Fungi",
+      "Plants"
+    ],
+    "correctAnswer": "Viruses"
+  },
+  {
+    "problem": "What process do animals use to breathe in oxygen and release carbon dioxide?",
+    "grade": "3",
+    "options": [
+      "Photosynthesis",
+      "Digestion",
+      "Respiration"
+    ],
+    "correctAnswer": "Respiration"
+  },
+  {
+    "problem": "What is the powerhouse of the cell that produces energy?",
+    "grade": "3",
+    "options": [
+      "Nucleus",
+      "Mitochondria",
+      "Cell membrane"
+    ],
+    "correctAnswer": "Mitochondria"
+  },
+  {
+    "problem": "Which part of the plant helps support the plant and transport nutrients?",
+    "grade": "3",
+    "options": [
+      "Root",
+      "Leaf",
+      "Stem"
+    ],
+    "correctAnswer": "Stem"
+  },
+  {
+    "problem": "In a food chain, what do plants use sunlight to make for energy?",
+    "grade": "3",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Glucose"
+    ],
+    "correctAnswer": "Glucose"
+  },
+  {
+    "problem": "Which organ in the human body helps us hear sound?",
+    "grade": "3",
+    "options": [
+      "Liver",
+      "Eyes",
+      "Ears"
+    ],
+    "correctAnswer": "Ears"
+  },
+  {
+    "problem": "What is the passing of traits from parents to offspring called?",
+    "grade": "3",
+    "options": [
+      "Mutation",
+      "Heredity",
+      "Evolution"
+    ],
+    "correctAnswer": "Heredity"
+  },
+  {
+    "problem": "How do animals adapt to their environment to survive?",
+    "grade": "3",
+    "options": [
+      "By changing color",
+      "By growing wings",
+      "By building nests"
+    ],
+    "correctAnswer": "By changing color"
+  },
+  {
+    "problem": "What can we do to help protect the environment?",
+    "grade": "3",
+    "options": [
+      "Throw trash everywhere",
+      "Recycle",
+      "Waste water"
+    ],
+    "correctAnswer": "Recycle"
+  },
+  {
+    "problem": "What tiny living organisms can cause illness in humans?",
+    "grade": "3",
+    "options": [
+      "Viruses",
+      "Plants",
+      "Rocks"
+    ],
+    "correctAnswer": "Viruses"
+  },
+  {
+    "problem": "What process do plants use to make their own food using sunlight?",
+    "grade": "3",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Transpiration"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "How are living things classified into groups based on shared characteristics?",
+    "grade": "3",
+    "options": [
+      "By size",
+      "By color",
+      "By traits"
+    ],
+    "correctAnswer": "By traits"
+  },
+  {
+    "problem": "What are the building blocks of life that make up all living things?",
+    "grade": "3",
+    "options": [
+      "Cells",
+      "Rocks",
+      "Water"
+    ],
+    "correctAnswer": "Cells"
+  },
+  {
+    "problem": "Which animal system includes the heart, blood, and blood vessels?",
+    "grade": "3",
+    "options": [
+      "Digestive system",
+      "Circulatory system",
+      "Respiratory system"
+    ],
+    "correctAnswer": "Circulatory system"
+  },
+  {
+    "problem": "In a food chain, what do herbivores eat?",
+    "grade": "3",
+    "options": [
+      "Other animals",
+      "Plants",
+      "Rocks"
+    ],
+    "correctAnswer": "Plants"
+  },
+  {
+    "problem": "Which part of the human body helps us breathe in oxygen and breathe out carbon dioxide?",
+    "grade": "3",
+    "options": [
+      "Lungs",
+      "Stomach",
+      "Brain"
+    ],
+    "correctAnswer": "Lungs"
+  },
+  {
+    "problem": "What is the passing of genetic information from parent to offspring called?",
+    "grade": "3",
+    "options": [
+      "Mutation",
+      "Heredity",
+      "Adaptation"
+    ],
+    "correctAnswer": "Heredity"
+  },
+  {
+    "problem": "How do animals with fur adapt to cold environments?",
+    "grade": "3",
+    "options": [
+      "By shedding fur",
+      "By growing thicker fur",
+      "By hibernating"
+    ],
+    "correctAnswer": "By growing thicker fur"
+  },
+  {
+    "problem": "What can we do to reduce pollution in the air and water?",
+    "grade": "3",
+    "options": [
+      "Drive more cars",
+      "Use less plastic",
+      "Cut down more trees"
+    ],
+    "correctAnswer": "Use less plastic"
+  },
+  {
+    "problem": "What are tiny living organisms that can only be seen with a microscope?",
+    "grade": "3",
+    "options": [
+      "Plants",
+      "Animals",
+      "Microorganisms"
+    ],
+    "correctAnswer": "Microorganisms"
+  },
+  {
+    "problem": "What process do animals use to convert food into energy?",
+    "grade": "3",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Transpiration"
+    ],
+    "correctAnswer": "Respiration"
+  },
+  {
+    "problem": "How are living things grouped into kingdoms, phyla, classes, and orders?",
+    "grade": "3",
+    "options": [
+      "By size",
+      "By color",
+      "By classification"
+    ],
+    "correctAnswer": "By classification"
+  },
+  {
+    "problem": "What is the basic building block of all living things?",
+    "grade": "3",
+    "options": [
+      "Atoms",
+      "Cells",
+      "Stars"
+    ],
+    "correctAnswer": "Cells"
+  },
+  {
+    "problem": "Which part of the plant helps it stay upright and supports the leaves?",
+    "grade": "3",
+    "options": [
+      "Roots",
+      "Stem",
+      "Flower"
+    ],
+    "correctAnswer": "Stem"
+  },
+  {
+    "problem": "In a food chain, what do plants use to make their own food?",
+    "grade": "3",
+    "options": [
+      "Water",
+      "Sunlight",
+      "Air"
+    ],
+    "correctAnswer": "Sunlight"
+  },
+  {
+    "problem": "Which organ in our body helps us see things?",
+    "grade": "3",
+    "options": [
+      "Liver",
+      "Eye",
+      "Kidney"
+    ],
+    "correctAnswer": "Eye"
+  },
+  {
+    "problem": "What do children inherit from their parents that determines their traits?",
+    "grade": "3",
+    "options": [
+      "Clothes",
+      "Money",
+      "Genes"
+    ],
+    "correctAnswer": "Genes"
+  },
+  {
+    "problem": "How do animals adapt to their environment to survive?",
+    "grade": "3",
+    "options": [
+      "Change color",
+      "Grow wings",
+      "Build houses"
+    ],
+    "correctAnswer": "Change color"
+  },
+  {
+    "problem": "What can we do to help protect the environment?",
+    "grade": "3",
+    "options": [
+      "Throw trash everywhere",
+      "Plant trees",
+      "Use plastic bags"
+    ],
+    "correctAnswer": "Plant trees"
+  },
+  {
+    "problem": "What are tiny organisms that can only be seen with a microscope called?",
+    "grade": "3",
+    "options": [
+      "Bacteria",
+      "Elephants",
+      "Clouds"
+    ],
+    "correctAnswer": "Bacteria"
+  },
+  {
+    "problem": "What process do plants use to make their own food using sunlight?",
+    "grade": "3",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Fermentation"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "What is the scientific term for grouping living things based on their characteristics?",
+    "grade": "3",
+    "options": [
+      "Alphabet",
+      "Classification",
+      "Math"
+    ],
+    "correctAnswer": "Classification"
+  },
+  {
+    "problem": "Which part of the plant is responsible for absorbing water and nutrients from the soil?",
+    "grade": "3",
+    "options": [
+      "Leaves",
+      "Stem",
+      "Roots"
+    ],
+    "correctAnswer": "Roots"
+  },
+  {
+    "problem": "In a food chain, what are animals that eat plants called?",
+    "grade": "3",
+    "options": [
+      "Predators",
+      "Carnivores",
+      "Herbivores"
+    ],
+    "correctAnswer": "Herbivores"
+  },
+  {
+    "problem": "Which system in our body is responsible for carrying oxygen to all parts of the body?",
+    "grade": "3",
+    "options": [
+      "Circulatory system",
+      "Digestive system",
+      "Nervous system"
+    ],
+    "correctAnswer": "Circulatory system"
+  },
+  {
+    "problem": "What determines the color of a flower or the shape of a leaf in plants?",
+    "grade": "3",
+    "options": [
+      "Habitat",
+      "Genes",
+      "Weather"
+    ],
+    "correctAnswer": "Genes"
+  },
+  {
+    "problem": "How do animals protect themselves from predators in the wild?",
+    "grade": "3",
+    "options": [
+      "Play dead",
+      "Climb trees",
+      "Camouflage"
+    ],
+    "correctAnswer": "Camouflage"
+  },
+  {
+    "problem": "What can we do to reduce pollution in our environment?",
+    "grade": "3",
+    "options": [
+      "Drive more cars",
+      "Recycle plastic",
+      "Throw garbage in rivers"
+    ],
+    "correctAnswer": "Recycle plastic"
+  },
+  {
+    "problem": "Which type of microorganism causes diseases in plants, animals, and humans?",
+    "grade": "3",
+    "options": [
+      "Viruses",
+      "Fungi",
+      "Bacteria"
+    ],
+    "correctAnswer": "Viruses"
+  },
+  {
+    "problem": "What is the process by which living organisms release energy from food called?",
+    "grade": "3",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Fermentation"
+    ],
+    "correctAnswer": "Respiration"
+  },
+  {
+    "problem": "How do scientists classify living things into different groups?",
+    "grade": "3",
+    "options": [
+      "Color",
+      "Size",
+      "Similarities"
+    ],
+    "correctAnswer": "Similarities"
+  },
+  {
+    "problem": "What part of the plant is responsible for producing seeds?",
+    "grade": "3",
+    "options": [
+      "Stem",
+      "Roots",
+      "Flower"
+    ],
+    "correctAnswer": "Flower"
+  },
+  {
+    "problem": "What is the powerhouse of the cell?",
+    "grade": "3",
+    "options": [
+      "Vacuole",
+      "Mitochondria",
+      "Chloroplast"
+    ],
+    "correctAnswer": "Mitochondria"
+  },
+  {
+    "problem": "Which part of the plant helps in photosynthesis?",
+    "grade": "3",
+    "options": [
+      "Root",
+      "Stem",
+      "Leaf"
+    ],
+    "correctAnswer": "Leaf"
+  },
+  {
+    "problem": "In a food chain, who is at the top of the chain?",
+    "grade": "3",
+    "options": [
+      "Producers",
+      "Consumers",
+      "Predators"
+    ],
+    "correctAnswer": "Predators"
+  },
+  {
+    "problem": "Which system in our body helps us breathe?",
+    "grade": "3",
+    "options": [
+      "Digestive system",
+      "Respiratory system",
+      "Circulatory system"
+    ],
+    "correctAnswer": "Respiratory system"
+  },
+  {
+    "problem": "What do we inherit from our parents that determines our eye color?",
+    "grade": "3",
+    "options": [
+      "Genes",
+      "Traits",
+      "Hair"
+    ],
+    "correctAnswer": "Genes"
+  },
+  {
+    "problem": "How do animals adapt to their environment?",
+    "grade": "3",
+    "options": [
+      "By changing color",
+      "By growing wings",
+      "By building houses"
+    ],
+    "correctAnswer": "By changing color"
+  },
+  {
+    "problem": "What can we do to help protect the environment?",
+    "grade": "3",
+    "options": [
+      "Throw trash everywhere",
+      "Recycle",
+      "Waste water"
+    ],
+    "correctAnswer": "Recycle"
+  },
+  {
+    "problem": "Which tiny organisms can make us sick?",
+    "grade": "3",
+    "options": [
+      "Bacteria",
+      "Plants",
+      "Fungi"
+    ],
+    "correctAnswer": "Bacteria"
+  },
+  {
+    "problem": "What process do plants use to make their own food?",
+    "grade": "3",
+    "options": [
+      "Respiration",
+      "Photosynthesis",
+      "Digestion"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "How do scientists classify living things into groups?",
+    "grade": "3",
+    "options": [
+      "By size",
+      "By color",
+      "By characteristics"
+    ],
+    "correctAnswer": "By characteristics"
+  },
+  {
+    "problem": "What is the function of the nucleus in a cell?",
+    "grade": "3",
+    "options": [
+      "Stores water",
+      "Controls cell activities",
+      "Produces energy"
+    ],
+    "correctAnswer": "Controls cell activities"
+  },
+  {
+    "problem": "Which part of the plant absorbs nutrients from the soil?",
+    "grade": "3",
+    "options": [
+      "Root",
+      "Flower",
+      "Fruit"
+    ],
+    "correctAnswer": "Root"
+  },
+  {
+    "problem": "What happens in the process of respiration?",
+    "grade": "3",
+    "options": [
+      "Plants make food",
+      "Animals breathe in oxygen",
+      "Plants take in carbon dioxide"
+    ],
+    "correctAnswer": "Animals breathe in oxygen"
+  },
+  {
+    "problem": "How are siblings similar to each other?",
+    "grade": "3",
+    "options": [
+      "They have the same hair color",
+      "They share the same genes",
+      "They have different eye colors"
+    ],
+    "correctAnswer": "They share the same genes"
+  },
+  {
+    "problem": "Which animals have gills to help them breathe underwater?",
+    "grade": "3",
+    "options": [
+      "Fish",
+      "Birds",
+      "Dogs"
+    ],
+    "correctAnswer": "Fish"
+  },
+  {
+    "problem": "What do we call the process of plants making their own food using sunlight?",
+    "grade": "3",
+    "options": [
+      "Digestion",
+      "Photosynthesis",
+      "Breathing"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "How do we know if an animal is a mammal?",
+    "grade": "3",
+    "options": [
+      "It lays eggs",
+      "It has fur or hair",
+      "It has scales"
+    ],
+    "correctAnswer": "It has fur or hair"
+  },
+  {
+    "problem": "What do plants release into the air during photosynthesis?",
+    "grade": "3",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen"
+    ],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "problem": "What do we call the process of grouping living things based on their similarities?",
+    "grade": "3",
+    "options": [
+      "Sorting",
+      "Classification",
+      "Categorization"
+    ],
+    "correctAnswer": "Classification"
+  },
+  {
+    "problem": "What is the basic unit of life?",
+    "grade": "3",
+    "options": [
+      "Atom",
+      "Cell",
+      "Star"
+    ],
+    "correctAnswer": "Cell"
+  },
+  {
+    "problem": "Which part of the plant absorbs sunlight for photosynthesis?",
+    "grade": "3",
+    "options": [
+      "Root",
+      "Stem",
+      "Leaf"
+    ],
+    "correctAnswer": "Leaf"
+  },
+  {
+    "problem": "In a food chain, what do plants get their energy from?",
+    "grade": "3",
+    "options": [
+      "Sunlight",
+      "Water",
+      "Air"
+    ],
+    "correctAnswer": "Sunlight"
+  },
+  {
+    "problem": "Which organ is responsible for pumping blood throughout the body?",
+    "grade": "3",
+    "options": [
+      "Liver",
+      "Heart",
+      "Kidney"
+    ],
+    "correctAnswer": "Heart"
+  },
+  {
+    "problem": "What is the passing of traits from parents to offspring called?",
+    "grade": "3",
+    "options": [
+      "Mutation",
+      "Heredity",
+      "Evolution"
+    ],
+    "correctAnswer": "Heredity"
+  },
+  {
+    "problem": "How do animals adapt to their environment?",
+    "grade": "3",
+    "options": [
+      "By changing color",
+      "By growing wings",
+      "By building nests"
+    ],
+    "correctAnswer": "By changing color"
+  },
+  {
+    "problem": "What is a habitat?",
+    "grade": "3",
+    "options": [
+      "A home for animals",
+      "A type of food",
+      "A type of plant"
+    ],
+    "correctAnswer": "A home for animals"
+  },
+  {
+    "problem": "Which microorganism causes the common cold?",
+    "grade": "3",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Fungi"
+    ],
+    "correctAnswer": "Virus"
+  },
+  {
+    "problem": "What process do plants use to make food?",
+    "grade": "3",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Digestion"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "How do scientists classify living things?",
+    "grade": "3",
+    "options": [
+      "By size",
+      "By color",
+      "By characteristics"
+    ],
+    "correctAnswer": "By characteristics"
+  },
+  {
+    "problem": "What helps a plant stand up straight and support its leaves?",
+    "grade": "3",
+    "options": [
+      "Roots",
+      "Stem",
+      "Flowers"
+    ],
+    "correctAnswer": "Stem"
+  },
+  {
+    "problem": "What role do decomposers play in an ecosystem?",
+    "grade": "3",
+    "options": [
+      "They make food",
+      "They break down dead organisms",
+      "They pollinate flowers"
+    ],
+    "correctAnswer": "They break down dead organisms"
+  },
+  {
+    "problem": "Which system in the human body controls movement and coordination?",
+    "grade": "3",
+    "options": [
+      "Digestive system",
+      "Nervous system",
+      "Respiratory system"
+    ],
+    "correctAnswer": "Nervous system"
+  },
+  {
+    "problem": "What determines the color of a person's eyes?",
+    "grade": "3",
+    "options": [
+      "Genes",
+      "Food",
+      "Exercise"
+    ],
+    "correctAnswer": "Genes"
+  },
+  {
+    "problem": "How do animals protect themselves from predators?",
+    "grade": "3",
+    "options": [
+      "By hiding",
+      "By flying",
+      "By talking"
+    ],
+    "correctAnswer": "By hiding"
+  },
+  {
+    "problem": "Which of the following is NOT a greenhouse gas?",
+    "grade": "3",
+    "options": [
+      "Carbon dioxide",
+      "Oxygen",
+      "Methane"
+    ],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "problem": "What causes diseases like the flu and COVID-19?",
+    "grade": "3",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Parasite"
+    ],
+    "correctAnswer": "Virus"
+  },
+  {
+    "problem": "What gas do humans breathe in during respiration?",
+    "grade": "3",
+    "options": [
+      "Carbon dioxide",
+      "Oxygen",
+      "Nitrogen"
+    ],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "problem": "What is the largest classification group in the animal kingdom?",
+    "grade": "3",
+    "options": [
+      "Phylum",
+      "Class",
+      "Kingdom"
+    ],
+    "correctAnswer": "Kingdom"
+  },
+  {
+    "problem": "What is the process of a plant releasing water vapor called?",
+    "grade": "3",
+    "options": [
+      "Photosynthesis",
+      "Transpiration",
+      "Germination"
+    ],
+    "correctAnswer": "Transpiration"
+  },
+  {
+    "problem": "Which body system helps you move your muscles?",
+    "grade": "4",
+    "options": ["Skeletal system", "Muscular system", "Digestive system"],
+    "correctAnswer": "Muscular system"
+  },
+  {
+    "problem": "What do plants use to make their own food?",
+    "grade": "4",
+    "options": ["Photosynthesis", "Digestion", "Respiration"],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "Which organ is mainly responsible for digestion?",
+    "grade": "4",
+    "options": ["Heart", "Stomach", "Lung"],
+    "correctAnswer": "Stomach"
+  },
+  {
+    "problem": "What gas do humans need to breathe in?",
+    "grade": "4",
+    "options": ["Carbon dioxide", "Oxygen", "Hydrogen"],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "problem": "What is the function of the skeleton?",
+    "grade": "4",
+    "options": ["To store food", "To support the body", "To digest food"],
+    "correctAnswer": "To support the body"
+  },
+  {
+    "problem": "Which group of animals has feathers?",
+    "grade": "4",
+    "options": ["Reptiles", "Birds", "Mammals"],
+    "correctAnswer": "Birds"
+  },
+  {
+    "problem": "Which part of the plant grows underground?",
+    "grade": "4",
+    "options": ["Leaf", "Root", "Flower"],
+    "correctAnswer": "Root"
+  },
+  {
+    "problem": "What do animals get from eating plants?",
+    "grade": "4",
+    "options": ["Energy", "Water", "Sunlight"],
+    "correctAnswer": "Energy"
+  },
+  {
+    "problem": "What sense organ helps us hear?",
+    "grade": "4",
+    "options": ["Nose", "Ear", "Eye"],
+    "correctAnswer": "Ear"
+  },
+  {
+    "problem": "What is the process of changing from a caterpillar to a butterfly called?",
+    "grade": "4",
+    "options": ["Metamorphosis", "Photosynthesis", "Evaporation"],
+    "correctAnswer": "Metamorphosis"
+  },
+  {
+    "problem": "What is the basic unit of life?",
+    "grade": "4",
+    "options": [
+      "Atom",
+      "Cell",
+      "Molecule"
+    ],
+    "correctAnswer": "Cell"
+  },
+  {
+    "problem": "Which part of a plant is responsible for absorbing water and nutrients from the soil?",
+    "grade": "4",
+    "options": [
+      "Leaf",
+      "Stem",
+      "Root"
+    ],
+    "correctAnswer": "Root"
+  },
+  {
+    "problem": "In a food chain, what do plants usually represent?",
+    "grade": "4",
+    "options": [
+      "Producers",
+      "Consumers",
+      "Decomposers"
+    ],
+    "correctAnswer": "Producers"
+  },
+  {
+    "problem": "Which body system is responsible for carrying oxygen to the body's cells?",
+    "grade": "4",
+    "options": [
+      "Respiratory system",
+      "Circulatory system",
+      "Nervous system"
+    ],
+    "correctAnswer": "Circulatory system"
+  },
+  {
+    "problem": "What determines the color of your eyes and hair?",
+    "grade": "4",
+    "options": [
+      "Genes",
+      "Environment",
+      "Diet"
+    ],
+    "correctAnswer": "Genes"
+  },
+  {
+    "problem": "Which process helps animals adapt to their environment over time?",
+    "grade": "4",
+    "options": [
+      "Photosynthesis",
+      "Evolution",
+      "Metabolism"
+    ],
+    "correctAnswer": "Evolution"
+  },
+  {
+    "problem": "What can individuals do to help protect the environment?",
+    "grade": "4",
+    "options": [
+      "Recycle",
+      "Eat fast food",
+      "Drive cars more"
+    ],
+    "correctAnswer": "Recycle"
+  },
+  {
+    "problem": "What are tiny organisms that can only be seen with a microscope called?",
+    "grade": "4",
+    "options": [
+      "Bacteria",
+      "Viruses",
+      "Microorganisms"
+    ],
+    "correctAnswer": "Microorganisms"
+  },
+  {
+    "problem": "What process do plants use to make their own food using sunlight?",
+    "grade": "4",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Fermentation"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "What is the scientific term for organizing living things into groups based on similarities?",
+    "grade": "4",
+    "options": [
+      "Sorting",
+      "Classification",
+      "Categorization"
+    ],
+    "correctAnswer": "Classification"
+  },
+  {
+    "problem": "What part of a cell controls all its activities?",
+    "grade": "4",
+    "options": [
+      "Cytoplasm",
+      "Nucleus",
+      "Cell membrane"
+    ],
+    "correctAnswer": "Nucleus"
+  },
+  {
+    "problem": "Which animal system is responsible for removing waste from the body?",
+    "grade": "4",
+    "options": [
+      "Digestive system",
+      "Circulatory system",
+      "Excretory system"
+    ],
+    "correctAnswer": "Excretory system"
+  },
+  {
+    "problem": "In a food web, what do carnivores eat?",
+    "grade": "4",
+    "options": [
+      "Plants",
+      "Other carnivores",
+      "Herbivores"
+    ],
+    "correctAnswer": "Herbivores"
+  },
+  {
+    "problem": "Which body system controls all the other systems in the body?",
+    "grade": "4",
+    "options": [
+      "Nervous system",
+      "Skeletal system",
+      "Endocrine system"
+    ],
+    "correctAnswer": "Nervous system"
+  },
+  {
+    "problem": "What is the passing on of traits from parents to offspring called?",
+    "grade": "4",
+    "options": [
+      "Inheritance",
+      "Mutation",
+      "Adaptation"
+    ],
+    "correctAnswer": "Inheritance"
+  },
+  {
+    "problem": "How do animals with white fur in snowy areas adapt to their environment?",
+    "grade": "4",
+    "options": [
+      "They hibernate",
+      "They migrate",
+      "They blend in"
+    ],
+    "correctAnswer": "They blend in"
+  },
+  {
+    "problem": "What can individuals do to reduce air pollution?",
+    "grade": "4",
+    "options": [
+      "Plant more trees",
+      "Burn more fossil fuels",
+      "Use more plastic"
+    ],
+    "correctAnswer": "Plant more trees"
+  },
+  {
+    "problem": "What type of microorganism causes diseases like the flu and common cold?",
+    "grade": "4",
+    "options": [
+      "Bacteria",
+      "Viruses",
+      "Fungi"
+    ],
+    "correctAnswer": "Viruses"
+  },
+  {
+    "problem": "What gas do plants release during the process of respiration?",
+    "grade": "4",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen"
+    ],
+    "correctAnswer": "Carbon dioxide"
+  },
+  {
+    "problem": "What is the largest classification group for living things?",
+    "grade": "4",
+    "options": [
+      "Species",
+      "Genus",
+      "Kingdom"
+    ],
+    "correctAnswer": "Kingdom"
+  },
+  {
+    "problem": "What is the basic unit of life?",
+    "grade": "4",
+    "options": [
+      "Atom",
+      "Cell",
+      "Molecule"
+    ],
+    "correctAnswer": "Cell"
+  },
+  {
+    "problem": "Which part of the plant is responsible for absorbing water and nutrients?",
+    "grade": "4",
+    "options": [
+      "Leaf",
+      "Stem",
+      "Root"
+    ],
+    "correctAnswer": "Root"
+  },
+  {
+    "problem": "In a food chain, what do plants usually represent?",
+    "grade": "4",
+    "options": [
+      "Producers",
+      "Consumers",
+      "Decomposers"
+    ],
+    "correctAnswer": "Producers"
+  },
+  {
+    "problem": "Which body system helps us breathe in oxygen and remove carbon dioxide?",
+    "grade": "4",
+    "options": [
+      "Respiratory system",
+      "Circulatory system",
+      "Digestive system"
+    ],
+    "correctAnswer": "Respiratory system"
+  },
+  {
+    "problem": "What determines the traits that a living thing will inherit from its parents?",
+    "grade": "4",
+    "options": [
+      "Genes",
+      "Environment",
+      "Diet"
+    ],
+    "correctAnswer": "Genes"
+  },
+  {
+    "problem": "How do animals adapt to their environments over time?",
+    "grade": "4",
+    "options": [
+      "Through genetic mutations",
+      "By changing their behavior",
+      "By eating different foods"
+    ],
+    "correctAnswer": "Through genetic mutations"
+  },
+  {
+    "problem": "What is the study of the interactions between living organisms and their environment called?",
+    "grade": "4",
+    "options": [
+      "Ecology",
+      "Meteorology",
+      "Geology"
+    ],
+    "correctAnswer": "Ecology"
+  },
+  {
+    "problem": "Which microorganism is responsible for causing diseases?",
+    "grade": "4",
+    "options": [
+      "Bacteria",
+      "Fungi",
+      "Virus"
+    ],
+    "correctAnswer": "Virus"
+  },
+  {
+    "problem": "What process do plants use to convert sunlight into energy?",
+    "grade": "4",
+    "options": [
+      "Respiration",
+      "Photosynthesis",
+      "Fermentation"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "How do scientists classify living things into different groups?",
+    "grade": "4",
+    "options": [
+      "By size",
+      "By color",
+      "By characteristics"
+    ],
+    "correctAnswer": "By characteristics"
+  },
+  {
+    "problem": "Where is DNA found in a cell?",
+    "grade": "4",
+    "options": [
+      "Nucleus",
+      "Mitochondria",
+      "Cytoplasm"
+    ],
+    "correctAnswer": "Nucleus"
+  },
+  {
+    "problem": "Which body system is responsible for protecting the body from infections?",
+    "grade": "4",
+    "options": [
+      "Immune system",
+      "Endocrine system",
+      "Nervous system"
+    ],
+    "correctAnswer": "Immune system"
+  },
+  {
+    "problem": "What do offspring inherit from their parents that determine their eye color?",
+    "grade": "4",
+    "options": [
+      "Hair color",
+      "Skin color",
+      "Genes"
+    ],
+    "correctAnswer": "Genes"
+  },
+  {
+    "problem": "How do animals with thick fur adapt to cold climates?",
+    "grade": "4",
+    "options": [
+      "By hibernating",
+      "By growing thicker fur",
+      "By migrating to warmer areas"
+    ],
+    "correctAnswer": "By growing thicker fur"
+  },
+  {
+    "problem": "What is the process of breaking down food into energy called?",
+    "grade": "4",
+    "options": [
+      "Photosynthesis",
+      "Digestion",
+      "Respiration"
+    ],
+    "correctAnswer": "Digestion"
+  },
+  {
+    "problem": "Which of the following is a decomposer in an ecosystem?",
+    "grade": "4",
+    "options": [
+      "Grass",
+      "Worm",
+      "Rabbit"
+    ],
+    "correctAnswer": "Worm"
+  },
+  {
+    "problem": "What is the smallest unit of life that can carry out all the functions of living things?",
+    "grade": "4",
+    "options": [
+      "Tissue",
+      "Cell",
+      "Organ"
+    ],
+    "correctAnswer": "Cell"
+  },
+  {
+    "problem": "What is the process of a plant releasing oxygen into the air called?",
+    "grade": "4",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Fermentation"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "How are animals classified based on their diet?",
+    "grade": "4",
+    "options": [
+      "Carnivores, herbivores, omnivores",
+      "Swimmers, flyers, runners",
+      "Warm-blooded, cold-blooded"
+    ],
+    "correctAnswer": "Carnivores, herbivores, omnivores"
+  },
+  {
+    "problem": "What is the powerhouse of the cell that produces energy?",
+    "grade": "4",
+    "options": [
+      "Nucleus",
+      "Mitochondria",
+      "Chloroplast"
+    ],
+    "correctAnswer": "Mitochondria"
+  },
+  {
+    "problem": "Which body system is responsible for protecting the body from diseases?",
+    "grade": "4",
+    "options": [
+      "Immune system",
+      "Endocrine system",
+      "Excretory system"
+    ],
+    "correctAnswer": "Immune system"
+  },
+  {
+    "problem": "In a food chain, what is the role of the producer?",
+    "grade": "4",
+    "options": [
+      "Eats other animals",
+      "Gets energy from the sun",
+      "Decomposes dead organisms"
+    ],
+    "correctAnswer": "Gets energy from the sun"
+  },
+  {
+    "problem": "Which organ in the human body pumps blood throughout the body?",
+    "grade": "4",
+    "options": [
+      "Liver",
+      "Kidney",
+      "Heart"
+    ],
+    "correctAnswer": "Heart"
+  },
+  {
+    "problem": "What determines the traits that are passed down from parents to offspring?",
+    "grade": "4",
+    "options": [
+      "Genes",
+      "Organs",
+      "Blood type"
+    ],
+    "correctAnswer": "Genes"
+  },
+  {
+    "problem": "How do animals adapt to their environment over time?",
+    "grade": "4",
+    "options": [
+      "By changing color",
+      "By evolving new features",
+      "By hibernating"
+    ],
+    "correctAnswer": "By evolving new features"
+  },
+  {
+    "problem": "What is the main cause of air pollution in cities?",
+    "grade": "4",
+    "options": [
+      "Factories",
+      "Cars",
+      "Farms"
+    ],
+    "correctAnswer": "Cars"
+  },
+  {
+    "problem": "Which microorganism causes diseases such as the common cold and flu?",
+    "grade": "4",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Fungus"
+    ],
+    "correctAnswer": "Virus"
+  },
+  {
+    "problem": "What process do plants use to make their own food using sunlight?",
+    "grade": "4",
+    "options": [
+      "Respiration",
+      "Transpiration",
+      "Photosynthesis"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "How do scientists classify living things into different groups?",
+    "grade": "4",
+    "options": [
+      "By size",
+      "By color",
+      "By characteristics"
+    ],
+    "correctAnswer": "By characteristics"
+  },
+  {
+    "problem": "What is the basic unit of life that makes up all living things?",
+    "grade": "4",
+    "options": [
+      "Molecule",
+      "Cell",
+      "Atom"
+    ],
+    "correctAnswer": "Cell"
+  },
+  {
+    "problem": "Which part of the plant is responsible for absorbing water and nutrients from the soil?",
+    "grade": "4",
+    "options": [
+      "Stem",
+      "Leaf",
+      "Root"
+    ],
+    "correctAnswer": "Root"
+  },
+  {
+    "problem": "In a food chain, what is the role of the consumer?",
+    "grade": "4",
+    "options": [
+      "Produces food",
+      "Eats other animals",
+      "Decomposes dead organisms"
+    ],
+    "correctAnswer": "Eats other animals"
+  },
+  {
+    "problem": "Which body system is responsible for breaking down food into nutrients for the body?",
+    "grade": "4",
+    "options": [
+      "Circulatory system",
+      "Respiratory system",
+      "Digestive system"
+    ],
+    "correctAnswer": "Digestive system"
+  },
+  {
+    "problem": "What is the passing down of traits from parents to offspring called?",
+    "grade": "4",
+    "options": [
+      "Mutation",
+      "Heredity",
+      "Evolution"
+    ],
+    "correctAnswer": "Heredity"
+  },
+  {
+    "problem": "How do animals with fur adapt to cold environments?",
+    "grade": "4",
+    "options": [
+      "By growing thicker fur",
+      "By hibernating",
+      "By changing color"
+    ],
+    "correctAnswer": "By growing thicker fur"
+  },
+  {
+    "problem": "Why is it important to recycle and reduce waste?",
+    "grade": "4",
+    "options": [
+      "To save money",
+      "To protect the environment",
+      "To create jobs"
+    ],
+    "correctAnswer": "To protect the environment"
+  },
+  {
+    "problem": "Which microorganism causes diseases such as strep throat and pneumonia?",
+    "grade": "4",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Fungus"
+    ],
+    "correctAnswer": "Bacteria"
+  },
+  {
+    "problem": "What gas do plants release during photosynthesis?",
+    "grade": "4",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen"
+    ],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "problem": "How do scientists group living things based on their similarities and differences?",
+    "grade": "4",
+    "options": [
+      "By age",
+      "By weight",
+      "By classification"
+    ],
+    "correctAnswer": "By classification"
+  },
+  {
+    "problem": "What is the basic unit of life?",
+    "grade": "4",
+    "options": [
+      "Atom",
+      "Cell",
+      "Molecule"
+    ],
+    "correctAnswer": "Cell"
+  },
+  {
+    "problem": "Which part of the plant absorbs water and nutrients from the soil?",
+    "grade": "4",
+    "options": [
+      "Stem",
+      "Leaf",
+      "Root"
+    ],
+    "correctAnswer": "Root"
+  },
+  {
+    "problem": "In a food chain, what is the role of producers?",
+    "grade": "4",
+    "options": [
+      "Eat other organisms",
+      "Make their own food",
+      "Decompose dead matter"
+    ],
+    "correctAnswer": "Make their own food"
+  },
+  {
+    "problem": "Which body system controls all other systems in the human body?",
+    "grade": "4",
+    "options": [
+      "Nervous system",
+      "Circulatory system",
+      "Respiratory system"
+    ],
+    "correctAnswer": "Nervous system"
+  },
+  {
+    "problem": "What determines the traits that living things inherit from their parents?",
+    "grade": "4",
+    "options": [
+      "Genes",
+      "Hormones",
+      "Vitamins"
+    ],
+    "correctAnswer": "Genes"
+  },
+  {
+    "problem": "How do animals adapt to their environment over time?",
+    "grade": "4",
+    "options": [
+      "By learning new skills",
+      "By changing color",
+      "By evolving genetic traits"
+    ],
+    "correctAnswer": "By evolving genetic traits"
+  },
+  {
+    "problem": "What can humans do to help protect the environment?",
+    "grade": "4",
+    "options": [
+      "Reduce, reuse, recycle",
+      "Use more plastic",
+      "Cut down more trees"
+    ],
+    "correctAnswer": "Reduce, reuse, recycle"
+  },
+  {
+    "problem": "Which type of microorganism causes diseases like the flu and common cold?",
+    "grade": "4",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Fungi"
+    ],
+    "correctAnswer": "Virus"
+  },
+  {
+    "problem": "What process do plants use to convert sunlight into energy?",
+    "grade": "4",
+    "options": [
+      "Respiration",
+      "Photosynthesis",
+      "Transpiration"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "How do scientists classify living things into different groups?",
+    "grade": "4",
+    "options": [
+      "By color",
+      "By size",
+      "By similar characteristics"
+    ],
+    "correctAnswer": "By similar characteristics"
+  },
+  {
+    "problem": "What part of the cell is known as the 'control center'?",
+    "grade": "4",
+    "options": [
+      "Mitochondria",
+      "Nucleus",
+      "Cell membrane"
+    ],
+    "correctAnswer": "Nucleus"
+  },
+  {
+    "problem": "Which animal system is responsible for exchanging gases with the environment?",
+    "grade": "4",
+    "options": [
+      "Circulatory system",
+      "Respiratory system",
+      "Immune system"
+    ],
+    "correctAnswer": "Respiratory system"
+  },
+  {
+    "problem": "In a food chain, what is the role of consumers?",
+    "grade": "4",
+    "options": [
+      "Make their own food",
+      "Feed on producers",
+      "Decompose dead matter"
+    ],
+    "correctAnswer": "Feed on producers"
+  },
+  {
+    "problem": "Which body system is responsible for breaking down food into nutrients for the body?",
+    "grade": "4",
+    "options": [
+      "Digestive system",
+      "Skeletal system",
+      "Endocrine system"
+    ],
+    "correctAnswer": "Digestive system"
+  },
+  {
+    "problem": "What is the passing of traits from parents to offspring called?",
+    "grade": "4",
+    "options": [
+      "Evolution",
+      "Heredity",
+      "Mutation"
+    ],
+    "correctAnswer": "Heredity"
+  },
+  {
+    "problem": "How do animals with fur or feathers adapt to cold environments?",
+    "grade": "4",
+    "options": [
+      "Grow thicker fur",
+      "Hibernate",
+      "Migrate to warmer areas"
+    ],
+    "correctAnswer": "Grow thicker fur"
+  },
+  {
+    "problem": "What are some ways humans can reduce pollution in the environment?",
+    "grade": "4",
+    "options": [
+      "Use less plastic",
+      "Plant more trees",
+      "Drive more cars"
+    ],
+    "correctAnswer": "Use less plastic"
+  },
+  {
+    "problem": "Which microorganism is responsible for causing tooth decay?",
+    "grade": "4",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Fungi"
+    ],
+    "correctAnswer": "Bacteria"
+  },
+  {
+    "problem": "What is the process by which cells release energy from food molecules?",
+    "grade": "4",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Fermentation"
+    ],
+    "correctAnswer": "Respiration"
+  },
+  {
+    "problem": "How do scientists organize and categorize living things into groups?",
+    "grade": "4",
+    "options": [
+      "Alphabetically",
+      "By size",
+      "By shared characteristics"
+    ],
+    "correctAnswer": "By shared characteristics"
+  },
+  {
+    "problem": "What is the basic unit of life?",
+    "grade": "4",
+    "options": [
+      "Atom",
+      "Cell",
+      "Molecule"
+    ],
+    "correctAnswer": "Cell"
+  },
+  {
+    "problem": "Which part of the plant absorbs sunlight for photosynthesis?",
+    "grade": "4",
+    "options": [
+      "Stem",
+      "Leaf",
+      "Root"
+    ],
+    "correctAnswer": "Leaf"
+  },
+  {
+    "problem": "In a food chain, what do plants usually represent?",
+    "grade": "4",
+    "options": [
+      "Producers",
+      "Consumers",
+      "Decomposers"
+    ],
+    "correctAnswer": "Producers"
+  },
+  {
+    "problem": "Which body system helps you breathe?",
+    "grade": "4",
+    "options": [
+      "Respiratory system",
+      "Circulatory system",
+      "Nervous system"
+    ],
+    "correctAnswer": "Respiratory system"
+  },
+  {
+    "problem": "What determines the color of your eyes?",
+    "grade": "4",
+    "options": [
+      "Environment",
+      "Genes",
+      "Diet"
+    ],
+    "correctAnswer": "Genes"
+  },
+  {
+    "problem": "How do animals adapt to their environments?",
+    "grade": "4",
+    "options": [
+      "By changing their behavior",
+      "By evolving over time",
+      "By communicating with other animals"
+    ],
+    "correctAnswer": "By evolving over time"
+  },
+  {
+    "problem": "What is the main cause of pollution in rivers and oceans?",
+    "grade": "4",
+    "options": [
+      "Deforestation",
+      "Industrial waste",
+      "Agricultural runoff"
+    ],
+    "correctAnswer": "Industrial waste"
+  },
+  {
+    "problem": "What type of microorganism causes diseases like the flu and common cold?",
+    "grade": "4",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Fungi"
+    ],
+    "correctAnswer": "Virus"
+  },
+  {
+    "problem": "What gas do plants release during photosynthesis?",
+    "grade": "4",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen"
+    ],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "problem": "How do scientists classify living organisms into different groups?",
+    "grade": "4",
+    "options": [
+      "By size",
+      "By color",
+      "By characteristics"
+    ],
+    "correctAnswer": "By characteristics"
+  },
+  {
+    "problem": "What part of the cell controls all its activities?",
+    "grade": "4",
+    "options": [
+      "Nucleus",
+      "Cytoplasm",
+      "Cell membrane"
+    ],
+    "correctAnswer": "Nucleus"
+  },
+  {
+    "problem": "Which animal system is responsible for protecting the body from diseases?",
+    "grade": "4",
+    "options": [
+      "Immune system",
+      "Digestive system",
+      "Excretory system"
+    ],
+    "correctAnswer": "Immune system"
+  },
+  {
+    "problem": "In a forest ecosystem, what do deer represent in the food chain?",
+    "grade": "4",
+    "options": [
+      "Producers",
+      "Consumers",
+      "Decomposers"
+    ],
+    "correctAnswer": "Consumers"
+  },
+  {
+    "problem": "What is the largest organ in the human body?",
+    "grade": "4",
+    "options": [
+      "Heart",
+      "Brain",
+      "Skin"
+    ],
+    "correctAnswer": "Skin"
+  },
+  {
+    "problem": "If a child has dimples like their parents, what is this an example of?",
+    "grade": "4",
+    "options": [
+      "Mutation",
+      "Heredity",
+      "Evolution"
+    ],
+    "correctAnswer": "Heredity"
+  },
+  {
+    "problem": "How do camouflaged animals use their appearance to survive?",
+    "grade": "4",
+    "options": [
+      "To attract mates",
+      "To communicate with others",
+      "To blend in with their environment"
+    ],
+    "correctAnswer": "To blend in with their environment"
+  },
+  {
+    "problem": "What can individuals do to help protect the environment?",
+    "grade": "4",
+    "options": [
+      "Reduce, reuse, recycle",
+      "Use more plastic",
+      "Cut down more trees"
+    ],
+    "correctAnswer": "Reduce, reuse, recycle"
+  },
+  {
+    "problem": "Which microorganism is responsible for causing tooth decay?",
+    "grade": "4",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Fungi"
+    ],
+    "correctAnswer": "Bacteria"
+  },
+  {
+    "problem": "What is the process of plants converting sunlight into energy called?",
+    "grade": "4",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Pollination"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "How do scientists organize living things into different kingdoms?",
+    "grade": "4",
+    "options": [
+      "By size",
+      "By color",
+      "By characteristics"
+    ],
+    "correctAnswer": "By characteristics"
+  },
+  {
+    "problem": "Which part of the cell controls its activities?",
+    "grade": "5",
+    "options": ["Nucleus", "Membrane", "Cytoplasm"],
+    "correctAnswer": "Nucleus"
+  },
+  {
+    "problem": "Which process do plants use to turn sunlight into food?",
+    "grade": "5",
+    "options": ["Photosynthesis", "Respiration", "Digestion"],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "What type of blood cells help fight disease?",
+    "grade": "5",
+    "options": ["Red blood cells", "White blood cells", "Platelets"],
+    "correctAnswer": "White blood cells"
+  },
+  {
+    "problem": "What do we call animals that eat only plants?",
+    "grade": "5",
+    "options": ["Herbivores", "Carnivores", "Omnivores"],
+    "correctAnswer": "Herbivores"
+  },
+  {
+    "problem": "Which organ filters waste from the blood?",
+    "grade": "5",
+    "options": ["Heart", "Lungs", "Kidneys"],
+    "correctAnswer": "Kidneys"
+  },
+  {
+    "problem": "Which part of the brain controls balance and movement?",
+    "grade": "5",
+    "options": ["Cerebellum", "Cerebrum", "Brainstem"],
+    "correctAnswer": "Cerebellum"
+  },
+  {
+    "problem": "Which body system includes skin, hair, and nails?",
+    "grade": "5",
+    "options": ["Digestive system", "Integumentary system", "Respiratory system"],
+    "correctAnswer": "Integumentary system"
+  },
+  {
+    "problem": "How do frogs breathe as adults?",
+    "grade": "5",
+    "options": ["Through gills", "Through lungs", "Through fins"],
+    "correctAnswer": "Through lungs"
+  },
+  {
+    "problem": "Which part of the plant transports water from roots to leaves?",
+    "grade": "5",
+    "options": ["Xylem", "Phloem", "Chlorophyll"],
+    "correctAnswer": "Xylem"
+  },
+  {
+    "problem": "What is the main purpose of the respiratory system?",
+    "grade": "5",
+    "options": ["To digest food", "To pump blood", "To exchange gases"],
+    "correctAnswer": "To exchange gases"
+  },
+  {
+    "problem": "What is the powerhouse of the cell that produces energy?",
+    "grade": "5",
+    "options": [
+      "Mitochondria",
+      "Ribosomes",
+      "Vacuole"
+    ],
+    "correctAnswer": "Mitochondria"
+  },
+  {
+    "problem": "Which body system is responsible for breaking down food into nutrients for the body?",
+    "grade": "5",
+    "options": [
+      "Digestive system",
+      "Circulatory system",
+      "Endocrine system"
+    ],
+    "correctAnswer": "Digestive system"
+  },
+  {
+    "problem": "In a food chain, what do plants and algae represent?",
+    "grade": "5",
+    "options": [
+      "Producers",
+      "Consumers",
+      "Decomposers"
+    ],
+    "correctAnswer": "Producers"
+  },
+  {
+    "problem": "Which body system is responsible for protecting the body from germs and diseases?",
+    "grade": "5",
+    "options": [
+      "Immune system",
+      "Skeletal system",
+      "Muscular system"
+    ],
+    "correctAnswer": "Immune system"
+  },
+  {
+    "problem": "What is the passing on of traits from parents to offspring called?",
+    "grade": "5",
+    "options": [
+      "Genetics",
+      "Evolution",
+      "Mutation"
+    ],
+    "correctAnswer": "Genetics"
+  },
+  {
+    "problem": "What process allows animals to adapt to their environment over time?",
+    "grade": "5",
+    "options": [
+      "Evolution",
+      "Hibernation",
+      "Mimicry"
+    ],
+    "correctAnswer": "Evolution"
+  },
+  {
+    "problem": "How do plants help reduce carbon dioxide levels in the atmosphere?",
+    "grade": "5",
+    "options": [
+      "Through photosynthesis",
+      "Through respiration",
+      "Through transpiration"
+    ],
+    "correctAnswer": "Through photosynthesis"
+  },
+  {
+    "problem": "Which microorganism causes diseases like the common cold and flu?",
+    "grade": "5",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Fungus"
+    ],
+    "correctAnswer": "Virus"
+  },
+  {
+    "problem": "What is the process by which plants make their own food using sunlight?",
+    "grade": "5",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Fermentation"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "What is the scientific term for the classification of living things?",
+    "grade": "5",
+    "options": [
+      "Taxonomy",
+      "Botany",
+      "Ecology"
+    ],
+    "correctAnswer": "Taxonomy"
+  },
+  {
+    "problem": "Which organelle is responsible for storing water, nutrients, and waste in plant cells?",
+    "grade": "5",
+    "options": [
+      "Vacuole",
+      "Chloroplast",
+      "Nucleolus"
+    ],
+    "correctAnswer": "Vacuole"
+  },
+  {
+    "problem": "Which body system is responsible for carrying oxygen and nutrients to all parts of the body?",
+    "grade": "5",
+    "options": [
+      "Circulatory system",
+      "Respiratory system",
+      "Nervous system"
+    ],
+    "correctAnswer": "Circulatory system"
+  },
+  {
+    "problem": "In a food chain, what do carnivores and omnivores represent?",
+    "grade": "5",
+    "options": [
+      "Consumers",
+      "Producers",
+      "Decomposers"
+    ],
+    "correctAnswer": "Consumers"
+  },
+  {
+    "problem": "Which organ in the human body is responsible for removing waste and excess water from the blood?",
+    "grade": "5",
+    "options": [
+      "Liver",
+      "Pancreas",
+      "Kidneys"
+    ],
+    "correctAnswer": "Kidneys"
+  },
+  {
+    "problem": "What is the study of how traits are passed down from parents to offspring called?",
+    "grade": "5",
+    "options": [
+      "Heredity",
+      "Genetics",
+      "Mutation"
+    ],
+    "correctAnswer": "Heredity"
+  },
+  {
+    "problem": "How do animals with camouflage adapt to their environment?",
+    "grade": "5",
+    "options": [
+      "Blend in with surroundings",
+      "Run faster",
+      "Change colors"
+    ],
+    "correctAnswer": "Blend in with surroundings"
+  },
+  {
+    "problem": "Which environmental issue is caused by the excessive use of plastic and its impact on marine life?",
+    "grade": "5",
+    "options": [
+      "Pollution",
+      "Deforestation",
+      "Global warming"
+    ],
+    "correctAnswer": "Pollution"
+  },
+  {
+    "problem": "What type of microorganism causes diseases like strep throat and ear infections?",
+    "grade": "5",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Protozoa"
+    ],
+    "correctAnswer": "Bacteria"
+  },
+  {
+    "problem": "In which process do animals exchange oxygen and carbon dioxide with the environment?",
+    "grade": "5",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Fermentation"
+    ],
+    "correctAnswer": "Respiration"
+  },
+  {
+    "problem": "What is the main characteristic used to classify living things into different groups?",
+    "grade": "5",
+    "options": [
+      "Habitat",
+      "Diet",
+      "Physical traits"
+    ],
+    "correctAnswer": "Physical traits"
+  },
+  {
+    "problem": "What is the powerhouse of the cell that produces energy?",
+    "grade": "5",
+    "options": [
+      "Mitochondria",
+      "Endoplasmic reticulum",
+      "Golgi apparatus"
+    ],
+    "correctAnswer": "Mitochondria"
+  },
+  {
+    "problem": "Which part of the plant is responsible for absorbing water and nutrients from the soil?",
+    "grade": "5",
+    "options": [
+      "Roots",
+      "Leaves",
+      "Stems"
+    ],
+    "correctAnswer": "Roots"
+  },
+  {
+    "problem": "In a food chain, what do herbivores eat?",
+    "grade": "5",
+    "options": [
+      "Plants",
+      "Other animals",
+      "Both plants and animals"
+    ],
+    "correctAnswer": "Plants"
+  },
+  {
+    "problem": "Which organ in the human body is responsible for pumping blood throughout the circulatory system?",
+    "grade": "5",
+    "options": [
+      "Heart",
+      "Brain",
+      "Liver"
+    ],
+    "correctAnswer": "Heart"
+  },
+  {
+    "problem": "What determines the traits or characteristics that an organism inherits from its parents?",
+    "grade": "5",
+    "options": [
+      "Genes",
+      "Enzymes",
+      "Hormones"
+    ],
+    "correctAnswer": "Genes"
+  },
+  {
+    "problem": "How do animals adapt to their environment over time?",
+    "grade": "5",
+    "options": [
+      "By changing their DNA",
+      "Through natural selection",
+      "By hibernating"
+    ],
+    "correctAnswer": "Through natural selection"
+  },
+  {
+    "problem": "What can individuals do to help protect the environment?",
+    "grade": "5",
+    "options": [
+      "Recycle",
+      "Drive more cars",
+      "Use plastic bags"
+    ],
+    "correctAnswer": "Recycle"
+  },
+  {
+    "problem": "Which microorganism causes diseases such as the common cold and flu?",
+    "grade": "5",
+    "options": [
+      "Bacteria",
+      "Fungi",
+      "Viruses"
+    ],
+    "correctAnswer": "Viruses"
+  },
+  {
+    "problem": "What is the process by which plants make their own food using sunlight, water, and carbon dioxide?",
+    "grade": "5",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Digestion"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "How do scientists classify living things into different groups based on their characteristics?",
+    "grade": "5",
+    "options": [
+      "By size",
+      "By color",
+      "By similar traits"
+    ],
+    "correctAnswer": "By similar traits"
+  },
+  {
+    "problem": "Which part of the cell is responsible for storing water, nutrients, and waste?",
+    "grade": "5",
+    "options": [
+      "Vacuole",
+      "Chloroplast",
+      "Ribosome"
+    ],
+    "correctAnswer": "Vacuole"
+  },
+  {
+    "problem": "What type of animal eats both plants and other animals?",
+    "grade": "5",
+    "options": [
+      "Herbivores",
+      "Carnivores",
+      "Omnivores"
+    ],
+    "correctAnswer": "Omnivores"
+  },
+  {
+    "problem": "In a food chain, what is the role of decomposers?",
+    "grade": "5",
+    "options": [
+      "Produce food",
+      "Break down dead organisms",
+      "Prey on other animals"
+    ],
+    "correctAnswer": "Break down dead organisms"
+  },
+  {
+    "problem": "Which system in the human body is responsible for removing waste and regulating water balance?",
+    "grade": "5",
+    "options": [
+      "Excretory system",
+      "Nervous system",
+      "Endocrine system"
+    ],
+    "correctAnswer": "Excretory system"
+  },
+  {
+    "problem": "What is the passing of traits from parents to offspring known as?",
+    "grade": "5",
+    "options": [
+      "Mutation",
+      "Heredity",
+      "Acquired traits"
+    ],
+    "correctAnswer": "Heredity"
+  },
+  {
+    "problem": "How do animals with camouflage adapt to their environment?",
+    "grade": "5",
+    "options": [
+      "By changing color",
+      "By hiding underground",
+      "By avoiding predators"
+    ],
+    "correctAnswer": "By changing color"
+  },
+  {
+    "problem": "What is the process by which green plants and some other organisms use sunlight to convert carbon dioxide and water into oxygen and energy-rich carbohydrates?",
+    "grade": "5",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Fermentation"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "What is the largest classification group for living things?",
+    "grade": "5",
+    "options": [
+      "Species",
+      "Genus",
+      "Kingdom"
+    ],
+    "correctAnswer": "Kingdom"
+  },
+  {
+    "problem": "Which part of the cell is responsible for protein synthesis?",
+    "grade": "5",
+    "options": [
+      "Mitochondria",
+      "Ribosome",
+      "Nucleolus"
+    ],
+    "correctAnswer": "Ribosome"
+  },
+  {
+    "problem": "How do plants adapt to living in dry environments?",
+    "grade": "5",
+    "options": [
+      "By retaining water",
+      "By growing taller",
+      "By hibernating"
+    ],
+    "correctAnswer": "By retaining water"
+  },
+  {
+    "problem": "What is the powerhouse of the cell that produces energy?",
+    "grade": "5",
+    "options": [
+      "Nucleus",
+      "Mitochondria",
+      "Ribosomes"
+    ],
+    "correctAnswer": "Mitochondria"
+  },
+  {
+    "problem": "Which part of the plant is responsible for photosynthesis?",
+    "grade": "5",
+    "options": [
+      "Roots",
+      "Leaves",
+      "Stem"
+    ],
+    "correctAnswer": "Leaves"
+  },
+  {
+    "problem": "In a food chain, what do herbivores eat?",
+    "grade": "5",
+    "options": [
+      "Plants",
+      "Other animals",
+      "Rocks"
+    ],
+    "correctAnswer": "Plants"
+  },
+  {
+    "problem": "What is the function of the circulatory system in the human body?",
+    "grade": "5",
+    "options": [
+      "To transport nutrients",
+      "To control body temperature",
+      "To aid in digestion"
+    ],
+    "correctAnswer": "To transport nutrients"
+  },
+  {
+    "problem": "Which of the following determines an organism's traits and characteristics?",
+    "grade": "5",
+    "options": [
+      "Genes",
+      "Environment",
+      "Nutrition"
+    ],
+    "correctAnswer": "Genes"
+  },
+  {
+    "problem": "How do animals adapt to their environment over time?",
+    "grade": "5",
+    "options": [
+      "By changing color",
+      "By developing new skills",
+      "Through evolution"
+    ],
+    "correctAnswer": "Through evolution"
+  },
+  {
+    "problem": "What is the main cause of air pollution in cities?",
+    "grade": "5",
+    "options": [
+      "Cars",
+      "Factories",
+      "Trees"
+    ],
+    "correctAnswer": "Cars"
+  },
+  {
+    "problem": "Which microorganism causes the common cold?",
+    "grade": "5",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Fungus"
+    ],
+    "correctAnswer": "Virus"
+  },
+  {
+    "problem": "What gas is released during photosynthesis?",
+    "grade": "5",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen"
+    ],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "problem": "How do scientists classify living things into different groups?",
+    "grade": "5",
+    "options": [
+      "By size",
+      "By color",
+      "By characteristics"
+    ],
+    "correctAnswer": "By characteristics"
+  },
+  {
+    "problem": "Which part of the cell stores water, nutrients, and waste?",
+    "grade": "5",
+    "options": [
+      "Cell membrane",
+      "Vacuole",
+      "Endoplasmic reticulum"
+    ],
+    "correctAnswer": "Vacuole"
+  },
+  {
+    "problem": "What do carnivores eat in a food chain?",
+    "grade": "5",
+    "options": [
+      "Plants",
+      "Other animals",
+      "Sunlight"
+    ],
+    "correctAnswer": "Other animals"
+  },
+  {
+    "problem": "Which system in the human body protects against diseases and infections?",
+    "grade": "5",
+    "options": [
+      "Nervous system",
+      "Immune system",
+      "Endocrine system"
+    ],
+    "correctAnswer": "Immune system"
+  },
+  {
+    "problem": "What is the passing of traits from parents to offspring called?",
+    "grade": "5",
+    "options": [
+      "Mutation",
+      "Heredity",
+      "Adaptation"
+    ],
+    "correctAnswer": "Heredity"
+  },
+  {
+    "problem": "How do animals with thick fur adapt to cold climates?",
+    "grade": "5",
+    "options": [
+      "By hibernating",
+      "By migrating",
+      "By growing thicker fur"
+    ],
+    "correctAnswer": "By growing thicker fur"
+  },
+  {
+    "problem": "What is the role of decomposers in an ecosystem?",
+    "grade": "5",
+    "options": [
+      "To provide food for plants",
+      "To break down dead organisms",
+      "To hunt for prey"
+    ],
+    "correctAnswer": "To break down dead organisms"
+  },
+  {
+    "problem": "Which body system is responsible for breaking down food into nutrients for the body?",
+    "grade": "5",
+    "options": [
+      "Circulatory system",
+      "Digestive system",
+      "Skeletal system"
+    ],
+    "correctAnswer": "Digestive system"
+  },
+  {
+    "problem": "How do plants reproduce sexually?",
+    "grade": "5",
+    "options": [
+      "By seeds",
+      "By spores",
+      "By cuttings"
+    ],
+    "correctAnswer": "By seeds"
+  },
+  {
+    "problem": "What is the primary source of energy for all living organisms?",
+    "grade": "5",
+    "options": [
+      "Water",
+      "Sunlight",
+      "Air"
+    ],
+    "correctAnswer": "Sunlight"
+  },
+  {
+    "problem": "What do we call the process of grouping organisms based on shared characteristics?",
+    "grade": "5",
+    "options": [
+      "Classification",
+      "Mutation",
+      "Adaptation"
+    ],
+    "correctAnswer": "Classification"
+  },
+  {
+    "problem": "What is the powerhouse of the cell that produces energy?",
+    "grade": "5",
+    "options": [
+      "Chloroplast",
+      "Mitochondria",
+      "Ribosome"
+    ],
+    "correctAnswer": "Mitochondria"
+  },
+  {
+    "problem": "Which part of a plant cell captures sunlight for photosynthesis?",
+    "grade": "5",
+    "options": [
+      "Vacuole",
+      "Cell wall",
+      "Chloroplast"
+    ],
+    "correctAnswer": "Chloroplast"
+  },
+  {
+    "problem": "In a food chain, what is the primary source of energy?",
+    "grade": "5",
+    "options": [
+      "Sun",
+      "Plants",
+      "Animals"
+    ],
+    "correctAnswer": "Sun"
+  },
+  {
+    "problem": "What is the process by which living organisms produce offspring similar to themselves?",
+    "grade": "5",
+    "options": [
+      "Mutation",
+      "Reproduction",
+      "Metamorphosis"
+    ],
+    "correctAnswer": "Reproduction"
+  },
+  {
+    "problem": "Which body system is responsible for breaking down food and absorbing nutrients?",
+    "grade": "5",
+    "options": [
+      "Digestive system",
+      "Circulatory system",
+      "Nervous system"
+    ],
+    "correctAnswer": "Digestive system"
+  },
+  {
+    "problem": "What is the passing of traits from parents to offspring called?",
+    "grade": "5",
+    "options": [
+      "Mutation",
+      "Adaptation",
+      "Heredity"
+    ],
+    "correctAnswer": "Heredity"
+  },
+  {
+    "problem": "Which type of organism obtains energy by breaking down dead organic matter?",
+    "grade": "5",
+    "options": [
+      "Producers",
+      "Consumers",
+      "Decomposers"
+    ],
+    "correctAnswer": "Decomposers"
+  },
+  {
+    "problem": "What is the smallest unit of life that can carry out all life processes?",
+    "grade": "5",
+    "options": [
+      "Cell",
+      "Tissue",
+      "Organ"
+    ],
+    "correctAnswer": "Cell"
+  },
+  {
+    "problem": "Which disease is caused by a virus and spreads through respiratory droplets?",
+    "grade": "5",
+    "options": [
+      "Flu",
+      "Diabetes",
+      "Asthma"
+    ],
+    "correctAnswer": "Flu"
+  },
+  {
+    "problem": "What gas is taken in by plants during photosynthesis?",
+    "grade": "5",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen"
+    ],
+    "correctAnswer": "Carbon dioxide"
+  },
+  {
+    "problem": "Which classification group is broader: genus or species?",
+    "grade": "5",
+    "options": [
+      "Genus",
+      "Species",
+      "They are equal"
+    ],
+    "correctAnswer": "Genus"
+  },
+  {
+    "problem": "What is the process by which organisms change over time to better survive in their environment?",
+    "grade": "5",
+    "options": [
+      "Natural selection",
+      "Mutation",
+      "Extinction"
+    ],
+    "correctAnswer": "Natural selection"
+  },
+  {
+    "problem": "Which gas do humans breathe in and use for respiration?",
+    "grade": "5",
+    "options": [
+      "Nitrogen",
+      "Oxygen",
+      "Carbon dioxide"
+    ],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "problem": "What is the name for a group of organisms of the same species living in the same area?",
+    "grade": "5",
+    "options": [
+      "Community",
+      "Population",
+      "Ecosystem"
+    ],
+    "correctAnswer": "Population"
+  },
+  {
+    "problem": "Which part of the flower produces pollen for reproduction?",
+    "grade": "5",
+    "options": [
+      "Petals",
+      "Stamen",
+      "Pistil"
+    ],
+    "correctAnswer": "Stamen"
+  },
+  {
+    "problem": "What is the process by which plants release water vapor into the air?",
+    "grade": "5",
+    "options": [
+      "Evaporation",
+      "Transpiration",
+      "Condensation"
+    ],
+    "correctAnswer": "Transpiration"
+  },
+  {
+    "problem": "Which body system is responsible for carrying oxygen to all parts of the body?",
+    "grade": "5",
+    "options": [
+      "Respiratory system",
+      "Circulatory system",
+      "Skeletal system"
+    ],
+    "correctAnswer": "Circulatory system"
+  },
+  {
+    "problem": "What is the name for the process by which green plants make their own food?",
+    "grade": "5",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Fermentation"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "Which classification group is more specific: kingdom or phylum?",
+    "grade": "5",
+    "options": [
+      "Kingdom",
+      "Phylum",
+      "They are equal"
+    ],
+    "correctAnswer": "Phylum"
+  },
+  {
+    "problem": "What is the powerhouse of the cell that produces energy?",
+    "grade": "5",
+    "options": [
+      "Mitochondria",
+      "Ribosomes",
+      "Endoplasmic reticulum"
+    ],
+    "correctAnswer": "Mitochondria"
+  },
+  {
+    "problem": "Which part of the plant absorbs water and nutrients from the soil?",
+    "grade": "5",
+    "options": [
+      "Roots",
+      "Stems",
+      "Leaves"
+    ],
+    "correctAnswer": "Roots"
+  },
+  {
+    "problem": "In a food chain, what do we call an animal that eats plants?",
+    "grade": "5",
+    "options": [
+      "Primary consumer",
+      "Producer",
+      "Herbivore"
+    ],
+    "correctAnswer": "Herbivore"
+  },
+  {
+    "problem": "Which body system is responsible for protecting the body from germs and infections?",
+    "grade": "5",
+    "options": [
+      "Immune system",
+      "Nervous system",
+      "Endocrine system"
+    ],
+    "correctAnswer": "Immune system"
+  },
+  {
+    "problem": "What do we call the passing of traits from parents to offspring?",
+    "grade": "5",
+    "options": [
+      "Inheritance",
+      "Mutation",
+      "Adaptation"
+    ],
+    "correctAnswer": "Inheritance"
+  },
+  {
+    "problem": "How do animals adapt to their environments over time?",
+    "grade": "5",
+    "options": [
+      "Mutation",
+      "Natural selection",
+      "Hibernation"
+    ],
+    "correctAnswer": "Natural selection"
+  },
+  {
+    "problem": "What is the process of using natural resources wisely to protect the environment?",
+    "grade": "5",
+    "options": [
+      "Recycling",
+      "Conservation",
+      "Pollution"
+    ],
+    "correctAnswer": "Conservation"
+  },
+  {
+    "problem": "Which tiny organisms can only be seen under a microscope and can cause illness?",
+    "grade": "5",
+    "options": [
+      "Bacteria",
+      "Viruses",
+      "Fungi"
+    ],
+    "correctAnswer": "Bacteria"
+  },
+  {
+    "problem": "What is the process by which plants make their own food using sunlight, water, and carbon dioxide?",
+    "grade": "5",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Fermentation"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "How do scientists classify living things into groups based on shared characteristics?",
+    "grade": "5",
+    "options": [
+      "Genetics",
+      "Taxonomy",
+      "Ecology"
+    ],
+    "correctAnswer": "Taxonomy"
+  },
+  {
+    "problem": "Which organelle is responsible for storing food, water, and waste in plant cells?",
+    "grade": "5",
+    "options": [
+      "Vacuole",
+      "Lysosome",
+      "Golgi apparatus"
+    ],
+    "correctAnswer": "Vacuole"
+  },
+  {
+    "problem": "What is the system in animals that is responsible for circulating blood throughout the body?",
+    "grade": "5",
+    "options": [
+      "Circulatory system",
+      "Muscular system",
+      "Skeletal system"
+    ],
+    "correctAnswer": "Circulatory system"
+  },
+  {
+    "problem": "In a food chain, what do we call an animal that eats other animals?",
+    "grade": "5",
+    "options": [
+      "Carnivore",
+      "Decomposer",
+      "Tertiary consumer"
+    ],
+    "correctAnswer": "Carnivore"
+  },
+  {
+    "problem": "Which body system is responsible for breaking down food into nutrients for the body?",
+    "grade": "5",
+    "options": [
+      "Digestive system",
+      "Respiratory system",
+      "Excretory system"
+    ],
+    "correctAnswer": "Digestive system"
+  },
+  {
+    "problem": "What do we call the passing of traits that help an organism survive in its environment?",
+    "grade": "5",
+    "options": [
+      "Mutation",
+      "Adaptation",
+      "Genetics"
+    ],
+    "correctAnswer": "Adaptation"
+  },
+  {
+    "problem": "How do animals with fur adapt to cold climates?",
+    "grade": "5",
+    "options": [
+      "Hibernation",
+      "Migration",
+      "Insulation"
+    ],
+    "correctAnswer": "Insulation"
+  },
+  {
+    "problem": "What is the study of the interactions between living organisms and their environment?",
+    "grade": "5",
+    "options": [
+      "Biology",
+      "Ecology",
+      "Zoology"
+    ],
+    "correctAnswer": "Ecology"
+  },
+  {
+    "problem": "Which tiny organisms can only reproduce inside the cells of living hosts?",
+    "grade": "5",
+    "options": [
+      "Bacteria",
+      "Viruses",
+      "Protozoa"
+    ],
+    "correctAnswer": "Viruses"
+  },
+  {
+    "problem": "What is the process by which animals breathe in oxygen and release carbon dioxide?",
+    "grade": "5",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Fermentation"
+    ],
+    "correctAnswer": "Respiration"
+  },
+  {
+    "problem": "How are living things classified into different kingdoms, phyla, and species?",
+    "grade": "5",
+    "options": [
+      "Genetics",
+      "Taxonomy",
+      "Ecology"
+    ],
+    "correctAnswer": "Taxonomy"
+  },
+  {
+    "problem": "What part of the cell is responsible for producing energy?",
+    "grade": "6",
+    "options": ["Mitochondria", "Nucleus", "Ribosome"],
+    "correctAnswer": "Mitochondria"
+  },
+  {
+    "problem": "What do we call the basic unit of life?",
+    "grade": "6",
+    "options": ["Tissue", "Cell", "Organ"],
+    "correctAnswer": "Cell"
+  },
+  {
+    "problem": "Which system in the human body is responsible for transporting blood?",
+    "grade": "6",
+    "options": ["Digestive system", "Circulatory system", "Respiratory system"],
+    "correctAnswer": "Circulatory system"
+  },
+  {
+    "problem": "What is the main function of red blood cells?",
+    "grade": "6",
+    "options": ["Fight infection", "Carry oxygen", "Digest food"],
+    "correctAnswer": "Carry oxygen"
+  },
+  {
+    "problem": "Which part of the plant is responsible for reproduction?",
+    "grade": "6",
+    "options": ["Stem", "Flower", "Leaf"],
+    "correctAnswer": "Flower"
+  },
+  {
+    "problem": "Which body system includes the brain and spinal cord?",
+    "grade": "6",
+    "options": ["Muscular system", "Nervous system", "Endocrine system"],
+    "correctAnswer": "Nervous system"
+  },
+  {
+    "problem": "What gas do plants release during photosynthesis?",
+    "grade": "6",
+    "options": ["Carbon dioxide", "Oxygen", "Nitrogen"],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "problem": "Which type of organism breaks down dead material in ecosystems?",
+    "grade": "6",
+    "options": ["Producer", "Consumer", "Decomposer"],
+    "correctAnswer": "Decomposer"
+  },
+  {
+    "problem": "What do we call a change in an organism's environment that causes a response?",
+    "grade": "6",
+    "options": ["Stimulus", "Adaptation", "Cell division"],
+    "correctAnswer": "Stimulus"
+  },
+  {
+    "problem": "What part of the digestive system absorbs most nutrients?",
+    "grade": "6",
+    "options": ["Stomach", "Large intestine", "Small intestine"],
+    "correctAnswer": "Small intestine"
+  },
+  {
+    "problem": "Which organelle is known as the 'control center' of the cell?",
+    "grade": "6",
+    "options": [
+      "Mitochondria",
+      "Nucleus",
+      "Ribosome"
+    ],
+    "correctAnswer": "Nucleus"
+  },
+  {
+    "problem": "In which part of a plant does photosynthesis mainly occur?",
+    "grade": "6",
+    "options": [
+      "Roots",
+      "Leaves",
+      "Stem"
+    ],
+    "correctAnswer": "Leaves"
+  },
+  {
+    "problem": "Which of the following is a producer in a food chain?",
+    "grade": "6",
+    "options": [
+      "Lion",
+      "Grass",
+      "Hawk"
+    ],
+    "correctAnswer": "Grass"
+  },
+  {
+    "problem": "Which body system is responsible for breaking down food into nutrients for the body?",
+    "grade": "6",
+    "options": [
+      "Respiratory system",
+      "Digestive system",
+      "Circulatory system"
+    ],
+    "correctAnswer": "Digestive system"
+  },
+  {
+    "problem": "What is the passing of traits from parents to offspring called?",
+    "grade": "6",
+    "options": [
+      "Mutation",
+      "Adaptation",
+      "Heredity"
+    ],
+    "correctAnswer": "Heredity"
+  },
+  {
+    "problem": "Which process describes how organisms change over time to better survive in their environment?",
+    "grade": "6",
+    "options": [
+      "Evolution",
+      "Growth",
+      "Reproduction"
+    ],
+    "correctAnswer": "Evolution"
+  },
+  {
+    "problem": "What do we call the preservation of natural resources and protection of the environment?",
+    "grade": "6",
+    "options": [
+      "Conservation",
+      "Pollution",
+      "Deforestation"
+    ],
+    "correctAnswer": "Conservation"
+  },
+  {
+    "problem": "Which microorganism is responsible for causing diseases like the common cold?",
+    "grade": "6",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Fungus"
+    ],
+    "correctAnswer": "Virus"
+  },
+  {
+    "problem": "During which process do plants use sunlight to convert carbon dioxide and water into glucose and oxygen?",
+    "grade": "6",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Fermentation"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "What is the scientific term for the classification system used to organize living things?",
+    "grade": "6",
+    "options": [
+      "Hierarchy",
+      "Taxonomy",
+      "Hierarchy"
+    ],
+    "correctAnswer": "Taxonomy"
+  },
+  {
+    "problem": "Which organelle is responsible for protein synthesis in a cell?",
+    "grade": "6",
+    "options": [
+      "Mitochondria",
+      "Nucleus",
+      "Ribosome"
+    ],
+    "correctAnswer": "Ribosome"
+  },
+  {
+    "problem": "Which animal system is responsible for removing waste from the body?",
+    "grade": "6",
+    "options": [
+      "Circulatory system",
+      "Nervous system",
+      "Excretory system"
+    ],
+    "correctAnswer": "Excretory system"
+  },
+  {
+    "problem": "What is the primary source of energy for most living organisms in an ecosystem?",
+    "grade": "6",
+    "options": [
+      "Sunlight",
+      "Water",
+      "Air"
+    ],
+    "correctAnswer": "Sunlight"
+  },
+  {
+    "problem": "Which body system is responsible for producing hormones that regulate body functions?",
+    "grade": "6",
+    "options": [
+      "Endocrine system",
+      "Muscular system",
+      "Skeletal system"
+    ],
+    "correctAnswer": "Endocrine system"
+  },
+  {
+    "problem": "What is the study of how traits are passed from parents to offspring called?",
+    "grade": "6",
+    "options": [
+      "Heredity",
+      "Evolution",
+      "Genetics"
+    ],
+    "correctAnswer": "Genetics"
+  },
+  {
+    "problem": "Which process involves the gradual change in an organism's traits over generations?",
+    "grade": "6",
+    "options": [
+      "Evolution",
+      "Adaptation",
+      "Mutation"
+    ],
+    "correctAnswer": "Evolution"
+  },
+  {
+    "problem": "What do we call the relationship between two species where one benefits and the other is harmed?",
+    "grade": "6",
+    "options": [
+      "Symbiosis",
+      "Predation",
+      "Parasitism"
+    ],
+    "correctAnswer": "Parasitism"
+  },
+  {
+    "problem": "Which disease is caused by a deficiency of Vitamin C in the diet?",
+    "grade": "6",
+    "options": [
+      "Anemia",
+      "Scurvy",
+      "Diabetes"
+    ],
+    "correctAnswer": "Scurvy"
+  },
+  {
+    "problem": "Which gas is produced as a byproduct of cellular respiration in living organisms?",
+    "grade": "6",
+    "options": [
+      "Carbon dioxide",
+      "Oxygen",
+      "Nitrogen"
+    ],
+    "correctAnswer": "Carbon dioxide"
+  },
+  {
+    "problem": "Which organelle is known as the 'control center' of the cell?",
+    "grade": "6",
+    "options": [
+      "Nucleus",
+      "Cytoplasm",
+      "Cell membrane"
+    ],
+    "correctAnswer": "Nucleus"
+  },
+  {
+    "problem": "What is the function of the chloroplast in plant cells?",
+    "grade": "6",
+    "options": [
+      "Store water",
+      "Produce energy",
+      "Control cell division"
+    ],
+    "correctAnswer": "Produce energy"
+  },
+  {
+    "problem": "In which body system are the lungs located?",
+    "grade": "6",
+    "options": [
+      "Circulatory system",
+      "Respiratory system",
+      "Skeletal system"
+    ],
+    "correctAnswer": "Respiratory system"
+  },
+  {
+    "problem": "What is the name of the process by which plants make their own food?",
+    "grade": "6",
+    "options": [
+      "Respiration",
+      "Fermentation",
+      "Photosynthesis"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "Which of the following is a predator in a food chain?",
+    "grade": "6",
+    "options": [
+      "Grass",
+      "Rabbit",
+      "Fox"
+    ],
+    "correctAnswer": "Fox"
+  },
+  {
+    "problem": "What is the largest organ in the human body?",
+    "grade": "6",
+    "options": [
+      "Heart",
+      "Liver",
+      "Skin"
+    ],
+    "correctAnswer": "Skin"
+  },
+  {
+    "problem": "Which of the following is a recessive trait in genetics?",
+    "grade": "6",
+    "options": [
+      "Brown eyes",
+      "Attached earlobes",
+      "Curly hair"
+    ],
+    "correctAnswer": "Attached earlobes"
+  },
+  {
+    "problem": "What do we call the process by which organisms change over time to better survive in their environment?",
+    "grade": "6",
+    "options": [
+      "Mutation",
+      "Adaptation",
+      "Evolution"
+    ],
+    "correctAnswer": "Adaptation"
+  },
+  {
+    "problem": "Which of the following is a non-renewable resource?",
+    "grade": "6",
+    "options": [
+      "Solar energy",
+      "Coal",
+      "Wind power"
+    ],
+    "correctAnswer": "Coal"
+  },
+  {
+    "problem": "What type of microorganism causes diseases like the flu and common cold?",
+    "grade": "6",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Fungi"
+    ],
+    "correctAnswer": "Virus"
+  },
+  {
+    "problem": "Where does the process of respiration occur in cells?",
+    "grade": "6",
+    "options": [
+      "Mitochondria",
+      "Nucleus",
+      "Ribosome"
+    ],
+    "correctAnswer": "Mitochondria"
+  },
+  {
+    "problem": "Which of the following is a producer in an ecosystem?",
+    "grade": "6",
+    "options": [
+      "Lion",
+      "Grass",
+      "Hawk"
+    ],
+    "correctAnswer": "Grass"
+  },
+  {
+    "problem": "What is the purpose of the skeletal system in the human body?",
+    "grade": "6",
+    "options": [
+      "Support and protect organs",
+      "Transport nutrients",
+      "Produce energy"
+    ],
+    "correctAnswer": "Support and protect organs"
+  },
+  {
+    "problem": "What is the name of the process by which genetic information is passed from parent to offspring?",
+    "grade": "6",
+    "options": [
+      "Mutation",
+      "Heredity",
+      "Evolution"
+    ],
+    "correctAnswer": "Heredity"
+  },
+  {
+    "problem": "Which of the following is a decomposer in an ecosystem?",
+    "grade": "6",
+    "options": [
+      "Grasshopper",
+      "Mushroom",
+      "Rabbit"
+    ],
+    "correctAnswer": "Mushroom"
+  },
+  {
+    "problem": "What is the function of the heart in the circulatory system?",
+    "grade": "6",
+    "options": [
+      "Pump blood",
+      "Digest food",
+      "Filter waste"
+    ],
+    "correctAnswer": "Pump blood"
+  },
+  {
+    "problem": "What gas do humans breathe in during respiration?",
+    "grade": "6",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen"
+    ],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "problem": "Which classification group includes organisms with feathers and beaks?",
+    "grade": "6",
+    "options": [
+      "Mammals",
+      "Birds",
+      "Reptiles"
+    ],
+    "correctAnswer": "Birds"
+  },
+  {
+    "problem": "What is the main function of the circulatory system in the human body?",
+    "grade": "6",
+    "options": [
+      "Transport nutrients and oxygen",
+      "Regulate body temperature",
+      "Control movement"
+    ],
+    "correctAnswer": "Transport nutrients and oxygen"
+  },
+  {
+    "problem": "Which of the following body systems is responsible for breaking down food into nutrients for the body?",
+    "grade": "6",
+    "options": [
+      "Digestive system",
+      "Respiratory system",
+      "Circulatory system"
+    ],
+    "correctAnswer": "Digestive system"
+  },
+  {
+    "problem": "Which organelle is known as the 'control center' of the cell?",
+    "grade": "6",
+    "options": [
+      "Mitochondria",
+      "Nucleus",
+      "Ribosome"
+    ],
+    "correctAnswer": "Nucleus"
+  },
+  {
+    "problem": "What is the primary function of the roots in a plant?",
+    "grade": "6",
+    "options": [
+      "Photosynthesis",
+      "Absorb water and nutrients",
+      "Reproduction"
+    ],
+    "correctAnswer": "Absorb water and nutrients"
+  },
+  {
+    "problem": "In a food chain, what do we call organisms that eat plants?",
+    "grade": "6",
+    "options": [
+      "Producers",
+      "Consumers",
+      "Decomposers"
+    ],
+    "correctAnswer": "Consumers"
+  },
+  {
+    "problem": "Which organ in the human body is responsible for filtering waste from the blood?",
+    "grade": "6",
+    "options": [
+      "Kidneys",
+      "Lungs",
+      "Liver"
+    ],
+    "correctAnswer": "Kidneys"
+  },
+  {
+    "problem": "What do we call the passing of traits from parents to offspring?",
+    "grade": "6",
+    "options": [
+      "Mutation",
+      "Heredity",
+      "Evolution"
+    ],
+    "correctAnswer": "Heredity"
+  },
+  {
+    "problem": "Which characteristic helps living things better survive in their environment over time?",
+    "grade": "6",
+    "options": [
+      "Mutation",
+      "Extinction",
+      "Adaptation"
+    ],
+    "correctAnswer": "Adaptation"
+  },
+  {
+    "problem": "What is the main cause of the greenhouse effect?",
+    "grade": "6",
+    "options": [
+      "Deforestation",
+      "Air pollution",
+      "Excessive carbon dioxide"
+    ],
+    "correctAnswer": "Excessive carbon dioxide"
+  },
+  {
+    "problem": "Which microorganism causes illnesses such as strep throat and pneumonia?",
+    "grade": "6",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Fungi"
+    ],
+    "correctAnswer": "Bacteria"
+  },
+  {
+    "problem": "What process do plants use to convert sunlight into energy?",
+    "grade": "6",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Fermentation"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "What is the scientific term for grouping organisms based on shared characteristics?",
+    "grade": "6",
+    "options": [
+      "Habitat",
+      "Species",
+      "Classification"
+    ],
+    "correctAnswer": "Classification"
+  },
+  {
+    "problem": "What part of the cell is responsible for protein synthesis?",
+    "grade": "6",
+    "options": [
+      "Mitochondria",
+      "Nucleus",
+      "Ribosome"
+    ],
+    "correctAnswer": "Ribosome"
+  },
+  {
+    "problem": "Which system in the human body includes the heart, blood vessels, and blood?",
+    "grade": "6",
+    "options": [
+      "Circulatory system",
+      "Respiratory system",
+      "Excretory system"
+    ],
+    "correctAnswer": "Circulatory system"
+  },
+  {
+    "problem": "In a food chain, what do we call organisms that break down dead plants and animals?",
+    "grade": "6",
+    "options": [
+      "Producers",
+      "Consumers",
+      "Decomposers"
+    ],
+    "correctAnswer": "Decomposers"
+  },
+  {
+    "problem": "Which organ in the human body is responsible for producing insulin?",
+    "grade": "6",
+    "options": [
+      "Pancreas",
+      "Liver",
+      "Stomach"
+    ],
+    "correctAnswer": "Pancreas"
+  },
+  {
+    "problem": "What determines the physical traits of an organism?",
+    "grade": "6",
+    "options": [
+      "Genes",
+      "Mutation",
+      "Environment"
+    ],
+    "correctAnswer": "Genes"
+  },
+  {
+    "problem": "Which process allows organisms to gradually change over time to better survive in their environment?",
+    "grade": "6",
+    "options": [
+      "Mutation",
+      "Extinction",
+      "Evolution"
+    ],
+    "correctAnswer": "Evolution"
+  },
+  {
+    "problem": "What is the main source of pollution in our oceans?",
+    "grade": "6",
+    "options": [
+      "Oil spills",
+      "Plastic waste",
+      "Industrial runoff"
+    ],
+    "correctAnswer": "Plastic waste"
+  },
+  {
+    "problem": "Which type of microorganism causes diseases like the flu and common cold?",
+    "grade": "6",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Fungi"
+    ],
+    "correctAnswer": "Virus"
+  },
+  {
+    "problem": "What gas do humans inhale during respiration?",
+    "grade": "6",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen"
+    ],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "problem": "What is the process of giving living organisms scientific names and grouping them into categories?",
+    "grade": "6",
+    "options": [
+      "Habitat",
+      "Species",
+      "Classification"
+    ],
+    "correctAnswer": "Classification"
+  },
+  {
+    "problem": "Which organelle is known as the 'control center' of the cell?",
+    "grade": "6",
+    "options": [
+      "Mitochondria",
+      "Nucleus",
+      "Ribosome"
+    ],
+    "correctAnswer": "Nucleus"
+  },
+  {
+    "problem": "In which part of a plant does photosynthesis mainly occur?",
+    "grade": "6",
+    "options": [
+      "Roots",
+      "Stem",
+      "Leaves"
+    ],
+    "correctAnswer": "Leaves"
+  },
+  {
+    "problem": "What is the function of the heart in the human body?",
+    "grade": "6",
+    "options": [
+      "Digestion",
+      "Circulation",
+      "Breathing"
+    ],
+    "correctAnswer": "Circulation"
+  },
+  {
+    "problem": "What is the passing of traits from parents to offspring called?",
+    "grade": "6",
+    "options": [
+      "Evolution",
+      "Heredity",
+      "Mutation"
+    ],
+    "correctAnswer": "Heredity"
+  },
+  {
+    "problem": "Which process allows plants to make their own food using sunlight?",
+    "grade": "6",
+    "options": [
+      "Respiration",
+      "Fermentation",
+      "Photosynthesis"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "What is the classification system used to group living things into categories?",
+    "grade": "6",
+    "options": [
+      "Hierarchy",
+      "Taxonomy",
+      "Hierarchy"
+    ],
+    "correctAnswer": "Taxonomy"
+  },
+  {
+    "problem": "Which part of the flower produces pollen for reproduction?",
+    "grade": "6",
+    "options": [
+      "Pistil",
+      "Stamen",
+      "Petals"
+    ],
+    "correctAnswer": "Stamen"
+  },
+  {
+    "problem": "What is the main function of the respiratory system in the human body?",
+    "grade": "6",
+    "options": [
+      "Transporting nutrients",
+      "Eliminating waste",
+      "Breathing"
+    ],
+    "correctAnswer": "Breathing"
+  },
+  {
+    "problem": "What is the role of decomposers in an ecosystem?",
+    "grade": "6",
+    "options": [
+      "Produce oxygen",
+      "Break down dead matter",
+      "Provide energy"
+    ],
+    "correctAnswer": "Break down dead matter"
+  },
+  {
+    "problem": "Which body system is responsible for protecting the body from infections?",
+    "grade": "6",
+    "options": [
+      "Immune system",
+      "Digestive system",
+      "Skeletal system"
+    ],
+    "correctAnswer": "Immune system"
+  },
+  {
+    "problem": "What gas is released as a waste product of respiration in animals?",
+    "grade": "6",
+    "options": [
+      "Carbon dioxide",
+      "Oxygen",
+      "Nitrogen"
+    ],
+    "correctAnswer": "Carbon dioxide"
+  },
+  {
+    "problem": "What is the purpose of DNA in living organisms?",
+    "grade": "6",
+    "options": [
+      "Energy storage",
+      "Cell structure",
+      "Genetic information"
+    ],
+    "correctAnswer": "Genetic information"
+  },
+  {
+    "problem": "Which process allows some organisms to change and adapt to their environment over time?",
+    "grade": "6",
+    "options": [
+      "Mutation",
+      "Evolution",
+      "Selection"
+    ],
+    "correctAnswer": "Evolution"
+  },
+  {
+    "problem": "What is the primary source of energy for most living organisms on Earth?",
+    "grade": "6",
+    "options": [
+      "Sunlight",
+      "Wind",
+      "Water"
+    ],
+    "correctAnswer": "Sunlight"
+  },
+  {
+    "problem": "Which part of the digestive system absorbs water and minerals from food?",
+    "grade": "6",
+    "options": [
+      "Stomach",
+      "Small intestine",
+      "Large intestine"
+    ],
+    "correctAnswer": "Large intestine"
+  },
+  {
+    "problem": "What is the function of chlorophyll in plants during photosynthesis?",
+    "grade": "6",
+    "options": [
+      "Absorb sunlight",
+      "Release oxygen",
+      "Break down glucose"
+    ],
+    "correctAnswer": "Absorb sunlight"
+  },
+  {
+    "problem": "How do producers obtain energy to make their own food?",
+    "grade": "6",
+    "options": [
+      "Eating other organisms",
+      "Absorbing sunlight",
+      "Converting minerals"
+    ],
+    "correctAnswer": "Absorbing sunlight"
+  },
+  {
+    "problem": "Which body system is responsible for supporting the body and protecting internal organs?",
+    "grade": "6",
+    "options": [
+      "Muscular system",
+      "Skeletal system",
+      "Nervous system"
+    ],
+    "correctAnswer": "Skeletal system"
+  },
+  {
+    "problem": "What is the role of bacteria in the nitrogen cycle in ecosystems?",
+    "grade": "6",
+    "options": [
+      "Produce oxygen",
+      "Fix nitrogen",
+      "Break down dead matter"
+    ],
+    "correctAnswer": "Fix nitrogen"
+  },
+  {
+    "problem": "Which type of organism produces its own food through photosynthesis?",
+    "grade": "6",
+    "options": [
+      "Consumer",
+      "Decomposer",
+      "Producer"
+    ],
+    "correctAnswer": "Producer"
+  },
+  {
+    "problem": "What is the powerhouse of the cell that converts food into energy?",
+    "grade": "6",
+    "options": [
+      "Vacuole",
+      "Chloroplast",
+      "Mitochondria"
+    ],
+    "correctAnswer": "Mitochondria"
+  },
+  {
+    "problem": "Which part of the plant is responsible for absorbing water and nutrients from the soil?",
+    "grade": "6",
+    "options": [
+      "Roots",
+      "Leaves",
+      "Stem"
+    ],
+    "correctAnswer": "Roots"
+  },
+  {
+    "problem": "In a food chain, what do we call an organism that eats plants?",
+    "grade": "6",
+    "options": [
+      "Producer",
+      "Consumer",
+      "Decomposer"
+    ],
+    "correctAnswer": "Consumer"
+  },
+  {
+    "problem": "Which body system controls the movement of the body and protects internal organs?",
+    "grade": "6",
+    "options": [
+      "Skeletal system",
+      "Muscular system",
+      "Nervous system"
+    ],
+    "correctAnswer": "Muscular system"
+  },
+  {
+    "problem": "What is the passing of traits from parents to offspring called?",
+    "grade": "6",
+    "options": [
+      "Mutation",
+      "Heredity",
+      "Evolution"
+    ],
+    "correctAnswer": "Heredity"
+  },
+  {
+    "problem": "What do we call the process by which organisms change over time to better survive in their environment?",
+    "grade": "6",
+    "options": [
+      "Mutation",
+      "Adaptation",
+      "Evolution"
+    ],
+    "correctAnswer": "Adaptation"
+  },
+  {
+    "problem": "What is the study of the interactions between organisms and their environment called?",
+    "grade": "6",
+    "options": [
+      "Ecology",
+      "Geology",
+      "Meteorology"
+    ],
+    "correctAnswer": "Ecology"
+  },
+  {
+    "problem": "Which microorganism is responsible for causing diseases such as the flu and common cold?",
+    "grade": "6",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Fungus"
+    ],
+    "correctAnswer": "Virus"
+  },
+  {
+    "problem": "During which process do plants use sunlight to convert carbon dioxide and water into glucose and oxygen?",
+    "grade": "6",
+    "options": [
+      "Respiration",
+      "Fermentation",
+      "Photosynthesis"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "What do we call the process of grouping living things based on their similarities and differences?",
+    "grade": "6",
+    "options": [
+      "Classification",
+      "Domestication",
+      "Hybridization"
+    ],
+    "correctAnswer": "Classification"
+  },
+  {
+    "problem": "Which organelle is responsible for storing water, nutrients, and waste in the cell?",
+    "grade": "6",
+    "options": [
+      "Nucleus",
+      "Vacuole",
+      "Ribosome"
+    ],
+    "correctAnswer": "Vacuole"
+  },
+  {
+    "problem": "What is the function of the respiratory system in the human body?",
+    "grade": "6",
+    "options": [
+      "Transporting blood",
+      "Breathing oxygen",
+      "Digesting food"
+    ],
+    "correctAnswer": "Breathing oxygen"
+  },
+  {
+    "problem": "In a food web, what do we call an organism that eats both plants and animals?",
+    "grade": "6",
+    "options": [
+      "Herbivore",
+      "Carnivore",
+      "Omnivore"
+    ],
+    "correctAnswer": "Omnivore"
+  },
+  {
+    "problem": "Which body system is responsible for producing hormones that regulate growth and metabolism?",
+    "grade": "6",
+    "options": [
+      "Reproductive system",
+      "Endocrine system",
+      "Immune system"
+    ],
+    "correctAnswer": "Endocrine system"
+  },
+  {
+    "problem": "What is the passing of genetic information from one generation to the next called?",
+    "grade": "6",
+    "options": [
+      "Mutation",
+      "Recombination",
+      "Inheritance"
+    ],
+    "correctAnswer": "Inheritance"
+  },
+  {
+    "problem": "Which animal adaptation allows a chameleon to change color to blend in with its surroundings?",
+    "grade": "6",
+    "options": [
+      "Mimicry",
+      "Camouflage",
+      "Warning coloration"
+    ],
+    "correctAnswer": "Camouflage"
+  },
+  {
+    "problem": "What do we call the process of using natural resources in a way that does not harm the environment?",
+    "grade": "6",
+    "options": [
+      "Conservation",
+      "Pollution",
+      "Deforestation"
+    ],
+    "correctAnswer": "Conservation"
+  },
+  {
+    "problem": "Which microorganism is responsible for breaking down dead organisms and recycling nutrients in the ecosystem?",
+    "grade": "6",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Fungus"
+    ],
+    "correctAnswer": "Bacteria"
+  },
+  {
+    "problem": "During which process do cells break down glucose to release energy for the body?",
+    "grade": "6",
+    "options": [
+      "Respiration",
+      "Fermentation",
+      "Photosynthesis"
+    ],
+    "correctAnswer": "Respiration"
+  },
+  {
+    "problem": "What is the process of arranging organisms into groups based on shared characteristics called?",
+    "grade": "6",
+    "options": [
+      "Domestication",
+      "Hybridization",
+      "Taxonomy"
+    ],
+    "correctAnswer": "Taxonomy"
+  },
+  {
+    "problem": "Which part of the cell contains genetic material?",
+    "grade": "7",
+    "options": ["Nucleus", "Cytoplasm", "Cell wall"],
+    "correctAnswer": "Nucleus"
+  },
+  {
+    "problem": "What is the main function of enzymes in the human body?",
+    "grade": "7",
+    "options": ["Provide energy", "Speed up chemical reactions", "Transport oxygen"],
+    "correctAnswer": "Speed up chemical reactions"
+  },
+  {
+    "problem": "What do we call a group of similar cells working together?",
+    "grade": "7",
+    "options": ["Tissue", "Organ", "System"],
+    "correctAnswer": "Tissue"
+  },
+  {
+    "problem": "Which part of the human brain controls voluntary movements?",
+    "grade": "7",
+    "options": ["Cerebellum", "Cerebrum", "Brainstem"],
+    "correctAnswer": "Cerebrum"
+  },
+  {
+    "problem": "What is the role of chlorophyll in plant cells?",
+    "grade": "7",
+    "options": ["Absorb sunlight", "Store water", "Transport nutrients"],
+    "correctAnswer": "Absorb sunlight"
+  },
+  {
+    "problem": "What is the correct order of organization in living things?",
+    "grade": "7",
+    "options": ["Organism → Organ → Cell → Tissue", "Cell → Tissue → Organ → Organism", "Tissue → Organism → Cell → Organ"],
+    "correctAnswer": "Cell → Tissue → Organ → Organism"
+  },
+  {
+    "problem": "Which organ system removes waste from the body?",
+    "grade": "7",
+    "options": ["Respiratory system", "Excretory system", "Circulatory system"],
+    "correctAnswer": "Excretory system"
+  },
+  {
+    "problem": "What is the term for the maintenance of a stable internal environment?",
+    "grade": "7",
+    "options": ["Metabolism", "Digestion", "Homeostasis"],
+    "correctAnswer": "Homeostasis"
+  },
+  {
+    "problem": "What kind of reproduction involves only one parent?",
+    "grade": "7",
+    "options": ["Asexual reproduction", "Sexual reproduction", "Fertilization"],
+    "correctAnswer": "Asexual reproduction"
+  },
+  {
+    "problem": "Which of the following is an inherited trait?",
+    "grade": "7",
+    "options": ["Language spoken", "Eye color", "Favorite food"],
+    "correctAnswer": "Eye color"
+  },
+  {
+    "problem": "What is the powerhouse of the cell that produces energy?",
+    "grade": "7",
+    "options": [
+      "Nucleus",
+      "Mitochondria",
+      "Chloroplast"
+    ],
+    "correctAnswer": "Mitochondria"
+  },
+  {
+    "problem": "Which plant structure is responsible for absorbing water and nutrients from the soil?",
+    "grade": "7",
+    "options": [
+      "Roots",
+      "Leaves",
+      "Stem"
+    ],
+    "correctAnswer": "Roots"
+  },
+  {
+    "problem": "In a food chain, what type of organism is always at the top?",
+    "grade": "7",
+    "options": [
+      "Producer",
+      "Consumer",
+      "Decomposer"
+    ],
+    "correctAnswer": "Decomposer"
+  },
+  {
+    "problem": "Which human body system is responsible for protecting the body from pathogens?",
+    "grade": "7",
+    "options": [
+      "Nervous system",
+      "Immune system",
+      "Endocrine system"
+    ],
+    "correctAnswer": "Immune system"
+  },
+  {
+    "problem": "What is the passing of traits from parents to offspring called?",
+    "grade": "7",
+    "options": [
+      "Mutation",
+      "Adaptation",
+      "Heredity"
+    ],
+    "correctAnswer": "Heredity"
+  },
+  {
+    "problem": "Which process allows organisms to change over time in response to their environment?",
+    "grade": "7",
+    "options": [
+      "Natural selection",
+      "Photosynthesis",
+      "Cell division"
+    ],
+    "correctAnswer": "Natural selection"
+  },
+  {
+    "problem": "What is the term for the study of interactions between living organisms and their environment?",
+    "grade": "7",
+    "options": [
+      "Ecology",
+      "Geology",
+      "Meteorology"
+    ],
+    "correctAnswer": "Ecology"
+  },
+  {
+    "problem": "Which type of microorganism causes diseases like the common cold and flu?",
+    "grade": "7",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Fungi"
+    ],
+    "correctAnswer": "Virus"
+  },
+  {
+    "problem": "In which process do plants convert sunlight into chemical energy?",
+    "grade": "7",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Fermentation"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "What is the system used to classify all living things into groups based on shared characteristics?",
+    "grade": "7",
+    "options": [
+      "Genus",
+      "Species",
+      "Taxonomy"
+    ],
+    "correctAnswer": "Taxonomy"
+  },
+  {
+    "problem": "Which organelle is responsible for packaging and transporting proteins within the cell?",
+    "grade": "7",
+    "options": [
+      "Golgi apparatus",
+      "Endoplasmic reticulum",
+      "Ribosome"
+    ],
+    "correctAnswer": "Golgi apparatus"
+  },
+  {
+    "problem": "How do animals obtain oxygen for respiration?",
+    "grade": "7",
+    "options": [
+      "Through gills",
+      "Through lungs",
+      "Through skin"
+    ],
+    "correctAnswer": "Through lungs"
+  },
+  {
+    "problem": "In a food chain, what is the primary source of energy?",
+    "grade": "7",
+    "options": [
+      "Sunlight",
+      "Water",
+      "Air"
+    ],
+    "correctAnswer": "Sunlight"
+  },
+  {
+    "problem": "Which system in the human body is responsible for producing hormones that regulate bodily functions?",
+    "grade": "7",
+    "options": [
+      "Endocrine system",
+      "Digestive system",
+      "Circulatory system"
+    ],
+    "correctAnswer": "Endocrine system"
+  },
+  {
+    "problem": "What is the term for the physical characteristics of an organism?",
+    "grade": "7",
+    "options": [
+      "Genotype",
+      "Phenotype",
+      "Allele"
+    ],
+    "correctAnswer": "Phenotype"
+  },
+  {
+    "problem": "Which process allows organisms to survive and reproduce in their environment?",
+    "grade": "7",
+    "options": [
+      "Evolution",
+      "Mutation",
+      "Photosynthesis"
+    ],
+    "correctAnswer": "Evolution"
+  },
+  {
+    "problem": "What is the main cause of air pollution in urban areas?",
+    "grade": "7",
+    "options": [
+      "Deforestation",
+      "Industrial emissions",
+      "Agricultural runoff"
+    ],
+    "correctAnswer": "Industrial emissions"
+  },
+  {
+    "problem": "Which type of microorganism causes diseases like strep throat and food poisoning?",
+    "grade": "7",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Protozoa"
+    ],
+    "correctAnswer": "Bacteria"
+  },
+  {
+    "problem": "In which process do organisms break down glucose to release energy for cellular activities?",
+    "grade": "7",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Fermentation"
+    ],
+    "correctAnswer": "Respiration"
+  },
+  {
+    "problem": "Which organelle is known as the powerhouse of the cell?",
+    "grade": "7",
+    "options": [
+      "Mitochondria",
+      "Ribosome",
+      "Endoplasmic reticulum"
+    ],
+    "correctAnswer": "Mitochondria"
+  },
+  {
+    "problem": "What is the function of the stomata in plant leaves?",
+    "grade": "7",
+    "options": [
+      "Absorb sunlight",
+      "Exchange gases",
+      "Store water"
+    ],
+    "correctAnswer": "Exchange gases"
+  },
+  {
+    "problem": "In a food chain, what is the primary source of energy?",
+    "grade": "7",
+    "options": [
+      "Plants",
+      "Animals",
+      "Sun"
+    ],
+    "correctAnswer": "Plants"
+  },
+  {
+    "problem": "Which system in the human body is responsible for transporting oxygen to cells?",
+    "grade": "7",
+    "options": [
+      "Respiratory system",
+      "Circulatory system",
+      "Nervous system"
+    ],
+    "correctAnswer": "Circulatory system"
+  },
+  {
+    "problem": "What is the likelihood of a child inheriting a recessive trait if both parents carry the gene?",
+    "grade": "7",
+    "options": [
+      "25%",
+      "50%",
+      "75%"
+    ],
+    "correctAnswer": "25%"
+  },
+  {
+    "problem": "Why do certain species of birds have different beak shapes based on their diet?",
+    "grade": "7",
+    "options": [
+      "To attract mates",
+      "To scare off predators",
+      "To adapt to their food source"
+    ],
+    "correctAnswer": "To adapt to their food source"
+  },
+  {
+    "problem": "What is the main cause of global warming?",
+    "grade": "7",
+    "options": [
+      "Deforestation",
+      "Greenhouse gas emissions",
+      "Ocean pollution"
+    ],
+    "correctAnswer": "Greenhouse gas emissions"
+  },
+  {
+    "problem": "Which microorganism causes malaria in humans?",
+    "grade": "7",
+    "options": [
+      "Bacteria",
+      "Fungi",
+      "Parasite"
+    ],
+    "correctAnswer": "Parasite"
+  },
+  {
+    "problem": "During photosynthesis, plants convert sunlight into what form of energy?",
+    "grade": "7",
+    "options": [
+      "Chemical energy",
+      "Kinetic energy",
+      "Heat energy"
+    ],
+    "correctAnswer": "Chemical energy"
+  },
+  {
+    "problem": "What is the purpose of classifying living things into kingdoms and species?",
+    "grade": "7",
+    "options": [
+      "To organize information",
+      "To confuse scientists",
+      "To limit biodiversity"
+    ],
+    "correctAnswer": "To organize information"
+  },
+  {
+    "problem": "Which structure in a cell is responsible for packaging and distributing proteins?",
+    "grade": "7",
+    "options": [
+      "Nucleus",
+      "Golgi apparatus",
+      "Vacuole"
+    ],
+    "correctAnswer": "Golgi apparatus"
+  },
+  {
+    "problem": "How do plants absorb water and nutrients from the soil?",
+    "grade": "7",
+    "options": [
+      "Through their leaves",
+      "Through their roots",
+      "Through their flowers"
+    ],
+    "correctAnswer": "Through their roots"
+  },
+  {
+    "problem": "What happens to energy as it moves through a food chain?",
+    "grade": "7",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Stays the same"
+    ],
+    "correctAnswer": "Decreases"
+  },
+  {
+    "problem": "Which system in the human body is responsible for regulating body temperature?",
+    "grade": "7",
+    "options": [
+      "Digestive system",
+      "Endocrine system",
+      "Integumentary system"
+    ],
+    "correctAnswer": "Integumentary system"
+  },
+  {
+    "problem": "What is the likelihood of a child inheriting a dominant trait if one parent carries the gene?",
+    "grade": "7",
+    "options": [
+      "0%",
+      "25%",
+      "50%"
+    ],
+    "correctAnswer": "50%"
+  },
+  {
+    "problem": "How do animals with thick fur coats adapt to cold environments?",
+    "grade": "7",
+    "options": [
+      "Hibernate",
+      "Migrate",
+      "Insulate"
+    ],
+    "correctAnswer": "Insulate"
+  },
+  {
+    "problem": "What is the main cause of deforestation in the Amazon rainforest?",
+    "grade": "7",
+    "options": [
+      "Logging",
+      "Mining",
+      "Urbanization"
+    ],
+    "correctAnswer": "Logging"
+  },
+  {
+    "problem": "Which disease is caused by a virus and affects the respiratory system?",
+    "grade": "7",
+    "options": [
+      "Influenza",
+      "Tuberculosis",
+      "Malaria"
+    ],
+    "correctAnswer": "Influenza"
+  },
+  {
+    "problem": "What is the waste product produced during cellular respiration?",
+    "grade": "7",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Water"
+    ],
+    "correctAnswer": "Carbon dioxide"
+  },
+  {
+    "problem": "How are living things classified into different domains and phyla?",
+    "grade": "7",
+    "options": [
+      "Based on size",
+      "Based on color",
+      "Based on shared characteristics"
+    ],
+    "correctAnswer": "Based on shared characteristics"
+  },
+  {
+    "problem": "Which organelle is known as the 'powerhouse' of the cell?",
+    "grade": "7",
+    "options": [
+      "Nucleus",
+      "Mitochondria",
+      "Endoplasmic reticulum"
+    ],
+    "correctAnswer": "Mitochondria"
+  },
+  {
+    "problem": "What is the function of the stomata in plant leaves?",
+    "grade": "7",
+    "options": [
+      "Absorb sunlight",
+      "Exchange gases",
+      "Store water"
+    ],
+    "correctAnswer": "Exchange gases"
+  },
+  {
+    "problem": "In a food chain, what is the primary source of energy?",
+    "grade": "7",
+    "options": [
+      "Producers",
+      "Consumers",
+      "Decomposers"
+    ],
+    "correctAnswer": "Producers"
+  },
+  {
+    "problem": "Which system in the human body is responsible for protecting against pathogens?",
+    "grade": "7",
+    "options": [
+      "Immune system",
+      "Muscular system",
+      "Endocrine system"
+    ],
+    "correctAnswer": "Immune system"
+  },
+  {
+    "problem": "What determines an organism's traits and characteristics?",
+    "grade": "7",
+    "options": [
+      "Environment",
+      "Genes",
+      "Diet"
+    ],
+    "correctAnswer": "Genes"
+  },
+  {
+    "problem": "What is the process by which species change over time?",
+    "grade": "7",
+    "options": [
+      "Natural selection",
+      "Mutation",
+      "Hibernation"
+    ],
+    "correctAnswer": "Natural selection"
+  },
+  {
+    "problem": "What is the main cause of air pollution in urban areas?",
+    "grade": "7",
+    "options": [
+      "Industrial waste",
+      "Vehicle emissions",
+      "Deforestation"
+    ],
+    "correctAnswer": "Vehicle emissions"
+  },
+  {
+    "problem": "Which microorganism causes the common cold?",
+    "grade": "7",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Fungus"
+    ],
+    "correctAnswer": "Virus"
+  },
+  {
+    "problem": "What is the process by which plants convert sunlight into energy?",
+    "grade": "7",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Fermentation"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "What is the scientific term for grouping organisms based on shared characteristics?",
+    "grade": "7",
+    "options": [
+      "Categorization",
+      "Classification",
+      "Organism grouping"
+    ],
+    "correctAnswer": "Classification"
+  },
+  {
+    "problem": "Which structure is responsible for maintaining cell shape and providing support?",
+    "grade": "7",
+    "options": [
+      "Ribosome",
+      "Golgi apparatus",
+      "Cell wall"
+    ],
+    "correctAnswer": "Cell wall"
+  },
+  {
+    "problem": "What is the function of the circulatory system in the human body?",
+    "grade": "7",
+    "options": [
+      "Transport oxygen and nutrients",
+      "Control body temperature",
+      "Digest food"
+    ],
+    "correctAnswer": "Transport oxygen and nutrients"
+  },
+  {
+    "problem": "In a food web, what role do decomposers play?",
+    "grade": "7",
+    "options": [
+      "Produce oxygen",
+      "Break down dead organisms",
+      "Consume herbivores"
+    ],
+    "correctAnswer": "Break down dead organisms"
+  },
+  {
+    "problem": "Which body system is responsible for regulating hormones?",
+    "grade": "7",
+    "options": [
+      "Endocrine system",
+      "Nervous system",
+      "Digestive system"
+    ],
+    "correctAnswer": "Endocrine system"
+  },
+  {
+    "problem": "What determines the color of an organism's eyes?",
+    "grade": "7",
+    "options": [
+      "Diet",
+      "Genetics",
+      "Environment"
+    ],
+    "correctAnswer": "Genetics"
+  },
+  {
+    "problem": "Which adaptation helps animals survive in cold climates?",
+    "grade": "7",
+    "options": [
+      "Hibernation",
+      "Migration",
+      "Camouflage"
+    ],
+    "correctAnswer": "Hibernation"
+  },
+  {
+    "problem": "What is the main cause of deforestation?",
+    "grade": "7",
+    "options": [
+      "Urbanization",
+      "Logging",
+      "Agriculture"
+    ],
+    "correctAnswer": "Logging"
+  },
+  {
+    "problem": "Which disease is caused by the bite of an infected mosquito?",
+    "grade": "7",
+    "options": [
+      "Malaria",
+      "Tuberculosis",
+      "Influenza"
+    ],
+    "correctAnswer": "Malaria"
+  },
+  {
+    "problem": "What is the purpose of cellular respiration in living organisms?",
+    "grade": "7",
+    "options": [
+      "Produce oxygen",
+      "Release energy",
+      "Build proteins"
+    ],
+    "correctAnswer": "Release energy"
+  },
+  {
+    "problem": "What is the classification of humans in the animal kingdom?",
+    "grade": "7",
+    "options": [
+      "Mammals",
+      "Reptiles",
+      "Primates"
+    ],
+    "correctAnswer": "Primates"
+  },
+  {
+    "problem": "What is the powerhouse of the cell that produces energy?",
+    "grade": "7",
+    "options": [
+      "Mitochondria",
+      "Ribosome",
+      "Endoplasmic reticulum"
+    ],
+    "correctAnswer": "Mitochondria"
+  },
+  {
+    "problem": "Which part of the plant cell is responsible for photosynthesis?",
+    "grade": "7",
+    "options": [
+      "Chloroplast",
+      "Vacuole",
+      "Cell membrane"
+    ],
+    "correctAnswer": "Chloroplast"
+  },
+  {
+    "problem": "In a food chain, what do we call an organism that makes its own food?",
+    "grade": "7",
+    "options": [
+      "Producer",
+      "Consumer",
+      "Decomposer"
+    ],
+    "correctAnswer": "Producer"
+  },
+  {
+    "problem": "Which system in the human body controls the exchange of gases?",
+    "grade": "7",
+    "options": [
+      "Respiratory system",
+      "Circulatory system",
+      "Nervous system"
+    ],
+    "correctAnswer": "Respiratory system"
+  },
+  {
+    "problem": "What determines the traits an organism inherits from its parents?",
+    "grade": "7",
+    "options": [
+      "Genes",
+      "Proteins",
+      "Carbohydrates"
+    ],
+    "correctAnswer": "Genes"
+  },
+  {
+    "problem": "What is the process by which species change over time to better survive in their environment?",
+    "grade": "7",
+    "options": [
+      "Natural selection",
+      "Mutation",
+      "Competition"
+    ],
+    "correctAnswer": "Natural selection"
+  },
+  {
+    "problem": "What is the term for the study of the interactions between living organisms and their environment?",
+    "grade": "7",
+    "options": [
+      "Ecology",
+      "Biology",
+      "Chemistry"
+    ],
+    "correctAnswer": "Ecology"
+  },
+  {
+    "problem": "Which microorganism is responsible for causing diseases like the common cold and flu?",
+    "grade": "7",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Fungi"
+    ],
+    "correctAnswer": "Virus"
+  },
+  {
+    "problem": "What is the process by which plants use sunlight, water, and carbon dioxide to make glucose and oxygen?",
+    "grade": "7",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Fermentation"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "What is the system used by scientists to classify and categorize living organisms?",
+    "grade": "7",
+    "options": [
+      "Taxonomy",
+      "Genetics",
+      "Anatomy"
+    ],
+    "correctAnswer": "Taxonomy"
+  },
+  {
+    "problem": "Which organelle is known as the 'control center' of the cell?",
+    "grade": "7",
+    "options": [
+      "Nucleus",
+      "Lysosome",
+      "Golgi apparatus"
+    ],
+    "correctAnswer": "Nucleus"
+  },
+  {
+    "problem": "What is the function of the skeletal system in the human body?",
+    "grade": "7",
+    "options": [
+      "Support and protect organs",
+      "Produce hormones",
+      "Digest food"
+    ],
+    "correctAnswer": "Support and protect organs"
+  },
+  {
+    "problem": "In a food web, what do we call an organism that eats both plants and animals?",
+    "grade": "7",
+    "options": [
+      "Omnivore",
+      "Carnivore",
+      "Herbivore"
+    ],
+    "correctAnswer": "Omnivore"
+  },
+  {
+    "problem": "Which human body system is responsible for removing waste from the blood and regulating fluid balance?",
+    "grade": "7",
+    "options": [
+      "Excretory system",
+      "Immune system",
+      "Endocrine system"
+    ],
+    "correctAnswer": "Excretory system"
+  },
+  {
+    "problem": "What is the name of the passing of traits from parents to offspring?",
+    "grade": "7",
+    "options": [
+      "Heredity",
+      "Mutation",
+      "Adaptation"
+    ],
+    "correctAnswer": "Heredity"
+  },
+  {
+    "problem": "What is the process by which species evolve new traits over time to better survive in their environment?",
+    "grade": "7",
+    "options": [
+      "Adaptation",
+      "Mutation",
+      "Extinction"
+    ],
+    "correctAnswer": "Adaptation"
+  },
+  {
+    "problem": "What is the main cause of global warming and climate change?",
+    "grade": "7",
+    "options": [
+      "Deforestation",
+      "Pollution",
+      "Greenhouse gases"
+    ],
+    "correctAnswer": "Greenhouse gases"
+  },
+  {
+    "problem": "Which microorganism is responsible for causing diseases like strep throat and pneumonia?",
+    "grade": "7",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Protozoa"
+    ],
+    "correctAnswer": "Bacteria"
+  },
+  {
+    "problem": "What is the process by which cells break down glucose to release energy for cellular activities?",
+    "grade": "7",
+    "options": [
+      "Respiration",
+      "Photosynthesis",
+      "Fermentation"
+    ],
+    "correctAnswer": "Respiration"
+  },
+  {
+    "problem": "What is the classification group that includes all organisms with a nucleus in their cells?",
+    "grade": "7",
+    "options": [
+      "Eukaryote",
+      "Prokaryote",
+      "Bacteria"
+    ],
+    "correctAnswer": "Eukaryote"
+  },
+  {
+    "problem": "Which organelle is known as the powerhouse of the cell?",
+    "grade": "7",
+    "options": [
+      "Nucleus",
+      "Mitochondria",
+      "Chloroplast"
+    ],
+    "correctAnswer": "Mitochondria"
+  },
+  {
+    "problem": "How do plants obtain energy to carry out photosynthesis?",
+    "grade": "7",
+    "options": [
+      "Through respiration",
+      "Through eating other plants",
+      "From sunlight"
+    ],
+    "correctAnswer": "From sunlight"
+  },
+  {
+    "problem": "Which system in the human body is responsible for exchanging gases with the environment?",
+    "grade": "7",
+    "options": [
+      "Respiratory system",
+      "Circulatory system",
+      "Nervous system"
+    ],
+    "correctAnswer": "Respiratory system"
+  },
+  {
+    "problem": "What is the process by which a tadpole transforms into a frog called?",
+    "grade": "7",
+    "options": [
+      "Evolution",
+      "Metamorphosis",
+      "Adaptation"
+    ],
+    "correctAnswer": "Metamorphosis"
+  },
+  {
+    "problem": "What is the main function of the circulatory system in the human body?",
+    "grade": "7",
+    "options": [
+      "Transporting nutrients",
+      "Breathing",
+      "Thinking"
+    ],
+    "correctAnswer": "Transporting nutrients"
+  },
+  {
+    "problem": "Which of the following is an abiotic factor in an ecosystem?",
+    "grade": "7",
+    "options": [
+      "Grass",
+      "Sunlight",
+      "Deer"
+    ],
+    "correctAnswer": "Sunlight"
+  },
+  {
+    "problem": "What is the process by which plants make their own food using sunlight called?",
+    "grade": "7",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Digestion"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "Which disease is caused by a virus?",
+    "grade": "7",
+    "options": [
+      "Flu",
+      "Strep throat",
+      "E. coli infection"
+    ],
+    "correctAnswer": "Flu"
+  },
+  {
+    "problem": "What process releases energy from food in living organisms?",
+    "grade": "7",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Digestion"
+    ],
+    "correctAnswer": "Respiration"
+  },
+  {
+    "problem": "Which of the following is a classification category for living things?",
+    "grade": "7",
+    "options": [
+      "Species",
+      "Kingdom",
+      "Cell"
+    ],
+    "correctAnswer": "Kingdom"
+  },
+  {
+    "problem": "What is the function of the cell membrane?",
+    "grade": "7",
+    "options": [
+      "Protects the cell",
+      "Stores genetic material",
+      "Controls cell division"
+    ],
+    "correctAnswer": "Protects the cell"
+  },
+  {
+    "problem": "Which part of a plant is responsible for absorbing water and nutrients from the soil?",
+    "grade": "7",
+    "options": [
+      "Roots",
+      "Leaves",
+      "Flowers"
+    ],
+    "correctAnswer": "Roots"
+  },
+  {
+    "problem": "What is the role of the liver in the human body?",
+    "grade": "7",
+    "options": [
+      "Digestion",
+      "Filtering blood",
+      "Producing hormones"
+    ],
+    "correctAnswer": "Filtering blood"
+  },
+  {
+    "problem": "What type of inheritance pattern results in a blending of traits from both parents?",
+    "grade": "7",
+    "options": [
+      "Dominant",
+      "Recessive",
+      "Incomplete dominance"
+    ],
+    "correctAnswer": "Incomplete dominance"
+  },
+  {
+    "problem": "Which process is responsible for the change in beak size of finches over time?",
+    "grade": "7",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Natural selection"
+    ],
+    "correctAnswer": "Natural selection"
+  },
+  {
+    "problem": "What is the primary source of energy for most ecosystems on Earth?",
+    "grade": "7",
+    "options": [
+      "Sunlight",
+      "Rain",
+      "Wind"
+    ],
+    "correctAnswer": "Sunlight"
+  },
+  {
+    "problem": "Which microorganism is responsible for causing strep throat?",
+    "grade": "7",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Fungi"
+    ],
+    "correctAnswer": "Bacteria"
+  },
+  {
+    "problem": "How do plants release oxygen into the atmosphere?",
+    "grade": "7",
+    "options": [
+      "Through photosynthesis",
+      "Through respiration",
+      "Through digestion"
+    ],
+    "correctAnswer": "Through photosynthesis"
+  },
+  {
+    "problem": "What is the process of grouping organisms based on shared characteristics called?",
+    "grade": "7",
+    "options": [
+      "Evolution",
+      "Classification",
+      "Adaptation"
+    ],
+    "correctAnswer": "Classification"
+  },
+  {
+    "problem": "Which part of the cell is responsible for protein synthesis?",
+    "grade": "7",
+    "options": [
+      "Ribosomes",
+      "Lysosomes",
+      "Vacuoles"
+    ],
+    "correctAnswer": "Ribosomes"
+  },
+  {
+    "problem": "Which organelle is known as the 'powerhouse' of the cell?",
+    "grade": "8",
+    "options": ["Mitochondria", "Nucleus", "Golgi apparatus"],
+    "correctAnswer": "Mitochondria"
+  },
+  {
+    "problem": "Which process allows oxygen and carbon dioxide to move across cell membranes?",
+    "grade": "8",
+    "options": ["Osmosis", "Diffusion", "Digestion"],
+    "correctAnswer": "Diffusion"
+  },
+  {
+    "problem": "Which macromolecule is made of amino acids?",
+    "grade": "8",
+    "options": ["Proteins", "Carbohydrates", "Lipids"],
+    "correctAnswer": "Proteins"
+  },
+  {
+    "problem": "What is the role of DNA in cells?",
+    "grade": "8",
+    "options": ["Store genetic information", "Make energy", "Transport waste"],
+    "correctAnswer": "Store genetic information"
+  },
+  {
+    "problem": "Which human body system defends against infection and disease?",
+    "grade": "8",
+    "options": ["Immune system", "Endocrine system", "Digestive system"],
+    "correctAnswer": "Immune system"
+  },
+  {
+    "problem": "What do we call a trait that is passed from parent to offspring?",
+    "grade": "8",
+    "options": ["Inherited trait", "Learned behavior", "Acquired skill"],
+    "correctAnswer": "Inherited trait"
+  },
+  {
+    "problem": "Which of these best describes mitosis?",
+    "grade": "8",
+    "options": ["Cell division", "Cell respiration", "Cell digestion"],
+    "correctAnswer": "Cell division"
+  },
+  {
+    "problem": "What is the function of the ribosome?",
+    "grade": "8",
+    "options": ["Protein synthesis", "Energy storage", "DNA replication"],
+    "correctAnswer": "Protein synthesis"
+  },
+  {
+    "problem": "Which type of reproduction creates genetic variation?",
+    "grade": "8",
+    "options": ["Asexual reproduction", "Sexual reproduction", "Binary fission"],
+    "correctAnswer": "Sexual reproduction"
+  },
+  {
+    "problem": "Which kingdom includes multicellular organisms that make their own food?",
+    "grade": "8",
+    "options": ["Animalia", "Plantae", "Fungi"],
+    "correctAnswer": "Plantae"
+  },
+  {
+    "problem": "Which part of the cell is responsible for storing water, nutrients, and waste?",
+    "grade": "8",
+    "options": [
+      "Vacuole",
+      "Chloroplast",
+      "Cell membrane"
+    ],
+    "correctAnswer": "Vacuole"
+  },
+  {
+    "problem": "Which system in the human body is responsible for delivering oxygen to cells and removing carbon dioxide?",
+    "grade": "8",
+    "options": [
+      "Respiratory system",
+      "Circulatory system",
+      "Nervous system"
+    ],
+    "correctAnswer": "Respiratory system"
+  },
+  {
+    "problem": "In which process do plants use sunlight to convert carbon dioxide and water into glucose and oxygen?",
+    "grade": "8",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Fermentation"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "What is the primary function of the nervous system in the human body?",
+    "grade": "8",
+    "options": [
+      "Control body movements",
+      "Break down food",
+      "Transport blood"
+    ],
+    "correctAnswer": "Control body movements"
+  },
+  {
+    "problem": "Which organelle is responsible for producing proteins in the cell?",
+    "grade": "8",
+    "options": [
+      "Ribosome",
+      "Endoplasmic reticulum",
+      "Lysosome"
+    ],
+    "correctAnswer": "Ribosome"
+  },
+  {
+    "problem": "What is the process by which organisms gradually change over time in response to their environment?",
+    "grade": "8",
+    "options": [
+      "Evolution",
+      "Adaptation",
+      "Mutation"
+    ],
+    "correctAnswer": "Adaptation"
+  },
+  {
+    "problem": "Which of the following is a decomposer in an ecosystem?",
+    "grade": "8",
+    "options": [
+      "Fungi",
+      "Grass",
+      "Lion"
+    ],
+    "correctAnswer": "Fungi"
+  },
+  {
+    "problem": "What is the main function of the immune system in the human body?",
+    "grade": "8",
+    "options": [
+      "Protect against disease",
+      "Digest food",
+      "Regulate body temperature"
+    ],
+    "correctAnswer": "Protect against disease"
+  },
+  {
+    "problem": "In which process do cells break down glucose to release energy?",
+    "grade": "8",
+    "options": [
+      "Respiration",
+      "Photosynthesis",
+      "Fermentation"
+    ],
+    "correctAnswer": "Respiration"
+  },
+  {
+    "problem": "Which of the following is an example of a dominant trait in genetics?",
+    "grade": "8",
+    "options": [
+      "Brown eyes",
+      "Blue eyes",
+      "Green eyes"
+    ],
+    "correctAnswer": "Brown eyes"
+  },
+  {
+    "problem": "What do we call the process by which organisms produce offspring similar to themselves?",
+    "grade": "8",
+    "options": [
+      "Reproduction",
+      "Mutation",
+      "Immunity"
+    ],
+    "correctAnswer": "Reproduction"
+  },
+  {
+    "problem": "Which classification group includes organisms that are multicellular, have a backbone, and are warm-blooded?",
+    "grade": "8",
+    "options": [
+      "Mammals",
+      "Amphibians",
+      "Reptiles"
+    ],
+    "correctAnswer": "Mammals"
+  },
+  {
+    "problem": "What is the role of bacteria in an ecosystem?",
+    "grade": "8",
+    "options": [
+      "Decompose dead organisms",
+      "Produce oxygen",
+      "Help plants grow"
+    ],
+    "correctAnswer": "Decompose dead organisms"
+  },
+  {
+    "problem": "Which human body system is responsible for breaking down food into nutrients for the body?",
+    "grade": "8",
+    "options": [
+      "Digestive system",
+      "Endocrine system",
+      "Skeletal system"
+    ],
+    "correctAnswer": "Digestive system"
+  },
+  {
+    "problem": "What is the name for the process by which an organism develops from a single cell?",
+    "grade": "8",
+    "options": [
+      "Cell division",
+      "Growth",
+      "Development"
+    ],
+    "correctAnswer": "Development"
+  },
+  {
+    "problem": "Which of the following is a renewable resource?",
+    "grade": "8",
+    "options": [
+      "Solar energy",
+      "Coal",
+      "Oil"
+    ],
+    "correctAnswer": "Solar energy"
+  },
+  {
+    "problem": "What do we call the process by which plants and animals exchange gases with the environment?",
+    "grade": "8",
+    "options": [
+      "Respiration",
+      "Photosynthesis",
+      "Transpiration"
+    ],
+    "correctAnswer": "Respiration"
+  },
+  {
+    "problem": "Which of the following best describes a food chain?",
+    "grade": "8",
+    "options": [
+      "A series of organisms where each is eaten by the next",
+      "A group of plants",
+      "A type of weather pattern"
+    ],
+    "correctAnswer": "A series of organisms where each is eaten by the next"
+  },
+  {
+    "problem": "In which process do plants release excess water vapor through tiny openings in their leaves?",
+    "grade": "8",
+    "options": [
+      "Transpiration",
+      "Photosynthesis",
+      "Germination"
+    ],
+    "correctAnswer": "Transpiration"
+  },
+  {
+    "problem": "What is the function of the cell membrane?",
+    "grade": "8",
+    "options": [
+      "Protect the cell",
+      "Control what enters and leaves the cell",
+      "Produce energy"
+    ],
+    "correctAnswer": "Control what enters and leaves the cell"
+  },
+  {
+    "problem": "Which organelle is responsible for protein synthesis in a cell?",
+    "grade": "8",
+    "options": [
+      "Ribosome",
+      "Endoplasmic reticulum",
+      "Lysosome"
+    ],
+    "correctAnswer": "Ribosome"
+  },
+  {
+    "problem": "What is the main function of the stomata in plant leaves?",
+    "grade": "8",
+    "options": [
+      "Gas exchange",
+      "Photosynthesis",
+      "Water absorption"
+    ],
+    "correctAnswer": "Gas exchange"
+  },
+  {
+    "problem": "Which body system is responsible for transporting oxygen and nutrients to cells?",
+    "grade": "8",
+    "options": [
+      "Circulatory system",
+      "Respiratory system",
+      "Excretory system"
+    ],
+    "correctAnswer": "Circulatory system"
+  },
+  {
+    "problem": "In a food chain, what do producers convert sunlight into?",
+    "grade": "8",
+    "options": [
+      "Energy",
+      "Carbon dioxide",
+      "Water"
+    ],
+    "correctAnswer": "Energy"
+  },
+  {
+    "problem": "Which system in the human body controls voluntary movements?",
+    "grade": "8",
+    "options": [
+      "Nervous system",
+      "Muscular system",
+      "Skeletal system"
+    ],
+    "correctAnswer": "Nervous system"
+  },
+  {
+    "problem": "What is the probability of a child inheriting a recessive trait if both parents are carriers?",
+    "grade": "8",
+    "options": [
+      "25%",
+      "50%",
+      "75%"
+    ],
+    "correctAnswer": "25%"
+  },
+  {
+    "problem": "Which process explains how giraffes evolved long necks to reach higher leaves?",
+    "grade": "8",
+    "options": [
+      "Natural selection",
+      "Genetic mutation",
+      "Artificial selection"
+    ],
+    "correctAnswer": "Natural selection"
+  },
+  {
+    "problem": "What is the main cause of air pollution in urban areas?",
+    "grade": "8",
+    "options": [
+      "Vehicle emissions",
+      "Factory waste",
+      "Deforestation"
+    ],
+    "correctAnswer": "Vehicle emissions"
+  },
+  {
+    "problem": "Which microorganism causes malaria in humans?",
+    "grade": "8",
+    "options": [
+      "Bacteria",
+      "Protozoa",
+      "Fungi"
+    ],
+    "correctAnswer": "Protozoa"
+  },
+  {
+    "problem": "During photosynthesis, what gas is taken in by plants and converted into oxygen?",
+    "grade": "8",
+    "options": [
+      "Carbon dioxide",
+      "Oxygen",
+      "Nitrogen"
+    ],
+    "correctAnswer": "Carbon dioxide"
+  },
+  {
+    "problem": "In the classification system, what comes after kingdom?",
+    "grade": "8",
+    "options": [
+      "Phylum",
+      "Class",
+      "Order"
+    ],
+    "correctAnswer": "Phylum"
+  },
+  {
+    "problem": "What is the function of the nucleus in a cell?",
+    "grade": "8",
+    "options": [
+      "Control cell activities",
+      "Produce energy",
+      "Break down waste"
+    ],
+    "correctAnswer": "Control cell activities"
+  },
+  {
+    "problem": "Which body system is responsible for removing waste from the body?",
+    "grade": "8",
+    "options": [
+      "Excretory system",
+      "Digestive system",
+      "Endocrine system"
+    ],
+    "correctAnswer": "Excretory system"
+  },
+  {
+    "problem": "What is the role of decomposers in an ecosystem?",
+    "grade": "8",
+    "options": [
+      "Break down dead organisms",
+      "Produce oxygen",
+      "Provide energy"
+    ],
+    "correctAnswer": "Break down dead organisms"
+  },
+  {
+    "problem": "What is the function of the chloroplast in plant cells?",
+    "grade": "8",
+    "options": [
+      "Convert sunlight into energy",
+      "Store water",
+      "Produce hormones"
+    ],
+    "correctAnswer": "Convert sunlight into energy"
+  },
+  {
+    "problem": "Which human body system is responsible for fighting off infections?",
+    "grade": "8",
+    "options": [
+      "Immune system",
+      "Endocrine system",
+      "Nervous system"
+    ],
+    "correctAnswer": "Immune system"
+  },
+  {
+    "problem": "What is the process by which DNA makes a copy of itself?",
+    "grade": "8",
+    "options": [
+      "DNA replication",
+      "Protein synthesis",
+      "Cell division"
+    ],
+    "correctAnswer": "DNA replication"
+  },
+  {
+    "problem": "Which type of mutation causes a change in a single DNA base pair?",
+    "grade": "8",
+    "options": [
+      "Point mutation",
+      "Insertion mutation",
+      "Deletion mutation"
+    ],
+    "correctAnswer": "Point mutation"
+  },
+  {
+    "problem": "What is the main source of energy for most living organisms?",
+    "grade": "8",
+    "options": [
+      "Sunlight",
+      "Water",
+      "Wind"
+    ],
+    "correctAnswer": "Sunlight"
+  },
+  {
+    "problem": "What is the main function of the cell membrane?",
+    "grade": "8",
+    "options": [
+      "Protection",
+      "Regulation of substances entering and leaving the cell",
+      "Energy production"
+    ],
+    "correctAnswer": "Regulation of substances entering and leaving the cell"
+  },
+  {
+    "problem": "Which organelle is responsible for protein synthesis in a cell?",
+    "grade": "8",
+    "options": [
+      "Golgi apparatus",
+      "Endoplasmic reticulum",
+      "Lysosome"
+    ],
+    "correctAnswer": "Endoplasmic reticulum"
+  },
+  {
+    "problem": "What is the function of the stomata in plant leaves?",
+    "grade": "8",
+    "options": [
+      "Photosynthesis",
+      "Transpiration",
+      "Respiration"
+    ],
+    "correctAnswer": "Transpiration"
+  },
+  {
+    "problem": "In which system of the human body does the heart belong?",
+    "grade": "8",
+    "options": [
+      "Circulatory system",
+      "Respiratory system",
+      "Nervous system"
+    ],
+    "correctAnswer": "Circulatory system"
+  },
+  {
+    "problem": "Which process is responsible for the transfer of genetic information from parent to offspring?",
+    "grade": "8",
+    "options": [
+      "Mutation",
+      "Recombination",
+      "Heredity"
+    ],
+    "correctAnswer": "Heredity"
+  },
+  {
+    "problem": "What is the process by which species change over time to better adapt to their environment?",
+    "grade": "8",
+    "options": [
+      "Natural selection",
+      "Artificial selection",
+      "Mutation"
+    ],
+    "correctAnswer": "Natural selection"
+  },
+  {
+    "problem": "Why is it important to conserve water and reduce waste in the environment?",
+    "grade": "8",
+    "options": [
+      "To prevent pollution",
+      "To conserve resources",
+      "To reduce greenhouse gas emissions"
+    ],
+    "correctAnswer": "To conserve resources"
+  },
+  {
+    "problem": "Which microorganism causes diseases such as the common cold and influenza?",
+    "grade": "8",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Fungi"
+    ],
+    "correctAnswer": "Virus"
+  },
+  {
+    "problem": "What is the process by which plants convert sunlight into energy?",
+    "grade": "8",
+    "options": [
+      "Respiration",
+      "Photosynthesis",
+      "Fermentation"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "What is the classification level below kingdom?",
+    "grade": "8",
+    "options": [
+      "Phylum",
+      "Class",
+      "Order"
+    ],
+    "correctAnswer": "Phylum"
+  },
+  {
+    "problem": "Which organelle is responsible for storing water and other substances in plant cells?",
+    "grade": "8",
+    "options": [
+      "Vacuole",
+      "Chloroplast",
+      "Ribosome"
+    ],
+    "correctAnswer": "Vacuole"
+  },
+  {
+    "problem": "What is the primary function of the nervous system in the human body?",
+    "grade": "8",
+    "options": [
+      "Control body temperature",
+      "Regulate metabolism",
+      "Coordinate responses to stimuli"
+    ],
+    "correctAnswer": "Coordinate responses to stimuli"
+  },
+  {
+    "problem": "What is the name of the process by which carbon is cycled between living organisms and the environment?",
+    "grade": "8",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Carbon cycle"
+    ],
+    "correctAnswer": "Carbon cycle"
+  },
+  {
+    "problem": "Which human body system is responsible for removing waste and regulating water balance?",
+    "grade": "8",
+    "options": [
+      "Excretory system",
+      "Endocrine system",
+      "Immune system"
+    ],
+    "correctAnswer": "Excretory system"
+  },
+  {
+    "problem": "What is the term for the passing of traits from one generation to the next?",
+    "grade": "8",
+    "options": [
+      "Evolution",
+      "Heredity",
+      "Mutation"
+    ],
+    "correctAnswer": "Heredity"
+  },
+  {
+    "problem": "Which process involves the breaking down of food molecules to release energy?",
+    "grade": "8",
+    "options": [
+      "Photosynthesis",
+      "Digestion",
+      "Fermentation"
+    ],
+    "correctAnswer": "Digestion"
+  },
+  {
+    "problem": "Why is biodiversity important for ecosystems?",
+    "grade": "8",
+    "options": [
+      "To increase competition",
+      "To reduce stability",
+      "To maintain ecological balance"
+    ],
+    "correctAnswer": "To maintain ecological balance"
+  },
+  {
+    "problem": "Which disease is caused by the Aedes mosquito and can lead to severe illness?",
+    "grade": "8",
+    "options": [
+      "Malaria",
+      "Dengue fever",
+      "Yellow fever"
+    ],
+    "correctAnswer": "Dengue fever"
+  },
+  {
+    "problem": "What is the name of the process by which cells break down glucose to release energy?",
+    "grade": "8",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Fermentation"
+    ],
+    "correctAnswer": "Respiration"
+  },
+  {
+    "problem": "Which classification group includes organisms that have a nucleus and membrane-bound organelles?",
+    "grade": "8",
+    "options": [
+      "Prokaryotes",
+      "Eukaryotes",
+      "Archaea"
+    ],
+    "correctAnswer": "Eukaryotes"
+  },
+  {
+    "problem": "Which structure is responsible for controlling what enters and exits the cell?",
+    "grade": "8",
+    "options": [
+      "Cell wall",
+      "Cell membrane",
+      "Cytoplasm"
+    ],
+    "correctAnswer": "Cell membrane"
+  },
+  {
+    "problem": "In which system does the heart pump blood throughout the body?",
+    "grade": "8",
+    "options": [
+      "Circulatory system",
+      "Respiratory system",
+      "Nervous system"
+    ],
+    "correctAnswer": "Circulatory system"
+  },
+  {
+    "problem": "In a food chain, what is the primary source of energy for all living organisms?",
+    "grade": "8",
+    "options": [
+      "Sunlight",
+      "Water",
+      "Soil"
+    ],
+    "correctAnswer": "Sunlight"
+  },
+  {
+    "problem": "Which body system is responsible for breaking down food and absorbing nutrients?",
+    "grade": "8",
+    "options": [
+      "Digestive system",
+      "Excretory system",
+      "Reproductive system"
+    ],
+    "correctAnswer": "Digestive system"
+  },
+  {
+    "problem": "What is the term for the physical characteristics of an organism?",
+    "grade": "8",
+    "options": [
+      "Genotype",
+      "Phenotype",
+      "Allele"
+    ],
+    "correctAnswer": "Phenotype"
+  },
+  {
+    "problem": "Which process describes the changes in species over time?",
+    "grade": "8",
+    "options": [
+      "Natural selection",
+      "Mutation",
+      "Genetic drift"
+    ],
+    "correctAnswer": "Natural selection"
+  },
+  {
+    "problem": "What is the main cause of air pollution in urban areas?",
+    "grade": "8",
+    "options": [
+      "Carbon dioxide emissions",
+      "Vehicular emissions",
+      "Industrial waste"
+    ],
+    "correctAnswer": "Vehicular emissions"
+  },
+  {
+    "problem": "Which microorganism is responsible for causing strep throat?",
+    "grade": "8",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Fungus"
+    ],
+    "correctAnswer": "Bacteria"
+  },
+  {
+    "problem": "During which process do plants convert sunlight into energy?",
+    "grade": "8",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Fermentation"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "Which classification level is below kingdom?",
+    "grade": "8",
+    "options": [
+      "Phylum",
+      "Class",
+      "Order"
+    ],
+    "correctAnswer": "Phylum"
+  },
+  {
+    "problem": "What is the function of the endoplasmic reticulum in a cell?",
+    "grade": "8",
+    "options": [
+      "Energy production",
+      "Protein synthesis",
+      "Waste removal"
+    ],
+    "correctAnswer": "Protein synthesis"
+  },
+  {
+    "problem": "Which system is responsible for exchanging gases between the body and the environment?",
+    "grade": "8",
+    "options": [
+      "Respiratory system",
+      "Digestive system",
+      "Endocrine system"
+    ],
+    "correctAnswer": "Respiratory system"
+  },
+  {
+    "problem": "In a food web, what role do decomposers play?",
+    "grade": "8",
+    "options": [
+      "Producers",
+      "Consumers",
+      "Recyclers"
+    ],
+    "correctAnswer": "Recyclers"
+  },
+  {
+    "problem": "Which system is responsible for regulating body temperature and water balance?",
+    "grade": "8",
+    "options": [
+      "Integumentary system",
+      "Urinary system",
+      "Skeletal system"
+    ],
+    "correctAnswer": "Integumentary system"
+  },
+  {
+    "problem": "What is the term for an organism's genetic makeup?",
+    "grade": "8",
+    "options": [
+      "Phenotype",
+      "Genotype",
+      "Allele"
+    ],
+    "correctAnswer": "Genotype"
+  },
+  {
+    "problem": "Which process allows organisms to adapt to their environment over time?",
+    "grade": "8",
+    "options": [
+      "Mutation",
+      "Natural selection",
+      "Genetic drift"
+    ],
+    "correctAnswer": "Natural selection"
+  },
+  {
+    "problem": "What is the main cause of water pollution in rivers and lakes?",
+    "grade": "8",
+    "options": [
+      "Industrial waste",
+      "Agricultural runoff",
+      "Sewage discharge"
+    ],
+    "correctAnswer": "Agricultural runoff"
+  },
+  {
+    "problem": "Which microorganism causes the common cold?",
+    "grade": "8",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Protozoa"
+    ],
+    "correctAnswer": "Virus"
+  },
+  {
+    "problem": "During which process do cells release energy stored in glucose?",
+    "grade": "8",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Fermentation"
+    ],
+    "correctAnswer": "Respiration"
+  },
+  {
+    "problem": "What is the function of the cell membrane?",
+    "grade": "8",
+    "options": [
+      "Protect the cell",
+      "Control what enters and exits the cell",
+      "Store genetic information"
+    ],
+    "correctAnswer": "Control what enters and exits the cell"
+  },
+  {
+    "problem": "What is the main function of the circulatory system in humans?",
+    "grade": "8",
+    "options": [
+      "Transport oxygen and nutrients",
+      "Control body movement",
+      "Regulate body temperature"
+    ],
+    "correctAnswer": "Transport oxygen and nutrients"
+  },
+  {
+    "problem": "In a food chain, what do primary consumers eat?",
+    "grade": "8",
+    "options": [
+      "Plants",
+      "Other animals",
+      "Decomposers"
+    ],
+    "correctAnswer": "Plants"
+  },
+  {
+    "problem": "Which human body system is responsible for removing waste from the body?",
+    "grade": "8",
+    "options": [
+      "Excretory system",
+      "Respiratory system",
+      "Nervous system"
+    ],
+    "correctAnswer": "Excretory system"
+  },
+  {
+    "problem": "What is the likelihood of a child inheriting a recessive trait if both parents are carriers?",
+    "grade": "8",
+    "options": [
+      "25%",
+      "50%",
+      "75%"
+    ],
+    "correctAnswer": "25%"
+  },
+  {
+    "problem": "What is the process by which species change over time?",
+    "grade": "8",
+    "options": [
+      "Evolution",
+      "Circulation",
+      "Mutation"
+    ],
+    "correctAnswer": "Evolution"
+  },
+  {
+    "problem": "What human activity contributes to air pollution and climate change?",
+    "grade": "8",
+    "options": [
+      "Deforestation",
+      "Burning fossil fuels",
+      "Recycling"
+    ],
+    "correctAnswer": "Burning fossil fuels"
+  },
+  {
+    "problem": "Which microorganism causes the common cold?",
+    "grade": "8",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Protozoa"
+    ],
+    "correctAnswer": "Virus"
+  },
+  {
+    "problem": "What is the process by which plants convert sunlight into energy?",
+    "grade": "8",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Fermentation"
+    ],
+    "correctAnswer": "Photosynthesis"
+  },
+  {
+    "problem": "What is the highest level of classification for living things?",
+    "grade": "8",
+    "options": [
+      "Species",
+      "Genus",
+      "Kingdom"
+    ],
+    "correctAnswer": "Kingdom"
+  },
+  {
+    "problem": "Which organelle is responsible for protein packaging and secretion in cells?",
+    "grade": "8",
+    "options": [
+      "Endoplasmic reticulum",
+      "Vacuole",
+      "Lysosome"
+    ],
+    "correctAnswer": "Endoplasmic reticulum"
+  },
+  {
+    "problem": "What is the function of the respiratory system in humans?",
+    "grade": "8",
+    "options": [
+      "Exchange oxygen and carbon dioxide",
+      "Digest food",
+      "Filter blood"
+    ],
+    "correctAnswer": "Exchange oxygen and carbon dioxide"
+  },
+  {
+    "problem": "In a food chain, what do tertiary consumers eat?",
+    "grade": "8",
+    "options": [
+      "Primary consumers",
+      "Secondary consumers",
+      "Plants"
+    ],
+    "correctAnswer": "Secondary consumers"
+  },
+  {
+    "problem": "Which human body system controls voluntary and involuntary actions?",
+    "grade": "8",
+    "options": [
+      "Nervous system",
+      "Muscular system",
+      "Skeletal system"
+    ],
+    "correctAnswer": "Nervous system"
+  },
+  {
+    "problem": "What is the likelihood of a child inheriting a dominant trait if one parent has the trait and the other does not?",
+    "grade": "8",
+    "options": [
+      "0%",
+      "50%",
+      "100%"
+    ],
+    "correctAnswer": "50%"
+  },
+  {
+    "problem": "What is the process by which species develop traits that help them survive in their environment?",
+    "grade": "8",
+    "options": [
+      "Adaptation",
+      "Mutation",
+      "Competition"
+    ],
+    "correctAnswer": "Adaptation"
+  },
+  {
+    "problem": "How does deforestation impact the environment?",
+    "grade": "8",
+    "options": [
+      "Loss of biodiversity",
+      "Increase in oxygen levels",
+      "Decrease in carbon dioxide levels"
+    ],
+    "correctAnswer": "Loss of biodiversity"
+  },
+  {
+    "problem": "Which disease is caused by the Plasmodium parasite transmitted by mosquitoes?",
+    "grade": "8",
+    "options": [
+      "Malaria",
+      "Tuberculosis",
+      "Influenza"
+    ],
+    "correctAnswer": "Malaria"
+  },
+  {
+    "problem": "What is the waste product of respiration in animals?",
+    "grade": "8",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Glucose"
+    ],
+    "correctAnswer": "Carbon dioxide"
+  }
+]

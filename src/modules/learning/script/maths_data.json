@@ -1,0 +1,6296 @@
+[
+  {
+    "problem": "What is 5 + 7?",
+    "grade": "3",
+    "options": ["14", "12", "13"],
+    "correctAnswer": "12"
+  },
+  {
+    "problem": "What is 15 - 8?",
+    "grade": "3",
+    "options": ["7", "8", "9"],
+    "correctAnswer": "7"
+  },
+  {
+    "problem": "What is 9 * 2?",
+    "grade": "3",
+    "options": ["16", "20", "18"],
+    "correctAnswer": "18"
+  },
+  {
+    "problem": "What is 12 / 3?",
+    "grade": "3",
+    "options": ["4", "5", "6"],
+    "correctAnswer": "4"
+  },
+  {
+    "problem": "What is the next number in the pattern? 2, 4, 6, ?",
+    "grade": "3",
+    "options": ["10", "9", "8"],
+    "correctAnswer": "8"
+  },
+  {
+    "problem": "Find the sum of 10 and 11.",
+    "grade": "3",
+    "options": ["20", "21", "22"],
+    "correctAnswer": "21"
+  },
+  {
+    "problem": "How many sides does a square have?",
+    "grade": "3",
+    "options": ["2", "3", "4"],
+    "correctAnswer": "4"
+  },
+  {
+    "problem": "What time is it if the short hand is on 2 and the long hand on 12?",
+    "grade": "3",
+    "options": ["2:00", "12:00", "10:00"],
+    "correctAnswer": "2:00"
+  },
+  {
+    "problem": "How much money is 1 quarter and 2 dimes?",
+    "grade": "3",
+    "options": ["35 cents", "45 cents", "50 cents"],
+    "correctAnswer": "45 cents"
+  },
+  {
+    "problem": "What is the greatest number in the list? 4, 9, 6, 2, 8",
+    "grade": "3",
+    "options": ["9", "8", "10"],
+    "correctAnswer": "9"
+  },
+  {
+    "problem": "Sara has 15 apples and she gives 3 apples to her friend. How many apples does she have left?",
+    "grade": "3",
+    "options": [
+      "10",
+      "12",
+      "8"
+    ],
+    "correctAnswer": "12"
+  },
+  {
+    "problem": "What is 7 + 9?",
+    "grade": "3",
+    "options": [
+      "15",
+      "16",
+      "17"
+    ],
+    "correctAnswer": "16"
+  },
+  {
+    "problem": "What is 24 - 9?",
+    "grade": "3",
+    "options": [
+      "14",
+      "15",
+      "16"
+    ],
+    "correctAnswer": "15"
+  },
+  {
+    "problem": "What is 6 * 3?",
+    "grade": "3",
+    "options": [
+      "16",
+      "18",
+      "20"
+    ],
+    "correctAnswer": "18"
+  },
+  {
+    "problem": "What is 30 / 5?",
+    "grade": "3",
+    "options": [
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "6"
+  },
+  {
+    "problem": "What is the missing number in the pattern? 3, 6, 9, ?",
+    "grade": "3",
+    "options": [
+      "10",
+      "12",
+      "15"
+    ],
+    "correctAnswer": "12"
+  },
+  {
+    "problem": "If a square has 4 equal sides, how many sides does a triangle have?",
+    "grade": "3",
+    "options": [
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "3"
+  },
+  {
+    "problem": "If a rectangle has 4 sides with 2 pairs of equal length, what shape is it?",
+    "grade": "3",
+    "options": [
+      "Square",
+      "Triangle",
+      "Circle"
+    ],
+    "correctAnswer": "Square"
+  },
+  {
+    "problem": "If a right angle measures 90 degrees, how many degrees does a straight angle measure?",
+    "grade": "3",
+    "options": [
+      "90",
+      "180",
+      "270"
+    ],
+    "correctAnswer": "180"
+  },
+  {
+    "problem": "If it is 3:30 PM now, what time will it be in 2 hours?",
+    "grade": "3",
+    "options": [
+      "4:30 PM",
+      "5:30 PM",
+      "6:30 PM"
+    ],
+    "correctAnswer": "5:30 PM"
+  },
+  {
+    "problem": "If a toy costs $5 and Sara buys 3 of them, how much money does she spend?",
+    "grade": "3",
+    "options": [
+      "$10",
+      "$15",
+      "$20"
+    ],
+    "correctAnswer": "$15"
+  },
+  {
+    "problem": "Which number is greater: 457 or 547?",
+    "grade": "3",
+    "options": [
+      "457",
+      "547",
+      "They are equal"
+    ],
+    "correctAnswer": "547"
+  },
+  {
+    "problem": "What is 1/4 of 12?",
+    "grade": "3",
+    "options": [
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "3"
+  },
+  {
+    "problem": "Which shape has 5 sides?",
+    "grade": "3",
+    "options": [
+      "Triangle",
+      "Square",
+      "Pentagon"
+    ],
+    "correctAnswer": "Pentagon"
+  },
+  {
+    "problem": "If a yardstick is 36 inches long, how many feet is that?",
+    "grade": "3",
+    "options": [
+      "2 feet",
+      "3 feet",
+      "4 feet"
+    ],
+    "correctAnswer": "3 feet"
+  },
+  {
+    "problem": "What is the sum of 3 quarters and 2 dimes?",
+    "grade": "3",
+    "options": [
+      "75 cents",
+      "85 cents",
+      "95 cents"
+    ],
+    "correctAnswer": "95 cents"
+  },
+  {
+    "problem": "What is the value of the digit 5 in the number 356?",
+    "grade": "3",
+    "options": [
+      "50",
+      "5",
+      "500"
+    ],
+    "correctAnswer": "50"
+  },
+  {
+    "problem": "Which decimal is greater: 0.6 or 0.09?",
+    "grade": "3",
+    "options": [
+      "0.6",
+      "0.09",
+      "They are equal"
+    ],
+    "correctAnswer": "0.6"
+  },
+  {
+    "problem": "What is the perimeter of a square with each side measuring 5 inches?",
+    "grade": "3",
+    "options": [
+      "10 inches",
+      "15 inches",
+      "20 inches"
+    ],
+    "correctAnswer": "20 inches"
+  },
+  {
+    "problem": "If a clock has 12 hours and each hour has 60 minutes, how many minutes are in half a day?",
+    "grade": "3",
+    "options": [
+      "360 minutes",
+      "420 minutes",
+      "480 minutes"
+    ],
+    "correctAnswer": "360 minutes"
+  },
+  {
+    "problem": "What is 9 + 4?",
+    "grade": "3",
+    "options": [
+      "12",
+      "13",
+      "14"
+    ],
+    "correctAnswer": "13"
+  },
+  {
+    "problem": "What is 18 - 5?",
+    "grade": "3",
+    "options": [
+      "12",
+      "13",
+      "14"
+    ],
+    "correctAnswer": "13"
+  },
+  {
+    "problem": "What is 7 * 3?",
+    "grade": "3",
+    "options": [
+      "19",
+      "20",
+      "21"
+    ],
+    "correctAnswer": "21"
+  },
+  {
+    "problem": "What is 24 / 4?",
+    "grade": "3",
+    "options": [
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "6"
+  },
+  {
+    "problem": "What is the missing number in the pattern? 3, 6, 9, ?",
+    "grade": "3",
+    "options": [
+      "10",
+      "11",
+      "12"
+    ],
+    "correctAnswer": "12"
+  },
+  {
+    "problem": "Sara has 8 apples and she gives 3 apples to her friend. How many apples does Sara have left?",
+    "grade": "3",
+    "options": [
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "5"
+  },
+  {
+    "problem": "How many sides does a square have?",
+    "grade": "3",
+    "options": [
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "4"
+  },
+  {
+    "problem": "What is the sum of the interior angles of a triangle?",
+    "grade": "3",
+    "options": [
+      "90 degrees",
+      "180 degrees",
+      "270 degrees"
+    ],
+    "correctAnswer": "180 degrees"
+  },
+  {
+    "problem": "If a clock shows 2:30 PM, how many minutes until 3:00 PM?",
+    "grade": "3",
+    "options": [
+      "25",
+      "30",
+      "35"
+    ],
+    "correctAnswer": "30"
+  },
+  {
+    "problem": "If a toy costs $5 and Sarah has $10, how much change will she receive if she buys the toy?",
+    "grade": "3",
+    "options": [
+      "$3",
+      "$4",
+      "$5"
+    ],
+    "correctAnswer": "$5"
+  },
+  {
+    "problem": "Which number is greater: 345 or 543?",
+    "grade": "3",
+    "options": [
+      "345",
+      "543",
+      "They are equal"
+    ],
+    "correctAnswer": "543"
+  },
+  {
+    "problem": "What fraction of a pizza is 2 out of 8 slices?",
+    "grade": "3",
+    "options": [
+      "1/4",
+      "1/3",
+      "1/2"
+    ],
+    "correctAnswer": "1/4"
+  },
+  {
+    "problem": "If a rectangle is 6 cm long and 4 cm wide, what is its perimeter?",
+    "grade": "3",
+    "options": [
+      "20 cm",
+      "24 cm",
+      "28 cm"
+    ],
+    "correctAnswer": "20 cm"
+  },
+  {
+    "problem": "How many millimeters are in 1 centimeter?",
+    "grade": "3",
+    "options": [
+      "10 mm",
+      "100 mm",
+      "1000 mm"
+    ],
+    "correctAnswer": "10 mm"
+  },
+  {
+    "problem": "What is the value of the digit 3 in the number 437?",
+    "grade": "3",
+    "options": [
+      "3",
+      "30",
+      "300"
+    ],
+    "correctAnswer": "30"
+  },
+  {
+    "problem": "If a clock shows 7:15 AM, how many hours until 10:15 AM?",
+    "grade": "3",
+    "options": [
+      "2 hours",
+      "3 hours",
+      "4 hours"
+    ],
+    "correctAnswer": "3 hours"
+  },
+  {
+    "problem": "What is 1.5 + 2.25?",
+    "grade": "3",
+    "options": [
+      "3.75",
+      "3.5",
+      "4"
+    ],
+    "correctAnswer": "3.75"
+  },
+  {
+    "problem": "What is 3/4 of 20?",
+    "grade": "3",
+    "options": [
+      "12",
+      "15",
+      "18"
+    ],
+    "correctAnswer": "15"
+  },
+  {
+    "problem": "If a triangle has one angle of 90 degrees, what type of triangle is it?",
+    "grade": "3",
+    "options": [
+      "Equilateral",
+      "Isosceles",
+      "Right-angled"
+    ],
+    "correctAnswer": "Right-angled"
+  },
+  {
+    "problem": "How many minutes are in 2 hours and 45 minutes?",
+    "grade": "3",
+    "options": [
+      "125 minutes",
+      "145 minutes",
+      "165 minutes"
+    ],
+    "correctAnswer": "165 minutes"
+  },
+  {
+    "problem": "What is 9 + 4?",
+    "grade": "3",
+    "options": [
+      "12",
+      "13",
+      "14"
+    ],
+    "correctAnswer": "13"
+  },
+  {
+    "problem": "What is 25 - 13?",
+    "grade": "3",
+    "options": [
+      "10",
+      "11",
+      "12"
+    ],
+    "correctAnswer": "12"
+  },
+  {
+    "problem": "What is 7 * 3?",
+    "grade": "3",
+    "options": [
+      "18",
+      "20",
+      "21"
+    ],
+    "correctAnswer": "21"
+  },
+  {
+    "problem": "What is 24 / 4?",
+    "grade": "3",
+    "options": [
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "6"
+  },
+  {
+    "problem": "What is the missing number in the pattern? 3, 6, 9, ?",
+    "grade": "3",
+    "options": [
+      "10",
+      "11",
+      "12"
+    ],
+    "correctAnswer": "12"
+  },
+  {
+    "problem": "If Sally has 15 apples and she gives 4 to her friend, how many apples does she have left?",
+    "grade": "3",
+    "options": [
+      "9",
+      "10",
+      "11"
+    ],
+    "correctAnswer": "11"
+  },
+  {
+    "problem": "How many sides does a triangle have?",
+    "grade": "3",
+    "options": [
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "3"
+  },
+  {
+    "problem": "What is the sum of the interior angles of a square?",
+    "grade": "3",
+    "options": [
+      "360 degrees",
+      "270 degrees",
+      "180 degrees"
+    ],
+    "correctAnswer": "360 degrees"
+  },
+  {
+    "problem": "If a book costs $8 and Sarah buys 3 books, how much does she spend?",
+    "grade": "3",
+    "options": [
+      "$24",
+      "$25",
+      "$26"
+    ],
+    "correctAnswer": "$24"
+  },
+  {
+    "problem": "Which is greater: 356 or 563?",
+    "grade": "3",
+    "options": [
+      "356",
+      "563",
+      "They are equal"
+    ],
+    "correctAnswer": "563"
+  },
+  {
+    "problem": "What is 1/2 of 10?",
+    "grade": "3",
+    "options": [
+      "3",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "5"
+  },
+  {
+    "problem": "How many seconds are in 2 minutes?",
+    "grade": "3",
+    "options": [
+      "60",
+      "90",
+      "120"
+    ],
+    "correctAnswer": "120"
+  },
+  {
+    "problem": "How many centimeters are in 1 meter?",
+    "grade": "3",
+    "options": [
+      "10",
+      "50",
+      "100"
+    ],
+    "correctAnswer": "100"
+  },
+  {
+    "problem": "If a rectangle has a length of 8 cm and a width of 4 cm, what is its perimeter?",
+    "grade": "3",
+    "options": [
+      "20 cm",
+      "24 cm",
+      "32 cm"
+    ],
+    "correctAnswer": "24 cm"
+  },
+  {
+    "problem": "What is 3/4 of 16?",
+    "grade": "3",
+    "options": [
+      "9",
+      "12",
+      "15"
+    ],
+    "correctAnswer": "12"
+  },
+  {
+    "problem": "What is the value of the digit 5 in the number 856?",
+    "grade": "3",
+    "options": [
+      "50",
+      "500",
+      "5"
+    ],
+    "correctAnswer": "50"
+  },
+  {
+    "problem": "How many degrees are in a right angle?",
+    "grade": "3",
+    "options": [
+      "90 degrees",
+      "180 degrees",
+      "270 degrees"
+    ],
+    "correctAnswer": "90 degrees"
+  },
+  {
+    "problem": "If a clock shows 3:45, how many minutes are left until 4:00?",
+    "grade": "3",
+    "options": [
+      "10 minutes",
+      "15 minutes",
+      "20 minutes"
+    ],
+    "correctAnswer": "15 minutes"
+  },
+  {
+    "problem": "What is the total value of 3 dimes and 5 nickels?",
+    "grade": "3",
+    "options": [
+      "40 cents",
+      "45 cents",
+      "50 cents"
+    ],
+    "correctAnswer": "50 cents"
+  },
+  {
+    "problem": "What is the next number in the pattern? 10, 15, 20, ?",
+    "grade": "3",
+    "options": [
+      "22",
+      "25",
+      "30"
+    ],
+    "correctAnswer": "25"
+  },
+  {
+    "problem": "What is 9 + 6?",
+    "grade": "3",
+    "options": [
+      "15",
+      "14",
+      "13"
+    ],
+    "correctAnswer": "15"
+  },
+  {
+    "problem": "What is 24 - 9?",
+    "grade": "3",
+    "options": [
+      "15",
+      "14",
+      "13"
+    ],
+    "correctAnswer": "15"
+  },
+  {
+    "problem": "What is 7 * 3?",
+    "grade": "3",
+    "options": [
+      "19",
+      "21",
+      "24"
+    ],
+    "correctAnswer": "21"
+  },
+  {
+    "problem": "What is 18 / 3?",
+    "grade": "3",
+    "options": [
+      "4",
+      "6",
+      "8"
+    ],
+    "correctAnswer": "6"
+  },
+  {
+    "problem": "What is the missing number in the pattern? 5, 10, 15, ?",
+    "grade": "3",
+    "options": [
+      "20",
+      "25",
+      "30"
+    ],
+    "correctAnswer": "20"
+  },
+  {
+    "problem": "If you have 8 apples and you give away 3, how many apples do you have left?",
+    "grade": "3",
+    "options": [
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "5"
+  },
+  {
+    "problem": "How many sides does a triangle have?",
+    "grade": "3",
+    "options": [
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "3"
+  },
+  {
+    "problem": "What is the time shown on the clock? (image of a clock showing 3:45)",
+    "grade": "3",
+    "options": [
+      "3:45",
+      "4:30",
+      "3:15"
+    ],
+    "correctAnswer": "3:45"
+  },
+  {
+    "problem": "Which number is greater: 456 or 465?",
+    "grade": "3",
+    "options": [
+      "456",
+      "465",
+      "They are equal"
+    ],
+    "correctAnswer": "465"
+  },
+  {
+    "problem": "What is half of 16?",
+    "grade": "3",
+    "options": [
+      "6",
+      "8",
+      "10"
+    ],
+    "correctAnswer": "8"
+  },
+  {
+    "problem": "What is 0.5 as a fraction in simplest form?",
+    "grade": "3",
+    "options": [
+      "1/2",
+      "2/4",
+      "3/6"
+    ],
+    "correctAnswer": "1/2"
+  },
+  {
+    "problem": "How many centimeters are in 1 meter?",
+    "grade": "3",
+    "options": [
+      "100",
+      "10",
+      "1000"
+    ],
+    "correctAnswer": "100"
+  },
+  {
+    "problem": "What is the sum of the interior angles of a triangle?",
+    "grade": "3",
+    "options": [
+      "180 degrees",
+      "360 degrees",
+      "90 degrees"
+    ],
+    "correctAnswer": "180 degrees"
+  },
+  {
+    "problem": "If a book costs $8 and you have $12, how much change will you get back?",
+    "grade": "3",
+    "options": [
+      "$2",
+      "$4",
+      "$6"
+    ],
+    "correctAnswer": "$4"
+  },
+  {
+    "problem": "What is the perimeter of a square with each side measuring 5 cm?",
+    "grade": "3",
+    "options": [
+      "15 cm",
+      "20 cm",
+      "25 cm"
+    ],
+    "correctAnswer": "20 cm"
+  },
+  {
+    "problem": "Which shape has 4 sides and 4 right angles?",
+    "grade": "3",
+    "options": [
+      "Triangle",
+      "Circle",
+      "Square"
+    ],
+    "correctAnswer": "Square"
+  },
+  {
+    "problem": "How many minutes are in 2 hours?",
+    "grade": "3",
+    "options": [
+      "60 minutes",
+      "120 minutes",
+      "180 minutes"
+    ],
+    "correctAnswer": "120 minutes"
+  },
+  {
+    "problem": "What is the value of the digit 6 in the number 467?",
+    "grade": "3",
+    "options": [
+      "6",
+      "60",
+      "600"
+    ],
+    "correctAnswer": "60"
+  },
+  {
+    "problem": "What is one-third of 12?",
+    "grade": "3",
+    "options": [
+      "2",
+      "4",
+      "6"
+    ],
+    "correctAnswer": "4"
+  },
+  {
+    "problem": "What is 2.5 written as a mixed number?",
+    "grade": "3",
+    "options": [
+      "2 1/2",
+      "2 1/4",
+      "2 1/5"
+    ],
+    "correctAnswer": "2 1/2"
+  },
+  {
+    "problem": "Sally has 15 apples and she gives 7 to her friend. How many apples does Sally have left?",
+    "grade": "3",
+    "options": [
+      "8",
+      "10",
+      "12"
+    ],
+    "correctAnswer": "8"
+  },
+  {
+    "problem": "What is 4 x 9?",
+    "grade": "3",
+    "options": [
+      "32",
+      "36",
+      "40"
+    ],
+    "correctAnswer": "36"
+  },
+  {
+    "problem": "What is the missing number in the pattern? 5, 10, 15, ?",
+    "grade": "3",
+    "options": [
+      "20",
+      "22",
+      "25"
+    ],
+    "correctAnswer": "20"
+  },
+  {
+    "problem": "A rectangle has 4 sides. How many sides does a pentagon have?",
+    "grade": "3",
+    "options": [
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "5"
+  },
+  {
+    "problem": "If a book costs $8 and Jane has $12, how much change will Jane receive if she buys the book?",
+    "grade": "3",
+    "options": [
+      "$2",
+      "$3",
+      "$4"
+    ],
+    "correctAnswer": "$4"
+  },
+  {
+    "problem": "Which number is greater: 456 or 465?",
+    "grade": "3",
+    "options": [
+      "456",
+      "465",
+      "They are equal"
+    ],
+    "correctAnswer": "465"
+  },
+  {
+    "problem": "What is 1/2 of 10?",
+    "grade": "3",
+    "options": [
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "5"
+  },
+  {
+    "problem": "If a train travels at 60 miles per hour, how far will it travel in 4 hours?",
+    "grade": "3",
+    "options": [
+      "240 miles",
+      "220 miles",
+      "200 miles"
+    ],
+    "correctAnswer": "240 miles"
+  },
+  {
+    "problem": "What is 7 + 6?",
+    "grade": "3",
+    "options": [
+      "12",
+      "13",
+      "14"
+    ],
+    "correctAnswer": "13"
+  },
+  {
+    "problem": "What is 36 ÷ 6?",
+    "grade": "3",
+    "options": [
+      "6",
+      "5",
+      "7"
+    ],
+    "correctAnswer": "6"
+  },
+  {
+    "problem": "What is the next number in the pattern? 3, 6, 9, ?",
+    "grade": "3",
+    "options": [
+      "11",
+      "12",
+      "15"
+    ],
+    "correctAnswer": "12"
+  },
+  {
+    "problem": "How many edges does a cube have?",
+    "grade": "3",
+    "options": [
+      "4",
+      "6",
+      "8"
+    ],
+    "correctAnswer": "12"
+  },
+  {
+    "problem": "If a toy costs $5.50 and Lisa has $10, how much more money does she need to buy the toy?",
+    "grade": "3",
+    "options": [
+      "$3",
+      "$4",
+      "$5"
+    ],
+    "correctAnswer": "$0.50"
+  },
+  {
+    "problem": "Which number is smaller: 523 or 532?",
+    "grade": "3",
+    "options": [
+      "523",
+      "532",
+      "They are equal"
+    ],
+    "correctAnswer": "523"
+  },
+  {
+    "problem": "What is 2/3 of 12?",
+    "grade": "3",
+    "options": [
+      "6",
+      "8",
+      "10"
+    ],
+    "correctAnswer": "8"
+  },
+  {
+    "problem": "If a race car completes a lap in 45 seconds, how many laps will it complete in 5 minutes?",
+    "grade": "3",
+    "options": [
+      "6 laps",
+      "7 laps",
+      "8 laps"
+    ],
+    "correctAnswer": "6 laps"
+  },
+  {
+    "problem": "What is 9 - 4?",
+    "grade": "3",
+    "options": [
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "5"
+  },
+  {
+    "problem": "What is 8 x 3?",
+    "grade": "3",
+    "options": [
+      "22",
+      "24",
+      "26"
+    ],
+    "correctAnswer": "24"
+  },
+  {
+    "problem": "What is the missing number in the pattern? 20, 18, 16, ?",
+    "grade": "3",
+    "options": [
+      "14",
+      "12",
+      "10"
+    ],
+    "correctAnswer": "14"
+  },
+  {
+    "problem": "What is 9 * 8?",
+    "grade": "4",
+    "options": ["72", "70", "74"],
+    "correctAnswer": "72"
+  },
+  {
+    "problem": "What is 40 / 5?",
+    "grade": "4",
+    "options": ["8", "9", "10"],
+    "correctAnswer": "8"
+  },
+  {
+    "problem": "If you have 24 apples and divide them equally into 6 baskets, how many apples in each basket?",
+    "grade": "4",
+    "options": ["6", "5", "4"],
+    "correctAnswer": "4"
+  },
+  {
+    "problem": "What fraction represents half?",
+    "grade": "4",
+    "options": ["1/2", "1/3", "1/4"],
+    "correctAnswer": "1/2"
+  },
+  {
+    "problem": "What is the perimeter of a rectangle that is 6 inches long and 3 inches wide?",
+    "grade": "4",
+    "options": ["18", "15", "12"],
+    "correctAnswer": "18"
+  },
+  {
+    "problem": "Round 47 to the nearest ten.",
+    "grade": "4",
+    "options": ["40", "45", "50"],
+    "correctAnswer": "50"
+  },
+  {
+    "problem": "What is 100 - 73?",
+    "grade": "4",
+    "options": ["27", "28", "29"],
+    "correctAnswer": "27"
+  },
+  {
+    "problem": "What is 7 * 5?",
+    "grade": "4",
+    "options": ["35", "30", "32"],
+    "correctAnswer": "35"
+  },
+  {
+    "problem": "If a pizza is cut into 8 slices and you eat 3, how many slices are left?",
+    "grade": "4",
+    "options": ["5", "6", "7"],
+    "correctAnswer": "5"
+  },
+  {
+    "problem": "What number comes next in the pattern: 5, 10, 15, ?",
+    "grade": "4",
+    "options": ["20", "25", "30"],
+    "correctAnswer": "20"
+  },
+  {
+    "problem": "What is 25 + 36?",
+    "grade": "4",
+    "options": [
+      "61",
+      "59",
+      "65"
+    ],
+    "correctAnswer": "61"
+  },
+  {
+    "problem": "What is 72 / 8?",
+    "grade": "4",
+    "options": [
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "9"
+  },
+  {
+    "problem": "Sarah has 48 stickers. She gives 12 stickers to each of her 3 friends. How many stickers does she have left?",
+    "grade": "4",
+    "options": [
+      "12",
+      "16",
+      "24"
+    ],
+    "correctAnswer": "12"
+  },
+  {
+    "problem": "What fraction represents one-third?",
+    "grade": "4",
+    "options": [
+      "1/3",
+      "1/4",
+      "1/2"
+    ],
+    "correctAnswer": "1/3"
+  },
+  {
+    "problem": "If a square has a side length of 5 cm, what is its perimeter?",
+    "grade": "4",
+    "options": [
+      "15 cm",
+      "20 cm",
+      "25 cm"
+    ],
+    "correctAnswer": "20 cm"
+  },
+  {
+    "problem": "What is 87 rounded to the nearest ten?",
+    "grade": "4",
+    "options": [
+      "80",
+      "90",
+      "85"
+    ],
+    "correctAnswer": "90"
+  },
+  {
+    "problem": "What is 125 - 89?",
+    "grade": "4",
+    "options": [
+      "36",
+      "35",
+      "34"
+    ],
+    "correctAnswer": "36"
+  },
+  {
+    "problem": "How many sides does a pentagon have?",
+    "grade": "4",
+    "options": [
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "5"
+  },
+  {
+    "problem": "If a movie starts at 3:45 PM and lasts for 2 hours and 15 minutes, what time does it end?",
+    "grade": "4",
+    "options": [
+      "5:45 PM",
+      "6:00 PM",
+      "6:15 PM"
+    ],
+    "correctAnswer": "6:00 PM"
+  },
+  {
+    "problem": "Which number is greater: 567 or 576?",
+    "grade": "4",
+    "options": [
+      "567",
+      "576",
+      "They are equal"
+    ],
+    "correctAnswer": "576"
+  },
+  {
+    "problem": "What is 3/4 of 16?",
+    "grade": "4",
+    "options": [
+      "9",
+      "12",
+      "15"
+    ],
+    "correctAnswer": "12"
+  },
+  {
+    "problem": "How many millimeters are in 1 meter?",
+    "grade": "4",
+    "options": [
+      "1000 mm",
+      "100 mm",
+      "10 mm"
+    ],
+    "correctAnswer": "1000 mm"
+  },
+  {
+    "problem": "If a clock shows 3:30 PM, what will be the time in 2 hours?",
+    "grade": "4",
+    "options": [
+      "4:30 PM",
+      "5:00 PM",
+      "5:30 PM"
+    ],
+    "correctAnswer": "5:30 PM"
+  },
+  {
+    "problem": "What number comes next in the pattern: 8, 16, 24, ?",
+    "grade": "4",
+    "options": [
+      "30",
+      "32",
+      "36"
+    ],
+    "correctAnswer": "32"
+  },
+  {
+    "problem": "If a rectangle has a length of 7 cm and a width of 4 cm, what is its area?",
+    "grade": "4",
+    "options": [
+      "24 sq cm",
+      "28 sq cm",
+      "32 sq cm"
+    ],
+    "correctAnswer": "28 sq cm"
+  },
+  {
+    "problem": "What is 0.5 as a fraction?",
+    "grade": "4",
+    "options": [
+      "1/2",
+      "1/4",
+      "1/3"
+    ],
+    "correctAnswer": "1/2"
+  },
+  {
+    "problem": "If a book is 320 pages long and you read 80 pages, what percentage of the book have you read?",
+    "grade": "4",
+    "options": [
+      "20%",
+      "25%",
+      "30%"
+    ],
+    "correctAnswer": "25%"
+  },
+  {
+    "problem": "If a bag of marbles weighs 0.75 kilograms, how many grams is that?",
+    "grade": "4",
+    "options": [
+      "750 g",
+      "700 g",
+      "800 g"
+    ],
+    "correctAnswer": "750 g"
+  },
+  {
+    "problem": "What is the value of the digit 7 in the number 573?",
+    "grade": "4",
+    "options": [
+      "7",
+      "70",
+      "700"
+    ],
+    "correctAnswer": "70"
+  },
+  {
+    "problem": "If you have 35 marbles and give away 12, how many marbles do you have left?",
+    "grade": "4",
+    "options": [
+      "23",
+      "25",
+      "27"
+    ],
+    "correctAnswer": "23"
+  },
+  {
+    "problem": "What is the missing number in the pattern: 2, 4, 6, 8, ?",
+    "grade": "4",
+    "options": [
+      "10",
+      "12",
+      "14"
+    ],
+    "correctAnswer": "10"
+  },
+  {
+    "problem": "A box contains 24 pencils. If each student gets 4 pencils, how many students can receive pencils?",
+    "grade": "4",
+    "options": [
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "6"
+  },
+  {
+    "problem": "How many sides does a hexagon have?",
+    "grade": "4",
+    "options": [
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "6"
+  },
+  {
+    "problem": "If a book costs $8 and you have $20, how much change will you receive?",
+    "grade": "4",
+    "options": [
+      "$10",
+      "$12",
+      "$14"
+    ],
+    "correctAnswer": "$12"
+  },
+  {
+    "problem": "Which number is greater: 345 or 453?",
+    "grade": "4",
+    "options": [
+      "345",
+      "453",
+      "They are equal"
+    ],
+    "correctAnswer": "453"
+  },
+  {
+    "problem": "What is 3/4 of 16?",
+    "grade": "4",
+    "options": [
+      "9",
+      "12",
+      "15"
+    ],
+    "correctAnswer": "12"
+  },
+  {
+    "problem": "How many centimeters are in 2 meters?",
+    "grade": "4",
+    "options": [
+      "100",
+      "200",
+      "300"
+    ],
+    "correctAnswer": "200"
+  },
+  {
+    "problem": "If a clock shows 3:45 PM, how many minutes are left until 4:00 PM?",
+    "grade": "4",
+    "options": [
+      "10",
+      "15",
+      "20"
+    ],
+    "correctAnswer": "15"
+  },
+  {
+    "problem": "What is the value of the digit 7 in the number 879?",
+    "grade": "4",
+    "options": [
+      "700",
+      "70",
+      "7"
+    ],
+    "correctAnswer": "70"
+  },
+  {
+    "problem": "What is 5 + 9?",
+    "grade": "4",
+    "options": [
+      "13",
+      "14",
+      "15"
+    ],
+    "correctAnswer": "14"
+  },
+  {
+    "problem": "Which number comes next in the pattern: 21, 24, 27, ?",
+    "grade": "4",
+    "options": [
+      "30",
+      "32",
+      "35"
+    ],
+    "correctAnswer": "30"
+  },
+  {
+    "problem": "There are 48 apples in a basket. If each bag can hold 8 apples, how many bags are needed?",
+    "grade": "4",
+    "options": [
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "6"
+  },
+  {
+    "problem": "How many right angles are there in a square?",
+    "grade": "4",
+    "options": [
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "4"
+  },
+  {
+    "problem": "If a toy costs $15 and you pay with a $20 bill, how much change will you get back?",
+    "grade": "4",
+    "options": [
+      "$5",
+      "$10",
+      "$15"
+    ],
+    "correctAnswer": "$5"
+  },
+  {
+    "problem": "Which is greater: 0.65 or 0.56?",
+    "grade": "4",
+    "options": [
+      "0.65",
+      "0.56",
+      "They are equal"
+    ],
+    "correctAnswer": "0.65"
+  },
+  {
+    "problem": "How many milliliters are in 2 liters?",
+    "grade": "4",
+    "options": [
+      "1000",
+      "2000",
+      "3000"
+    ],
+    "correctAnswer": "2000"
+  },
+  {
+    "problem": "If a movie starts at 4:30 PM and lasts for 2 hours, what time will it end?",
+    "grade": "4",
+    "options": [
+      "6:00 PM",
+      "6:30 PM",
+      "7:00 PM"
+    ],
+    "correctAnswer": "6:30 PM"
+  },
+  {
+    "problem": "What is the next number in the sequence: 8, 16, 24, ?",
+    "grade": "4",
+    "options": [
+      "28",
+      "30",
+      "32"
+    ],
+    "correctAnswer": "32"
+  },
+  {
+    "problem": "What is 25 + 38?",
+    "grade": "4",
+    "options": [
+      "63",
+      "65",
+      "68"
+    ],
+    "correctAnswer": "63"
+  },
+  {
+    "problem": "If you have 36 marbles and share them equally among 4 friends, how many marbles does each friend get?",
+    "grade": "4",
+    "options": [
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "9"
+  },
+  {
+    "problem": "What is the sum of the first 5 even numbers?",
+    "grade": "4",
+    "options": [
+      "25",
+      "30",
+      "35"
+    ],
+    "correctAnswer": "30"
+  },
+  {
+    "problem": "How many degrees are in a right angle?",
+    "grade": "4",
+    "options": [
+      "90",
+      "180",
+      "360"
+    ],
+    "correctAnswer": "90"
+  },
+  {
+    "problem": "If a toy costs $12 and you have $20, how much change will you get back?",
+    "grade": "4",
+    "options": [
+      "$6",
+      "$8",
+      "$10"
+    ],
+    "correctAnswer": "$8"
+  },
+  {
+    "problem": "Which number is greater: 0.5 or 0.75?",
+    "grade": "4",
+    "options": [
+      "0.5",
+      "0.75",
+      "They are equal"
+    ],
+    "correctAnswer": "0.75"
+  },
+  {
+    "problem": "How many millimeters are in 2.5 centimeters?",
+    "grade": "4",
+    "options": [
+      "25",
+      "20",
+      "15"
+    ],
+    "correctAnswer": "25"
+  },
+  {
+    "problem": "What is 9 * 7?",
+    "grade": "4",
+    "options": [
+      "63",
+      "65",
+      "67"
+    ],
+    "correctAnswer": "63"
+  },
+  {
+    "problem": "If a clock shows 3:45 PM, how many minutes until 4:00 PM?",
+    "grade": "4",
+    "options": [
+      "10",
+      "15",
+      "20"
+    ],
+    "correctAnswer": "15"
+  },
+  {
+    "problem": "What is the area of a square with side length 5 cm?",
+    "grade": "4",
+    "options": [
+      "20",
+      "25",
+      "30"
+    ],
+    "correctAnswer": "25"
+  },
+  {
+    "problem": "What number comes next in the pattern: 2, 4, 8, 16, ?",
+    "grade": "4",
+    "options": [
+      "20",
+      "24",
+      "32"
+    ],
+    "correctAnswer": "32"
+  },
+  {
+    "problem": "If a book has 120 pages and you read 30 pages each day, how many days will it take to finish the book?",
+    "grade": "4",
+    "options": [
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "4"
+  },
+  {
+    "problem": "What is the product of 6 and 9?",
+    "grade": "4",
+    "options": [
+      "48",
+      "54",
+      "60"
+    ],
+    "correctAnswer": "54"
+  },
+  {
+    "problem": "Which shape has 4 sides of equal length and 4 right angles?",
+    "grade": "4",
+    "options": [
+      "Triangle",
+      "Rectangle",
+      "Circle"
+    ],
+    "correctAnswer": "Rectangle"
+  },
+  {
+    "problem": "If you have $15 and you spend $7.50, how much money do you have left?",
+    "grade": "4",
+    "options": [
+      "$6",
+      "$7.50",
+      "$8.50"
+    ],
+    "correctAnswer": "$7.50"
+  },
+  {
+    "problem": "What is the value of the digit 6 in the number 476?",
+    "grade": "4",
+    "options": [
+      "600",
+      "60",
+      "6"
+    ],
+    "correctAnswer": "60"
+  },
+  {
+    "problem": "If a rectangle has a length of 12 cm and a width of 8 cm, what is its perimeter?",
+    "grade": "4",
+    "options": [
+      "26 cm",
+      "32 cm",
+      "40 cm"
+    ],
+    "correctAnswer": "40 cm"
+  },
+  {
+    "problem": "What is the fraction equivalent to 0.75?",
+    "grade": "4",
+    "options": [
+      "1/4",
+      "2/3",
+      "3/4"
+    ],
+    "correctAnswer": "3/4"
+  },
+  {
+    "problem": "How many seconds are in 2 minutes and 30 seconds?",
+    "grade": "4",
+    "options": [
+      "120",
+      "140",
+      "150"
+    ],
+    "correctAnswer": "150"
+  },
+  {
+    "problem": "What is 36 + 47?",
+    "grade": "4",
+    "options": [
+      "81",
+      "83",
+      "85"
+    ],
+    "correctAnswer": "83"
+  },
+  {
+    "problem": "If you have 15 pencils and share them equally among 5 friends, how many pencils does each friend get?",
+    "grade": "4",
+    "options": [
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "3"
+  },
+  {
+    "problem": "What is the missing number in the pattern: 2, 4, 6, ?",
+    "grade": "4",
+    "options": [
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "8"
+  },
+  {
+    "problem": "If a rectangle has a length of 5 cm and a width of 3 cm, what is its area?",
+    "grade": "4",
+    "options": [
+      "12 sq cm",
+      "15 sq cm",
+      "18 sq cm"
+    ],
+    "correctAnswer": "15 sq cm"
+  },
+  {
+    "problem": "If a book costs $12 and you have $20, how much change will you get back?",
+    "grade": "4",
+    "options": [
+      "$6",
+      "$7",
+      "$8"
+    ],
+    "correctAnswer": "$8"
+  },
+  {
+    "problem": "Which is greater: 0.75 or 0.7?",
+    "grade": "4",
+    "options": [
+      "0.75",
+      "0.7",
+      "They are equal"
+    ],
+    "correctAnswer": "0.75"
+  },
+  {
+    "problem": "How many minutes are in 2 hours?",
+    "grade": "4",
+    "options": [
+      "60",
+      "90",
+      "120"
+    ],
+    "correctAnswer": "120"
+  },
+  {
+    "problem": "What is 3/4 of 16?",
+    "grade": "4",
+    "options": [
+      "9",
+      "12",
+      "14"
+    ],
+    "correctAnswer": "12"
+  },
+  {
+    "problem": "If a square has a side length of 7 cm, what is its perimeter?",
+    "grade": "4",
+    "options": [
+      "21 cm",
+      "28 cm",
+      "35 cm"
+    ],
+    "correctAnswer": "28 cm"
+  },
+  {
+    "problem": "What time is it if the clock shows 3:45 PM?",
+    "grade": "4",
+    "options": [
+      "3:45 AM",
+      "3:45 PM",
+      "4:15 PM"
+    ],
+    "correctAnswer": "3:45 PM"
+  },
+  {
+    "problem": "What is the value of the digit 7 in the number 573?",
+    "grade": "4",
+    "options": [
+      "7",
+      "70",
+      "700"
+    ],
+    "correctAnswer": "70"
+  },
+  {
+    "problem": "Sara has 24 marbles and she gives 1/4 of them to her friend. How many marbles does she give away?",
+    "grade": "4",
+    "options": [
+      "4",
+      "6",
+      "8"
+    ],
+    "correctAnswer": "6"
+  },
+  {
+    "problem": "If a triangle has sides of lengths 5 cm, 7 cm, and 9 cm, what type of triangle is it?",
+    "grade": "4",
+    "options": [
+      "Equilateral",
+      "Isosceles",
+      "Scalene"
+    ],
+    "correctAnswer": "Scalene"
+  },
+  {
+    "problem": "How many millimeters are in 2.5 meters?",
+    "grade": "4",
+    "options": [
+      "250 mm",
+      "2500 mm",
+      "25 mm"
+    ],
+    "correctAnswer": "2500 mm"
+  },
+  {
+    "problem": "What is the next number in the sequence: 25, 30, 35, ?",
+    "grade": "4",
+    "options": [
+      "40",
+      "45",
+      "50"
+    ],
+    "correctAnswer": "40"
+  },
+  {
+    "problem": "If a box contains 48 crayons and each pack has 6 crayons, how many packs are there?",
+    "grade": "4",
+    "options": [
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "8"
+  },
+  {
+    "problem": "What is 56 divided by 8?",
+    "grade": "4",
+    "options": [
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "7"
+  },
+  {
+    "problem": "What is the sum of the interior angles in a triangle?",
+    "grade": "4",
+    "options": [
+      "180 degrees",
+      "270 degrees",
+      "360 degrees"
+    ],
+    "correctAnswer": "180 degrees"
+  },
+  {
+    "problem": "If a clock shows 7:30 AM, how many minutes are left until 9:00 AM?",
+    "grade": "4",
+    "options": [
+      "60 minutes",
+      "90 minutes",
+      "120 minutes"
+    ],
+    "correctAnswer": "90 minutes"
+  },
+  {
+    "problem": "Which number is greater: 0.6 or 0.61?",
+    "grade": "4",
+    "options": [
+      "0.6",
+      "0.61",
+      "They are equal"
+    ],
+    "correctAnswer": "0.61"
+  },
+  {
+    "problem": "What is 35 + 48?",
+    "grade": "4",
+    "options": [
+      "78",
+      "83",
+      "83"
+    ],
+    "correctAnswer": "83"
+  },
+  {
+    "problem": "How many sides does a hexagon have?",
+    "grade": "4",
+    "options": [
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "6"
+  },
+  {
+    "problem": "If you have $20 and spend $6, how much money do you have left?",
+    "grade": "4",
+    "options": [
+      "$14",
+      "$15",
+      "$16"
+    ],
+    "correctAnswer": "$14"
+  },
+  {
+    "problem": "What is 9 * 7?",
+    "grade": "4",
+    "options": [
+      "63",
+      "65",
+      "67"
+    ],
+    "correctAnswer": "63"
+  },
+  {
+    "problem": "Which number is greater: 0.4 or 0.45?",
+    "grade": "4",
+    "options": [
+      "0.4",
+      "0.45",
+      "They are equal"
+    ],
+    "correctAnswer": "0.45"
+  },
+  {
+    "problem": "If it takes 15 minutes to walk to school and 20 minutes to walk back home, how long is the total walking time?",
+    "grade": "4",
+    "options": [
+      "35 minutes",
+      "30 minutes",
+      "40 minutes"
+    ],
+    "correctAnswer": "35 minutes"
+  },
+  {
+    "problem": "What is the missing number in the sequence: 3, 6, 9, ?",
+    "grade": "4",
+    "options": [
+      "11",
+      "12",
+      "15"
+    ],
+    "correctAnswer": "12"
+  },
+  {
+    "problem": "If a rectangle has a length of 8 cm and a width of 4 cm, what is its area?",
+    "grade": "4",
+    "options": [
+      "32 sq cm",
+      "24 sq cm",
+      "16 sq cm"
+    ],
+    "correctAnswer": "32 sq cm"
+  },
+  {
+    "problem": "How many seconds are in 5 minutes?",
+    "grade": "4",
+    "options": [
+      "300 seconds",
+      "240 seconds",
+      "360 seconds"
+    ],
+    "correctAnswer": "300 seconds"
+  },
+  {
+    "problem": "What is the value of the digit 7 in the number 573?",
+    "grade": "4",
+    "options": [
+      "70",
+      "7",
+      "700"
+    ],
+    "correctAnswer": "70"
+  },
+  {
+    "problem": "What is 45 divided by 9?",
+    "grade": "4",
+    "options": [
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "5"
+  },
+  {
+    "problem": "Which shape has 4 right angles?",
+    "grade": "4",
+    "options": [
+      "Triangle",
+      "Square",
+      "Circle"
+    ],
+    "correctAnswer": "Square"
+  },
+  {
+    "problem": "If a quarter is worth 25 cents, how much is 3 quarters?",
+    "grade": "4",
+    "options": [
+      "50 cents",
+      "75 cents",
+      "1 dollar"
+    ],
+    "correctAnswer": "75 cents"
+  },
+  {
+    "problem": "What is the next number in the pattern: 2, 5, 10, 17, ?",
+    "grade": "4",
+    "options": [
+      "24",
+      "27",
+      "30"
+    ],
+    "correctAnswer": "24"
+  },
+  {
+    "problem": "If you have 3 dimes and 4 nickels, how much money do you have?",
+    "grade": "4",
+    "options": [
+      "32 cents",
+      "37 cents",
+      "42 cents"
+    ],
+    "correctAnswer": "37 cents"
+  },
+  {
+    "problem": "What is 3/4 of 24?",
+    "grade": "4",
+    "options": [
+      "16",
+      "18",
+      "20"
+    ],
+    "correctAnswer": "18"
+  },
+  {
+    "problem": "How many degrees are in a right angle?",
+    "grade": "4",
+    "options": [
+      "90 degrees",
+      "180 degrees",
+      "270 degrees"
+    ],
+    "correctAnswer": "90 degrees"
+  },
+  {
+    "problem": "If a clock shows 3:45, how many minutes until 4:00?",
+    "grade": "4",
+    "options": [
+      "10 minutes",
+      "15 minutes",
+      "20 minutes"
+    ],
+    "correctAnswer": "15 minutes"
+  },
+  {
+    "problem": "What is the perimeter of a square with each side measuring 5 cm?",
+    "grade": "4",
+    "options": [
+      "15 cm",
+      "20 cm",
+      "25 cm"
+    ],
+    "correctAnswer": "20 cm"
+  },
+  {
+    "problem": "What is 45 / 9?",
+    "grade": "5",
+    "options": ["5", "6", "7"],
+    "correctAnswer": "5"
+  },
+  {
+    "problem": "What is 1/4 of 24?",
+    "grade": "5",
+    "options": ["8", "6", "7"],
+    "correctAnswer": "6"
+  },
+  {
+    "problem": "What is the area of a rectangle with length 8 cm and width 3 cm?",
+    "grade": "5",
+    "options": ["24", "20", "25"],
+    "correctAnswer": "24"
+  },
+  {
+    "problem": "Convert 4 meters into centimeters.",
+    "grade": "5",
+    "options": ["400", "40", "4000"],
+    "correctAnswer": "400"
+  },
+  {
+    "problem": "What is 75% of 20?",
+    "grade": "5",
+    "options": ["12", "15", "18"],
+    "correctAnswer": "15"
+  },
+  {
+    "problem": "Add: 2/5 + 1/5.",
+    "grade": "5",
+    "options": ["3/5", "1/5", "2/3"],
+    "correctAnswer": "3/5"
+  },
+  {
+    "problem": "What is the value of the digit 3 in the number 734?",
+    "grade": "5",
+    "options": ["30", "300", "3000"],
+    "correctAnswer": "30"
+  },
+  {
+    "problem": "Subtract 235 from 512.",
+    "grade": "5",
+    "options": ["277", "278", "279"],
+    "correctAnswer": "277"
+  },
+  {
+    "problem": "Multiply 7 by 6.",
+    "grade": "5",
+    "options": ["42", "40", "45"],
+    "correctAnswer": "42"
+  },
+  {
+    "problem": "What is the product of 9 and 5?",
+    "grade": "5",
+    "options": ["45", "40", "42"],
+    "correctAnswer": "45"
+  },
+  {
+    "problem": "Simplify: 5 + 8 x 2",
+    "grade": "5",
+    "options": [
+      "21",
+      "26",
+      "16"
+    ],
+    "correctAnswer": "21"
+  },
+  {
+    "problem": "What is the next number in the sequence: 2, 5, 10, 17, __?",
+    "grade": "5",
+    "options": [
+      "23",
+      "26",
+      "29"
+    ],
+    "correctAnswer": "26"
+  },
+  {
+    "problem": "A store sells pencils for $0.75 each. How much will 8 pencils cost?",
+    "grade": "5",
+    "options": [
+      "$5.50",
+      "$6.25",
+      "$7.75"
+    ],
+    "correctAnswer": "$6.00"
+  },
+  {
+    "problem": "How many sides does a hexagon have?",
+    "grade": "5",
+    "options": [
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "6"
+  },
+  {
+    "problem": "If it is 3:45 PM now, what time will it be in 3 hours?",
+    "grade": "5",
+    "options": [
+      "6:45 PM",
+      "7:45 PM",
+      "8:45 PM"
+    ],
+    "correctAnswer": "6:45 PM"
+  },
+  {
+    "problem": "Which number is greater: 0.6 or 0.56?",
+    "grade": "5",
+    "options": [
+      "0.6",
+      "0.56",
+      "They are equal"
+    ],
+    "correctAnswer": "0.6"
+  },
+  {
+    "problem": "What is 2/3 of 18?",
+    "grade": "5",
+    "options": [
+      "10",
+      "12",
+      "14"
+    ],
+    "correctAnswer": "12"
+  },
+  {
+    "problem": "How many milliliters are in 2.5 liters?",
+    "grade": "5",
+    "options": [
+      "250",
+      "2500",
+      "25"
+    ],
+    "correctAnswer": "2500"
+  },
+  {
+    "problem": "Find the perimeter of a square with side length 5 cm.",
+    "grade": "5",
+    "options": [
+      "15 cm",
+      "20 cm",
+      "25 cm"
+    ],
+    "correctAnswer": "20 cm"
+  },
+  {
+    "problem": "What is 3 x 4 x 5?",
+    "grade": "5",
+    "options": [
+      "60",
+      "65",
+      "70"
+    ],
+    "correctAnswer": "60"
+  },
+  {
+    "problem": "Complete the pattern: 10, 20, 40, 80, __",
+    "grade": "5",
+    "options": [
+      "100",
+      "120",
+      "160"
+    ],
+    "correctAnswer": "160"
+  },
+  {
+    "problem": "Mary has 24 apples. She gives 1/3 of them to her friend. How many apples does she give away?",
+    "grade": "5",
+    "options": [
+      "6",
+      "8",
+      "10"
+    ],
+    "correctAnswer": "8"
+  },
+  {
+    "problem": "What is the value of the digit 7 in the number 879?",
+    "grade": "5",
+    "options": [
+      "7",
+      "70",
+      "700"
+    ],
+    "correctAnswer": "70"
+  },
+  {
+    "problem": "Subtract 1.5 from 3.75.",
+    "grade": "5",
+    "options": [
+      "2.25",
+      "2.5",
+      "2.75"
+    ],
+    "correctAnswer": "2.25"
+  },
+  {
+    "problem": "How many degrees are in a right angle?",
+    "grade": "5",
+    "options": [
+      "90°",
+      "180°",
+      "360°"
+    ],
+    "correctAnswer": "90°"
+  },
+  {
+    "problem": "If a book costs $12, how much will 4 books cost?",
+    "grade": "5",
+    "options": [
+      "$36",
+      "$42",
+      "$48"
+    ],
+    "correctAnswer": "$48"
+  },
+  {
+    "problem": "Find the missing number: 4/5 = ?/20",
+    "grade": "5",
+    "options": [
+      "16",
+      "18",
+      "20"
+    ],
+    "correctAnswer": "16"
+  },
+  {
+    "problem": "How many minutes are in 3 hours?",
+    "grade": "5",
+    "options": [
+      "120",
+      "150",
+      "180"
+    ],
+    "correctAnswer": "180"
+  },
+  {
+    "problem": "Which is heavier: 2.5 kg or 3000 g?",
+    "grade": "5",
+    "options": [
+      "2.5 kg",
+      "3000 g",
+      "They are equal"
+    ],
+    "correctAnswer": "2.5 kg"
+  },
+  {
+    "problem": "What is the area of a triangle with base 6 cm and height 4 cm?",
+    "grade": "5",
+    "options": [
+      "12 sq cm",
+      "16 sq cm",
+      "24 sq cm"
+    ],
+    "correctAnswer": "12 sq cm"
+  },
+  {
+    "problem": "Solve: 87 + 45",
+    "grade": "5",
+    "options": [
+      "122",
+      "132",
+      "142"
+    ],
+    "correctAnswer": "132"
+  },
+  {
+    "problem": "What is the next number in the pattern: 5, 10, 15, 20, ...?",
+    "grade": "5",
+    "options": [
+      "25",
+      "30",
+      "35"
+    ],
+    "correctAnswer": "25"
+  },
+  {
+    "problem": "If a box contains 24 pencils and 1/3 of them are blue, how many blue pencils are there?",
+    "grade": "5",
+    "options": [
+      "6",
+      "8",
+      "10"
+    ],
+    "correctAnswer": "8"
+  },
+  {
+    "problem": "How many degrees are in a right angle?",
+    "grade": "5",
+    "options": [
+      "90",
+      "180",
+      "360"
+    ],
+    "correctAnswer": "90"
+  },
+  {
+    "problem": "If a book costs $15 and you have $30, how much change will you get back?",
+    "grade": "5",
+    "options": [
+      "$15",
+      "$10",
+      "$5"
+    ],
+    "correctAnswer": "$15"
+  },
+  {
+    "problem": "Which number is greater: 0.75 or 0.7?",
+    "grade": "5",
+    "options": [
+      "0.75",
+      "0.7",
+      "They are equal"
+    ],
+    "correctAnswer": "0.75"
+  },
+  {
+    "problem": "Find the perimeter of a rectangle with length 6 cm and width 4 cm.",
+    "grade": "5",
+    "options": [
+      "20",
+      "24",
+      "28"
+    ],
+    "correctAnswer": "20"
+  },
+  {
+    "problem": "Divide 63 by 9.",
+    "grade": "5",
+    "options": [
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "7"
+  },
+  {
+    "problem": "What time will it be in 3 hours if it is currently 4:30 PM?",
+    "grade": "5",
+    "options": [
+      "7:30 PM",
+      "8:30 PM",
+      "9:30 PM"
+    ],
+    "correctAnswer": "7:30 PM"
+  },
+  {
+    "problem": "What is the sum of 2/3 and 3/4?",
+    "grade": "5",
+    "options": [
+      "5/7",
+      "1",
+      "1 1/12"
+    ],
+    "correctAnswer": "1 1/12"
+  },
+  {
+    "problem": "If a triangle has angles of 30°, 60°, and 90°, which angle is the right angle?",
+    "grade": "5",
+    "options": [
+      "30°",
+      "60°",
+      "90°"
+    ],
+    "correctAnswer": "90°"
+  },
+  {
+    "problem": "Convert 2.5 hours into minutes.",
+    "grade": "5",
+    "options": [
+      "120",
+      "150",
+      "180"
+    ],
+    "correctAnswer": "150"
+  },
+  {
+    "problem": "Which is the smallest number: 0.25, 0.5, 0.75?",
+    "grade": "5",
+    "options": [
+      "0.25",
+      "0.5",
+      "0.75"
+    ],
+    "correctAnswer": "0.25"
+  },
+  {
+    "problem": "If a pattern is increasing by 5 each time, what is the next number in the pattern: 10, 15, 20, ...?",
+    "grade": "5",
+    "options": [
+      "25",
+      "30",
+      "35"
+    ],
+    "correctAnswer": "25"
+  },
+  {
+    "problem": "A rectangle has a length of 10 cm and a width of 7 cm. What is the area?",
+    "grade": "5",
+    "options": [
+      "60",
+      "70",
+      "80"
+    ],
+    "correctAnswer": "70"
+  },
+  {
+    "problem": "Add: 3/4 + 2/5.",
+    "grade": "5",
+    "options": [
+      "1 1/20",
+      "1 1/10",
+      "1 1/5"
+    ],
+    "correctAnswer": "1 1/20"
+  },
+  {
+    "problem": "What is the value of the digit 7 in the number 674?",
+    "grade": "5",
+    "options": [
+      "70",
+      "700",
+      "7000"
+    ],
+    "correctAnswer": "70"
+  },
+  {
+    "problem": "Subtract 387 from 500.",
+    "grade": "5",
+    "options": [
+      "113",
+      "123",
+      "133"
+    ],
+    "correctAnswer": "113"
+  },
+  {
+    "problem": "Multiply 8 by 9.",
+    "grade": "5",
+    "options": [
+      "72",
+      "80",
+      "88"
+    ],
+    "correctAnswer": "72"
+  },
+  {
+    "problem": "What is the product of 7 and 4?",
+    "grade": "5",
+    "options": [
+      "24",
+      "28",
+      "30"
+    ],
+    "correctAnswer": "28"
+  },
+  {
+    "problem": "What is 63 + 29?",
+    "grade": "5",
+    "options": [
+      "82",
+      "90",
+      "92"
+    ],
+    "correctAnswer": "92"
+  },
+  {
+    "problem": "Find the missing number in the sequence: 5, 10, 15, __.",
+    "grade": "5",
+    "options": [
+      "20",
+      "25",
+      "30"
+    ],
+    "correctAnswer": "20"
+  },
+  {
+    "problem": "If 3 apples cost $1, how much will 8 apples cost?",
+    "grade": "5",
+    "options": [
+      "$2",
+      "$2.50",
+      "$3"
+    ],
+    "correctAnswer": "$2.67"
+  },
+  {
+    "problem": "How many sides does a pentagon have?",
+    "grade": "5",
+    "options": [
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "5"
+  },
+  {
+    "problem": "If it is 3:30 PM now, what time will it be in 2 hours?",
+    "grade": "5",
+    "options": [
+      "5:30 PM",
+      "6:30 PM",
+      "7:30 PM"
+    ],
+    "correctAnswer": "5:30 PM"
+  },
+  {
+    "problem": "Which number is greater: 0.75 or 0.7?",
+    "grade": "5",
+    "options": [
+      "0.75",
+      "0.7",
+      "They are equal"
+    ],
+    "correctAnswer": "0.75"
+  },
+  {
+    "problem": "Simplify: 3/4 + 1/2.",
+    "grade": "5",
+    "options": [
+      "1/4",
+      "1",
+      "5/4"
+    ],
+    "correctAnswer": "5/4"
+  },
+  {
+    "problem": "How many millimeters are in 1 meter?",
+    "grade": "5",
+    "options": [
+      "100",
+      "1000",
+      "10"
+    ],
+    "correctAnswer": "1000"
+  },
+  {
+    "problem": "What is 7 x 9?",
+    "grade": "5",
+    "options": [
+      "56",
+      "63",
+      "72"
+    ],
+    "correctAnswer": "63"
+  },
+  {
+    "problem": "If a clock's minute hand is at 6 and hour hand is at 2, what time is it?",
+    "grade": "5",
+    "options": [
+      "2:30",
+      "3:00",
+      "3:30"
+    ],
+    "correctAnswer": "2:30"
+  },
+  {
+    "problem": "Subtract 178 from 500.",
+    "grade": "5",
+    "options": [
+      "322",
+      "328",
+      "332"
+    ],
+    "correctAnswer": "322"
+  },
+  {
+    "problem": "If a triangle has angles measuring 45°, 65°, and 70°, what is the measure of the missing angle?",
+    "grade": "5",
+    "options": [
+      "40°",
+      "50°",
+      "60°"
+    ],
+    "correctAnswer": "50°"
+  },
+  {
+    "problem": "If 1 pencil costs $1.25, how much will 5 pencils cost?",
+    "grade": "5",
+    "options": [
+      "$4",
+      "$5",
+      "$6.25"
+    ],
+    "correctAnswer": "$6.25"
+  },
+  {
+    "problem": "Round 347 to the nearest hundred.",
+    "grade": "5",
+    "options": [
+      "300",
+      "400",
+      "350"
+    ],
+    "correctAnswer": "300"
+  },
+  {
+    "problem": "What is the perimeter of a square with side length 6 cm?",
+    "grade": "5",
+    "options": [
+      "24 cm",
+      "30 cm",
+      "36 cm"
+    ],
+    "correctAnswer": "24 cm"
+  },
+  {
+    "problem": "Which number is greater: 0.6 or 0.65?",
+    "grade": "5",
+    "options": [
+      "0.6",
+      "0.65",
+      "They are equal"
+    ],
+    "correctAnswer": "0.65"
+  },
+  {
+    "problem": "Add: 2.5 + 1.75.",
+    "grade": "5",
+    "options": [
+      "3.25",
+      "4.25",
+      "4.5"
+    ],
+    "correctAnswer": "4.25"
+  },
+  {
+    "problem": "How many seconds are in 5 minutes?",
+    "grade": "5",
+    "options": [
+      "300",
+      "360",
+      "420"
+    ],
+    "correctAnswer": "300"
+  },
+  {
+    "problem": "What is 3/4 of 36?",
+    "grade": "5",
+    "options": [
+      "24",
+      "27",
+      "30"
+    ],
+    "correctAnswer": "27"
+  },
+  {
+    "problem": "If a rectangle has length 9 cm and width 4 cm, what is its area?",
+    "grade": "5",
+    "options": [
+      "32 cm²",
+      "36 cm²",
+      "40 cm²"
+    ],
+    "correctAnswer": "36 cm²"
+  },
+  {
+    "problem": "Simplify: 3 x (4 + 2) - 5",
+    "grade": "5",
+    "options": [
+      "13",
+      "15",
+      "17"
+    ],
+    "correctAnswer": "13"
+  },
+  {
+    "problem": "Complete the pattern: 5, 10, 15, __, 25",
+    "grade": "5",
+    "options": [
+      "20",
+      "22",
+      "18"
+    ],
+    "correctAnswer": "20"
+  },
+  {
+    "problem": "If John has 8 apples and he gives 3 to his friend, how many apples does he have left?",
+    "grade": "5",
+    "options": [
+      "5",
+      "2",
+      "6"
+    ],
+    "correctAnswer": "5"
+  },
+  {
+    "problem": "How many sides does a hexagon have?",
+    "grade": "5",
+    "options": [
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "6"
+  },
+  {
+    "problem": "If a book costs $15 and Jane buys 3 books, how much money does she spend?",
+    "grade": "5",
+    "options": [
+      "$35",
+      "$45",
+      "$25"
+    ],
+    "correctAnswer": "$45"
+  },
+  {
+    "problem": "Which number is greater: 0.7 or 0.75?",
+    "grade": "5",
+    "options": [
+      "0.7",
+      "0.75",
+      "They are equal"
+    ],
+    "correctAnswer": "0.75"
+  },
+  {
+    "problem": "Convert 2 hours into minutes.",
+    "grade": "5",
+    "options": [
+      "60",
+      "120",
+      "90"
+    ],
+    "correctAnswer": "120"
+  },
+  {
+    "problem": "What is 3/4 of 16?",
+    "grade": "5",
+    "options": [
+      "8",
+      "12",
+      "10"
+    ],
+    "correctAnswer": "12"
+  },
+  {
+    "problem": "Calculate the perimeter of a square with side length 5 cm.",
+    "grade": "5",
+    "options": [
+      "15 cm",
+      "20 cm",
+      "25 cm"
+    ],
+    "correctAnswer": "20 cm"
+  },
+  {
+    "problem": "Add: 0.25 + 0.75",
+    "grade": "5",
+    "options": [
+      "1",
+      "1.25",
+      "0.5"
+    ],
+    "correctAnswer": "1"
+  },
+  {
+    "problem": "Subtract 587 from 1000.",
+    "grade": "5",
+    "options": [
+      "413",
+      "423",
+      "433"
+    ],
+    "correctAnswer": "413"
+  },
+  {
+    "problem": "Multiply 8 by 9.",
+    "grade": "5",
+    "options": [
+      "64",
+      "70",
+      "72"
+    ],
+    "correctAnswer": "72"
+  },
+  {
+    "problem": "What is the next number in the sequence: 2, 4, 8, 16, __",
+    "grade": "5",
+    "options": [
+      "24",
+      "32",
+      "20"
+    ],
+    "correctAnswer": "32"
+  },
+  {
+    "problem": "A rectangle has a length of 10 cm and a width of 4 cm. What is its area?",
+    "grade": "5",
+    "options": [
+      "40 cm²",
+      "36 cm²",
+      "44 cm²"
+    ],
+    "correctAnswer": "40 cm²"
+  },
+  {
+    "problem": "If a toy costs $12 and Mark has $25, how much change will he get if he buys the toy?",
+    "grade": "5",
+    "options": [
+      "$11",
+      "$13",
+      "$14"
+    ],
+    "correctAnswer": "$13"
+  },
+  {
+    "problem": "Which is the smallest number: 0.08, 0.8, 0.9?",
+    "grade": "5",
+    "options": [
+      "0.08",
+      "0.8",
+      "0.9"
+    ],
+    "correctAnswer": "0.08"
+  },
+  {
+    "problem": "Convert 500 grams into kilograms.",
+    "grade": "5",
+    "options": [
+      "0.5 kg",
+      "5 kg",
+      "50 kg"
+    ],
+    "correctAnswer": "0.5 kg"
+  },
+  {
+    "problem": "What is 2/3 of 21?",
+    "grade": "5",
+    "options": [
+      "12",
+      "14",
+      "18"
+    ],
+    "correctAnswer": "14"
+  },
+  {
+    "problem": "Calculate the volume of a cube with side length 3 cm.",
+    "grade": "5",
+    "options": [
+      "9 cm³",
+      "12 cm³",
+      "6 cm³"
+    ],
+    "correctAnswer": "27 cm³"
+  },
+  {
+    "problem": "What is 56 + 28?",
+    "grade": "5",
+    "options": [
+      "74",
+      "82",
+      "64"
+    ],
+    "correctAnswer": "84"
+  },
+  {
+    "problem": "Find the missing number in the sequence: 7, 14, 21, __, 35.",
+    "grade": "5",
+    "options": [
+      "28",
+      "30",
+      "42"
+    ],
+    "correctAnswer": "28"
+  },
+  {
+    "problem": "If John has 3 apples and he eats 1, how many apples does he have left?",
+    "grade": "5",
+    "options": [
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": "2"
+  },
+  {
+    "problem": "How many degrees are in a right angle?",
+    "grade": "5",
+    "options": [
+      "90",
+      "180",
+      "360"
+    ],
+    "correctAnswer": "90"
+  },
+  {
+    "problem": "If a book costs $15 and Sarah buys 2 books, how much does she spend?",
+    "grade": "5",
+    "options": [
+      "$25",
+      "$30",
+      "$35"
+    ],
+    "correctAnswer": "$30"
+  },
+  {
+    "problem": "Which number is greater: 4.7 or 4.09?",
+    "grade": "5",
+    "options": [
+      "4.7",
+      "4.09",
+      "They are equal"
+    ],
+    "correctAnswer": "4.7"
+  },
+  {
+    "problem": "What is 3/4 of 16?",
+    "grade": "5",
+    "options": [
+      "9",
+      "12",
+      "15"
+    ],
+    "correctAnswer": "12"
+  },
+  {
+    "problem": "How many milliliters are in 0.5 liters?",
+    "grade": "5",
+    "options": [
+      "500",
+      "50",
+      "5"
+    ],
+    "correctAnswer": "500"
+  },
+  {
+    "problem": "Sara is 12 years old. In 7 years, how old will she be?",
+    "grade": "5",
+    "options": [
+      "16",
+      "19",
+      "20"
+    ],
+    "correctAnswer": "19"
+  },
+  {
+    "problem": "Calculate the perimeter of a square with side length 5 cm.",
+    "grade": "5",
+    "options": [
+      "15 cm",
+      "20 cm",
+      "25 cm"
+    ],
+    "correctAnswer": "20 cm"
+  },
+  {
+    "problem": "What is the next number in the sequence: 2, 5, 10, 17, __?",
+    "grade": "5",
+    "options": [
+      "24",
+      "27",
+      "32"
+    ],
+    "correctAnswer": "26"
+  },
+  {
+    "problem": "If a pencil costs $0.75, how much do 4 pencils cost?",
+    "grade": "5",
+    "options": [
+      "$2.75",
+      "$3.00",
+      "$3.25"
+    ],
+    "correctAnswer": "$3.00"
+  },
+  {
+    "problem": "Which shape has 4 sides of equal length and 4 right angles?",
+    "grade": "5",
+    "options": [
+      "Triangle",
+      "Square",
+      "Circle"
+    ],
+    "correctAnswer": "Square"
+  },
+  {
+    "problem": "If a clock shows 3:45 pm, how many minutes are left until 4:00 pm?",
+    "grade": "5",
+    "options": [
+      "10",
+      "15",
+      "20"
+    ],
+    "correctAnswer": "15"
+  },
+  {
+    "problem": "Which number is greater: 3/4 or 5/8?",
+    "grade": "5",
+    "options": [
+      "3/4",
+      "5/8",
+      "They are equal"
+    ],
+    "correctAnswer": "3/4"
+  },
+  {
+    "problem": "What is the value of the digit 7 in the number 347?",
+    "grade": "5",
+    "options": [
+      "70",
+      "700",
+      "7"
+    ],
+    "correctAnswer": "70"
+  },
+  {
+    "problem": "If a rectangle has a length of 12 cm and a width of 5 cm, what is its area?",
+    "grade": "5",
+    "options": [
+      "50 cm^2",
+      "60 cm^2",
+      "70 cm^2"
+    ],
+    "correctAnswer": "60 cm^2"
+  },
+  {
+    "problem": "Multiply 9 by 8.",
+    "grade": "5",
+    "options": [
+      "64",
+      "72",
+      "81"
+    ],
+    "correctAnswer": "72"
+  },
+  {
+    "problem": "What is the product of 0.6 and 5?",
+    "grade": "5",
+    "options": [
+      "3",
+      "3.6",
+      "30"
+    ],
+    "correctAnswer": "3"
+  },
+  {
+    "problem": "Convert 2 hours into minutes.",
+    "grade": "5",
+    "options": [
+      "60",
+      "120",
+      "180"
+    ],
+    "correctAnswer": "120"
+  },
+  {
+    "problem": "What is 3/4 + 2/4?",
+    "grade": "6",
+    "options": ["5/4", "6/4", "7/4"],
+    "correctAnswer": "5/4"
+  },
+  {
+    "problem": "What is the value of 2³?",
+    "grade": "6",
+    "options": ["8", "6", "10"],
+    "correctAnswer": "8"
+  },
+  {
+    "problem": "Solve for y: 5y = 45.",
+    "grade": "6",
+    "options": ["9", "10", "11"],
+    "correctAnswer": "9"
+  },
+  {
+    "problem": "Calculate the area of a triangle with base 6 cm and height 8 cm.",
+    "grade": "6",
+    "options": ["24", "20", "25"],
+    "correctAnswer": "24"
+  },
+  {
+    "problem": "Convert 25% to a decimal.",
+    "grade": "6",
+    "options": ["0.25", "0.5", "0.75"],
+    "correctAnswer": "0.25"
+  },
+  {
+    "problem": "What is the reciprocal of 3/5?",
+    "grade": "6",
+    "options": ["5/3", "3/5", "2/3"],
+    "correctAnswer": "5/3"
+  },
+  {
+    "problem": "Solve: 7² - 4.",
+    "grade": "6",
+    "options": ["43", "45", "47"],
+    "correctAnswer": "45"
+  },
+  {
+    "problem": "What number is 15% of 200?",
+    "grade": "6",
+    "options": ["30", "35", "40"],
+    "correctAnswer": "30"
+  },
+  {
+    "problem": "If x = 3, what is 4x + 2?",
+    "grade": "6",
+    "options": ["14", "16", "18"],
+    "correctAnswer": "14"
+  },
+  {
+    "problem": "Find the median of the numbers 5, 8, 12, 3, 7.",
+    "grade": "6",
+    "options": ["7", "8", "9"],
+    "correctAnswer": "7"
+  },
+  {
+    "problem": "What is 15 + 27?",
+    "grade": "6",
+    "options": [
+      "40",
+      "42",
+      "45"
+    ],
+    "correctAnswer": "42"
+  },
+  {
+    "problem": "Complete the pattern: 2, 4, 6, __, 10.",
+    "grade": "6",
+    "options": [
+      "8",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "8"
+  },
+  {
+    "problem": "A store sells apples for $0.50 each. How much will 8 apples cost?",
+    "grade": "6",
+    "options": [
+      "$3",
+      "$4",
+      "$5"
+    ],
+    "correctAnswer": "$4"
+  },
+  {
+    "problem": "How many sides does a hexagon have?",
+    "grade": "6",
+    "options": [
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "6"
+  },
+  {
+    "problem": "If a movie starts at 4:45 PM and lasts for 2 hours, what time will it end?",
+    "grade": "6",
+    "options": [
+      "6:45 PM",
+      "7:45 PM",
+      "8:45 PM"
+    ],
+    "correctAnswer": "6:45 PM"
+  },
+  {
+    "problem": "Which number is greater: 0.75 or 0.8?",
+    "grade": "6",
+    "options": [
+      "0.75",
+      "0.8",
+      "They are equal"
+    ],
+    "correctAnswer": "0.8"
+  },
+  {
+    "problem": "What is 1/3 of 24?",
+    "grade": "6",
+    "options": [
+      "6",
+      "8",
+      "10"
+    ],
+    "correctAnswer": "8"
+  },
+  {
+    "problem": "If a rectangle has a length of 10 cm and a width of 4 cm, what is its perimeter?",
+    "grade": "6",
+    "options": [
+      "28 cm",
+      "32 cm",
+      "36 cm"
+    ],
+    "correctAnswer": "28 cm"
+  },
+  {
+    "problem": "Simplify: 8 ÷ 2 + 5 x 3.",
+    "grade": "6",
+    "options": [
+      "15",
+      "18",
+      "24"
+    ],
+    "correctAnswer": "18"
+  },
+  {
+    "problem": "How many millimeters are in 1 meter?",
+    "grade": "6",
+    "options": [
+      "100 mm",
+      "1000 mm",
+      "10 mm"
+    ],
+    "correctAnswer": "1000 mm"
+  },
+  {
+    "problem": "What is the next number in the sequence: 3, 6, 12, 24, __?",
+    "grade": "6",
+    "options": [
+      "36",
+      "48",
+      "60"
+    ],
+    "correctAnswer": "48"
+  },
+  {
+    "problem": "A bakery sells 1 dozen cookies for $5. How much will 3 dozen cookies cost?",
+    "grade": "6",
+    "options": [
+      "$10",
+      "$12",
+      "$15"
+    ],
+    "correctAnswer": "$15"
+  },
+  {
+    "problem": "What is the sum of the interior angles of a triangle?",
+    "grade": "6",
+    "options": [
+      "180 degrees",
+      "270 degrees",
+      "360 degrees"
+    ],
+    "correctAnswer": "180 degrees"
+  },
+  {
+    "problem": "If a book costs $8 and you have $20, how much change will you get?",
+    "grade": "6",
+    "options": [
+      "$10",
+      "$12",
+      "$14"
+    ],
+    "correctAnswer": "$12"
+  },
+  {
+    "problem": "Which is greater: 0.6 or 0.65?",
+    "grade": "6",
+    "options": [
+      "0.6",
+      "0.65",
+      "They are equal"
+    ],
+    "correctAnswer": "0.65"
+  },
+  {
+    "problem": "What is 1/5 of 100?",
+    "grade": "6",
+    "options": [
+      "15",
+      "20",
+      "25"
+    ],
+    "correctAnswer": "20"
+  },
+  {
+    "problem": "Calculate the perimeter of a square with side length 7 cm.",
+    "grade": "6",
+    "options": [
+      "24 cm",
+      "28 cm",
+      "32 cm"
+    ],
+    "correctAnswer": "28 cm"
+  },
+  {
+    "problem": "Solve: 4 x (6 + 3) - 5.",
+    "grade": "6",
+    "options": [
+      "27",
+      "31",
+      "36"
+    ],
+    "correctAnswer": "31"
+  },
+  {
+    "problem": "If 1 hour has 60 minutes, how many minutes are in 3 hours?",
+    "grade": "6",
+    "options": [
+      "120 minutes",
+      "150 minutes",
+      "180 minutes"
+    ],
+    "correctAnswer": "180 minutes"
+  },
+  {
+    "problem": "What is the value of 5² + 3³?",
+    "grade": "6",
+    "options": [
+      "62",
+      "64",
+      "66"
+    ],
+    "correctAnswer": "62"
+  },
+  {
+    "problem": "Calculate 15 x 8.",
+    "grade": "6",
+    "options": [
+      "105",
+      "120",
+      "135"
+    ],
+    "correctAnswer": "120"
+  },
+  {
+    "problem": "What is the next number in the sequence: 3, 6, 9, 12, ___?",
+    "grade": "6",
+    "options": [
+      "14",
+      "15",
+      "18"
+    ],
+    "correctAnswer": "15"
+  },
+  {
+    "problem": "If a book costs $12 and you buy 3 books, how much will you spend?",
+    "grade": "6",
+    "options": [
+      "$32",
+      "$36",
+      "$40"
+    ],
+    "correctAnswer": "$36"
+  },
+  {
+    "problem": "How many sides does a hexagon have?",
+    "grade": "6",
+    "options": [
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "6"
+  },
+  {
+    "problem": "If it is 2:30 PM now, what time will it be in 4 hours?",
+    "grade": "6",
+    "options": [
+      "4:30 PM",
+      "6:30 PM",
+      "8:30 PM"
+    ],
+    "correctAnswer": "6:30 PM"
+  },
+  {
+    "problem": "Which number is greater: 0.75 or 0.7?",
+    "grade": "6",
+    "options": [
+      "0.75",
+      "0.7",
+      "They are equal"
+    ],
+    "correctAnswer": "0.75"
+  },
+  {
+    "problem": "Simplify 3/9.",
+    "grade": "6",
+    "options": [
+      "1/3",
+      "2/3",
+      "3/4"
+    ],
+    "correctAnswer": "1/3"
+  },
+  {
+    "problem": "How many millimeters are in 2.5 centimeters?",
+    "grade": "6",
+    "options": [
+      "25",
+      "250",
+      "2500"
+    ],
+    "correctAnswer": "25"
+  },
+  {
+    "problem": "What is the perimeter of a rectangle with length 7 cm and width 5 cm?",
+    "grade": "6",
+    "options": [
+      "24 cm",
+      "26 cm",
+      "28 cm"
+    ],
+    "correctAnswer": "24 cm"
+  },
+  {
+    "problem": "If a store is offering a 20% discount on a $50 item, how much will you pay?",
+    "grade": "6",
+    "options": [
+      "$35",
+      "$40",
+      "$45"
+    ],
+    "correctAnswer": "$40"
+  },
+  {
+    "problem": "Find the missing number in the pattern: 4, 8, 12, __, 20.",
+    "grade": "6",
+    "options": [
+      "14",
+      "16",
+      "18"
+    ],
+    "correctAnswer": "16"
+  },
+  {
+    "problem": "A box contains 24 chocolates. If 1/3 of the chocolates are eaten, how many chocolates are left?",
+    "grade": "6",
+    "options": [
+      "12",
+      "16",
+      "18"
+    ],
+    "correctAnswer": "16"
+  },
+  {
+    "problem": "What is the sum of the interior angles in a triangle?",
+    "grade": "6",
+    "options": [
+      "90 degrees",
+      "180 degrees",
+      "270 degrees"
+    ],
+    "correctAnswer": "180 degrees"
+  },
+  {
+    "problem": "If a car travels at a speed of 60 km/h, how far will it travel in 3 hours?",
+    "grade": "6",
+    "options": [
+      "160 km",
+      "180 km",
+      "200 km"
+    ],
+    "correctAnswer": "180 km"
+  },
+  {
+    "problem": "Which is the smallest fraction: 3/7, 2/5, 4/9?",
+    "grade": "6",
+    "options": [
+      "3/7",
+      "2/5",
+      "4/9"
+    ],
+    "correctAnswer": "2/5"
+  },
+  {
+    "problem": "Convert 1.5 hours to minutes.",
+    "grade": "6",
+    "options": [
+      "60 minutes",
+      "75 minutes",
+      "90 minutes"
+    ],
+    "correctAnswer": "90 minutes"
+  },
+  {
+    "problem": "Round 567 to the nearest hundred.",
+    "grade": "6",
+    "options": [
+      "500",
+      "600",
+      "700"
+    ],
+    "correctAnswer": "600"
+  },
+  {
+    "problem": "Calculate the area of a circle with radius 4 cm (use π=3.14).",
+    "grade": "6",
+    "options": [
+      "25.12 cm²",
+      "30.56 cm²",
+      "37.68 cm²"
+    ],
+    "correctAnswer": "50.24 cm²"
+  },
+  {
+    "problem": "Solve for x: 5(x - 3) = 20.",
+    "grade": "6",
+    "options": [
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "7"
+  },
+  {
+    "problem": "If a recipe calls for 2/3 cup of sugar and you want to make 3 batches, how much sugar do you need?",
+    "grade": "6",
+    "options": [
+      "1 cup",
+      "1 1/3 cups",
+      "2 cups"
+    ],
+    "correctAnswer": "2 cups"
+  },
+  {
+    "problem": "What is 15 x 4?",
+    "grade": "6",
+    "options": [
+      "50",
+      "60",
+      "70"
+    ],
+    "correctAnswer": "60"
+  },
+  {
+    "problem": "Complete the pattern: 2, 4, 6, __, 10.",
+    "grade": "6",
+    "options": [
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "8"
+  },
+  {
+    "problem": "If there are 24 students in a class and 3 students are absent, how many students are present?",
+    "grade": "6",
+    "options": [
+      "18",
+      "21",
+      "24"
+    ],
+    "correctAnswer": "21"
+  },
+  {
+    "problem": "Calculate the perimeter of a square with side length 5 cm.",
+    "grade": "6",
+    "options": [
+      "15",
+      "20",
+      "25"
+    ],
+    "correctAnswer": "20"
+  },
+  {
+    "problem": "If a book costs $15 and you buy 3 books, how much money do you need?",
+    "grade": "6",
+    "options": [
+      "$30",
+      "$40",
+      "$45"
+    ],
+    "correctAnswer": "$45"
+  },
+  {
+    "problem": "Which number is greater: 0.7 or 0.65?",
+    "grade": "6",
+    "options": [
+      "0.7",
+      "0.65",
+      "They are equal"
+    ],
+    "correctAnswer": "0.7"
+  },
+  {
+    "problem": "What is 3/8 of 48?",
+    "grade": "6",
+    "options": [
+      "12",
+      "16",
+      "18"
+    ],
+    "correctAnswer": "18"
+  },
+  {
+    "problem": "Convert 1.25 to a fraction.",
+    "grade": "6",
+    "options": [
+      "1 1/4",
+      "1 1/2",
+      "1 3/4"
+    ],
+    "correctAnswer": "1 1/4"
+  },
+  {
+    "problem": "If a car travels at a speed of 60 km/h, how far will it travel in 3 hours?",
+    "grade": "6",
+    "options": [
+      "150 km",
+      "180 km",
+      "200 km"
+    ],
+    "correctAnswer": "180 km"
+  },
+  {
+    "problem": "How many minutes are in 2 hours and 45 minutes?",
+    "grade": "6",
+    "options": [
+      "155 minutes",
+      "165 minutes",
+      "175 minutes"
+    ],
+    "correctAnswer": "165 minutes"
+  },
+  {
+    "problem": "Find the missing number: 35, __, 45, 55, 65.",
+    "grade": "6",
+    "options": [
+      "40",
+      "42",
+      "44"
+    ],
+    "correctAnswer": "40"
+  },
+  {
+    "problem": "What is the sum of the interior angles of a triangle?",
+    "grade": "6",
+    "options": [
+      "180 degrees",
+      "270 degrees",
+      "360 degrees"
+    ],
+    "correctAnswer": "180 degrees"
+  },
+  {
+    "problem": "If a toy costs $3.50 and you have $10, how much change will you get?",
+    "grade": "6",
+    "options": [
+      "$5.50",
+      "$6.50",
+      "$7.50"
+    ],
+    "correctAnswer": "$6.50"
+  },
+  {
+    "problem": "Which number is greater: 0.6 or 0.65?",
+    "grade": "6",
+    "options": [
+      "0.6",
+      "0.65",
+      "They are equal"
+    ],
+    "correctAnswer": "0.65"
+  },
+  {
+    "problem": "Solve for x: 4x - 7 = 25.",
+    "grade": "6",
+    "options": [
+      "6",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "8"
+  },
+  {
+    "problem": "Calculate the volume of a cube with side length 3 cm.",
+    "grade": "6",
+    "options": [
+      "18 cm³",
+      "24 cm³",
+      "27 cm³"
+    ],
+    "correctAnswer": "27 cm³"
+  },
+  {
+    "problem": "If a recipe calls for 2/3 cup of sugar and you want to make half the recipe, how much sugar do you need?",
+    "grade": "6",
+    "options": [
+      "1/3 cup",
+      "1/2 cup",
+      "2/3 cup"
+    ],
+    "correctAnswer": "1/3 cup"
+  },
+  {
+    "problem": "What is the perimeter of a rectangle with length 10 cm and width 5 cm?",
+    "grade": "6",
+    "options": [
+      "25 cm",
+      "30 cm",
+      "35 cm"
+    ],
+    "correctAnswer": "30 cm"
+  },
+  {
+    "problem": "If a clock shows 3:45 pm, how many minutes are left until 4:30 pm?",
+    "grade": "6",
+    "options": [
+      "30 minutes",
+      "45 minutes",
+      "60 minutes"
+    ],
+    "correctAnswer": "45 minutes"
+  },
+  {
+    "problem": "Which number is the largest: 0.9, 0.75, 0.8, 0.85?",
+    "grade": "6",
+    "options": [
+      "0.9",
+      "0.75",
+      "0.8"
+    ],
+    "correctAnswer": "0.9"
+  },
+  {
+    "problem": "What is 15 + 7?",
+    "grade": "6",
+    "options": [
+      "20",
+      "22",
+      "25"
+    ],
+    "correctAnswer": "22"
+  },
+  {
+    "problem": "Complete the pattern: 5, 10, 15, __, 25.",
+    "grade": "6",
+    "options": [
+      "18",
+      "20",
+      "22"
+    ],
+    "correctAnswer": "20"
+  },
+  {
+    "problem": "If a book costs $12 and Sarah buys 3 books, how much does she spend?",
+    "grade": "6",
+    "options": [
+      "$24",
+      "$36",
+      "$48"
+    ],
+    "correctAnswer": "$36"
+  },
+  {
+    "problem": "How many sides does a hexagon have?",
+    "grade": "6",
+    "options": [
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "6"
+  },
+  {
+    "problem": "If it is 3:45 PM now, what time will it be in 2 hours?",
+    "grade": "6",
+    "options": [
+      "5:45 PM",
+      "6:45 PM",
+      "7:45 PM"
+    ],
+    "correctAnswer": "5:45 PM"
+  },
+  {
+    "problem": "Which is greater: 0.8 or 0.75?",
+    "grade": "6",
+    "options": [
+      "0.8",
+      "0.75",
+      "They are equal"
+    ],
+    "correctAnswer": "0.8"
+  },
+  {
+    "problem": "What is the perimeter of a rectangle with length 12 cm and width 8 cm?",
+    "grade": "6",
+    "options": [
+      "36 cm",
+      "40 cm",
+      "48 cm"
+    ],
+    "correctAnswer": "40 cm"
+  },
+  {
+    "problem": "If 1/4 of a pizza is left and that is 2 slices, how many slices were there in total?",
+    "grade": "6",
+    "options": [
+      "6",
+      "8",
+      "10"
+    ],
+    "correctAnswer": "8"
+  },
+  {
+    "problem": "Solve for x: 4x - 5 = 11.",
+    "grade": "6",
+    "options": [
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "4"
+  },
+  {
+    "problem": "Calculate the area of a circle with radius 5 cm. (Use π = 3.14)",
+    "grade": "6",
+    "options": [
+      "31.4 cm²",
+      "39.25 cm²",
+      "50 cm²"
+    ],
+    "correctAnswer": "78.5 cm²"
+  },
+  {
+    "problem": "If a toy costs $25 and Mark has saved $15, how much more does he need to buy the toy?",
+    "grade": "6",
+    "options": [
+      "$5",
+      "$10",
+      "$15"
+    ],
+    "correctAnswer": "$10"
+  },
+  {
+    "problem": "What is the value of 6² - 3³?",
+    "grade": "6",
+    "options": [
+      "-15",
+      "3",
+      "9"
+    ],
+    "correctAnswer": "-15"
+  },
+  {
+    "problem": "If a triangle has angles of 60°, 60°, and 60°, what type of triangle is it?",
+    "grade": "6",
+    "options": [
+      "Equilateral",
+      "Isosceles",
+      "Scalene"
+    ],
+    "correctAnswer": "Equilateral"
+  },
+  {
+    "problem": "If Lisa reads 30 pages of a book every day, how many pages will she read in a week?",
+    "grade": "6",
+    "options": [
+      "180",
+      "210",
+      "240"
+    ],
+    "correctAnswer": "210"
+  },
+  {
+    "problem": "Which is the smallest number: 0.6, 0.56, 0.65?",
+    "grade": "6",
+    "options": [
+      "0.6",
+      "0.56",
+      "0.65"
+    ],
+    "correctAnswer": "0.56"
+  },
+  {
+    "problem": "If the scale on a map is 1:5000 and the actual distance is 25 km, what is the distance on the map?",
+    "grade": "6",
+    "options": [
+      "0.5 cm",
+      "5 cm",
+      "50 cm"
+    ],
+    "correctAnswer": "5 cm"
+  },
+  {
+    "problem": "What is the product of 3/4 and 5/8?",
+    "grade": "6",
+    "options": [
+      "15/32",
+      "3/8",
+      "5/4"
+    ],
+    "correctAnswer": "15/32"
+  },
+  {
+    "problem": "A rectangle has a length of 10 cm and a width of 4 cm. What is its area?",
+    "grade": "6",
+    "options": [
+      "28 cm²",
+      "36 cm²",
+      "40 cm²"
+    ],
+    "correctAnswer": "40 cm²"
+  },
+  {
+    "problem": "If a clock loses 5 minutes every hour, how much time will it lose in 12 hours?",
+    "grade": "6",
+    "options": [
+      "50 minutes",
+      "60 minutes",
+      "70 minutes"
+    ],
+    "correctAnswer": "60 minutes"
+  },
+  {
+    "problem": "What is 2.5 multiplied by 3?",
+    "grade": "6",
+    "options": [
+      "6",
+      "7.5",
+      "8"
+    ],
+    "correctAnswer": "7.5"
+  },
+  {
+    "problem": "What is 25 + 14?",
+    "grade": "6",
+    "options": [
+      "38",
+      "39",
+      "40"
+    ],
+    "correctAnswer": "39"
+  },
+  {
+    "problem": "What is the next number in the sequence: 2, 5, 8, 11, ___?",
+    "grade": "6",
+    "options": [
+      "12",
+      "13",
+      "14"
+    ],
+    "correctAnswer": "14"
+  },
+  {
+    "problem": "If a box contains 24 apples and 6 are taken out, how many apples are left?",
+    "grade": "6",
+    "options": [
+      "18",
+      "19",
+      "20"
+    ],
+    "correctAnswer": "18"
+  },
+  {
+    "problem": "How many degrees are there in a right angle?",
+    "grade": "6",
+    "options": [
+      "90",
+      "100",
+      "110"
+    ],
+    "correctAnswer": "90"
+  },
+  {
+    "problem": "If a movie starts at 3:45 PM and lasts for 2 hours and 15 minutes, what time does it end?",
+    "grade": "6",
+    "options": [
+      "6:00 PM",
+      "6:15 PM",
+      "6:30 PM"
+    ],
+    "correctAnswer": "6:00 PM"
+  },
+  {
+    "problem": "Which number is greater: 0.75 or 0.8?",
+    "grade": "6",
+    "options": [
+      "0.75",
+      "0.8",
+      "They are equal"
+    ],
+    "correctAnswer": "0.8"
+  },
+  {
+    "problem": "What is 1/3 of 24?",
+    "grade": "6",
+    "options": [
+      "6",
+      "8",
+      "10"
+    ],
+    "correctAnswer": "8"
+  },
+  {
+    "problem": "If a rectangle has a length of 12 cm and a width of 5 cm, what is its perimeter?",
+    "grade": "6",
+    "options": [
+      "34 cm",
+      "36 cm",
+      "38 cm"
+    ],
+    "correctAnswer": "34 cm"
+  },
+  {
+    "problem": "How many millimeters are there in 2.5 meters?",
+    "grade": "6",
+    "options": [
+      "2500 mm",
+      "250 mm",
+      "25 mm"
+    ],
+    "correctAnswer": "2500 mm"
+  },
+  {
+    "problem": "What is the difference between 457 and 283?",
+    "grade": "6",
+    "options": [
+      "164",
+      "174",
+      "184"
+    ],
+    "correctAnswer": "174"
+  },
+  {
+    "problem": "Complete the pattern: 3, 6, 9, __, 15.",
+    "grade": "6",
+    "options": [
+      "11",
+      "12",
+      "13"
+    ],
+    "correctAnswer": "12"
+  },
+  {
+    "problem": "A baker sells 24 cupcakes in a day. If each cupcake costs $2, how much money did the baker make?",
+    "grade": "6",
+    "options": [
+      "$48",
+      "$52",
+      "$56"
+    ],
+    "correctAnswer": "$48"
+  },
+  {
+    "problem": "Calculate the area of a square with side length 7 cm.",
+    "grade": "6",
+    "options": [
+      "42 sq cm",
+      "49 sq cm",
+      "56 sq cm"
+    ],
+    "correctAnswer": "49 sq cm"
+  },
+  {
+    "problem": "If a clock shows 3:30 PM, how many minutes are left until 4:00 PM?",
+    "grade": "6",
+    "options": [
+      "25 minutes",
+      "30 minutes",
+      "35 minutes"
+    ],
+    "correctAnswer": "30 minutes"
+  },
+  {
+    "problem": "Which number is greater: 0.6 or 0.65?",
+    "grade": "6",
+    "options": [
+      "0.6",
+      "0.65",
+      "They are equal"
+    ],
+    "correctAnswer": "0.65"
+  },
+  {
+    "problem": "Simplify the fraction: 8/12.",
+    "grade": "6",
+    "options": [
+      "2/3",
+      "3/4",
+      "4/5"
+    ],
+    "correctAnswer": "2/3"
+  },
+  {
+    "problem": "If a triangle has sides of length 5 cm, 6 cm, and 7 cm, what type of triangle is it?",
+    "grade": "6",
+    "options": [
+      "Equilateral",
+      "Isosceles",
+      "Scalene"
+    ],
+    "correctAnswer": "Scalene"
+  },
+  {
+    "problem": "Convert 2.5 hours to minutes.",
+    "grade": "6",
+    "options": [
+      "120 minutes",
+      "125 minutes",
+      "130 minutes"
+    ],
+    "correctAnswer": "150 minutes"
+  },
+  {
+    "problem": "Which of the following numbers is a multiple of 9: 27, 34, 45?",
+    "grade": "6",
+    "options": [
+      "27",
+      "34",
+      "45"
+    ],
+    "correctAnswer": "27"
+  },
+  {
+    "problem": "What is 4 x 5 ÷ 2?",
+    "grade": "6",
+    "options": [
+      "8",
+      "10",
+      "12"
+    ],
+    "correctAnswer": "10"
+  },
+  {
+    "problem": "Solve: 3(x + 4) = 21.",
+    "grade": "7",
+    "options": ["3", "4", "5"],
+    "correctAnswer": "3"
+  },
+  {
+    "problem": "What is the value of 2^4 + 3^2?",
+    "grade": "7",
+    "options": ["25", "26", "27"],
+    "correctAnswer": "25"
+  },
+  {
+    "problem": "Solve for y: 7y + 3 = 59.",
+    "grade": "7",
+    "options": ["8", "9", "10"],
+    "correctAnswer": "8"
+  },
+  {
+    "problem": "Calculate the area of a triangle with base 7 cm and height 10 cm.",
+    "grade": "7",
+    "options": ["35", "30", "25"],
+    "correctAnswer": "35"
+  },
+  {
+    "problem": "What is the slope of the line y = 2x + 3?",
+    "grade": "7",
+    "options": ["2", "3", "4"],
+    "correctAnswer": "2"
+  },
+  {
+    "problem": "What is the reciprocal of 6/11?",
+    "grade": "7",
+    "options": ["11/6", "6/11", "11/12"],
+    "correctAnswer": "11/6"
+  },
+  {
+    "problem": "Solve: 2x + 3 = 11.",
+    "grade": "7",
+    "options": ["4", "5", "6"],
+    "correctAnswer": "4"
+  },
+  {
+    "problem": "What number is 35% of 300?",
+    "grade": "7",
+    "options": ["105", "100", "110"],
+    "correctAnswer": "105"
+  },
+  {
+    "problem": "What is the slope of the line y = 3x - 2?",
+    "grade": "7",
+    "options": ["3", "2", "1/3"],
+    "correctAnswer": "3"
+  },
+  {
+    "problem": "Find the median of the numbers 11, 8, 12, 3, 13.",
+    "grade": "7",
+    "options": ["10", "9", "11"],
+    "correctAnswer": "11"
+  },
+  {
+    "problem": "What is 4 + 7 - 3 * 2?",
+    "grade": "7",
+    "options": [
+      "8",
+      "10",
+      "11"
+    ],
+    "correctAnswer": "8"
+  },
+  {
+    "problem": "What is the next number in the sequence: 2, 5, 10, 17, ?",
+    "grade": "7",
+    "options": [
+      "20",
+      "25",
+      "30"
+    ],
+    "correctAnswer": "26"
+  },
+  {
+    "problem": "If a book costs $12 and a pen costs $2, how much do they cost together?",
+    "grade": "7",
+    "options": [
+      "$14",
+      "$15",
+      "$16"
+    ],
+    "correctAnswer": "$14"
+  },
+  {
+    "problem": "How many sides does a hexagon have?",
+    "grade": "7",
+    "options": [
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "6"
+  },
+  {
+    "problem": "If a movie starts at 5:30 PM and lasts for 2 hours, what time does it end?",
+    "grade": "7",
+    "options": [
+      "7:30 PM",
+      "8:00 PM",
+      "8:30 PM"
+    ],
+    "correctAnswer": "7:30 PM"
+  },
+  {
+    "problem": "Which number is greater: 0.75 or 0.7?",
+    "grade": "7",
+    "options": [
+      "0.75",
+      "0.7",
+      "They are equal"
+    ],
+    "correctAnswer": "0.75"
+  },
+  {
+    "problem": "Simplify: 3/4 + 1/2.",
+    "grade": "7",
+    "options": [
+      "1/8",
+      "5/4",
+      "7/8"
+    ],
+    "correctAnswer": "5/4"
+  },
+  {
+    "problem": "If a rectangle has a length of 8 cm and a width of 5 cm, what is its area?",
+    "grade": "7",
+    "options": [
+      "40 sq cm",
+      "35 sq cm",
+      "30 sq cm"
+    ],
+    "correctAnswer": "40 sq cm"
+  },
+  {
+    "problem": "What is the value of 3^2 + 4^2?",
+    "grade": "7",
+    "options": [
+      "15",
+      "17",
+      "25"
+    ],
+    "correctAnswer": "25"
+  },
+  {
+    "problem": "If a car travels at a speed of 60 km/h, how far can it travel in 3 hours?",
+    "grade": "7",
+    "options": [
+      "120 km",
+      "150 km",
+      "180 km"
+    ],
+    "correctAnswer": "180 km"
+  },
+  {
+    "problem": "Solve for x: 5x + 7 = 32.",
+    "grade": "7",
+    "options": [
+      "5",
+      "5.5",
+      "6"
+    ],
+    "correctAnswer": "5"
+  },
+  {
+    "problem": "What is the median of the numbers 9, 12, 6, 15, 3?",
+    "grade": "7",
+    "options": [
+      "9",
+      "10",
+      "12"
+    ],
+    "correctAnswer": "9"
+  },
+  {
+    "problem": "If a recipe calls for 3/4 cup of sugar and you want to make half of the recipe, how much sugar do you need?",
+    "grade": "7",
+    "options": [
+      "3/8 cup",
+      "1/2 cup",
+      "1/4 cup"
+    ],
+    "correctAnswer": "3/8 cup"
+  },
+  {
+    "problem": "What is the sum of the interior angles of a triangle?",
+    "grade": "7",
+    "options": [
+      "180 degrees",
+      "270 degrees",
+      "360 degrees"
+    ],
+    "correctAnswer": "180 degrees"
+  },
+  {
+    "problem": "If a box measures 10 cm by 8 cm by 5 cm, what is its volume?",
+    "grade": "7",
+    "options": [
+      "360 cu cm",
+      "400 cu cm",
+      "450 cu cm"
+    ],
+    "correctAnswer": "400 cu cm"
+  },
+  {
+    "problem": "A bookstore sells a book for $15. If the bookstore makes a profit of $5, what was the cost of the book?",
+    "grade": "7",
+    "options": [
+      "$5",
+      "$10",
+      "$15"
+    ],
+    "correctAnswer": "$10"
+  },
+  {
+    "problem": "Which number is equivalent to 0.6?",
+    "grade": "7",
+    "options": [
+      "6/10",
+      "3/5",
+      "12/20"
+    ],
+    "correctAnswer": "3/5"
+  },
+  {
+    "problem": "If a clock shows 2:45 PM, how many minutes are there until 4:00 PM?",
+    "grade": "7",
+    "options": [
+      "15 minutes",
+      "30 minutes",
+      "75 minutes"
+    ],
+    "correctAnswer": "15 minutes"
+  },
+  {
+    "problem": "Solve for y: 4y - 8 = 20.",
+    "grade": "7",
+    "options": [
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "7"
+  },
+  {
+    "problem": "What is the area of a circle with radius 5 cm (use π = 3.14)?",
+    "grade": "7",
+    "options": [
+      "78.5 sq cm",
+      "75 sq cm",
+      "70 sq cm"
+    ],
+    "correctAnswer": "78.5 sq cm"
+  },
+  {
+    "problem": "What is the sum of 45, 23, and 17?",
+    "grade": "7",
+    "options": [
+      "75",
+      "85",
+      "65"
+    ],
+    "correctAnswer": "85"
+  },
+  {
+    "problem": "What is the next number in the sequence: 2, 4, 8, 16, ___?",
+    "grade": "7",
+    "options": [
+      "20",
+      "24",
+      "32"
+    ],
+    "correctAnswer": "32"
+  },
+  {
+    "problem": "If a car travels at a speed of 60 km/h, how far will it travel in 3 hours?",
+    "grade": "7",
+    "options": [
+      "120 km",
+      "180 km",
+      "240 km"
+    ],
+    "correctAnswer": "180 km"
+  },
+  {
+    "problem": "Calculate the area of a square with side length 5 cm.",
+    "grade": "7",
+    "options": [
+      "20 sq cm",
+      "25 sq cm",
+      "30 sq cm"
+    ],
+    "correctAnswer": "25 sq cm"
+  },
+  {
+    "problem": "If a book costs $15 and you have $50, how much change will you get?",
+    "grade": "7",
+    "options": [
+      "$25",
+      "$35",
+      "$45"
+    ],
+    "correctAnswer": "$35"
+  },
+  {
+    "problem": "Which number is greater: 0.6 or 0.65?",
+    "grade": "7",
+    "options": [
+      "0.6",
+      "0.65",
+      "They are equal"
+    ],
+    "correctAnswer": "0.65"
+  },
+  {
+    "problem": "Simplify the fraction: 4/8.",
+    "grade": "7",
+    "options": [
+      "1/2",
+      "2/4",
+      "3/6"
+    ],
+    "correctAnswer": "1/2"
+  },
+  {
+    "problem": "How many millimeters are in 1 meter?",
+    "grade": "7",
+    "options": [
+      "100 mm",
+      "1000 mm",
+      "10 mm"
+    ],
+    "correctAnswer": "1000 mm"
+  },
+  {
+    "problem": "If a clock shows 3:45 pm, how many minutes are left until 4:00 pm?",
+    "grade": "7",
+    "options": [
+      "10 minutes",
+      "15 minutes",
+      "20 minutes"
+    ],
+    "correctAnswer": "15 minutes"
+  },
+  {
+    "problem": "What is the perimeter of a rectangle with length 8 cm and width 5 cm?",
+    "grade": "7",
+    "options": [
+      "30 cm",
+      "36 cm",
+      "40 cm"
+    ],
+    "correctAnswer": "26 cm"
+  },
+  {
+    "problem": "Find the missing number in the sequence: 3, 6, 12, 24, ___.",
+    "grade": "7",
+    "options": [
+      "36",
+      "42",
+      "48"
+    ],
+    "correctAnswer": "48"
+  },
+  {
+    "problem": "If a pizza is cut into 8 equal slices and you eat 3 slices, what fraction of the pizza have you eaten?",
+    "grade": "7",
+    "options": [
+      "3/8",
+      "3/5",
+      "3/7"
+    ],
+    "correctAnswer": "3/8"
+  },
+  {
+    "problem": "A rectangle has a length of 12 cm and a width of 6 cm. What is its area?",
+    "grade": "7",
+    "options": [
+      "72 sq cm",
+      "78 sq cm",
+      "84 sq cm"
+    ],
+    "correctAnswer": "72 sq cm"
+  },
+  {
+    "problem": "If a student scores 85% on a test with 50 questions, how many questions did they answer correctly?",
+    "grade": "7",
+    "options": [
+      "40",
+      "42",
+      "45"
+    ],
+    "correctAnswer": "42"
+  },
+  {
+    "problem": "What is the value of 1.5 x 3.6?",
+    "grade": "7",
+    "options": [
+      "4.5",
+      "5.4",
+      "6.3"
+    ],
+    "correctAnswer": "5.4"
+  },
+  {
+    "problem": "If a triangle has angles measuring 45°, 65°, and 70°, what is the measure of the fourth angle?",
+    "grade": "7",
+    "options": [
+      "40°",
+      "50°",
+      "60°"
+    ],
+    "correctAnswer": "60°"
+  },
+  {
+    "problem": "A clock shows 8:20 am. What time will it be in 2 hours and 45 minutes?",
+    "grade": "7",
+    "options": [
+      "10:05 am",
+      "11:05 am",
+      "12:05 pm"
+    ],
+    "correctAnswer": "11:05 am"
+  },
+  {
+    "problem": "If a box contains 24 chocolates and you take out 1/4 of them, how many chocolates are left in the box?",
+    "grade": "7",
+    "options": [
+      "16",
+      "18",
+      "20"
+    ],
+    "correctAnswer": "18"
+  },
+  {
+    "problem": "What is the volume of a cube with side length 4 cm?",
+    "grade": "7",
+    "options": [
+      "32 cu cm",
+      "48 cu cm",
+      "64 cu cm"
+    ],
+    "correctAnswer": "64 cu cm"
+  },
+  {
+    "problem": "Simplify the expression: 5 + 3 x (4 - 2).",
+    "grade": "7",
+    "options": [
+      "11",
+      "13",
+      "15"
+    ],
+    "correctAnswer": "11"
+  },
+  {
+    "problem": "Simplify: 5(2 + 3) - 4(1 + 2).",
+    "grade": "7",
+    "options": [
+      "10",
+      "15",
+      "20"
+    ],
+    "correctAnswer": "15"
+  },
+  {
+    "problem": "What is the next number in the sequence: 5, 10, 15, 20, ___?",
+    "grade": "7",
+    "options": [
+      "25",
+      "30",
+      "35"
+    ],
+    "correctAnswer": "25"
+  },
+  {
+    "problem": "If Sarah has 4 apples and she gives 2 to her friend, how many apples does she have left?",
+    "grade": "7",
+    "options": [
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2"
+  },
+  {
+    "problem": "Calculate the perimeter of a rectangle with length 8 cm and width 5 cm.",
+    "grade": "7",
+    "options": [
+      "22",
+      "26",
+      "30"
+    ],
+    "correctAnswer": "26"
+  },
+  {
+    "problem": "If a movie starts at 3:30 PM and lasts for 2 hours and 15 minutes, what time does it end?",
+    "grade": "7",
+    "options": [
+      "5:45 PM",
+      "6:00 PM",
+      "6:15 PM"
+    ],
+    "correctAnswer": "5:45 PM"
+  },
+  {
+    "problem": "Which number is greater: 0.45 or 0.54?",
+    "grade": "7",
+    "options": [
+      "0.45",
+      "0.54",
+      "They are equal"
+    ],
+    "correctAnswer": "0.54"
+  },
+  {
+    "problem": "Simplify: 3/5 + 1/4.",
+    "grade": "7",
+    "options": [
+      "7/20",
+      "17/20",
+      "1"
+    ],
+    "correctAnswer": "17/20"
+  },
+  {
+    "problem": "Convert 2.5 hours to minutes.",
+    "grade": "7",
+    "options": [
+      "120",
+      "150",
+      "180"
+    ],
+    "correctAnswer": "150"
+  },
+  {
+    "problem": "What is the area of a circle with radius 4 cm? (Use π = 3.14)",
+    "grade": "7",
+    "options": [
+      "25.12 cm²",
+      "50.24 cm²",
+      "12.56 cm²"
+    ],
+    "correctAnswer": "50.24 cm²"
+  },
+  {
+    "problem": "If a recipe calls for 3/4 cup of sugar and you want to make 2 batches, how much sugar do you need in total?",
+    "grade": "7",
+    "options": [
+      "1 1/2 cups",
+      "1 1/4 cups",
+      "1 3/4 cups"
+    ],
+    "correctAnswer": "1 1/2 cups"
+  },
+  {
+    "problem": "What is the value of x in the equation: 2x - 5 = 11?",
+    "grade": "7",
+    "options": [
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "8"
+  },
+  {
+    "problem": "Find the missing angle in a triangle with angles 45° and 75°.",
+    "grade": "7",
+    "options": [
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "correctAnswer": "60°"
+  },
+  {
+    "problem": "A car travels at a speed of 60 km/h. How far will it travel in 3 hours?",
+    "grade": "7",
+    "options": [
+      "150 km",
+      "180 km",
+      "210 km"
+    ],
+    "correctAnswer": "180 km"
+  },
+  {
+    "problem": "What is the sum of the first 10 even numbers?",
+    "grade": "7",
+    "options": [
+      "50",
+      "100",
+      "110"
+    ],
+    "correctAnswer": "110"
+  },
+  {
+    "problem": "If a shirt costs $25 and is on sale for 20% off, how much will it cost after the discount?",
+    "grade": "7",
+    "options": [
+      "$20",
+      "$21",
+      "$22"
+    ],
+    "correctAnswer": "$20"
+  },
+  {
+    "problem": "Solve for y: 4y - 7 = 25.",
+    "grade": "7",
+    "options": [
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": "8"
+  },
+  {
+    "problem": "What is the smallest prime number?",
+    "grade": "7",
+    "options": [
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": "2"
+  },
+  {
+    "problem": "Calculate the volume of a cube with side length 3 cm.",
+    "grade": "7",
+    "options": [
+      "9 cm³",
+      "18 cm³",
+      "27 cm³"
+    ],
+    "correctAnswer": "27 cm³"
+  },
+  {
+    "problem": "In a classroom of 25 students, 60% are girls. How many girls are in the class?",
+    "grade": "7",
+    "options": [
+      "10",
+      "15",
+      "20"
+    ],
+    "correctAnswer": "15"
+  },
+  {
+    "problem": "What is the next square number after 64?",
+    "grade": "7",
+    "options": [
+      "69",
+      "72",
+      "81"
+    ],
+    "correctAnswer": "81"
+  },
+  {
+    "problem": "What is the value of 5 x 8 - 3 + 10 ÷ 2?",
+    "grade": "7",
+    "options": [
+      "32",
+      "33",
+      "34"
+    ],
+    "correctAnswer": "33"
+  },
+  {
+    "problem": "What is the next number in the sequence: 2, 5, 10, 17, ...?",
+    "grade": "7",
+    "options": [
+      "24",
+      "27",
+      "20"
+    ],
+    "correctAnswer": "24"
+  },
+  {
+    "problem": "If Sarah has $15 and buys a book for $8, how much money does she have left?",
+    "grade": "7",
+    "options": [
+      "$7",
+      "$8",
+      "$6"
+    ],
+    "correctAnswer": "$7"
+  },
+  {
+    "problem": "How many sides does a hexagon have?",
+    "grade": "7",
+    "options": [
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "6"
+  },
+  {
+    "problem": "If a movie starts at 3:15 PM and lasts for 2 hours, what time will it end?",
+    "grade": "7",
+    "options": [
+      "5:15 PM",
+      "6:15 PM",
+      "4:15 PM"
+    ],
+    "correctAnswer": "5:15 PM"
+  },
+  {
+    "problem": "Which number is greater: 0.75 or 0.8?",
+    "grade": "7",
+    "options": [
+      "0.75",
+      "0.8",
+      "They are equal"
+    ],
+    "correctAnswer": "0.8"
+  },
+  {
+    "problem": "Simplify: 3/4 x 8.",
+    "grade": "7",
+    "options": [
+      "2",
+      "6",
+      "4"
+    ],
+    "correctAnswer": "6"
+  },
+  {
+    "problem": "If a rectangle has a length of 10 cm and width of 5 cm, what is its perimeter?",
+    "grade": "7",
+    "options": [
+      "30 cm",
+      "25 cm",
+      "20 cm"
+    ],
+    "correctAnswer": "30 cm"
+  },
+  {
+    "problem": "What is the sum of the interior angles of a triangle?",
+    "grade": "7",
+    "options": [
+      "180 degrees",
+      "90 degrees",
+      "270 degrees"
+    ],
+    "correctAnswer": "180 degrees"
+  },
+  {
+    "problem": "If a recipe calls for 2/3 cup of sugar and you want to make 3 batches, how much sugar do you need?",
+    "grade": "7",
+    "options": [
+      "1 cup",
+      "2 cups",
+      "3 cups"
+    ],
+    "correctAnswer": "2 cups"
+  },
+  {
+    "problem": "Calculate: 12 x (7 - 4) + 5.",
+    "grade": "7",
+    "options": [
+      "33",
+      "36",
+      "39"
+    ],
+    "correctAnswer": "39"
+  },
+  {
+    "problem": "What is the missing number in the pattern: 3, 6, 9, __, 15?",
+    "grade": "7",
+    "options": [
+      "10",
+      "11",
+      "12"
+    ],
+    "correctAnswer": "12"
+  },
+  {
+    "problem": "A book costs $12. If Sara buys 3 books, how much money does she need?",
+    "grade": "7",
+    "options": [
+      "$34",
+      "$35",
+      "$36"
+    ],
+    "correctAnswer": "$36"
+  },
+  {
+    "problem": "How many right angles are in a rectangle?",
+    "grade": "7",
+    "options": [
+      "1",
+      "2",
+      "4"
+    ],
+    "correctAnswer": "4"
+  },
+  {
+    "problem": "If a bus ride takes 45 minutes and a train ride takes 1 hour and 15 minutes, which ride is longer?",
+    "grade": "7",
+    "options": [
+      "Bus ride",
+      "Train ride",
+      "Both are the same length"
+    ],
+    "correctAnswer": "Train ride"
+  },
+  {
+    "problem": "Which number is greater: 0.125 or 0.15?",
+    "grade": "7",
+    "options": [
+      "0.125",
+      "0.15",
+      "They are equal"
+    ],
+    "correctAnswer": "0.15"
+  },
+  {
+    "problem": "Simplify: 0.6 x 5.",
+    "grade": "7",
+    "options": [
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "3"
+  },
+  {
+    "problem": "If a garden is 4 meters wide and 6 meters long, what is its area?",
+    "grade": "7",
+    "options": [
+      "24 sq meters",
+      "28 sq meters",
+      "30 sq meters"
+    ],
+    "correctAnswer": "24 sq meters"
+  },
+  {
+    "problem": "What is the measure of each angle in a regular pentagon?",
+    "grade": "7",
+    "options": [
+      "90 degrees",
+      "100 degrees",
+      "108 degrees"
+    ],
+    "correctAnswer": "108 degrees"
+  },
+  {
+    "problem": "If a bag of candy costs $3.50 and you have $10, how much change will you get?",
+    "grade": "7",
+    "options": [
+      "$4.50",
+      "$6.50",
+      "$5.50"
+    ],
+    "correctAnswer": "$6.50"
+  },
+  {
+    "problem": "What is the value of 5 + 3 * 2?",
+    "grade": "7",
+    "options": [
+      "10",
+      "11",
+      "12"
+    ],
+    "correctAnswer": "11"
+  },
+  {
+    "problem": "What is the next number in the sequence: 2, 5, 8, 11, ...?",
+    "grade": "7",
+    "options": [
+      "13",
+      "14",
+      "15"
+    ],
+    "correctAnswer": "14"
+  },
+  {
+    "problem": "If a box contains 24 pencils and each student gets 3 pencils, how many students can receive pencils?",
+    "grade": "7",
+    "options": [
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "8"
+  },
+  {
+    "problem": "Calculate the perimeter of a rectangle with length 6 cm and width 4 cm.",
+    "grade": "7",
+    "options": [
+      "20",
+      "22",
+      "24"
+    ],
+    "correctAnswer": "20"
+  },
+  {
+    "problem": "If a movie starts at 3:45 pm and lasts for 2 hours and 15 minutes, what time does the movie end?",
+    "grade": "7",
+    "options": [
+      "5:45 pm",
+      "6:00 pm",
+      "6:15 pm"
+    ],
+    "correctAnswer": "6:00 pm"
+  },
+  {
+    "problem": "Which number is greater: 0.75 or 0.7?",
+    "grade": "7",
+    "options": [
+      "0.75",
+      "0.7",
+      "They are equal"
+    ],
+    "correctAnswer": "0.75"
+  },
+  {
+    "problem": "Simplify: 3/5 + 2/5.",
+    "grade": "7",
+    "options": [
+      "1/5",
+      "5/3",
+      "1"
+    ],
+    "correctAnswer": "1"
+  },
+  {
+    "problem": "If a car travels at a speed of 60 km/h, how far can it travel in 3 hours?",
+    "grade": "7",
+    "options": [
+      "120 km",
+      "160 km",
+      "180 km"
+    ],
+    "correctAnswer": "180 km"
+  },
+  {
+    "problem": "Find the volume of a cube with side length 4 cm.",
+    "grade": "7",
+    "options": [
+      "32 cm^3",
+      "64 cm^3",
+      "16 cm^3"
+    ],
+    "correctAnswer": "64 cm^3"
+  },
+  {
+    "problem": "What is the missing number in the pattern: 1/4, 2/4, ____, 4/4?",
+    "grade": "7",
+    "options": [
+      "2/4",
+      "3/4",
+      "1/2"
+    ],
+    "correctAnswer": "3/4"
+  },
+  {
+    "problem": "Solve: 4 + 3x = 19.",
+    "grade": "7",
+    "options": [
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "5"
+  },
+  {
+    "problem": "If a book costs $12 and Jane buys 3 books, how much does she spend?",
+    "grade": "7",
+    "options": [
+      "$32",
+      "$36",
+      "$40"
+    ],
+    "correctAnswer": "$36"
+  },
+  {
+    "problem": "Calculate the area of a circle with radius 5 cm.",
+    "grade": "7",
+    "options": [
+      "25π cm^2",
+      "20π cm^2",
+      "15π cm^2"
+    ],
+    "correctAnswer": "25π cm^2"
+  },
+  {
+    "problem": "What is the sum of the angles in a triangle?",
+    "grade": "7",
+    "options": [
+      "180 degrees",
+      "270 degrees",
+      "360 degrees"
+    ],
+    "correctAnswer": "180 degrees"
+  },
+  {
+    "problem": "If a plant grows 3 cm each week, how much will it grow in 5 weeks?",
+    "grade": "7",
+    "options": [
+      "12 cm",
+      "15 cm",
+      "18 cm"
+    ],
+    "correctAnswer": "15 cm"
+  },
+  {
+    "problem": "Which is the smallest number: 0.25, 0.3, 0.35?",
+    "grade": "7",
+    "options": [
+      "0.25",
+      "0.3",
+      "0.35"
+    ],
+    "correctAnswer": "0.25"
+  },
+  {
+    "problem": "Simplify: 6 ÷ (2/3).",
+    "grade": "7",
+    "options": [
+      "9",
+      "8",
+      "7"
+    ],
+    "correctAnswer": "9"
+  },
+  {
+    "problem": "If a rectangle has a length of 8 cm and a width of 3 cm, what is its area?",
+    "grade": "7",
+    "options": [
+      "24 cm^2",
+      "25 cm^2",
+      "26 cm^2"
+    ],
+    "correctAnswer": "24 cm^2"
+  },
+  {
+    "problem": "What is the time difference between 3:30 pm and 5:45 pm?",
+    "grade": "7",
+    "options": [
+      "1 hour 15 minutes",
+      "1 hour 30 minutes",
+      "1 hour 45 minutes"
+    ],
+    "correctAnswer": "1 hour 15 minutes"
+  },
+  {
+    "problem": "If a recipe calls for 3/4 cup of sugar and you want to make half the recipe, how much sugar do you need?",
+    "grade": "7",
+    "options": [
+      "1/4 cup",
+      "1/2 cup",
+      "1 cup"
+    ],
+    "correctAnswer": "3/8 cup"
+  },
+  {
+    "problem": "Simplify the expression: 5(2x - 4).",
+    "grade": "8",
+    "options": ["10x - 20", "10x - 10", "10x - 15"],
+    "correctAnswer": "10x - 20"
+  },
+  {
+    "problem": "What is the slope of a line passing through points (1,2) and (3,6)?",
+    "grade": "8",
+    "options": ["2", "3", "4"],
+    "correctAnswer": "2"
+  },
+  {
+    "problem": "Solve: √64.",
+    "grade": "8",
+    "options": ["8", "9", "10"],
+    "correctAnswer": "8"
+  },
+  {
+    "problem": "Calculate the volume of a cube with sides of 3 cm.",
+    "grade": "8",
+    "options": ["27", "24", "21"],
+    "correctAnswer": "27"
+  },
+  {
+    "problem": "Convert 3/8 into a decimal.",
+    "grade": "8",
+    "options": ["0.375", "0.35", "0.325"],
+    "correctAnswer": "0.375"
+  },
+  {
+    "problem": "What is the sum of angles in a quadrilateral?",
+    "grade": "8",
+    "options": ["360°", "300°", "320°"],
+    "correctAnswer": "360°"
+  },
+  {
+    "problem": "Factor the expression: 4x + 8.",
+    "grade": "8",
+    "options": ["4(x + 2)", "4(x + 3)", "4(x + 4)"],
+    "correctAnswer": "4(x + 2)"
+  },
+  {
+    "problem": "Find the mean of the numbers: 4, 8, 12, 16.",
+    "grade": "8",
+    "options": ["10", "12", "14"],
+    "correctAnswer": "10"
+  },
+  {
+    "problem": "What is the probability of rolling a 3 on a fair six-sided die?",
+    "grade": "8",
+    "options": ["1/6", "1/3", "1/2"],
+    "correctAnswer": "1/6"
+  },
+  {
+    "problem": "Simplify the expression: 3(4x + 2).",
+    "grade": "8",
+    "options": [
+      "12x + 6",
+      "10x + 4",
+      "14x + 8"
+    ],
+    "correctAnswer": "12x + 6"
+  },
+  {
+    "problem": "What is the next number in the sequence: 2, 6, 10, 14, ...?",
+    "grade": "8",
+    "options": [
+      "18",
+      "20",
+      "16"
+    ],
+    "correctAnswer": "18"
+  },
+  {
+    "problem": "If a pizza is cut into 8 equal slices and you eat 3 slices, what fraction of the pizza did you eat?",
+    "grade": "8",
+    "options": [
+      "2/8",
+      "3/8",
+      "4/8"
+    ],
+    "correctAnswer": "3/8"
+  },
+  {
+    "problem": "Calculate the area of a rectangle with length 5 cm and width 3 cm.",
+    "grade": "8",
+    "options": [
+      "15 cm²",
+      "12 cm²",
+      "10 cm²"
+    ],
+    "correctAnswer": "15 cm²"
+  },
+  {
+    "problem": "What is the sum of the interior angles in a triangle?",
+    "grade": "8",
+    "options": [
+      "180°",
+      "120°",
+      "90°"
+    ],
+    "correctAnswer": "180°"
+  },
+  {
+    "problem": "If a car travels at a speed of 60 km/h, how far will it travel in 3 hours?",
+    "grade": "8",
+    "options": [
+      "120 km",
+      "180 km",
+      "200 km"
+    ],
+    "correctAnswer": "180 km"
+  },
+  {
+    "problem": "Convert 0.75 into a fraction in simplest form.",
+    "grade": "8",
+    "options": [
+      "3/4",
+      "1/2",
+      "2/3"
+    ],
+    "correctAnswer": "3/4"
+  },
+  {
+    "problem": "Find the perimeter of a square with sides of 6 cm.",
+    "grade": "8",
+    "options": [
+      "24 cm",
+      "30 cm",
+      "36 cm"
+    ],
+    "correctAnswer": "24 cm"
+  },
+  {
+    "problem": "Solve the equation: 2x + 5 = 15.",
+    "grade": "8",
+    "options": [
+      "x = 5",
+      "x = 7",
+      "x = 10"
+    ],
+    "correctAnswer": "x = 5"
+  },
+  {
+    "problem": "A recipe calls for 2/3 cup of flour. If you want to make 3 batches, how many cups of flour do you need?",
+    "grade": "8",
+    "options": [
+      "1 cup",
+      "1.5 cups",
+      "2 cups"
+    ],
+    "correctAnswer": "2 cups"
+  },
+  {
+    "problem": "What is the product of 7 and 9?",
+    "grade": "8",
+    "options": [
+      "56",
+      "63",
+      "72"
+    ],
+    "correctAnswer": "63"
+  },
+  {
+    "problem": "If a train leaves the station at 9:30 am and arrives at its destination at 12:45 pm, how long was the journey?",
+    "grade": "8",
+    "options": [
+      "2 hours 15 minutes",
+      "3 hours 15 minutes",
+      "4 hours 15 minutes"
+    ],
+    "correctAnswer": "3 hours 15 minutes"
+  },
+  {
+    "problem": "Which number is greater: 0.6 or 0.65?",
+    "grade": "8",
+    "options": [
+      "0.6",
+      "0.65",
+      "They are equal"
+    ],
+    "correctAnswer": "0.65"
+  },
+  {
+    "problem": "Calculate the area of a circle with radius 4 cm (use π = 3.14).",
+    "grade": "8",
+    "options": [
+      "50.24 cm²",
+      "25.12 cm²",
+      "12.56 cm²"
+    ],
+    "correctAnswer": "50.24 cm²"
+  },
+  {
+    "problem": "What is the mode of the numbers: 3, 5, 7, 5, 3, 9?",
+    "grade": "8",
+    "options": [
+      "5",
+      "3",
+      "7"
+    ],
+    "correctAnswer": "5"
+  },
+  {
+    "problem": "Simplify the expression: 10 ÷ (2 + 3) x 4.",
+    "grade": "8",
+    "options": [
+      "8",
+      "6",
+      "4"
+    ],
+    "correctAnswer": "4"
+  },
+  {
+    "problem": "Find the missing angle in a right triangle with angles 30° and 60°.",
+    "grade": "8",
+    "options": [
+      "30°",
+      "45°",
+      "60°"
+    ],
+    "correctAnswer": "60°"
+  },
+  {
+    "problem": "If a shirt costs $25 and is on sale for 20% off, what is the sale price?",
+    "grade": "8",
+    "options": [
+      "$20",
+      "$22",
+      "$24"
+    ],
+    "correctAnswer": "$20"
+  },
+  {
+    "problem": "What is the volume of a cylinder with radius 2 cm and height 6 cm (use π = 3.14)?",
+    "grade": "8",
+    "options": [
+      "75.36 cm³",
+      "37.68 cm³",
+      "18.84 cm³"
+    ],
+    "correctAnswer": "75.36 cm³"
+  },
+  {
+    "problem": "Solve the equation: 3(2x - 5) = 15.",
+    "grade": "8",
+    "options": [
+      "x = 5",
+      "x = 6",
+      "x = 7"
+    ],
+    "correctAnswer": "x = 7"
+  },
+  {
+    "problem": "What is the product of 6 and 9?",
+    "grade": "8",
+    "options": [
+      "45",
+      "54",
+      "63"
+    ],
+    "correctAnswer": "54"
+  },
+  {
+    "problem": "Find the missing number in the sequence: 5, 10, __, 20.",
+    "grade": "8",
+    "options": [
+      "15",
+      "25",
+      "30"
+    ],
+    "correctAnswer": "15"
+  },
+  {
+    "problem": "If a pizza is cut into 8 slices and you eat 3 slices, how many slices are left?",
+    "grade": "8",
+    "options": [
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "5"
+  },
+  {
+    "problem": "How many degrees are in a right angle?",
+    "grade": "8",
+    "options": [
+      "90°",
+      "120°",
+      "180°"
+    ],
+    "correctAnswer": "90°"
+  },
+  {
+    "problem": "If a movie starts at 3:30 PM and lasts for 2 hours and 15 minutes, what time does it end?",
+    "grade": "8",
+    "options": [
+      "5:45 PM",
+      "6:00 PM",
+      "6:15 PM"
+    ],
+    "correctAnswer": "5:45 PM"
+  },
+  {
+    "problem": "Which number is greater: 0.75 or 0.7?",
+    "grade": "8",
+    "options": [
+      "0.75",
+      "0.7",
+      "They are equal"
+    ],
+    "correctAnswer": "0.75"
+  },
+  {
+    "problem": "Simplify the fraction: 4/12.",
+    "grade": "8",
+    "options": [
+      "1/4",
+      "1/3",
+      "1/2"
+    ],
+    "correctAnswer": "1/3"
+  },
+  {
+    "problem": "How many millimeters are in 2.5 meters?",
+    "grade": "8",
+    "options": [
+      "2500 mm",
+      "250 mm",
+      "25 mm"
+    ],
+    "correctAnswer": "2500 mm"
+  },
+  {
+    "problem": "If a rectangle has a width of 5 cm and a length of 8 cm, what is its perimeter?",
+    "grade": "8",
+    "options": [
+      "26 cm",
+      "30 cm",
+      "34 cm"
+    ],
+    "correctAnswer": "26 cm"
+  },
+  {
+    "problem": "If a store sells a shirt for $25 and a pair of pants for $35, how much do you need to buy both?",
+    "grade": "8",
+    "options": [
+      "$60",
+      "$55",
+      "$50"
+    ],
+    "correctAnswer": "$60"
+  },
+  {
+    "problem": "What is the next number in the sequence: 2, 4, 8, 16, __?",
+    "grade": "8",
+    "options": [
+      "24",
+      "32",
+      "64"
+    ],
+    "correctAnswer": "32"
+  },
+  {
+    "problem": "A car travels at 60 km/h. How far can it travel in 3 hours?",
+    "grade": "8",
+    "options": [
+      "120 km",
+      "160 km",
+      "180 km"
+    ],
+    "correctAnswer": "180 km"
+  },
+  {
+    "problem": "What is the area of a square with a side length of 6 cm?",
+    "grade": "8",
+    "options": [
+      "30 sq cm",
+      "36 sq cm",
+      "42 sq cm"
+    ],
+    "correctAnswer": "36 sq cm"
+  },
+  {
+    "problem": "If there are 24 students in a class and 5 of them are absent, what percentage of students are present?",
+    "grade": "8",
+    "options": [
+      "75%",
+      "80%",
+      "85%"
+    ],
+    "correctAnswer": "80%"
+  },
+  {
+    "problem": "Simplify the expression: 3(4x + 2) - 2x.",
+    "grade": "8",
+    "options": [
+      "10x + 6",
+      "12x + 6",
+      "14x + 6"
+    ],
+    "correctAnswer": "10x + 6"
+  },
+  {
+    "problem": "If a recipe calls for 2/3 cup of sugar and you want to make half the recipe, how much sugar do you need?",
+    "grade": "8",
+    "options": [
+      "1/3 cup",
+      "1/2 cup",
+      "2/3 cup"
+    ],
+    "correctAnswer": "1/3 cup"
+  },
+  {
+    "problem": "What is the sum of interior angles in a triangle?",
+    "grade": "8",
+    "options": [
+      "180°",
+      "270°",
+      "360°"
+    ],
+    "correctAnswer": "180°"
+  },
+  {
+    "problem": "If a clock shows 3:45 PM, how many minutes are left until 4:30 PM?",
+    "grade": "8",
+    "options": [
+      "15 minutes",
+      "30 minutes",
+      "45 minutes"
+    ],
+    "correctAnswer": "45 minutes"
+  },
+  {
+    "problem": "Convert 0.6 into a fraction in lowest terms.",
+    "grade": "8",
+    "options": [
+      "3/5",
+      "2/3",
+      "5/6"
+    ],
+    "correctAnswer": "3/5"
+  },
+  {
+    "problem": "What is the perimeter of a triangle with sides of 4 cm, 5 cm, and 6 cm?",
+    "grade": "8",
+    "options": [
+      "15 cm",
+      "20 cm",
+      "25 cm"
+    ],
+    "correctAnswer": "15 cm"
+  },
+  {
+    "problem": "What is the sum of 56 + 34?",
+    "grade": "8",
+    "options": [
+      "80",
+      "90",
+      "70"
+    ],
+    "correctAnswer": "90"
+  },
+  {
+    "problem": "Find the next number in the sequence: 2, 5, 8, 11, __.",
+    "grade": "8",
+    "options": [
+      "13",
+      "14",
+      "15"
+    ],
+    "correctAnswer": "14"
+  },
+  {
+    "problem": "If a box contains 24 apples and you take out 6, how many apples are left in the box?",
+    "grade": "8",
+    "options": [
+      "16",
+      "18",
+      "20"
+    ],
+    "correctAnswer": "18"
+  },
+  {
+    "problem": "How many degrees are in a right angle?",
+    "grade": "8",
+    "options": [
+      "90°",
+      "180°",
+      "45°"
+    ],
+    "correctAnswer": "90°"
+  },
+  {
+    "problem": "If a movie starts at 7:30 PM and lasts for 2 hours and 15 minutes, what time does it end?",
+    "grade": "8",
+    "options": [
+      "9:45 PM",
+      "10:00 PM",
+      "8:45 PM"
+    ],
+    "correctAnswer": "9:45 PM"
+  },
+  {
+    "problem": "Which is greater: 0.75 or 0.7?",
+    "grade": "8",
+    "options": [
+      "0.75",
+      "0.7",
+      "They are equal"
+    ],
+    "correctAnswer": "0.75"
+  },
+  {
+    "problem": "Simplify the fraction: 3/4.",
+    "grade": "8",
+    "options": [
+      "1/2",
+      "2/3",
+      "3/4"
+    ],
+    "correctAnswer": "3/4"
+  },
+  {
+    "problem": "If a rectangle has a length of 5 cm and a width of 3 cm, what is its perimeter?",
+    "grade": "8",
+    "options": [
+      "10 cm",
+      "16 cm",
+      "14 cm"
+    ],
+    "correctAnswer": "16 cm"
+  },
+  {
+    "problem": "What is the value of 5 x 6 ÷ 3?",
+    "grade": "8",
+    "options": [
+      "10",
+      "12",
+      "15"
+    ],
+    "correctAnswer": "10"
+  },
+  {
+    "problem": "A pattern of numbers is 2, 6, 10, 14, __. What is the next number?",
+    "grade": "8",
+    "options": [
+      "18",
+      "20",
+      "22"
+    ],
+    "correctAnswer": "18"
+  },
+  {
+    "problem": "If you buy 3 notebooks for $2 each and 2 pencils for $0.50 each, how much did you spend in total?",
+    "grade": "8",
+    "options": [
+      "$7.50",
+      "$6",
+      "$5"
+    ],
+    "correctAnswer": "$6"
+  },
+  {
+    "problem": "How many sides does a hexagon have?",
+    "grade": "8",
+    "options": [
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "6"
+  },
+  {
+    "problem": "What is the median of the numbers: 7, 10, 13, 15, 18?",
+    "grade": "8",
+    "options": [
+      "13",
+      "15",
+      "10"
+    ],
+    "correctAnswer": "13"
+  },
+  {
+    "problem": "If a clock shows 3:15 PM, how many minutes are there until 4:00 PM?",
+    "grade": "8",
+    "options": [
+      "30 minutes",
+      "45 minutes",
+      "15 minutes"
+    ],
+    "correctAnswer": "45 minutes"
+  },
+  {
+    "problem": "Which is the smallest number: 0.9, 0.99, 0.999?",
+    "grade": "8",
+    "options": [
+      "0.9",
+      "0.99",
+      "0.999"
+    ],
+    "correctAnswer": "0.9"
+  },
+  {
+    "problem": "Solve: 4.2 - 1.8.",
+    "grade": "8",
+    "options": [
+      "2.5",
+      "2.4",
+      "2.2"
+    ],
+    "correctAnswer": "2.4"
+  },
+  {
+    "problem": "If a rectangular garden has a length of 12 m and a width of 8 m, what is its area?",
+    "grade": "8",
+    "options": [
+      "80 sq m",
+      "90 sq m",
+      "100 sq m"
+    ],
+    "correctAnswer": "96 sq m"
+  },
+  {
+    "problem": "What is the value of 8 ÷ 0.25?",
+    "grade": "8",
+    "options": [
+      "32",
+      "30",
+      "28"
+    ],
+    "correctAnswer": "32"
+  },
+  {
+    "problem": "A sequence of numbers is 3, 6, 9, 12, __. What is the next number?",
+    "grade": "8",
+    "options": [
+      "14",
+      "15",
+      "18"
+    ],
+    "correctAnswer": "15"
+  },
+  {
+    "problem": "If a car travels at a speed of 60 km/h, how far can it travel in 3 hours?",
+    "grade": "8",
+    "options": [
+      "180 km",
+      "160 km",
+      "150 km"
+    ],
+    "correctAnswer": "180 km"
+  },
+  {
+    "problem": "What is the product of 7 and 9?",
+    "grade": "8",
+    "options": [
+      "56",
+      "63",
+      "72"
+    ],
+    "correctAnswer": "63"
+  },
+  {
+    "problem": "Find the next number in the sequence: 2, 5, 8, 11, __.",
+    "grade": "8",
+    "options": [
+      "14",
+      "15",
+      "17"
+    ],
+    "correctAnswer": "14"
+  },
+  {
+    "problem": "If a book costs $12 and Sarah buys 3 books, how much does she spend?",
+    "grade": "8",
+    "options": [
+      "$36",
+      "$30",
+      "$24"
+    ],
+    "correctAnswer": "$36"
+  },
+  {
+    "problem": "How many degrees are in a right angle?",
+    "grade": "8",
+    "options": [
+      "90°",
+      "180°",
+      "45°"
+    ],
+    "correctAnswer": "90°"
+  },
+  {
+    "problem": "If it is 3:15 PM now, what time will it be in 2 hours and 30 minutes?",
+    "grade": "8",
+    "options": [
+      "5:45 PM",
+      "6:00 PM",
+      "6:15 PM"
+    ],
+    "correctAnswer": "5:45 PM"
+  },
+  {
+    "problem": "Which number is greater: 0.75 or 0.8?",
+    "grade": "8",
+    "options": [
+      "0.75",
+      "0.8",
+      "They are equal"
+    ],
+    "correctAnswer": "0.8"
+  },
+  {
+    "problem": "Simplify the fraction: 3/6.",
+    "grade": "8",
+    "options": [
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "correctAnswer": "1/2"
+  },
+  {
+    "problem": "If a rectangle has a length of 8 cm and a width of 5 cm, what is its area?",
+    "grade": "8",
+    "options": [
+      "40 cm²",
+      "35 cm²",
+      "30 cm²"
+    ],
+    "correctAnswer": "40 cm²"
+  },
+  {
+    "problem": "What is 3 kilometers in meters?",
+    "grade": "8",
+    "options": [
+      "3000 m",
+      "2000 m",
+      "5000 m"
+    ],
+    "correctAnswer": "3000 m"
+  },
+  {
+    "problem": "If x + 5 = 12, what is the value of x?",
+    "grade": "8",
+    "options": [
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": "7"
+  },
+  {
+    "problem": "What is the sum of angles in a triangle?",
+    "grade": "8",
+    "options": [
+      "180°",
+      "200°",
+      "150°"
+    ],
+    "correctAnswer": "180°"
+  },
+  {
+    "problem": "If Mark has $15 and he spends $8, how much money does he have left?",
+    "grade": "8",
+    "options": [
+      "$7",
+      "$8",
+      "$9"
+    ],
+    "correctAnswer": "$7"
+  },
+  {
+    "problem": "Which shape has 4 sides of equal length and all angles of 90 degrees?",
+    "grade": "8",
+    "options": [
+      "Square",
+      "Rectangle",
+      "Triangle"
+    ],
+    "correctAnswer": "Square"
+  },
+  {
+    "problem": "Convert 0.6 into a fraction.",
+    "grade": "8",
+    "options": [
+      "6/10",
+      "3/5",
+      "5/10"
+    ],
+    "correctAnswer": "3/5"
+  },
+  {
+    "problem": "How many milliliters are in 0.5 liters?",
+    "grade": "8",
+    "options": [
+      "500 ml",
+      "550 ml",
+      "450 ml"
+    ],
+    "correctAnswer": "500 ml"
+  },
+  {
+    "problem": "What is the perimeter of a square with sides of 9 cm?",
+    "grade": "8",
+    "options": [
+      "27 cm",
+      "36 cm",
+      "45 cm"
+    ],
+    "correctAnswer": "36 cm"
+  },
+  {
+    "problem": "If a car travels at a speed of 60 km/h for 3 hours, how far does it travel?",
+    "grade": "8",
+    "options": [
+      "180 km",
+      "200 km",
+      "220 km"
+    ],
+    "correctAnswer": "180 km"
+  },
+  {
+    "problem": "What is the value of 7^2?",
+    "grade": "8",
+    "options": [
+      "49",
+      "56",
+      "63"
+    ],
+    "correctAnswer": "49"
+  },
+  {
+    "problem": "Solve for x: 2x + 3 = 11.",
+    "grade": "8",
+    "options": [
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4"
+  },
+  {
+    "problem": "If a clock strikes once every hour, how many times will it strike in a day?",
+    "grade": "8",
+    "options": [
+      "24",
+      "12",
+      "48"
+    ],
+    "correctAnswer": "24"
+  },
+  {
+    "problem": "What is the value of 5 + 7 - 3?",
+    "grade": "8",
+    "options": [
+      "9",
+      "10",
+      "11"
+    ],
+    "correctAnswer": "9"
+  },
+  {
+    "problem": "Find the missing number in the sequence: 2, 5, 8, __, 14.",
+    "grade": "8",
+    "options": [
+      "11",
+      "12",
+      "13"
+    ],
+    "correctAnswer": "11"
+  },
+  {
+    "problem": "If a bus travels at 60 km/h for 3 hours, how far does it go?",
+    "grade": "8",
+    "options": [
+      "160 km",
+      "180 km",
+      "200 km"
+    ],
+    "correctAnswer": "180 km"
+  },
+  {
+    "problem": "How many sides does a hexagon have?",
+    "grade": "8",
+    "options": [
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "6"
+  },
+  {
+    "problem": "If a movie starts at 2:30 PM and lasts for 1 hour 45 minutes, what time does it end?",
+    "grade": "8",
+    "options": [
+      "4:15 PM",
+      "4:30 PM",
+      "4:45 PM"
+    ],
+    "correctAnswer": "4:15 PM"
+  },
+  {
+    "problem": "Which number is greater: 0.7 or 0.67?",
+    "grade": "8",
+    "options": [
+      "0.7",
+      "0.67",
+      "They are equal"
+    ],
+    "correctAnswer": "0.7"
+  },
+  {
+    "problem": "Simplify the fraction: 3/9.",
+    "grade": "8",
+    "options": [
+      "1/3",
+      "2/3",
+      "3/4"
+    ],
+    "correctAnswer": "1/3"
+  },
+  {
+    "problem": "If a rectangle has a length of 8 cm and width of 5 cm, what is its area?",
+    "grade": "8",
+    "options": [
+      "30 sq cm",
+      "35 sq cm",
+      "40 sq cm"
+    ],
+    "correctAnswer": "40 sq cm"
+  },
+  {
+    "problem": "What is the next term in the pattern: 2, 6, 12, 20, __?",
+    "grade": "8",
+    "options": [
+      "24",
+      "28",
+      "32"
+    ],
+    "correctAnswer": "24"
+  },
+  {
+    "problem": "If 1 apple costs $0.50, how much will 3 apples cost?",
+    "grade": "8",
+    "options": [
+      "$1.00",
+      "$1.50",
+      "$2.00"
+    ],
+    "correctAnswer": "$1.50"
+  },
+  {
+    "problem": "Calculate the perimeter of a square with sides of 5 cm.",
+    "grade": "8",
+    "options": [
+      "15 cm",
+      "20 cm",
+      "25 cm"
+    ],
+    "correctAnswer": "20 cm"
+  },
+  {
+    "problem": "What is the difference between 0.75 and 0.25?",
+    "grade": "8",
+    "options": [
+      "0.5",
+      "0.4",
+      "0.3"
+    ],
+    "correctAnswer": "0.5"
+  },
+  {
+    "problem": "Solve for x: 2x + 3 = 11.",
+    "grade": "8",
+    "options": [
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4"
+  },
+  {
+    "problem": "Find the sum of the first 10 multiples of 3.",
+    "grade": "8",
+    "options": [
+      "150",
+      "180",
+      "210"
+    ],
+    "correctAnswer": "150"
+  },
+  {
+    "problem": "If a clock shows 3:45 PM, how many minutes until 5:00 PM?",
+    "grade": "8",
+    "options": [
+      "75 minutes",
+      "85 minutes",
+      "95 minutes"
+    ],
+    "correctAnswer": "75 minutes"
+  },
+  {
+    "problem": "Which is the smallest fraction: 1/4, 2/5, 3/8?",
+    "grade": "8",
+    "options": [
+      "1/4",
+      "2/5",
+      "3/8"
+    ],
+    "correctAnswer": "1/4"
+  },
+  {
+    "problem": "Calculate the area of a triangle with base of 6 cm and height of 4 cm.",
+    "grade": "8",
+    "options": [
+      "12 sq cm",
+      "16 sq cm",
+      "20 sq cm"
+    ],
+    "correctAnswer": "12 sq cm"
+  },
+  {
+    "problem": "What is the median of the numbers: 7, 10, 12, 15, 20?",
+    "grade": "8",
+    "options": [
+      "10",
+      "12",
+      "15"
+    ],
+    "correctAnswer": "12"
+  },
+  {
+    "problem": "Convert 0.6 into a fraction in simplest form.",
+    "grade": "8",
+    "options": [
+      "3/5",
+      "2/3",
+      "5/8"
+    ],
+    "correctAnswer": "3/5"
+  },
+  {
+    "problem": "If a recipe calls for 2/3 cup of flour and you want to make 3 batches, how much flour do you need?",
+    "grade": "8",
+    "options": [
+      "1 cup",
+      "2 cups",
+      "3 cups"
+    ],
+    "correctAnswer": "2 cups"
+  }
+]

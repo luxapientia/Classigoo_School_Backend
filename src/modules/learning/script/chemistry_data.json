@@ -1,0 +1,6262 @@
+[
+  {
+    "problem": "What is water made of?",
+    "grade": "3",
+    "options": ["Oxygen and hydrogen", "Carbon and oxygen", "Nitrogen and oxygen"],
+    "correctAnswer": "Oxygen and hydrogen"
+  },
+  {
+    "problem": "Which of these is a liquid?",
+    "grade": "3",
+    "options": ["Ice", "Water", "Steam"],
+    "correctAnswer": "Water"
+  },
+  {
+    "problem": "What do we call the change from water to ice?",
+    "grade": "3",
+    "options": ["Melting", "Freezing", "Boiling"],
+    "correctAnswer": "Freezing"
+  },
+  {
+    "problem": "What gas do we breathe in to live?",
+    "grade": "3",
+    "options": ["Oxygen", "Carbon dioxide", "Nitrogen"],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "problem": "What is the name of the solid form of water?",
+    "grade": "3",
+    "options": ["Ice", "Steam", "Fog"],
+    "correctAnswer": "Ice"
+  },
+  {
+    "problem": "What do we call the tiny particles that make up everything?",
+    "grade": "3",
+    "options": ["Atoms", "Molecules", "Cells"],
+    "correctAnswer": "Atoms"
+  },
+  {
+    "problem": "What happens when water boils?",
+    "grade": "3",
+    "options": ["It turns to steam", "It turns to ice", "It turns to salt"],
+    "correctAnswer": "It turns to steam"
+  },
+  {
+    "problem": "Which of these is NOT a state of matter?",
+    "grade": "3",
+    "options": ["Solid", "Liquid", "Color"],
+    "correctAnswer": "Color"
+  },
+  {
+    "problem": "What color is chlorine gas?",
+    "grade": "3",
+    "options": ["Green", "Blue", "Red"],
+    "correctAnswer": "Green"
+  },
+  {
+    "problem": "Which of these is a mixture?",
+    "grade": "3",
+    "options": ["Salt water", "Water", "Salt"],
+    "correctAnswer": "Salt water"
+  },
+  {
+    "problem": "What is the smallest particle of an element called?",
+    "grade": "3",
+    "options": [
+      "Molecule",
+      "Atom",
+      "Cell"
+    ],
+    "correctAnswer": "Atom"
+  },
+  {
+    "problem": "What do we call a substance made up of two or more elements chemically combined?",
+    "grade": "3",
+    "options": [
+      "Element",
+      "Mixture",
+      "Compound"
+    ],
+    "correctAnswer": "Compound"
+  },
+  {
+    "problem": "Which state of matter has a definite shape and volume?",
+    "grade": "3",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Solid"
+  },
+  {
+    "problem": "What do we call the ability of a substance to burn?",
+    "grade": "3",
+    "options": [
+      "Flammability",
+      "Melting point",
+      "Density"
+    ],
+    "correctAnswer": "Flammability"
+  },
+  {
+    "problem": "What do we call a change in which one or more substances are turned into new substances?",
+    "grade": "3",
+    "options": [
+      "Physical change",
+      "Chemical change",
+      "Change in state"
+    ],
+    "correctAnswer": "Chemical change"
+  },
+  {
+    "problem": "Which of these is NOT a property of matter?",
+    "grade": "3",
+    "options": [
+      "Color",
+      "Smell",
+      "Weight"
+    ],
+    "correctAnswer": "Smell"
+  },
+  {
+    "problem": "What do we call a representation of a chemical reaction using symbols and formulas?",
+    "grade": "3",
+    "options": [
+      "Chemical equation",
+      "Math problem",
+      "Word problem"
+    ],
+    "correctAnswer": "Chemical equation"
+  },
+  {
+    "problem": "What do we call a substance that speeds up a chemical reaction?",
+    "grade": "3",
+    "options": [
+      "Catalyst",
+      "Inhibitor",
+      "Reactant"
+    ],
+    "correctAnswer": "Catalyst"
+  },
+  {
+    "problem": "What type of reaction occurs when iron rusts?",
+    "grade": "3",
+    "options": [
+      "Combustion",
+      "Oxidation",
+      "Neutralization"
+    ],
+    "correctAnswer": "Oxidation"
+  },
+  {
+    "problem": "Which of these is a property of metals?",
+    "grade": "3",
+    "options": [
+      "Brittle",
+      "Ductile",
+      "Transparent"
+    ],
+    "correctAnswer": "Ductile"
+  },
+  {
+    "problem": "What do we call the rows in the periodic table?",
+    "grade": "3",
+    "options": [
+      "Columns",
+      "Periods",
+      "Groups"
+    ],
+    "correctAnswer": "Periods"
+  },
+  {
+    "problem": "What do we call the columns in the periodic table?",
+    "grade": "3",
+    "options": [
+      "Groups",
+      "Periods",
+      "Rows"
+    ],
+    "correctAnswer": "Groups"
+  },
+  {
+    "problem": "What gas do plants use during photosynthesis?",
+    "grade": "3",
+    "options": [
+      "Carbon dioxide",
+      "Oxygen",
+      "Nitrogen"
+    ],
+    "correctAnswer": "Carbon dioxide"
+  },
+  {
+    "problem": "What do we call a substance that cannot be broken down into simpler substances?",
+    "grade": "3",
+    "options": [
+      "Element",
+      "Mixture",
+      "Compound"
+    ],
+    "correctAnswer": "Element"
+  },
+  {
+    "problem": "What do we call the state of matter with a definite volume but no definite shape?",
+    "grade": "3",
+    "options": [
+      "Liquid",
+      "Solid",
+      "Gas"
+    ],
+    "correctAnswer": "Liquid"
+  },
+  {
+    "problem": "Which of these is a property of nonmetals?",
+    "grade": "3",
+    "options": [
+      "Conductivity",
+      "Dull appearance",
+      "Malleability"
+    ],
+    "correctAnswer": "Dull appearance"
+  },
+  {
+    "problem": "What happens when vinegar is mixed with baking soda?",
+    "grade": "3",
+    "options": [
+      "Explosion",
+      "Fizzing",
+      "Silent reaction"
+    ],
+    "correctAnswer": "Fizzing"
+  },
+  {
+    "problem": "What do we call the ability of a substance to dissolve in another substance?",
+    "grade": "3",
+    "options": [
+      "Solubility",
+      "Density",
+      "Melting point"
+    ],
+    "correctAnswer": "Solubility"
+  },
+  {
+    "problem": "Which of these is a physical change?",
+    "grade": "3",
+    "options": [
+      "Burning wood",
+      "Melting ice",
+      "Rusting iron"
+    ],
+    "correctAnswer": "Melting ice"
+  },
+  {
+    "problem": "What is the chemical symbol for oxygen?",
+    "grade": "3",
+    "options": [
+      "O",
+      "H",
+      "C"
+    ],
+    "correctAnswer": "O"
+  },
+  {
+    "problem": "Which of these is a compound?",
+    "grade": "3",
+    "options": [
+      "Oxygen",
+      "Water",
+      "Gold"
+    ],
+    "correctAnswer": "Water"
+  },
+  {
+    "problem": "What happens to water when it evaporates?",
+    "grade": "3",
+    "options": [
+      "It turns to ice",
+      "It turns to steam",
+      "It turns to salt"
+    ],
+    "correctAnswer": "It turns to steam"
+  },
+  {
+    "problem": "What is the state of matter of a cloud?",
+    "grade": "3",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Gas"
+  },
+  {
+    "problem": "What do we call the combination of iron and oxygen forming rust?",
+    "grade": "3",
+    "options": [
+      "Melting",
+      "Rusting",
+      "Freezing"
+    ],
+    "correctAnswer": "Rusting"
+  },
+  {
+    "problem": "What is the symbol for gold on the periodic table?",
+    "grade": "3",
+    "options": [
+      "Au",
+      "Ag",
+      "Fe"
+    ],
+    "correctAnswer": "Au"
+  },
+  {
+    "problem": "Which property of water allows boats to float on it?",
+    "grade": "3",
+    "options": [
+      "Density",
+      "Transparency",
+      "Color"
+    ],
+    "correctAnswer": "Density"
+  },
+  {
+    "problem": "What do we call a short way to show a chemical reaction?",
+    "grade": "3",
+    "options": [
+      "Equation",
+      "Formula",
+      "Table"
+    ],
+    "correctAnswer": "Equation"
+  },
+  {
+    "problem": "What happens when you mix vinegar and baking soda together?",
+    "grade": "3",
+    "options": [
+      "It explodes",
+      "It turns purple",
+      "It fizzes"
+    ],
+    "correctAnswer": "It fizzes"
+  },
+  {
+    "problem": "What is the chemical symbol for carbon?",
+    "grade": "3",
+    "options": [
+      "C",
+      "O",
+      "H"
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "problem": "Which of these is a mixture?",
+    "grade": "3",
+    "options": [
+      "Air",
+      "Gold",
+      "Iron"
+    ],
+    "correctAnswer": "Air"
+  },
+  {
+    "problem": "What happens to water when it freezes?",
+    "grade": "3",
+    "options": [
+      "It turns to ice",
+      "It turns to steam",
+      "It turns to salt"
+    ],
+    "correctAnswer": "It turns to ice"
+  },
+  {
+    "problem": "What is the state of matter of a pencil?",
+    "grade": "3",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Solid"
+  },
+  {
+    "problem": "What do we call the process of a liquid turning into a gas?",
+    "grade": "3",
+    "options": [
+      "Melting",
+      "Freezing",
+      "Evaporation"
+    ],
+    "correctAnswer": "Evaporation"
+  },
+  {
+    "problem": "What is the symbol for silver on the periodic table?",
+    "grade": "3",
+    "options": [
+      "Ag",
+      "Au",
+      "Fe"
+    ],
+    "correctAnswer": "Ag"
+  },
+  {
+    "problem": "Which property of iron makes it useful for making nails?",
+    "grade": "3",
+    "options": [
+      "Malleability",
+      "Transparency",
+      "Conductivity"
+    ],
+    "correctAnswer": "Malleability"
+  },
+  {
+    "problem": "What do we call a substance made up of two or more elements chemically combined?",
+    "grade": "3",
+    "options": [
+      "Element",
+      "Compound",
+      "Mixture"
+    ],
+    "correctAnswer": "Compound"
+  },
+  {
+    "problem": "What happens when you mix oil and water together?",
+    "grade": "3",
+    "options": [
+      "They mix together perfectly",
+      "They form separate layers",
+      "They explode"
+    ],
+    "correctAnswer": "They form separate layers"
+  },
+  {
+    "problem": "What is the chemical symbol for hydrogen?",
+    "grade": "3",
+    "options": [
+      "H",
+      "O",
+      "C"
+    ],
+    "correctAnswer": "H"
+  },
+  {
+    "problem": "What is the smallest part of an element?",
+    "grade": "3",
+    "options": [
+      "Molecule",
+      "Atom",
+      "Compound"
+    ],
+    "correctAnswer": "Atom"
+  },
+  {
+    "problem": "Which of these is a compound?",
+    "grade": "3",
+    "options": [
+      "Oxygen",
+      "Water",
+      "Gold"
+    ],
+    "correctAnswer": "Water"
+  },
+  {
+    "problem": "What do we call a substance that is made up of two or more elements?",
+    "grade": "3",
+    "options": [
+      "Mixture",
+      "Element",
+      "Compound"
+    ],
+    "correctAnswer": "Compound"
+  },
+  {
+    "problem": "What state of matter is a cloud?",
+    "grade": "3",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Gas"
+  },
+  {
+    "problem": "What happens when you mix vinegar and baking soda?",
+    "grade": "3",
+    "options": [
+      "It explodes",
+      "It produces bubbles",
+      "It turns green"
+    ],
+    "correctAnswer": "It produces bubbles"
+  },
+  {
+    "problem": "Which of these is a chemical property of iron?",
+    "grade": "3",
+    "options": [
+      "It floats on water",
+      "It rusts when exposed to air",
+      "It dissolves in water"
+    ],
+    "correctAnswer": "It rusts when exposed to air"
+  },
+  {
+    "problem": "What do we call a shorthand way of showing a chemical reaction?",
+    "grade": "3",
+    "options": [
+      "Chemical formula",
+      "Chemical equation",
+      "Chemical mixture"
+    ],
+    "correctAnswer": "Chemical equation"
+  },
+  {
+    "problem": "What happens when you mix vinegar and baking soda?",
+    "grade": "3",
+    "options": [
+      "It explodes",
+      "It produces bubbles",
+      "It turns green"
+    ],
+    "correctAnswer": "It produces bubbles"
+  },
+  {
+    "problem": "Which of these is a physical property of water?",
+    "grade": "3",
+    "options": [
+      "It boils at 100 degrees Celsius",
+      "It reacts with acid",
+      "It turns blue litmus paper red"
+    ],
+    "correctAnswer": "It boils at 100 degrees Celsius"
+  },
+  {
+    "problem": "What do we call a substance that speeds up a chemical reaction?",
+    "grade": "3",
+    "options": [
+      "Chemical catalyst",
+      "Chemical inhibitor",
+      "Chemical compound"
+    ],
+    "correctAnswer": "Chemical catalyst"
+  },
+  {
+    "problem": "What is the symbol for the element oxygen on the periodic table?",
+    "grade": "3",
+    "options": [
+      "O",
+      "Ox",
+      "O2"
+    ],
+    "correctAnswer": "O"
+  },
+  {
+    "problem": "What state of matter is ice cream?",
+    "grade": "3",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Solid"
+  },
+  {
+    "problem": "What happens when you heat water?",
+    "grade": "3",
+    "options": [
+      "It turns into ice",
+      "It boils",
+      "It turns green"
+    ],
+    "correctAnswer": "It boils"
+  },
+  {
+    "problem": "Which of these is a chemical property of copper?",
+    "grade": "3",
+    "options": [
+      "It is magnetic",
+      "It tarnishes in air",
+      "It is transparent"
+    ],
+    "correctAnswer": "It tarnishes in air"
+  },
+  {
+    "problem": "What do we call a substance that is made up of only one kind of atom?",
+    "grade": "3",
+    "options": [
+      "Molecule",
+      "Element",
+      "Compound"
+    ],
+    "correctAnswer": "Element"
+  },
+  {
+    "problem": "What happens when you mix oil and water?",
+    "grade": "3",
+    "options": [
+      "They mix together",
+      "They separate into layers",
+      "They explode"
+    ],
+    "correctAnswer": "They separate into layers"
+  },
+  {
+    "problem": "Which of these is a physical property of gold?",
+    "grade": "3",
+    "options": [
+      "It is a good conductor of electricity",
+      "It reacts with acid",
+      "It melts at room temperature"
+    ],
+    "correctAnswer": "It is a good conductor of electricity"
+  },
+  {
+    "problem": "What do we call a substance that cannot be broken down into simpler substances by chemical means?",
+    "grade": "3",
+    "options": [
+      "Mixture",
+      "Element",
+      "Compound"
+    ],
+    "correctAnswer": "Element"
+  },
+  {
+    "problem": "What happens when you mix vinegar and baking soda?",
+    "grade": "3",
+    "options": [
+      "It explodes",
+      "It produces bubbles",
+      "It turns green"
+    ],
+    "correctAnswer": "It produces bubbles"
+  },
+  {
+    "problem": "Which of these is a chemical property of carbon dioxide?",
+    "grade": "3",
+    "options": [
+      "It is flammable",
+      "It is a greenhouse gas",
+      "It is a metal"
+    ],
+    "correctAnswer": "It is a greenhouse gas"
+  },
+  {
+    "problem": "What is the symbol for oxygen on the periodic table?",
+    "grade": "3",
+    "options": [
+      "O",
+      "H",
+      "C"
+    ],
+    "correctAnswer": "O"
+  },
+  {
+    "problem": "Which of these is a compound?",
+    "grade": "3",
+    "options": [
+      "Oxygen",
+      "Water",
+      "Gold"
+    ],
+    "correctAnswer": "Water"
+  },
+  {
+    "problem": "What is the state of matter of a rock?",
+    "grade": "3",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Solid"
+  },
+  {
+    "problem": "What happens when baking soda and vinegar mix?",
+    "grade": "3",
+    "options": [
+      "It explodes",
+      "It fizzes",
+      "It turns purple"
+    ],
+    "correctAnswer": "It fizzes"
+  },
+  {
+    "problem": "What is the first element on the periodic table?",
+    "grade": "3",
+    "options": [
+      "Hydrogen",
+      "Oxygen",
+      "Carbon"
+    ],
+    "correctAnswer": "Hydrogen"
+  },
+  {
+    "problem": "What property of water allows it to float on oil?",
+    "grade": "3",
+    "options": [
+      "Density",
+      "Color",
+      "Smell"
+    ],
+    "correctAnswer": "Density"
+  },
+  {
+    "problem": "What happens when you mix baking soda and lemon juice?",
+    "grade": "3",
+    "options": [
+      "It fizzes",
+      "It turns into a solid",
+      "It becomes invisible"
+    ],
+    "correctAnswer": "It fizzes"
+  },
+  {
+    "problem": "Which property allows us to distinguish between iron and gold?",
+    "grade": "3",
+    "options": [
+      "Color",
+      "Taste",
+      "Smell"
+    ],
+    "correctAnswer": "Color"
+  },
+  {
+    "problem": "What is the chemical equation for the reaction between baking soda and vinegar?",
+    "grade": "3",
+    "options": [
+      "NaCl + H2O",
+      "NaHCO3 + CH3COOH",
+      "H2O + CO2"
+    ],
+    "correctAnswer": "NaHCO3 + CH3COOH"
+  },
+  {
+    "problem": "What happens when you mix vinegar and baking powder?",
+    "grade": "3",
+    "options": [
+      "It fizzes",
+      "It turns green",
+      "It becomes solid"
+    ],
+    "correctAnswer": "It fizzes"
+  },
+  {
+    "problem": "What is the symbol for carbon on the periodic table?",
+    "grade": "3",
+    "options": [
+      "C",
+      "O",
+      "H"
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "problem": "What state of matter is steam?",
+    "grade": "3",
+    "options": [
+      "Gas",
+      "Solid",
+      "Liquid"
+    ],
+    "correctAnswer": "Gas"
+  },
+  {
+    "problem": "What happens when you mix oil and water?",
+    "grade": "3",
+    "options": [
+      "They mix together",
+      "They separate",
+      "They turn into ice"
+    ],
+    "correctAnswer": "They separate"
+  },
+  {
+    "problem": "What is the chemical equation for the reaction between iron and oxygen?",
+    "grade": "3",
+    "options": [
+      "Fe + O2 = Fe2O3",
+      "H2O + CO2 = H2CO3",
+      "NaCl + H2O = NaOH + HCl"
+    ],
+    "correctAnswer": "Fe + O2 = Fe2O3"
+  },
+  {
+    "problem": "What property of gold makes it valuable?",
+    "grade": "3",
+    "options": [
+      "Color",
+      "Taste",
+      "Smell"
+    ],
+    "correctAnswer": "Color"
+  },
+  {
+    "problem": "What happens when you mix bleach and vinegar?",
+    "grade": "3",
+    "options": [
+      "It creates toxic fumes",
+      "It turns pink",
+      "It becomes solid"
+    ],
+    "correctAnswer": "It creates toxic fumes"
+  },
+  {
+    "problem": "What is the symbol for helium on the periodic table?",
+    "grade": "3",
+    "options": [
+      "He",
+      "H",
+      "Ho"
+    ],
+    "correctAnswer": "He"
+  },
+  {
+    "problem": "What state of matter is a cloud?",
+    "grade": "3",
+    "options": [
+      "Gas",
+      "Solid",
+      "Liquid"
+    ],
+    "correctAnswer": "Gas"
+  },
+  {
+    "problem": "What happens when you mix salt and water?",
+    "grade": "3",
+    "options": [
+      "They mix together",
+      "The salt dissolves",
+      "They turn into ice"
+    ],
+    "correctAnswer": "The salt dissolves"
+  },
+  {
+    "problem": "What is the chemical equation for the reaction between baking soda and lemon juice?",
+    "grade": "3",
+    "options": [
+      "NaCl + H2O",
+      "NaHCO3 + CH3COOH",
+      "H2O + CO2"
+    ],
+    "correctAnswer": "NaHCO3 + CH3COOH"
+  },
+  {
+    "problem": "What is the symbol for oxygen on the periodic table?",
+    "grade": "3",
+    "options": [
+      "O",
+      "H",
+      "C"
+    ],
+    "correctAnswer": "O"
+  },
+  {
+    "problem": "What is the difference between an element and a compound?",
+    "grade": "3",
+    "options": [
+      "Elements are made of one type of atom, compounds are made of different types of atoms",
+      "Elements are liquids, compounds are solids",
+      "Elements are colorful, compounds are not"
+    ],
+    "correctAnswer": "Elements are made of one type of atom, compounds are made of different types of atoms"
+  },
+  {
+    "problem": "What state of matter is a cloud?",
+    "grade": "3",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Gas"
+  },
+  {
+    "problem": "What do you call it when two or more substances are mixed together and cannot be easily separated?",
+    "grade": "3",
+    "options": [
+      "Mixture",
+      "Solution",
+      "Element"
+    ],
+    "correctAnswer": "Mixture"
+  },
+  {
+    "problem": "What happens when you mix vinegar (acid) with baking soda?",
+    "grade": "3",
+    "options": [
+      "An explosion",
+      "Fizzing and bubbling",
+      "Nothing"
+    ],
+    "correctAnswer": "Fizzing and bubbling"
+  },
+  {
+    "problem": "What do you call the ability of a substance to catch on fire or burn?",
+    "grade": "3",
+    "options": [
+      "Flammability",
+      "Solidity",
+      "Colorfulness"
+    ],
+    "correctAnswer": "Flammability"
+  },
+  {
+    "problem": "What do you get when you combine hydrogen and oxygen in the right proportions?",
+    "grade": "3",
+    "options": [
+      "Water",
+      "Salt",
+      "Carbon dioxide"
+    ],
+    "correctAnswer": "Water"
+  },
+  {
+    "problem": "What is the name of the process where a solid turns into a liquid?",
+    "grade": "3",
+    "options": [
+      "Sublimation",
+      "Evaporation",
+      "Melting"
+    ],
+    "correctAnswer": "Melting"
+  },
+  {
+    "problem": "What do you call a substance that cannot be broken down into simpler substances by chemical means?",
+    "grade": "3",
+    "options": [
+      "Element",
+      "Mixture",
+      "Compound"
+    ],
+    "correctAnswer": "Element"
+  },
+  {
+    "problem": "What happens when you mix oil and water together?",
+    "grade": "3",
+    "options": [
+      "They mix perfectly",
+      "They separate into layers",
+      "They explode"
+    ],
+    "correctAnswer": "They separate into layers"
+  },
+  {
+    "problem": "What is the symbol for carbon on the periodic table?",
+    "grade": "3",
+    "options": [
+      "Ca",
+      "C",
+      "Co"
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "problem": "Which of these is a chemical property of an object?",
+    "grade": "3",
+    "options": [
+      "Color",
+      "Size",
+      "Weight"
+    ],
+    "correctAnswer": "Color"
+  },
+  {
+    "problem": "What do you call a substance that is made up of two or more elements chemically combined?",
+    "grade": "3",
+    "options": [
+      "Mixture",
+      "Compound",
+      "Solution"
+    ],
+    "correctAnswer": "Compound"
+  },
+  {
+    "problem": "What is the chemical equation for the reaction between iron and oxygen to form rust?",
+    "grade": "3",
+    "options": [
+      "Iron + Oxygen = Rust",
+      "Fe + O2 = Fe2O3",
+      "Rust = FeO"
+    ],
+    "correctAnswer": "Fe + O2 = Fe2O3"
+  },
+  {
+    "problem": "What do you call the process where a liquid turns into a gas?",
+    "grade": "3",
+    "options": [
+      "Condensation",
+      "Evaporation",
+      "Sublimation"
+    ],
+    "correctAnswer": "Evaporation"
+  },
+  {
+    "problem": "What is the name of the process where a gas turns into a liquid?",
+    "grade": "3",
+    "options": [
+      "Condensation",
+      "Evaporation",
+      "Sublimation"
+    ],
+    "correctAnswer": "Condensation"
+  },
+  {
+    "problem": "What do you call the ability of a substance to be drawn into a wire?",
+    "grade": "3",
+    "options": [
+      "Ductility",
+      "Flammability",
+      "Hardness"
+    ],
+    "correctAnswer": "Ductility"
+  },
+  {
+    "problem": "What do you call the ability of a substance to be hammered into thin sheets?",
+    "grade": "3",
+    "options": [
+      "Malleability",
+      "Brittleness",
+      "Transparency"
+    ],
+    "correctAnswer": "Malleability"
+  },
+  {
+    "problem": "What is the name of the process where a liquid turns into a solid?",
+    "grade": "3",
+    "options": [
+      "Condensation",
+      "Evaporation",
+      "Freezing"
+    ],
+    "correctAnswer": "Freezing"
+  },
+  {
+    "problem": "What is the chemical symbol for water?",
+    "grade": "4",
+    "options": ["H2O", "CO2", "O2"],
+    "correctAnswer": "H2O"
+  },
+  {
+    "problem": "What do we call a substance made of only one type of atom?",
+    "grade": "4",
+    "options": ["Compound", "Element", "Mixture"],
+    "correctAnswer": "Element"
+  },
+  {
+    "problem": "What happens when a liquid turns into a gas?",
+    "grade": "4",
+    "options": ["Melting", "Evaporation", "Freezing"],
+    "correctAnswer": "Evaporation"
+  },
+  {
+    "problem": "Which of these is an example of a mixture?",
+    "grade": "4",
+    "options": ["Salt water", "Water", "Oxygen"],
+    "correctAnswer": "Salt water"
+  },
+  {
+    "problem": "What gas do plants need for photosynthesis?",
+    "grade": "4",
+    "options": ["Oxygen", "Carbon dioxide", "Nitrogen"],
+    "correctAnswer": "Carbon dioxide"
+  },
+  {
+    "problem": "What is the process of changing from a solid to a liquid called?",
+    "grade": "4",
+    "options": ["Melting", "Condensation", "Freezing"],
+    "correctAnswer": "Melting"
+  },
+  {
+    "problem": "What is the smallest particle of an element called?",
+    "grade": "4",
+    "options": ["Atom", "Molecule", "Cell"],
+    "correctAnswer": "Atom"
+  },
+  {
+    "problem": "Which state of matter has a definite shape and volume?",
+    "grade": "4",
+    "options": ["Solid", "Liquid", "Gas"],
+    "correctAnswer": "Solid"
+  },
+  {
+    "problem": "What do you call a change that creates a new substance?",
+    "grade": "4",
+    "options": ["Physical change", "Chemical change", "Evaporation"],
+    "correctAnswer": "Chemical change"
+  },
+  {
+    "problem": "What do we call the process when a gas turns into a liquid?",
+    "grade": "4",
+    "options": ["Condensation", "Sublimation", "Evaporation"],
+    "correctAnswer": "Condensation"
+  },
+  {
+    "problem": "What is the chemical symbol for oxygen?",
+    "grade": "4",
+    "options": [
+      "O2",
+      "H2O",
+      "CO2"
+    ],
+    "correctAnswer": "O2"
+  },
+  {
+    "problem": "Which of the following is an example of a compound?",
+    "grade": "4",
+    "options": [
+      "Oxygen",
+      "Carbon",
+      "Water"
+    ],
+    "correctAnswer": "Water"
+  },
+  {
+    "problem": "What state of matter has a definite volume but takes the shape of its container?",
+    "grade": "4",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Liquid"
+  },
+  {
+    "problem": "What do we call a substance that cannot be broken down into simpler substances?",
+    "grade": "4",
+    "options": [
+      "Element",
+      "Mixture",
+      "Compound"
+    ],
+    "correctAnswer": "Element"
+  },
+  {
+    "problem": "Which of the following is a chemical property of iron?",
+    "grade": "4",
+    "options": [
+      "Color",
+      "Density",
+      "Rusting"
+    ],
+    "correctAnswer": "Rusting"
+  },
+  {
+    "problem": "What is the chemical symbol for gold?",
+    "grade": "4",
+    "options": [
+      "Ag",
+      "Au",
+      "Fe"
+    ],
+    "correctAnswer": "Au"
+  },
+  {
+    "problem": "What type of change occurs when a metal rusts?",
+    "grade": "4",
+    "options": [
+      "Physical change",
+      "Chemical change",
+      "Evaporation"
+    ],
+    "correctAnswer": "Chemical change"
+  },
+  {
+    "problem": "Which of the following is a physical property of water?",
+    "grade": "4",
+    "options": [
+      "Boiling point",
+      "Rusting",
+      "Burning"
+    ],
+    "correctAnswer": "Boiling point"
+  },
+  {
+    "problem": "In the chemical equation H2 + O2 → H2O, what is the product?",
+    "grade": "4",
+    "options": [
+      "H2",
+      "O2",
+      "H2O"
+    ],
+    "correctAnswer": "H2O"
+  },
+  {
+    "problem": "What happens when vinegar and baking soda are mixed together?",
+    "grade": "4",
+    "options": [
+      "Physical change",
+      "Chemical change",
+      "Evaporation"
+    ],
+    "correctAnswer": "Chemical change"
+  },
+  {
+    "problem": "What is the chemical symbol for carbon?",
+    "grade": "4",
+    "options": [
+      "C",
+      "Ca",
+      "Co"
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "problem": "What state of matter has no definite shape or volume?",
+    "grade": "4",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Gas"
+  },
+  {
+    "problem": "Which of the following is an example of a chemical reaction?",
+    "grade": "4",
+    "options": [
+      "Melting ice",
+      "Burning wood",
+      "Mixing salt and sugar"
+    ],
+    "correctAnswer": "Burning wood"
+  },
+  {
+    "problem": "What do we call a chart that organizes elements based on their properties?",
+    "grade": "4",
+    "options": [
+      "Periodic table",
+      "Calendar",
+      "Map"
+    ],
+    "correctAnswer": "Periodic table"
+  },
+  {
+    "problem": "What is the chemical symbol for helium?",
+    "grade": "4",
+    "options": [
+      "He",
+      "H",
+      "Li"
+    ],
+    "correctAnswer": "He"
+  },
+  {
+    "problem": "What type of change occurs when ice melts into water?",
+    "grade": "4",
+    "options": [
+      "Physical change",
+      "Chemical change",
+      "Evaporation"
+    ],
+    "correctAnswer": "Physical change"
+  },
+  {
+    "problem": "Which of the following is a chemical property of copper?",
+    "grade": "4",
+    "options": [
+      "Color",
+      "Density",
+      "Tarnishing"
+    ],
+    "correctAnswer": "Tarnishing"
+  },
+  {
+    "problem": "In the chemical equation 2H2 + O2 → 2H2O, what is the coefficient of oxygen?",
+    "grade": "4",
+    "options": [
+      "2",
+      "1",
+      "0"
+    ],
+    "correctAnswer": "1"
+  },
+  {
+    "problem": "What happens when you mix vinegar and baking soda in a closed container?",
+    "grade": "4",
+    "options": [
+      "Physical change",
+      "Chemical change",
+      "No change"
+    ],
+    "correctAnswer": "Chemical change"
+  },
+  {
+    "problem": "What is the chemical symbol for sodium?",
+    "grade": "4",
+    "options": [
+      "Na",
+      "Ni",
+      "Ne"
+    ],
+    "correctAnswer": "Na"
+  },
+  {
+    "problem": "What is the chemical symbol for oxygen?",
+    "grade": "4",
+    "options": [
+      "O2",
+      "H2O",
+      "CO2"
+    ],
+    "correctAnswer": "O2"
+  },
+  {
+    "problem": "Which of the following is a compound?",
+    "grade": "4",
+    "options": [
+      "Iron",
+      "Salt",
+      "Gold"
+    ],
+    "correctAnswer": "Salt"
+  },
+  {
+    "problem": "What state of matter has a definite shape but not a definite volume?",
+    "grade": "4",
+    "options": [
+      "Gas",
+      "Liquid",
+      "Solid"
+    ],
+    "correctAnswer": "Solid"
+  },
+  {
+    "problem": "What do we call a substance that cannot be broken down into simpler substances?",
+    "grade": "4",
+    "options": [
+      "Element",
+      "Mixture",
+      "Compound"
+    ],
+    "correctAnswer": "Element"
+  },
+  {
+    "problem": "What is the process of a liquid turning into a solid called?",
+    "grade": "4",
+    "options": [
+      "Condensation",
+      "Freezing",
+      "Melting"
+    ],
+    "correctAnswer": "Freezing"
+  },
+  {
+    "problem": "Which of the following is a property of acids?",
+    "grade": "4",
+    "options": [
+      "Sour taste",
+      "Sweet taste",
+      "No taste"
+    ],
+    "correctAnswer": "Sour taste"
+  },
+  {
+    "problem": "What do you call a substance that speeds up a chemical reaction but is not consumed in the process?",
+    "grade": "4",
+    "options": [
+      "Product",
+      "Catalyst",
+      "Reactant"
+    ],
+    "correctAnswer": "Catalyst"
+  },
+  {
+    "problem": "Which of the following elements is a metal?",
+    "grade": "4",
+    "options": [
+      "Oxygen",
+      "Iron",
+      "Carbon"
+    ],
+    "correctAnswer": "Iron"
+  },
+  {
+    "problem": "What is the result when iron rusts?",
+    "grade": "4",
+    "options": [
+      "Corrosion",
+      "Decomposition",
+      "Combustion"
+    ],
+    "correctAnswer": "Corrosion"
+  },
+  {
+    "problem": "What is the process of a solid turning directly into a gas called?",
+    "grade": "4",
+    "options": [
+      "Condensation",
+      "Sublimation",
+      "Evaporation"
+    ],
+    "correctAnswer": "Sublimation"
+  },
+  {
+    "problem": "What do we call the number of protons in an atom's nucleus?",
+    "grade": "4",
+    "options": [
+      "Atomic number",
+      "Atomic mass",
+      "Atomic weight"
+    ],
+    "correctAnswer": "Atomic number"
+  },
+  {
+    "problem": "Which of the following is a physical property of matter?",
+    "grade": "4",
+    "options": [
+      "Flammability",
+      "Density",
+      "Reactivity"
+    ],
+    "correctAnswer": "Density"
+  },
+  {
+    "problem": "What do you call a substance that is formed by the chemical combination of two or more elements?",
+    "grade": "4",
+    "options": [
+      "Mixture",
+      "Compound",
+      "Solution"
+    ],
+    "correctAnswer": "Compound"
+  },
+  {
+    "problem": "Which of the following is a non-metal element?",
+    "grade": "4",
+    "options": [
+      "Sodium",
+      "Carbon",
+      "Iron"
+    ],
+    "correctAnswer": "Carbon"
+  },
+  {
+    "problem": "What is the process of a gas turning into a liquid called?",
+    "grade": "4",
+    "options": [
+      "Melting",
+      "Condensation",
+      "Freezing"
+    ],
+    "correctAnswer": "Condensation"
+  },
+  {
+    "problem": "What is the chemical symbol for gold?",
+    "grade": "4",
+    "options": [
+      "Au",
+      "Ag",
+      "Fe"
+    ],
+    "correctAnswer": "Au"
+  },
+  {
+    "problem": "Which of the following is a characteristic of a base?",
+    "grade": "4",
+    "options": [
+      "Sour taste",
+      "Bitter taste",
+      "No taste"
+    ],
+    "correctAnswer": "Bitter taste"
+  },
+  {
+    "problem": "What do you call a substance that releases heat and light when it reacts with oxygen?",
+    "grade": "4",
+    "options": [
+      "Combustion",
+      "Corrosion",
+      "Decomposition"
+    ],
+    "correctAnswer": "Combustion"
+  },
+  {
+    "problem": "What is the result when a candle burns?",
+    "grade": "4",
+    "options": [
+      "Combustion",
+      "Corrosion",
+      "Decomposition"
+    ],
+    "correctAnswer": "Combustion"
+  },
+  {
+    "problem": "What do we call a change in which no new substance is formed?",
+    "grade": "4",
+    "options": [
+      "Physical change",
+      "Chemical change",
+      "Evaporation"
+    ],
+    "correctAnswer": "Physical change"
+  },
+  {
+    "problem": "What is the chemical symbol for oxygen?",
+    "grade": "4",
+    "options": [
+      "O2",
+      "H2O",
+      "CO2"
+    ],
+    "correctAnswer": "O2"
+  },
+  {
+    "problem": "Which of these is a compound?",
+    "grade": "4",
+    "options": [
+      "Oxygen",
+      "Water",
+      "Helium"
+    ],
+    "correctAnswer": "Water"
+  },
+  {
+    "problem": "What state of matter is ice?",
+    "grade": "4",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Solid"
+  },
+  {
+    "problem": "What is the process of a liquid turning into a solid called?",
+    "grade": "4",
+    "options": [
+      "Evaporation",
+      "Freezing",
+      "Melting"
+    ],
+    "correctAnswer": "Freezing"
+  },
+  {
+    "problem": "Which of these is a chemical property of iron?",
+    "grade": "4",
+    "options": [
+      "Color",
+      "Magnetism",
+      "Shape"
+    ],
+    "correctAnswer": "Magnetism"
+  },
+  {
+    "problem": "What element has the chemical symbol 'Na'?",
+    "grade": "4",
+    "options": [
+      "Sodium",
+      "Nitrogen",
+      "Silicon"
+    ],
+    "correctAnswer": "Sodium"
+  },
+  {
+    "problem": "What do we call a combination of two or more substances that does not create a new substance?",
+    "grade": "4",
+    "options": [
+      "Mixture",
+      "Compound",
+      "Element"
+    ],
+    "correctAnswer": "Mixture"
+  },
+  {
+    "problem": "Which of these is a chemical equation?",
+    "grade": "4",
+    "options": [
+      "2 + 2 = 4",
+      "H2O -> H + O",
+      "C6H12O6 -> 6CO2 + 6H2O"
+    ],
+    "correctAnswer": "C6H12O6 -> 6CO2 + 6H2O"
+  },
+  {
+    "problem": "What do you call a change that does not create a new substance?",
+    "grade": "4",
+    "options": [
+      "Chemical change",
+      "Physical change",
+      "Evaporation"
+    ],
+    "correctAnswer": "Physical change"
+  },
+  {
+    "problem": "What gas do humans breathe out?",
+    "grade": "4",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen"
+    ],
+    "correctAnswer": "Carbon dioxide"
+  },
+  {
+    "problem": "Which state of matter takes the shape of its container but not the volume?",
+    "grade": "4",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Gas"
+  },
+  {
+    "problem": "What is the chemical symbol for gold?",
+    "grade": "4",
+    "options": [
+      "Au",
+      "Ag",
+      "Fe"
+    ],
+    "correctAnswer": "Au"
+  },
+  {
+    "problem": "Which of these is a compound?",
+    "grade": "4",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Helium"
+    ],
+    "correctAnswer": "Carbon dioxide"
+  },
+  {
+    "problem": "What state of matter is water vapor?",
+    "grade": "4",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Gas"
+  },
+  {
+    "problem": "What is the process of a solid turning into a liquid called?",
+    "grade": "4",
+    "options": [
+      "Melting",
+      "Condensation",
+      "Freezing"
+    ],
+    "correctAnswer": "Melting"
+  },
+  {
+    "problem": "Which of these is a chemical property of sulfur?",
+    "grade": "4",
+    "options": [
+      "Smell",
+      "Color",
+      "Texture"
+    ],
+    "correctAnswer": "Smell"
+  },
+  {
+    "problem": "What element has the chemical symbol 'Fe'?",
+    "grade": "4",
+    "options": [
+      "Iron",
+      "Iodine",
+      "Indium"
+    ],
+    "correctAnswer": "Iron"
+  },
+  {
+    "problem": "What do we call a combination of two or more substances that creates a new substance?",
+    "grade": "4",
+    "options": [
+      "Mixture",
+      "Compound",
+      "Element"
+    ],
+    "correctAnswer": "Compound"
+  },
+  {
+    "problem": "Which of these is a chemical equation?",
+    "grade": "4",
+    "options": [
+      "2 + 2 = 4",
+      "H2O -> H + O",
+      "2H2 + O2 -> 2H2O"
+    ],
+    "correctAnswer": "2H2 + O2 -> 2H2O"
+  },
+  {
+    "problem": "What do you call a change that creates a new substance?",
+    "grade": "4",
+    "options": [
+      "Physical change",
+      "Chemical change",
+      "Evaporation"
+    ],
+    "correctAnswer": "Chemical change"
+  },
+  {
+    "problem": "What is the smallest unit of an element that retains its properties?",
+    "grade": "4",
+    "options": [
+      "Molecule",
+      "Atom",
+      "Compound"
+    ],
+    "correctAnswer": "Atom"
+  },
+  {
+    "problem": "Which of the following is an example of a compound?",
+    "grade": "4",
+    "options": [
+      "Oxygen",
+      "Carbon",
+      "Water"
+    ],
+    "correctAnswer": "Water"
+  },
+  {
+    "problem": "Which state of matter has a definite volume but takes the shape of its container?",
+    "grade": "4",
+    "options": [
+      "Gas",
+      "Liquid",
+      "Solid"
+    ],
+    "correctAnswer": "Liquid"
+  },
+  {
+    "problem": "What is a change in matter that produces a new substance with different properties called?",
+    "grade": "4",
+    "options": [
+      "Physical change",
+      "Chemical change",
+      "Evaporation"
+    ],
+    "correctAnswer": "Chemical change"
+  },
+  {
+    "problem": "Which of the following is a metal on the periodic table?",
+    "grade": "4",
+    "options": [
+      "Gold",
+      "Oxygen",
+      "Carbon"
+    ],
+    "correctAnswer": "Gold"
+  },
+  {
+    "problem": "What type of property describes how a substance reacts with other substances?",
+    "grade": "4",
+    "options": [
+      "Physical property",
+      "Chemical property",
+      "Density"
+    ],
+    "correctAnswer": "Chemical property"
+  },
+  {
+    "problem": "In a chemical equation, what do we call the substances on the left side of the arrow?",
+    "grade": "4",
+    "options": [
+      "Reactants",
+      "Products",
+      "Covalent bonds"
+    ],
+    "correctAnswer": "Reactants"
+  },
+  {
+    "problem": "Which of the following is a non-metal on the periodic table?",
+    "grade": "4",
+    "options": [
+      "Helium",
+      "Chlorine",
+      "Iron"
+    ],
+    "correctAnswer": "Helium"
+  },
+  {
+    "problem": "What do you call a combination of symbols and formulas to represent a chemical reaction?",
+    "grade": "4",
+    "options": [
+      "Chemical equation",
+      "Mixture",
+      "Solution"
+    ],
+    "correctAnswer": "Chemical equation"
+  },
+  {
+    "problem": "What do we call a process that rearranges atoms to form new substances?",
+    "grade": "4",
+    "options": [
+      "Physical change",
+      "Chemical change",
+      "Condensation"
+    ],
+    "correctAnswer": "Chemical change"
+  },
+  {
+    "problem": "Which of the following is a metalloid on the periodic table?",
+    "grade": "4",
+    "options": [
+      "Silicon",
+      "Potassium",
+      "Mercury"
+    ],
+    "correctAnswer": "Silicon"
+  },
+  {
+    "problem": "What property of matter describes its ability to conduct electricity?",
+    "grade": "4",
+    "options": [
+      "Density",
+      "Malleability",
+      "Conductivity"
+    ],
+    "correctAnswer": "Conductivity"
+  },
+  {
+    "problem": "In a chemical equation, what do we call the substances on the right side of the arrow?",
+    "grade": "4",
+    "options": [
+      "Reactants",
+      "Products",
+      "Covalent bonds"
+    ],
+    "correctAnswer": "Products"
+  },
+  {
+    "problem": "Which of the following is a noble gas on the periodic table?",
+    "grade": "4",
+    "options": [
+      "Neon",
+      "Sodium",
+      "Copper"
+    ],
+    "correctAnswer": "Neon"
+  },
+  {
+    "problem": "What do you call a substance that cannot be broken down into simpler substances by chemical reactions?",
+    "grade": "4",
+    "options": [
+      "Compound",
+      "Mixture",
+      "Element"
+    ],
+    "correctAnswer": "Element"
+  },
+  {
+    "problem": "Which state of matter has no definite shape or volume?",
+    "grade": "4",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Gas"
+  },
+  {
+    "problem": "What is a type of chemical reaction that releases heat and light?",
+    "grade": "4",
+    "options": [
+      "Combustion",
+      "Decomposition",
+      "Synthesis"
+    ],
+    "correctAnswer": "Combustion"
+  },
+  {
+    "problem": "What property of matter describes its ability to be hammered into thin sheets?",
+    "grade": "4",
+    "options": [
+      "Density",
+      "Malleability",
+      "Conductivity"
+    ],
+    "correctAnswer": "Malleability"
+  },
+  {
+    "problem": "In a chemical equation, what do we call the number that represents the amount of each substance?",
+    "grade": "4",
+    "options": [
+      "Coefficient",
+      "Subscript",
+      "Exponent"
+    ],
+    "correctAnswer": "Coefficient"
+  },
+  {
+    "problem": "What do we call a reaction where two or more substances combine to form a new substance?",
+    "grade": "4",
+    "options": [
+      "Decomposition",
+      "Synthesis",
+      "Oxidation"
+    ],
+    "correctAnswer": "Synthesis"
+  },
+  {
+    "problem": "What is the chemical symbol for oxygen?",
+    "grade": "4",
+    "options": [
+      "O2",
+      "CO2",
+      "H2O"
+    ],
+    "correctAnswer": "O2"
+  },
+  {
+    "problem": "Which of these is an example of a compound?",
+    "grade": "4",
+    "options": [
+      "Oxygen",
+      "Water",
+      "Salt"
+    ],
+    "correctAnswer": "Water"
+  },
+  {
+    "problem": "What state of matter has no definite shape or volume?",
+    "grade": "4",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Gas"
+  },
+  {
+    "problem": "What do you call a change that does not create a new substance?",
+    "grade": "4",
+    "options": [
+      "Physical change",
+      "Chemical change",
+      "Evaporation"
+    ],
+    "correctAnswer": "Physical change"
+  },
+  {
+    "problem": "Which of these is a property of metals?",
+    "grade": "4",
+    "options": [
+      "Brittle",
+      "Malleable",
+      "Transparent"
+    ],
+    "correctAnswer": "Malleable"
+  },
+  {
+    "problem": "What do we call a substance that speeds up a chemical reaction?",
+    "grade": "4",
+    "options": [
+      "Catalyst",
+      "Inhibitor",
+      "Reactant"
+    ],
+    "correctAnswer": "Catalyst"
+  },
+  {
+    "problem": "Which of these is a property of nonmetals?",
+    "grade": "4",
+    "options": [
+      "Conducts electricity",
+      "Shiny",
+      "Brittle"
+    ],
+    "correctAnswer": "Brittle"
+  },
+  {
+    "problem": "What do you call a chemical equation that shows the reactants and products of a chemical reaction?",
+    "grade": "4",
+    "options": [
+      "Chemical formula",
+      "Chemical equation",
+      "Chemical reaction"
+    ],
+    "correctAnswer": "Chemical equation"
+  },
+  {
+    "problem": "What is the process of changing from a gas to a solid called?",
+    "grade": "4",
+    "options": [
+      "Sublimation",
+      "Deposition",
+      "Condensation"
+    ],
+    "correctAnswer": "Deposition"
+  },
+  {
+    "problem": "What do we call a substance that is made up of two or more elements chemically combined?",
+    "grade": "4",
+    "options": [
+      "Mixture",
+      "Compound",
+      "Solution"
+    ],
+    "correctAnswer": "Compound"
+  },
+  {
+    "problem": "Which state of matter has a definite volume but no definite shape?",
+    "grade": "4",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Liquid"
+  },
+  {
+    "problem": "What happens when a solid turns directly into a gas without passing through the liquid state?",
+    "grade": "4",
+    "options": [
+      "Melting",
+      "Evaporation",
+      "Sublimation"
+    ],
+    "correctAnswer": "Sublimation"
+  },
+  {
+    "problem": "What do you call the rows in the periodic table?",
+    "grade": "4",
+    "options": [
+      "Columns",
+      "Periods",
+      "Groups"
+    ],
+    "correctAnswer": "Periods"
+  },
+  {
+    "problem": "Which of these is an example of a physical property?",
+    "grade": "4",
+    "options": [
+      "Ability to rust",
+      "Density",
+      "Flammability"
+    ],
+    "correctAnswer": "Density"
+  },
+  {
+    "problem": "What do we call a substance that slows down a chemical reaction?",
+    "grade": "4",
+    "options": [
+      "Catalyst",
+      "Inhibitor",
+      "Reactant"
+    ],
+    "correctAnswer": "Inhibitor"
+  },
+  {
+    "problem": "Which of these is a chemical property of a substance?",
+    "grade": "4",
+    "options": [
+      "Color",
+      "Boiling point",
+      "Odor"
+    ],
+    "correctAnswer": "Odor"
+  },
+  {
+    "problem": "What do you call a representation of a chemical reaction using symbols and formulas?",
+    "grade": "4",
+    "options": [
+      "Chemical formula",
+      "Chemical equation",
+      "Chemical reaction"
+    ],
+    "correctAnswer": "Chemical equation"
+  },
+  {
+    "problem": "What is the process of changing from a gas to a liquid called?",
+    "grade": "4",
+    "options": [
+      "Condensation",
+      "Sublimation",
+      "Evaporation"
+    ],
+    "correctAnswer": "Condensation"
+  },
+  {
+    "problem": "Which of these is a product of a chemical reaction?",
+    "grade": "4",
+    "options": [
+      "Reactant",
+      "Catalyst",
+      "Product"
+    ],
+    "correctAnswer": "Product"
+  },
+  {
+    "problem": "What do we call a substance that participates in a chemical reaction?",
+    "grade": "4",
+    "options": [
+      "Catalyst",
+      "Inhibitor",
+      "Reactant"
+    ],
+    "correctAnswer": "Reactant"
+  },
+  {
+    "problem": "What is the chemical formula for table salt?",
+    "grade": "5",
+    "options": ["NaCl", "H2O", "CO2"],
+    "correctAnswer": "NaCl"
+  },
+  {
+    "problem": "Which state of matter has particles that are far apart and move freely?",
+    "grade": "5",
+    "options": ["Solid", "Liquid", "Gas"],
+    "correctAnswer": "Gas"
+  },
+  {
+    "problem": "What is the process called when a solid changes directly into a gas?",
+    "grade": "5",
+    "options": ["Evaporation", "Sublimation", "Condensation"],
+    "correctAnswer": "Sublimation"
+  },
+  {
+    "problem": "Which element is needed for respiration in animals?",
+    "grade": "5",
+    "options": ["Oxygen", "Nitrogen", "Carbon dioxide"],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "problem": "What is the pH value of a neutral substance like pure water?",
+    "grade": "5",
+    "options": ["7", "0", "14"],
+    "correctAnswer": "7"
+  },
+  {
+    "problem": "Which of these is an example of a chemical change?",
+    "grade": "5",
+    "options": ["Melting ice", "Burning wood", "Breaking glass"],
+    "correctAnswer": "Burning wood"
+  },
+  {
+    "problem": "What do you call a substance made of two or more elements chemically joined?",
+    "grade": "5",
+    "options": ["Compound", "Element", "Mixture"],
+    "correctAnswer": "Compound"
+  },
+  {
+    "problem": "What gas do plants release during photosynthesis?",
+    "grade": "5",
+    "options": ["Oxygen", "Carbon dioxide", "Nitrogen"],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "problem": "What is the process of turning a liquid into a solid called?",
+    "grade": "5",
+    "options": ["Freezing", "Melting", "Condensation"],
+    "correctAnswer": "Freezing"
+  },
+  {
+    "problem": "Which device separates mixtures by spinning them at high speed?",
+    "grade": "5",
+    "options": ["Centrifuge", "Filter", "Evaporator"],
+    "correctAnswer": "Centrifuge"
+  },
+  {
+    "problem": "Which of the following is a compound?",
+    "grade": "5",
+    "options": [
+      "Iron",
+      "Water",
+      "Helium"
+    ],
+    "correctAnswer": "Water"
+  },
+  {
+    "problem": "In which state of matter do particles have the least energy and are closely packed together?",
+    "grade": "5",
+    "options": [
+      "Gas",
+      "Liquid",
+      "Solid"
+    ],
+    "correctAnswer": "Solid"
+  },
+  {
+    "problem": "What happens when vinegar (acetic acid) reacts with baking soda (sodium bicarbonate)?",
+    "grade": "5",
+    "options": [
+      "It forms water",
+      "It produces carbon dioxide gas",
+      "It turns red"
+    ],
+    "correctAnswer": "It produces carbon dioxide gas"
+  },
+  {
+    "problem": "Which element has the symbol 'O' on the periodic table?",
+    "grade": "5",
+    "options": [
+      "Oxygen",
+      "Gold",
+      "Iron"
+    ],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "problem": "Which property of a substance describes its ability to burn?",
+    "grade": "5",
+    "options": [
+      "Density",
+      "Flammability",
+      "Solubility"
+    ],
+    "correctAnswer": "Flammability"
+  },
+  {
+    "problem": "What does the chemical equation '2H2 + O2 -> 2H2O' represent?",
+    "grade": "5",
+    "options": [
+      "Formation of water",
+      "Formation of oxygen gas",
+      "Formation of hydrogen gas"
+    ],
+    "correctAnswer": "Formation of water"
+  },
+  {
+    "problem": "What happens when you mix iron filings with sulfur powder?",
+    "grade": "5",
+    "options": [
+      "They form a solution",
+      "They create a gas",
+      "They form a mixture"
+    ],
+    "correctAnswer": "They form a mixture"
+  },
+  {
+    "problem": "Which property of a substance describes its ability to conduct electricity?",
+    "grade": "5",
+    "options": [
+      "Malleability",
+      "Ductility",
+      "Conductivity"
+    ],
+    "correctAnswer": "Conductivity"
+  },
+  {
+    "problem": "What is the chemical formula for rust?",
+    "grade": "5",
+    "options": [
+      "Fe2O3",
+      "CO2",
+      "NaCl"
+    ],
+    "correctAnswer": "Fe2O3"
+  },
+  {
+    "problem": "What happens when you mix vinegar (acetic acid) with baking soda (sodium bicarbonate)?",
+    "grade": "5",
+    "options": [
+      "It fizzes and produces carbon dioxide gas",
+      "It turns purple",
+      "It becomes solid"
+    ],
+    "correctAnswer": "It fizzes and produces carbon dioxide gas"
+  },
+  {
+    "problem": "Which of the following is a compound?",
+    "grade": "5",
+    "options": [
+      "Gold",
+      "Carbon",
+      "Sugar"
+    ],
+    "correctAnswer": "Sugar"
+  },
+  {
+    "problem": "In which state of matter do particles have the most energy and are far apart?",
+    "grade": "5",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Gas"
+  },
+  {
+    "problem": "What happens when you mix baking soda (sodium bicarbonate) with lemon juice (citric acid)?",
+    "grade": "5",
+    "options": [
+      "It turns blue",
+      "It produces a smell",
+      "It fizzes and produces carbon dioxide gas"
+    ],
+    "correctAnswer": "It fizzes and produces carbon dioxide gas"
+  },
+  {
+    "problem": "Which element has the symbol 'Fe' on the periodic table?",
+    "grade": "5",
+    "options": [
+      "Iron",
+      "Silver",
+      "Sulfur"
+    ],
+    "correctAnswer": "Iron"
+  },
+  {
+    "problem": "Which property of a substance describes its ability to dissolve in water?",
+    "grade": "5",
+    "options": [
+      "Flammability",
+      "Solubility",
+      "Conductivity"
+    ],
+    "correctAnswer": "Solubility"
+  },
+  {
+    "problem": "What does the chemical equation '2H2 + O2 -> 2H2O' represent?",
+    "grade": "5",
+    "options": [
+      "Formation of water",
+      "Formation of oxygen gas",
+      "Formation of hydrogen gas"
+    ],
+    "correctAnswer": "Formation of water"
+  },
+  {
+    "problem": "What happens when you mix salt with water?",
+    "grade": "5",
+    "options": [
+      "It turns red",
+      "It forms a solid",
+      "It dissolves"
+    ],
+    "correctAnswer": "It dissolves"
+  },
+  {
+    "problem": "Which property of a substance describes its ability to be hammered into thin sheets?",
+    "grade": "5",
+    "options": [
+      "Density",
+      "Malleability",
+      "Conductivity"
+    ],
+    "correctAnswer": "Malleability"
+  },
+  {
+    "problem": "What is the chemical formula for carbon dioxide?",
+    "grade": "5",
+    "options": [
+      "CO2",
+      "H2O",
+      "NaCl"
+    ],
+    "correctAnswer": "CO2"
+  },
+  {
+    "problem": "What happens when you mix vinegar (acetic acid) with baking soda (sodium bicarbonate)?",
+    "grade": "5",
+    "options": [
+      "It forms water",
+      "It produces carbon dioxide gas",
+      "It turns blue"
+    ],
+    "correctAnswer": "It produces carbon dioxide gas"
+  },
+  {
+    "problem": "What is the smallest particle of an element that retains its properties?",
+    "grade": "5",
+    "options": [
+      "Atom",
+      "Molecule",
+      "Compound"
+    ],
+    "correctAnswer": "Atom"
+  },
+  {
+    "problem": "Which of the following is an example of a compound?",
+    "grade": "5",
+    "options": [
+      "Air",
+      "Water",
+      "Salt"
+    ],
+    "correctAnswer": "Salt"
+  },
+  {
+    "problem": "In which state of matter do particles have the most energy and move the fastest?",
+    "grade": "5",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Gas"
+  },
+  {
+    "problem": "What is the result of a chemical reaction?",
+    "grade": "5",
+    "options": [
+      "New substance formed",
+      "Physical change",
+      "No change"
+    ],
+    "correctAnswer": "New substance formed"
+  },
+  {
+    "problem": "Which element has the symbol 'O' on the periodic table?",
+    "grade": "5",
+    "options": [
+      "Oxygen",
+      "Gold",
+      "Carbon"
+    ],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "problem": "Which property of matter describes its ability to conduct electricity?",
+    "grade": "5",
+    "options": [
+      "Density",
+      "Conductivity",
+      "Boiling point"
+    ],
+    "correctAnswer": "Conductivity"
+  },
+  {
+    "problem": "What is a chemical equation used to represent?",
+    "grade": "5",
+    "options": [
+      "Physical change",
+      "Chemical reaction",
+      "Mixing substances"
+    ],
+    "correctAnswer": "Chemical reaction"
+  },
+  {
+    "problem": "Which property of matter describes its ability to react with other substances?",
+    "grade": "5",
+    "options": [
+      "Color",
+      "Reactivity",
+      "Melting point"
+    ],
+    "correctAnswer": "Reactivity"
+  },
+  {
+    "problem": "What do you call a substance that speeds up a chemical reaction but is not consumed in the process?",
+    "grade": "5",
+    "options": [
+      "Reactant",
+      "Product",
+      "Catalyst"
+    ],
+    "correctAnswer": "Catalyst"
+  },
+  {
+    "problem": "What happens when you mix vinegar (acetic acid) with baking soda (sodium bicarbonate)?",
+    "grade": "5",
+    "options": [
+      "Explosion",
+      "Fizzing and bubbling",
+      "No reaction"
+    ],
+    "correctAnswer": "Fizzing and bubbling"
+  },
+  {
+    "problem": "Which of the following is a pure substance?",
+    "grade": "5",
+    "options": [
+      "Sand",
+      "Air",
+      "Gold"
+    ],
+    "correctAnswer": "Gold"
+  },
+  {
+    "problem": "Which state of matter has a definite shape and volume?",
+    "grade": "5",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Solid"
+  },
+  {
+    "problem": "What is the symbol for the element sodium on the periodic table?",
+    "grade": "5",
+    "options": [
+      "Na",
+      "S",
+      "O"
+    ],
+    "correctAnswer": "Na"
+  },
+  {
+    "problem": "What property of matter allows it to be hammered into thin sheets?",
+    "grade": "5",
+    "options": [
+      "Malleability",
+      "Density",
+      "Boiling point"
+    ],
+    "correctAnswer": "Malleability"
+  },
+  {
+    "problem": "What do you call a substance that is formed as a result of a chemical reaction?",
+    "grade": "5",
+    "options": [
+      "Reactant",
+      "Product",
+      "Catalyst"
+    ],
+    "correctAnswer": "Product"
+  },
+  {
+    "problem": "Which property of matter describes its ability to burn?",
+    "grade": "5",
+    "options": [
+      "Color",
+      "Flammability",
+      "Melting point"
+    ],
+    "correctAnswer": "Flammability"
+  },
+  {
+    "problem": "What is the number written in front of a chemical formula in a chemical equation called?",
+    "grade": "5",
+    "options": [
+      "Coefficient",
+      "Subscript",
+      "Exponent"
+    ],
+    "correctAnswer": "Coefficient"
+  },
+  {
+    "problem": "What is the result of mixing iron oxide (rust) with aluminum powder?",
+    "grade": "5",
+    "options": [
+      "Color change",
+      "Explosion",
+      "Fire"
+    ],
+    "correctAnswer": "Fire"
+  },
+  {
+    "problem": "Which of the following is a chemical property of matter?",
+    "grade": "5",
+    "options": [
+      "Weight",
+      "Color",
+      "Ability to rust"
+    ],
+    "correctAnswer": "Ability to rust"
+  },
+  {
+    "problem": "What is the smallest unit of an element that retains the properties of that element?",
+    "grade": "5",
+    "options": [
+      "Atom",
+      "Molecule",
+      "Compound"
+    ],
+    "correctAnswer": "Atom"
+  },
+  {
+    "problem": "Which of the following is an example of a compound?",
+    "grade": "5",
+    "options": [
+      "Oxygen",
+      "Water",
+      "Gold"
+    ],
+    "correctAnswer": "Water"
+  },
+  {
+    "problem": "In which state of matter do particles have the least amount of energy?",
+    "grade": "5",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Solid"
+  },
+  {
+    "problem": "What happens to the particles in a substance when it undergoes a physical change?",
+    "grade": "5",
+    "options": [
+      "They break apart",
+      "They change into different elements",
+      "They rearrange"
+    ],
+    "correctAnswer": "They rearrange"
+  },
+  {
+    "problem": "Which of the following is a chemical property of iron?",
+    "grade": "5",
+    "options": [
+      "Magnetism",
+      "Color",
+      "Hardness"
+    ],
+    "correctAnswer": "Magnetism"
+  },
+  {
+    "problem": "What does the number of atoms on each side of a chemical equation represent?",
+    "grade": "5",
+    "options": [
+      "Number of molecules",
+      "Number of elements",
+      "Law of conservation of mass"
+    ],
+    "correctAnswer": "Law of conservation of mass"
+  },
+  {
+    "problem": "What is formed when a new substance is produced by a chemical change?",
+    "grade": "5",
+    "options": [
+      "Mixture",
+      "Compound",
+      "Element"
+    ],
+    "correctAnswer": "Compound"
+  },
+  {
+    "problem": "Which property of matter allows it to be hammered into thin sheets?",
+    "grade": "5",
+    "options": [
+      "Malleability",
+      "Density",
+      "Conductivity"
+    ],
+    "correctAnswer": "Malleability"
+  },
+  {
+    "problem": "What is the number of protons in the nucleus of an atom called?",
+    "grade": "5",
+    "options": [
+      "Atomic number",
+      "Atomic mass",
+      "Electron cloud"
+    ],
+    "correctAnswer": "Atomic number"
+  },
+  {
+    "problem": "What type of reaction occurs when two or more substances combine to form a new substance?",
+    "grade": "5",
+    "options": [
+      "Decomposition",
+      "Synthesis",
+      "Neutralization"
+    ],
+    "correctAnswer": "Synthesis"
+  },
+  {
+    "problem": "Which element has the symbol 'He' on the periodic table?",
+    "grade": "5",
+    "options": [
+      "Hydrogen",
+      "Helium",
+      "Carbon"
+    ],
+    "correctAnswer": "Helium"
+  },
+  {
+    "problem": "What is the vertical column on the periodic table called?",
+    "grade": "5",
+    "options": [
+      "Row",
+      "Period",
+      "Group"
+    ],
+    "correctAnswer": "Group"
+  },
+  {
+    "problem": "What is the horizontal row on the periodic table called?",
+    "grade": "5",
+    "options": [
+      "Row",
+      "Period",
+      "Group"
+    ],
+    "correctAnswer": "Period"
+  },
+  {
+    "problem": "Which property of matter allows it to conduct electricity?",
+    "grade": "5",
+    "options": [
+      "Conductivity",
+      "Malleability",
+      "Density"
+    ],
+    "correctAnswer": "Conductivity"
+  },
+  {
+    "problem": "What is the number of neutrons in the nucleus of an atom called?",
+    "grade": "5",
+    "options": [
+      "Atomic number",
+      "Atomic mass",
+      "Isotope"
+    ],
+    "correctAnswer": "Isotope"
+  },
+  {
+    "problem": "Which of the following is a chemical property of copper?",
+    "grade": "5",
+    "options": [
+      "Color",
+      "Malleability",
+      "Density"
+    ],
+    "correctAnswer": "Color"
+  },
+  {
+    "problem": "What do you call a shorthand way to represent a chemical reaction?",
+    "grade": "5",
+    "options": [
+      "Chemical equation",
+      "Chemical formula",
+      "Substance"
+    ],
+    "correctAnswer": "Chemical equation"
+  },
+  {
+    "problem": "In a chemical equation, what do the arrows represent?",
+    "grade": "5",
+    "options": [
+      "Mass",
+      "Energy",
+      "Reaction direction"
+    ],
+    "correctAnswer": "Reaction direction"
+  },
+  {
+    "problem": "Which type of reaction occurs when a single compound breaks down into two or more simpler substances?",
+    "grade": "5",
+    "options": [
+      "Synthesis",
+      "Decomposition",
+      "Combustion"
+    ],
+    "correctAnswer": "Decomposition"
+  },
+  {
+    "problem": "What is the symbol for the element oxygen on the periodic table?",
+    "grade": "5",
+    "options": [
+      "O",
+      "H",
+      "C"
+    ],
+    "correctAnswer": "O"
+  },
+  {
+    "problem": "Which of the following is an example of a compound?",
+    "grade": "5",
+    "options": [
+      "Salt water",
+      "Salt",
+      "Water"
+    ],
+    "correctAnswer": "Salt water"
+  },
+  {
+    "problem": "What state of matter is ice?",
+    "grade": "5",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Solid"
+  },
+  {
+    "problem": "What happens when you mix vinegar and baking soda together?",
+    "grade": "5",
+    "options": [
+      "An explosion",
+      "A chemical reaction",
+      "Nothing"
+    ],
+    "correctAnswer": "A chemical reaction"
+  },
+  {
+    "problem": "Which element is a metal on the periodic table?",
+    "grade": "5",
+    "options": [
+      "Oxygen",
+      "Carbon",
+      "Iron"
+    ],
+    "correctAnswer": "Iron"
+  },
+  {
+    "problem": "What property of water allows it to dissolve many substances?",
+    "grade": "5",
+    "options": [
+      "Density",
+      "Solubility",
+      "Conductivity"
+    ],
+    "correctAnswer": "Solubility"
+  },
+  {
+    "problem": "What is the chemical equation for the reaction between hydrogen and oxygen to form water?",
+    "grade": "5",
+    "options": [
+      "H2O2 -> H2O",
+      "H2 + O2 -> H2O",
+      "H2O -> H2 + O2"
+    ],
+    "correctAnswer": "H2 + O2 -> H2O"
+  },
+  {
+    "problem": "Which of the following is a chemical property of iron?",
+    "grade": "5",
+    "options": [
+      "Color",
+      "Magnetism",
+      "Shape"
+    ],
+    "correctAnswer": "Magnetism"
+  },
+  {
+    "problem": "What is the product of the reaction between vinegar and baking soda?",
+    "grade": "5",
+    "options": [
+      "Salt",
+      "Water",
+      "Carbon dioxide"
+    ],
+    "correctAnswer": "Carbon dioxide"
+  },
+  {
+    "problem": "What type of reaction occurs when iron rusts?",
+    "grade": "5",
+    "options": [
+      "Combustion",
+      "Oxidation",
+      "Decomposition"
+    ],
+    "correctAnswer": "Oxidation"
+  },
+  {
+    "problem": "Which of the following is a pure substance?",
+    "grade": "5",
+    "options": [
+      "Air",
+      "Sugar",
+      "Sand"
+    ],
+    "correctAnswer": "Sugar"
+  },
+  {
+    "problem": "In which state of matter do particles have the most energy and move the fastest?",
+    "grade": "5",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Gas"
+  },
+  {
+    "problem": "What happens when you mix baking soda and lemon juice together?",
+    "grade": "5",
+    "options": [
+      "A chemical reaction",
+      "A physical change",
+      "Nothing"
+    ],
+    "correctAnswer": "A chemical reaction"
+  },
+  {
+    "problem": "What is the atomic number of carbon on the periodic table?",
+    "grade": "5",
+    "options": [
+      "6",
+      "8",
+      "12"
+    ],
+    "correctAnswer": "6"
+  },
+  {
+    "problem": "Which of the following is a chemical change?",
+    "grade": "5",
+    "options": [
+      "Melting ice",
+      "Mixing salt and pepper",
+      "Burning paper"
+    ],
+    "correctAnswer": "Burning paper"
+  },
+  {
+    "problem": "What property of helium allows it to float in the air?",
+    "grade": "5",
+    "options": [
+      "Density",
+      "Solubility",
+      "Buoyancy"
+    ],
+    "correctAnswer": "Buoyancy"
+  },
+  {
+    "problem": "What is the chemical formula for carbon dioxide?",
+    "grade": "5",
+    "options": [
+      "CO",
+      "CO2",
+      "C2O4"
+    ],
+    "correctAnswer": "CO2"
+  },
+  {
+    "problem": "Which substance is a good conductor of electricity?",
+    "grade": "5",
+    "options": [
+      "Wood",
+      "Copper",
+      "Plastic"
+    ],
+    "correctAnswer": "Copper"
+  },
+  {
+    "problem": "What type of reaction is the process of photosynthesis?",
+    "grade": "5",
+    "options": [
+      "Combustion",
+      "Synthesis",
+      "Decomposition"
+    ],
+    "correctAnswer": "Synthesis"
+  },
+  {
+    "problem": "What is the chemical symbol for gold on the periodic table?",
+    "grade": "5",
+    "options": [
+      "Au",
+      "Ag",
+      "Al"
+    ],
+    "correctAnswer": "Au"
+  },
+  {
+    "problem": "What is the smallest unit of an element that still retains the properties of that element?",
+    "grade": "5",
+    "options": [
+      "Molecule",
+      "Atom",
+      "Compound"
+    ],
+    "correctAnswer": "Atom"
+  },
+  {
+    "problem": "Which state of matter has a definite shape and volume?",
+    "grade": "5",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Solid"
+  },
+  {
+    "problem": "What happens when iron rusts?",
+    "grade": "5",
+    "options": [
+      "It gets hotter",
+      "It turns black",
+      "It forms a reddish-brown substance"
+    ],
+    "correctAnswer": "It forms a reddish-brown substance"
+  },
+  {
+    "problem": "Which element has the chemical symbol 'H'?",
+    "grade": "5",
+    "options": [
+      "Hydrogen",
+      "Helium",
+      "Carbon"
+    ],
+    "correctAnswer": "Hydrogen"
+  },
+  {
+    "problem": "What is the ability of a substance to undergo a chemical change called?",
+    "grade": "5",
+    "options": [
+      "Density",
+      "Solubility",
+      "Reactivity"
+    ],
+    "correctAnswer": "Reactivity"
+  },
+  {
+    "problem": "What is the balanced chemical equation for the reaction between hydrogen and oxygen to form water?",
+    "grade": "5",
+    "options": [
+      "H2 + O2 -> H2O",
+      "2H2 + O2 -> 2H2O",
+      "H + O -> H2O"
+    ],
+    "correctAnswer": "2H2 + O2 -> 2H2O"
+  },
+  {
+    "problem": "What do you call the substances that are formed by a chemical reaction?",
+    "grade": "5",
+    "options": [
+      "Reactants",
+      "Products",
+      "Catalysts"
+    ],
+    "correctAnswer": "Products"
+  },
+  {
+    "problem": "Which property of matter describes the ability of a substance to burn?",
+    "grade": "5",
+    "options": [
+      "Flammability",
+      "Density",
+      "Hardness"
+    ],
+    "correctAnswer": "Flammability"
+  },
+  {
+    "problem": "What is the balanced chemical equation for the reaction between sodium and chlorine to form sodium chloride?",
+    "grade": "5",
+    "options": [
+      "2Na + Cl2 -> 2NaCl",
+      "Na + Cl -> NaCl",
+      "NaCl -> Na + Cl"
+    ],
+    "correctAnswer": "2Na + Cl2 -> 2NaCl"
+  },
+  {
+    "problem": "What happens when vinegar (acetic acid) is mixed with baking soda (sodium bicarbonate)?",
+    "grade": "5",
+    "options": [
+      "It turns blue",
+      "It fizzes and produces carbon dioxide gas",
+      "It becomes hot"
+    ],
+    "correctAnswer": "It fizzes and produces carbon dioxide gas"
+  },
+  {
+    "problem": "What is the process of two or more substances combining to form a new substance called?",
+    "grade": "5",
+    "options": [
+      "Decomposition",
+      "Combustion",
+      "Combination"
+    ],
+    "correctAnswer": "Combination"
+  },
+  {
+    "problem": "Which element is a noble gas and is used in balloons to make them float?",
+    "grade": "5",
+    "options": [
+      "Helium",
+      "Neon",
+      "Argon"
+    ],
+    "correctAnswer": "Helium"
+  },
+  {
+    "problem": "What property of matter allows a substance to dissolve in water?",
+    "grade": "5",
+    "options": [
+      "Density",
+      "Solubility",
+      "Conductivity"
+    ],
+    "correctAnswer": "Solubility"
+  },
+  {
+    "problem": "What is the chemical formula for carbon dioxide?",
+    "grade": "5",
+    "options": [
+      "CO",
+      "CO2",
+      "C2O"
+    ],
+    "correctAnswer": "CO2"
+  },
+  {
+    "problem": "Which state of matter has a definite volume but takes the shape of its container?",
+    "grade": "5",
+    "options": [
+      "Liquid",
+      "Solid",
+      "Gas"
+    ],
+    "correctAnswer": "Liquid"
+  },
+  {
+    "problem": "What is the property of matter that describes how tightly packed the particles are?",
+    "grade": "5",
+    "options": [
+      "Density",
+      "Solubility",
+      "Viscosity"
+    ],
+    "correctAnswer": "Density"
+  },
+  {
+    "problem": "What is the name of the horizontal rows in the periodic table?",
+    "grade": "5",
+    "options": [
+      "Periods",
+      "Groups",
+      "Families"
+    ],
+    "correctAnswer": "Periods"
+  },
+  {
+    "problem": "What is the chemical formula for water?",
+    "grade": "5",
+    "options": [
+      "H2O2",
+      "H2O",
+      "HO"
+    ],
+    "correctAnswer": "H2O"
+  },
+  {
+    "problem": "What is the process of a gas turning into a liquid called?",
+    "grade": "5",
+    "options": [
+      "Evaporation",
+      "Condensation",
+      "Sublimation"
+    ],
+    "correctAnswer": "Condensation"
+  },
+  {
+    "problem": "Which property of matter describes the ability of a substance to conduct electricity?",
+    "grade": "5",
+    "options": [
+      "Conductivity",
+      "Magnetism",
+      "Solubility"
+    ],
+    "correctAnswer": "Conductivity"
+  },
+  {
+    "problem": "What is an atom?",
+    "grade": "6",
+    "options": ["The smallest unit of matter", "A type of molecule", "A mixture"],
+    "correctAnswer": "The smallest unit of matter"
+  },
+  {
+    "problem": "Which element is represented by the symbol 'O'?",
+    "grade": "6",
+    "options": ["Oxygen", "Gold", "Osmium"],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "problem": "What is the name of the process where a liquid changes into a gas?",
+    "grade": "6",
+    "options": ["Evaporation", "Condensation", "Freezing"],
+    "correctAnswer": "Evaporation"
+  },
+  {
+    "problem": "What do we call a substance made of two or more elements chemically combined?",
+    "grade": "6",
+    "options": ["Compound", "Element", "Mixture"],
+    "correctAnswer": "Compound"
+  },
+  {
+    "problem": "What is the pH scale used to measure?",
+    "grade": "6",
+    "options": ["Acidity or alkalinity", "Temperature", "Density"],
+    "correctAnswer": "Acidity or alkalinity"
+  },
+  {
+    "problem": "Which gas do plants take in for photosynthesis?",
+    "grade": "6",
+    "options": ["Carbon dioxide", "Oxygen", "Nitrogen"],
+    "correctAnswer": "Carbon dioxide"
+  },
+  {
+    "problem": "What happens to molecules when a substance melts?",
+    "grade": "6",
+    "options": ["They move faster", "They move slower", "They stay still"],
+    "correctAnswer": "They move faster"
+  },
+  {
+    "problem": "Which type of mixture can be separated by physical means?",
+    "grade": "6",
+    "options": ["Homogeneous", "Heterogeneous", "Chemical"],
+    "correctAnswer": "Heterogeneous"
+  },
+  {
+    "problem": "What is the chemical symbol for sodium?",
+    "grade": "6",
+    "options": ["Na", "S", "Sn"],
+    "correctAnswer": "Na"
+  },
+  {
+    "problem": "What do we call the amount of matter in an object?",
+    "grade": "6",
+    "options": ["Mass", "Weight", "Volume"],
+    "correctAnswer": "Mass"
+  },
+  {
+    "problem": "What is the chemical formula for water?",
+    "grade": "6",
+    "options": [
+      "H2O",
+      "CO2",
+      "NaCl"
+    ],
+    "correctAnswer": "H2O"
+  },
+  {
+    "problem": "Which of the following is a compound?",
+    "grade": "6",
+    "options": [
+      "Gold",
+      "Hydrogen",
+      "Carbon dioxide"
+    ],
+    "correctAnswer": "Carbon dioxide"
+  },
+  {
+    "problem": "What is the state of matter of a banana?",
+    "grade": "6",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Solid"
+  },
+  {
+    "problem": "In which state of matter do particles have the most energy?",
+    "grade": "6",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Gas"
+  },
+  {
+    "problem": "What is the product of the reaction between vinegar and baking soda?",
+    "grade": "6",
+    "options": [
+      "Water",
+      "Carbon dioxide",
+      "Salt"
+    ],
+    "correctAnswer": "Carbon dioxide"
+  },
+  {
+    "problem": "Which element has the chemical symbol 'Fe'?",
+    "grade": "6",
+    "options": [
+      "Iron",
+      "Fluorine",
+      "Iodine"
+    ],
+    "correctAnswer": "Iron"
+  },
+  {
+    "problem": "What property of iron makes it useful for making magnets?",
+    "grade": "6",
+    "options": [
+      "Malleability",
+      "Ductility",
+      "Magnetism"
+    ],
+    "correctAnswer": "Magnetism"
+  },
+  {
+    "problem": "What is the chemical formula for oxygen gas?",
+    "grade": "6",
+    "options": [
+      "O2",
+      "H2O",
+      "CO2"
+    ],
+    "correctAnswer": "O2"
+  },
+  {
+    "problem": "In a chemical reaction, what are the substances that react called?",
+    "grade": "6",
+    "options": [
+      "Reactants",
+      "Products",
+      "Catalysts"
+    ],
+    "correctAnswer": "Reactants"
+  },
+  {
+    "problem": "What happens when iron rusts?",
+    "grade": "6",
+    "options": [
+      "It gains weight",
+      "It loses weight",
+      "It changes color"
+    ],
+    "correctAnswer": "It gains weight"
+  },
+  {
+    "problem": "Which of the following is a halogen?",
+    "grade": "6",
+    "options": [
+      "Sodium",
+      "Chlorine",
+      "Magnesium"
+    ],
+    "correctAnswer": "Chlorine"
+  },
+  {
+    "problem": "What is the chemical symbol for gold?",
+    "grade": "6",
+    "options": [
+      "Au",
+      "Ag",
+      "Co"
+    ],
+    "correctAnswer": "Au"
+  },
+  {
+    "problem": "What is the process of burning called?",
+    "grade": "6",
+    "options": [
+      "Combustion",
+      "Photosynthesis",
+      "Decomposition"
+    ],
+    "correctAnswer": "Combustion"
+  },
+  {
+    "problem": "Which of the following is a physical property of a substance?",
+    "grade": "6",
+    "options": [
+      "Color",
+      "Reactivity",
+      "Flammability"
+    ],
+    "correctAnswer": "Color"
+  },
+  {
+    "problem": "What is the chemical equation for the reaction between hydrogen and oxygen to form water?",
+    "grade": "6",
+    "options": [
+      "H2 + O2 = H2O",
+      "H2O = H2 + O2",
+      "H2O = H2O"
+    ],
+    "correctAnswer": "2H2 + O2 = 2H2O"
+  },
+  {
+    "problem": "What is the chemical symbol for copper?",
+    "grade": "6",
+    "options": [
+      "Cu",
+      "C",
+      "Cp"
+    ],
+    "correctAnswer": "Cu"
+  },
+  {
+    "problem": "What happens to a substance when it undergoes a chemical change?",
+    "grade": "6",
+    "options": [
+      "It changes color",
+      "It changes state",
+      "New substances are formed"
+    ],
+    "correctAnswer": "New substances are formed"
+  },
+  {
+    "problem": "Which of the following is a chemical property of a substance?",
+    "grade": "6",
+    "options": [
+      "Density",
+      "Solubility",
+      "Melting point"
+    ],
+    "correctAnswer": "Solubility"
+  },
+  {
+    "problem": "What is the chemical equation for the reaction between sodium and chlorine to form sodium chloride?",
+    "grade": "6",
+    "options": [
+      "Na + Cl = NaCl",
+      "NaCl = Na + Cl",
+      "2Na + Cl2 = 2NaCl"
+    ],
+    "correctAnswer": "2Na + Cl2 = 2NaCl"
+  },
+  {
+    "problem": "What is the smallest unit of an element that still retains the properties of that element?",
+    "grade": "6",
+    "options": [
+      "Molecule",
+      "Atom",
+      "Compound"
+    ],
+    "correctAnswer": "Atom"
+  },
+  {
+    "problem": "What do we call a substance made up of two or more elements chemically bonded together?",
+    "grade": "6",
+    "options": [
+      "Mixture",
+      "Element",
+      "Compound"
+    ],
+    "correctAnswer": "Compound"
+  },
+  {
+    "problem": "Which state of matter has a definite shape and volume?",
+    "grade": "6",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Solid"
+  },
+  {
+    "problem": "In a chemical reaction, what happens to the reactants?",
+    "grade": "6",
+    "options": [
+      "They disappear",
+      "They transform into different substances",
+      "They stay the same"
+    ],
+    "correctAnswer": "They transform into different substances"
+  },
+  {
+    "problem": "Which element has the chemical symbol 'H'?",
+    "grade": "6",
+    "options": [
+      "Helium",
+      "Hydrogen",
+      "Hafnium"
+    ],
+    "correctAnswer": "Hydrogen"
+  },
+  {
+    "problem": "What do we call the rows in the periodic table?",
+    "grade": "6",
+    "options": [
+      "Columns",
+      "Groups",
+      "Periods"
+    ],
+    "correctAnswer": "Periods"
+  },
+  {
+    "problem": "Which property of matter describes its ability to burn?",
+    "grade": "6",
+    "options": [
+      "Flammability",
+      "Density",
+      "Melting point"
+    ],
+    "correctAnswer": "Flammability"
+  },
+  {
+    "problem": "What type of reaction occurs when two substances combine to form a new substance?",
+    "grade": "6",
+    "options": [
+      "Synthesis",
+      "Decomposition",
+      "Combustion"
+    ],
+    "correctAnswer": "Synthesis"
+  },
+  {
+    "problem": "What do we call the substances that result from a chemical reaction?",
+    "grade": "6",
+    "options": [
+      "Reactants",
+      "Products",
+      "Catalysts"
+    ],
+    "correctAnswer": "Products"
+  },
+  {
+    "problem": "In a chemical equation, what do the numbers in front of the chemical formulas represent?",
+    "grade": "6",
+    "options": [
+      "Number of atoms",
+      "Temperature",
+      "Pressure"
+    ],
+    "correctAnswer": "Number of atoms"
+  },
+  {
+    "problem": "Which state of matter has a definite volume but takes the shape of its container?",
+    "grade": "6",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Liquid"
+  },
+  {
+    "problem": "What is the chemical symbol for iron?",
+    "grade": "6",
+    "options": [
+      "Fe",
+      "I",
+      "Ir"
+    ],
+    "correctAnswer": "Fe"
+  },
+  {
+    "problem": "Which property of matter describes its ability to conduct electricity?",
+    "grade": "6",
+    "options": [
+      "Conductivity",
+      "Density",
+      "Solubility"
+    ],
+    "correctAnswer": "Conductivity"
+  },
+  {
+    "problem": "What type of reaction occurs when a single compound breaks down into two or more simpler substances?",
+    "grade": "6",
+    "options": [
+      "Synthesis",
+      "Decomposition",
+      "Combustion"
+    ],
+    "correctAnswer": "Decomposition"
+  },
+  {
+    "problem": "Which element has the chemical symbol 'C'?",
+    "grade": "6",
+    "options": [
+      "Calcium",
+      "Chlorine",
+      "Carbon"
+    ],
+    "correctAnswer": "Carbon"
+  },
+  {
+    "problem": "What do we call the vertical columns in the periodic table?",
+    "grade": "6",
+    "options": [
+      "Rows",
+      "Periods",
+      "Groups"
+    ],
+    "correctAnswer": "Groups"
+  },
+  {
+    "problem": "Which property of matter describes its ability to react with other substances?",
+    "grade": "6",
+    "options": [
+      "Reactivity",
+      "Density",
+      "Melting point"
+    ],
+    "correctAnswer": "Reactivity"
+  },
+  {
+    "problem": "What type of reaction occurs when a substance reacts with oxygen to produce heat and light?",
+    "grade": "6",
+    "options": [
+      "Synthesis",
+      "Decomposition",
+      "Combustion"
+    ],
+    "correctAnswer": "Combustion"
+  },
+  {
+    "problem": "In a chemical equation, what does the arrow represent?",
+    "grade": "6",
+    "options": [
+      "A change in temperature",
+      "A change in pressure",
+      "The direction of the reaction"
+    ],
+    "correctAnswer": "The direction of the reaction"
+  },
+  {
+    "problem": "Which state of matter has neither a definite shape nor volume?",
+    "grade": "6",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Gas"
+  },
+  {
+    "problem": "What is the chemical symbol for iron?",
+    "grade": "6",
+    "options": [
+      "Fe",
+      "I",
+      "Ir"
+    ],
+    "correctAnswer": "Fe"
+  },
+  {
+    "problem": "What do we call a pure substance made up of only one type of atom?",
+    "grade": "6",
+    "options": [
+      "Element",
+      "Compound",
+      "Mixture"
+    ],
+    "correctAnswer": "Element"
+  },
+  {
+    "problem": "What is the process of a solid turning directly into a gas called?",
+    "grade": "6",
+    "options": [
+      "Sublimation",
+      "Deposition",
+      "Evaporation"
+    ],
+    "correctAnswer": "Sublimation"
+  },
+  {
+    "problem": "What is the name of the bond formed between two non-metal atoms sharing electrons?",
+    "grade": "6",
+    "options": [
+      "Covalent bond",
+      "Ionic bond",
+      "Hydrogen bond"
+    ],
+    "correctAnswer": "Covalent bond"
+  },
+  {
+    "problem": "Which group of elements are known as the 'noble gases'?",
+    "grade": "6",
+    "options": [
+      "Group 18",
+      "Group 1",
+      "Group 17"
+    ],
+    "correctAnswer": "Group 18"
+  },
+  {
+    "problem": "Which property of matter describes its ability to burn or react with other substances?",
+    "grade": "6",
+    "options": [
+      "Flammability",
+      "Density",
+      "Melting point"
+    ],
+    "correctAnswer": "Flammability"
+  },
+  {
+    "problem": "What is the chemical equation for the reaction between hydrogen and oxygen to form water?",
+    "grade": "6",
+    "options": [
+      "H + O = HO",
+      "2H2 + O2 = 2H2O",
+      "H2O = H + O2"
+    ],
+    "correctAnswer": "2H2 + O2 = 2H2O"
+  },
+  {
+    "problem": "Which property of matter describes its ability to conduct electricity?",
+    "grade": "6",
+    "options": [
+      "Conductivity",
+      "Solubility",
+      "Reactivity"
+    ],
+    "correctAnswer": "Conductivity"
+  },
+  {
+    "problem": "What is the chemical equation for the reaction between sodium and chlorine to form sodium chloride?",
+    "grade": "6",
+    "options": [
+      "Na + Cl = NaCl",
+      "2Na + Cl2 = 2NaCl",
+      "NaCl = Na + Cl2"
+    ],
+    "correctAnswer": "2Na + Cl2 = 2NaCl"
+  },
+  {
+    "problem": "In a chemical reaction, what are the substances on the left side of the arrow called?",
+    "grade": "6",
+    "options": [
+      "Reactants",
+      "Products",
+      "Catalysts"
+    ],
+    "correctAnswer": "Reactants"
+  },
+  {
+    "problem": "What is the name for the vertical columns on the periodic table?",
+    "grade": "6",
+    "options": [
+      "Groups",
+      "Periods",
+      "Blocks"
+    ],
+    "correctAnswer": "Groups"
+  },
+  {
+    "problem": "What happens to the atoms in a chemical reaction?",
+    "grade": "6",
+    "options": [
+      "They are destroyed",
+      "They are created",
+      "They are rearranged"
+    ],
+    "correctAnswer": "They are rearranged"
+  },
+  {
+    "problem": "Which property of matter describes its resistance to being stretched or deformed?",
+    "grade": "6",
+    "options": [
+      "Strength",
+      "Malleability",
+      "Ductility"
+    ],
+    "correctAnswer": "Strength"
+  },
+  {
+    "problem": "What is the chemical equation for the reaction between carbon and oxygen to form carbon dioxide?",
+    "grade": "6",
+    "options": [
+      "C + O = CO2",
+      "2C + O2 = 2CO2",
+      "CO2 = C + O2"
+    ],
+    "correctAnswer": "2C + O2 = 2CO2"
+  },
+  {
+    "problem": "Which property of matter describes its ability to dissolve in a solvent?",
+    "grade": "6",
+    "options": [
+      "Solubility",
+      "Conductivity",
+      "Flammability"
+    ],
+    "correctAnswer": "Solubility"
+  },
+  {
+    "problem": "What is the chemical equation for the reaction between sulfuric acid and sodium hydroxide to form sodium sulfate and water?",
+    "grade": "6",
+    "options": [
+      "H2SO4 + NaOH = Na2SO4 + H2O",
+      "H2SO4 + 2NaOH = Na2SO4 + 2H2O",
+      "Na2SO4 + H2O = H2SO4 + NaOH"
+    ],
+    "correctAnswer": "H2SO4 + 2NaOH = Na2SO4 + 2H2O"
+  },
+  {
+    "problem": "In a chemical reaction, what are the substances on the right side of the arrow called?",
+    "grade": "6",
+    "options": [
+      "Products",
+      "Reactants",
+      "Catalysts"
+    ],
+    "correctAnswer": "Products"
+  },
+  {
+    "problem": "What is the name for the horizontal rows on the periodic table?",
+    "grade": "6",
+    "options": [
+      "Periods",
+      "Groups",
+      "Blocks"
+    ],
+    "correctAnswer": "Periods"
+  },
+  {
+    "problem": "What is the chemical equation for the reaction between magnesium and hydrochloric acid to form magnesium chloride and hydrogen gas?",
+    "grade": "6",
+    "options": [
+      "Mg + HCl = MgCl2 + H2",
+      "2Mg + 2HCl = 2MgCl + H2",
+      "MgCl2 + H2 = Mg + HCl"
+    ],
+    "correctAnswer": "Mg + 2HCl = MgCl2 + H2"
+  },
+  {
+    "problem": "Which property of matter describes its ability to react with other substances?",
+    "grade": "6",
+    "options": [
+      "Reactivity",
+      "Conductivity",
+      "Solubility"
+    ],
+    "correctAnswer": "Reactivity"
+  },
+  {
+    "problem": "What is the chemical symbol for gold?",
+    "grade": "6",
+    "options": [
+      "Au",
+      "Ag",
+      "Fe"
+    ],
+    "correctAnswer": "Au"
+  },
+  {
+    "problem": "What is the difference between an element and a compound?",
+    "grade": "6",
+    "options": [
+      "Elements are made of one type of atom, compounds are made of different types of atoms",
+      "Elements are liquids, compounds are gases",
+      "Elements are man-made, compounds are natural"
+    ],
+    "correctAnswer": "Elements are made of one type of atom, compounds are made of different types of atoms"
+  },
+  {
+    "problem": "What is the process of a solid changing directly into a gas called?",
+    "grade": "6",
+    "options": [
+      "Sublimation",
+      "Condensation",
+      "Evaporation"
+    ],
+    "correctAnswer": "Sublimation"
+  },
+  {
+    "problem": "In a chemical reaction, what do we call the substances that are combined to create new substances?",
+    "grade": "6",
+    "options": [
+      "Reactants",
+      "Products",
+      "Catalysts"
+    ],
+    "correctAnswer": "Reactants"
+  },
+  {
+    "problem": "Which element has the atomic number 1 on the periodic table?",
+    "grade": "6",
+    "options": [
+      "Hydrogen",
+      "Oxygen",
+      "Carbon"
+    ],
+    "correctAnswer": "Hydrogen"
+  },
+  {
+    "problem": "What property of matter describes its ability to burn or react with other substances?",
+    "grade": "6",
+    "options": [
+      "Flammability",
+      "Density",
+      "Melting point"
+    ],
+    "correctAnswer": "Flammability"
+  },
+  {
+    "problem": "In a chemical equation, what do we call the arrow that separates reactants from products?",
+    "grade": "6",
+    "options": [
+      "Yield sign",
+      "Equals sign",
+      "Reaction arrow"
+    ],
+    "correctAnswer": "Reaction arrow"
+  },
+  {
+    "problem": "What property of matter describes its ability to corrode or rust?",
+    "grade": "6",
+    "options": [
+      "Reactivity",
+      "Solubility",
+      "Viscosity"
+    ],
+    "correctAnswer": "Reactivity"
+  },
+  {
+    "problem": "In a chemical equation, what do we call the substances formed as a result of the reaction?",
+    "grade": "6",
+    "options": [
+      "Products",
+      "Reactants",
+      "Coefficients"
+    ],
+    "correctAnswer": "Products"
+  },
+  {
+    "problem": "What type of chemical reaction occurs when two or more substances combine to form a new compound?",
+    "grade": "6",
+    "options": [
+      "Synthesis",
+      "Decomposition",
+      "Combustion"
+    ],
+    "correctAnswer": "Synthesis"
+  },
+  {
+    "problem": "What is the chemical symbol for carbon?",
+    "grade": "6",
+    "options": [
+      "C",
+      "Ca",
+      "Co"
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "problem": "What is the state of matter that has a definite shape and volume?",
+    "grade": "6",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Solid"
+  },
+  {
+    "problem": "What do we call the horizontal rows in the periodic table?",
+    "grade": "6",
+    "options": [
+      "Periods",
+      "Groups",
+      "Blocks"
+    ],
+    "correctAnswer": "Periods"
+  },
+  {
+    "problem": "What property of matter describes its ability to dissolve in a liquid?",
+    "grade": "6",
+    "options": [
+      "Solubility",
+      "Malleability",
+      "Conductivity"
+    ],
+    "correctAnswer": "Solubility"
+  },
+  {
+    "problem": "In a chemical equation, what do we call the numbers in front of the chemical formulas that indicate the number of each molecule or atom involved in the reaction?",
+    "grade": "6",
+    "options": [
+      "Coefficients",
+      "Subscripts",
+      "Exponents"
+    ],
+    "correctAnswer": "Coefficients"
+  },
+  {
+    "problem": "What property of matter describes its ability to conduct electricity?",
+    "grade": "6",
+    "options": [
+      "Conductivity",
+      "Insolubility",
+      "Ductility"
+    ],
+    "correctAnswer": "Conductivity"
+  },
+  {
+    "problem": "In a chemical equation, what do we call the substances that undergo a chemical change?",
+    "grade": "6",
+    "options": [
+      "Reactants",
+      "Products",
+      "Yield"
+    ],
+    "correctAnswer": "Reactants"
+  },
+  {
+    "problem": "What property of matter describes its ability to be hammered into thin sheets?",
+    "grade": "6",
+    "options": [
+      "Malleability",
+      "Brittleness",
+      "Elasticity"
+    ],
+    "correctAnswer": "Malleability"
+  },
+  {
+    "problem": "What type of chemical reaction occurs when a compound breaks down into two or more simpler substances?",
+    "grade": "6",
+    "options": [
+      "Decomposition",
+      "Synthesis",
+      "Neutralization"
+    ],
+    "correctAnswer": "Decomposition"
+  },
+  {
+    "problem": "What is the chemical symbol for iron?",
+    "grade": "6",
+    "options": [
+      "Fe",
+      "Ir",
+      "In"
+    ],
+    "correctAnswer": "Fe"
+  },
+  {
+    "problem": "What type of mixture is air?",
+    "grade": "6",
+    "options": [
+      "Homogeneous",
+      "Heterogeneous",
+      "Compound"
+    ],
+    "correctAnswer": "Homogeneous"
+  },
+  {
+    "problem": "What happens to water when it boils?",
+    "grade": "6",
+    "options": [
+      "It freezes",
+      "It evaporates",
+      "It condenses"
+    ],
+    "correctAnswer": "It evaporates"
+  },
+  {
+    "problem": "What happens when iron rusts?",
+    "grade": "6",
+    "options": [
+      "It becomes stronger",
+      "It loses mass",
+      "It forms iron oxide"
+    ],
+    "correctAnswer": "It forms iron oxide"
+  },
+  {
+    "problem": "Which element is a gas at room temperature?",
+    "grade": "6",
+    "options": [
+      "Mercury",
+      "Sulfur",
+      "Oxygen"
+    ],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "problem": "In a chemical reaction, what do we call the substances that are combined?",
+    "grade": "6",
+    "options": [
+      "Products",
+      "Reactants",
+      "Catalysts"
+    ],
+    "correctAnswer": "Reactants"
+  },
+  {
+    "problem": "Which element is essential for combustion to occur?",
+    "grade": "6",
+    "options": [
+      "Nitrogen",
+      "Oxygen",
+      "Hydrogen"
+    ],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "problem": "What property of iron allows it to be attracted to magnets?",
+    "grade": "6",
+    "options": [
+      "Malleability",
+      "Conductivity",
+      "Magnetism"
+    ],
+    "correctAnswer": "Magnetism"
+  },
+  {
+    "problem": "In a chemical equation, what do we call the arrow that separates reactants from products?",
+    "grade": "6",
+    "options": [
+      "Equal sign",
+      "Plus sign",
+      "Yield sign"
+    ],
+    "correctAnswer": "Yield sign"
+  },
+  {
+    "problem": "What type of chemical reaction is the burning of a candle?",
+    "grade": "6",
+    "options": [
+      "Combustion",
+      "Neutralization",
+      "Oxidation"
+    ],
+    "correctAnswer": "Combustion"
+  },
+  {
+    "problem": "What is the chemical symbol for gold?",
+    "grade": "6",
+    "options": [
+      "Au",
+      "Ag",
+      "Cu"
+    ],
+    "correctAnswer": "Au"
+  },
+  {
+    "problem": "What state of matter has a definite shape and volume?",
+    "grade": "6",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Solid"
+  },
+  {
+    "problem": "When baking soda and vinegar react, what gas is produced?",
+    "grade": "6",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Hydrogen"
+    ],
+    "correctAnswer": "Carbon dioxide"
+  },
+  {
+    "problem": "Which group of elements in the periodic table is known as the noble gases?",
+    "grade": "6",
+    "options": [
+      "Group 1",
+      "Group 17",
+      "Group 18"
+    ],
+    "correctAnswer": "Group 18"
+  },
+  {
+    "problem": "What property of copper allows it to conduct electricity?",
+    "grade": "6",
+    "options": [
+      "Malleability",
+      "Conductivity",
+      "Density"
+    ],
+    "correctAnswer": "Conductivity"
+  },
+  {
+    "problem": "In a chemical reaction, what do we call the substances that are formed?",
+    "grade": "6",
+    "options": [
+      "Reactants",
+      "Catalysts",
+      "Products"
+    ],
+    "correctAnswer": "Products"
+  },
+  {
+    "problem": "What property of helium makes it rise in air?",
+    "grade": "6",
+    "options": [
+      "Density",
+      "Boiling point",
+      "Buoyancy"
+    ],
+    "correctAnswer": "Buoyancy"
+  },
+  {
+    "problem": "What is the chemical symbol for carbon?",
+    "grade": "6",
+    "options": [
+      "C",
+      "Ca",
+      "Co"
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "problem": "What type of mixture is a bowl of cereal with milk?",
+    "grade": "6",
+    "options": [
+      "Homogeneous",
+      "Heterogeneous",
+      "Compound"
+    ],
+    "correctAnswer": "Heterogeneous"
+  },
+  {
+    "problem": "What is the atomic number of an element?",
+    "grade": "7",
+    "options": ["Number of protons", "Number of neutrons", "Number of electrons"],
+    "correctAnswer": "Number of protons"
+  },
+  {
+    "problem": "Which element is a liquid at room temperature?",
+    "grade": "7",
+    "options": ["Mercury", "Iron", "Oxygen"],
+    "correctAnswer": "Mercury"
+  },
+  {
+    "problem": "What type of bond involves sharing electrons between atoms?",
+    "grade": "7",
+    "options": ["Ionic bond", "Covalent bond", "Metallic bond"],
+    "correctAnswer": "Covalent bond"
+  },
+  {
+    "problem": "Which gas is released during the process of photosynthesis?",
+    "grade": "7",
+    "options": ["Oxygen", "Carbon dioxide", "Nitrogen"],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "problem": "What is the main gas found in the Earth's atmosphere?",
+    "grade": "7",
+    "options": ["Oxygen", "Nitrogen", "Carbon dioxide"],
+    "correctAnswer": "Nitrogen"
+  },
+  {
+    "problem": "What is the pH of a strong acid?",
+    "grade": "7",
+    "options": ["Less than 7", "Equal to 7", "Greater than 7"],
+    "correctAnswer": "Less than 7"
+  },
+  {
+    "problem": "What is the name of the process where a liquid changes into a solid?",
+    "grade": "7",
+    "options": ["Freezing", "Melting", "Condensation"],
+    "correctAnswer": "Freezing"
+  },
+  {
+    "problem": "Which element is most abundant in the human body?",
+    "grade": "7",
+    "options": ["Oxygen", "Carbon", "Hydrogen"],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "problem": "What do we call a substance that speeds up a chemical reaction without being used up?",
+    "grade": "7",
+    "options": ["Catalyst", "Reactant", "Product"],
+    "correctAnswer": "Catalyst"
+  },
+  {
+    "problem": "Which of these is NOT a chemical change?",
+    "grade": "7",
+    "options": ["Burning wood", "Rusting iron", "Melting ice"],
+    "correctAnswer": "Melting ice"
+  },
+  {
+    "problem": "What is the smallest unit of an element that retains the properties of that element?",
+    "grade": "7",
+    "options": [
+      "Atom",
+      "Molecule",
+      "Compound"
+    ],
+    "correctAnswer": "Atom"
+  },
+  {
+    "problem": "Which of the following is a compound?",
+    "grade": "7",
+    "options": [
+      "Oxygen",
+      "Water",
+      "Iron"
+    ],
+    "correctAnswer": "Water"
+  },
+  {
+    "problem": "What is the process called when a solid changes directly into a gas?",
+    "grade": "7",
+    "options": [
+      "Sublimation",
+      "Evaporation",
+      "Condensation"
+    ],
+    "correctAnswer": "Sublimation"
+  },
+  {
+    "problem": "Which of the following is a chemical property?",
+    "grade": "7",
+    "options": [
+      "Color",
+      "Density",
+      "Flammability"
+    ],
+    "correctAnswer": "Flammability"
+  },
+  {
+    "problem": "What is the symbol for the element sodium on the periodic table?",
+    "grade": "7",
+    "options": [
+      "So",
+      "Na",
+      "Sd"
+    ],
+    "correctAnswer": "Na"
+  },
+  {
+    "problem": "In a chemical equation, what do the numbers in front of the molecules represent?",
+    "grade": "7",
+    "options": [
+      "Number of protons",
+      "Number of neutrons",
+      "Number of molecules"
+    ],
+    "correctAnswer": "Number of molecules"
+  },
+  {
+    "problem": "Which of the following is a physical change?",
+    "grade": "7",
+    "options": [
+      "Burning paper",
+      "Boiling water",
+      "Rusting iron"
+    ],
+    "correctAnswer": "Boiling water"
+  },
+  {
+    "problem": "What do we call a substance made up of only one type of atom?",
+    "grade": "7",
+    "options": [
+      "Mixture",
+      "Compound",
+      "Element"
+    ],
+    "correctAnswer": "Element"
+  },
+  {
+    "problem": "What is the law that states that matter cannot be created or destroyed in a chemical reaction?",
+    "grade": "7",
+    "options": [
+      "Law of Conservation of Energy",
+      "Law of Conservation of Mass",
+      "Law of Definite Proportions"
+    ],
+    "correctAnswer": "Law of Conservation of Mass"
+  },
+  {
+    "problem": "Which of the following is a sign that a chemical reaction has occurred?",
+    "grade": "7",
+    "options": [
+      "Change in color",
+      "Change in shape",
+      "Change in size"
+    ],
+    "correctAnswer": "Change in color"
+  },
+  {
+    "problem": "What is the process called when a gas changes directly into a solid?",
+    "grade": "7",
+    "options": [
+      "Sublimation",
+      "Condensation",
+      "Deposition"
+    ],
+    "correctAnswer": "Deposition"
+  },
+  {
+    "problem": "Which of the following is NOT a property of metals?",
+    "grade": "7",
+    "options": [
+      "Malleability",
+      "Ductility",
+      "Brittleness"
+    ],
+    "correctAnswer": "Brittleness"
+  },
+  {
+    "problem": "What is the chemical formula for table salt?",
+    "grade": "7",
+    "options": [
+      "H2O",
+      "NaCl",
+      "CO2"
+    ],
+    "correctAnswer": "NaCl"
+  },
+  {
+    "problem": "What type of reaction occurs when two or more substances combine to form a new substance?",
+    "grade": "7",
+    "options": [
+      "Decomposition reaction",
+      "Combustion reaction",
+      "Synthesis reaction"
+    ],
+    "correctAnswer": "Synthesis reaction"
+  },
+  {
+    "problem": "Which of the following is a characteristic of acids?",
+    "grade": "7",
+    "options": [
+      "Turns blue litmus paper red",
+      "Turns red litmus paper blue",
+      "Has a pH greater than 7"
+    ],
+    "correctAnswer": "Turns blue litmus paper red"
+  },
+  {
+    "problem": "What is the process called when a liquid changes into a gas?",
+    "grade": "7",
+    "options": [
+      "Melting",
+      "Freezing",
+      "Evaporation"
+    ],
+    "correctAnswer": "Evaporation"
+  },
+  {
+    "problem": "Which of the following is a property of nonmetals?",
+    "grade": "7",
+    "options": [
+      "Good conductors of electricity",
+      "Brittle",
+      "Malleable"
+    ],
+    "correctAnswer": "Brittle"
+  },
+  {
+    "problem": "What is the formula for the chemical reaction between hydrogen and oxygen to form water?",
+    "grade": "7",
+    "options": [
+      "H2 + O2 -> H2O",
+      "H2O -> H2 + O2",
+      "H + O -> HO"
+    ],
+    "correctAnswer": "H2 + O2 -> H2O"
+  },
+  {
+    "problem": "Which of the following is a product in the reaction between hydrochloric acid and sodium hydroxide?",
+    "grade": "7",
+    "options": [
+      "Water",
+      "Salt",
+      "Oxygen"
+    ],
+    "correctAnswer": "Water"
+  },
+  {
+    "problem": "What do we call the substances that are formed as a result of a chemical reaction?",
+    "grade": "7",
+    "options": [
+      "Reactants",
+      "Catalysts",
+      "Products"
+    ],
+    "correctAnswer": "Products"
+  },
+  {
+    "problem": "What is the chemical symbol for gold?",
+    "grade": "7",
+    "options": [
+      "Au",
+      "Ag",
+      "Fe"
+    ],
+    "correctAnswer": "Au"
+  },
+  {
+    "problem": "Which of the following is a compound?",
+    "grade": "7",
+    "options": [
+      "Oxygen",
+      "Water",
+      "Helium"
+    ],
+    "correctAnswer": "Water"
+  },
+  {
+    "problem": "What is the state of matter of ice?",
+    "grade": "7",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Solid"
+  },
+  {
+    "problem": "What is the chemical formula for carbon dioxide?",
+    "grade": "7",
+    "options": [
+      "CO2",
+      "H2O",
+      "NaCl"
+    ],
+    "correctAnswer": "CO2"
+  },
+  {
+    "problem": "Which element is a metal?",
+    "grade": "7",
+    "options": [
+      "Carbon",
+      "Iron",
+      "Oxygen"
+    ],
+    "correctAnswer": "Iron"
+  },
+  {
+    "problem": "In a chemical equation, what do the coefficients represent?",
+    "grade": "7",
+    "options": [
+      "Number of atoms",
+      "Type of element",
+      "Bond strength"
+    ],
+    "correctAnswer": "Number of atoms"
+  },
+  {
+    "problem": "What happens to the mass of substances during a chemical reaction?",
+    "grade": "7",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Stays the same"
+    ],
+    "correctAnswer": "Stays the same"
+  },
+  {
+    "problem": "Which of the following is a chemical property of matter?",
+    "grade": "7",
+    "options": [
+      "Color",
+      "Density",
+      "Flammability"
+    ],
+    "correctAnswer": "Flammability"
+  },
+  {
+    "problem": "What is the product of the chemical reaction between hydrogen and oxygen?",
+    "grade": "7",
+    "options": [
+      "Water",
+      "Carbon dioxide",
+      "Hydrogen gas"
+    ],
+    "correctAnswer": "Water"
+  },
+  {
+    "problem": "What is the name of the process where a gas changes into a liquid?",
+    "grade": "7",
+    "options": [
+      "Condensation",
+      "Evaporation",
+      "Sublimation"
+    ],
+    "correctAnswer": "Condensation"
+  },
+  {
+    "problem": "Which element has the atomic number 6?",
+    "grade": "7",
+    "options": [
+      "Carbon",
+      "Oxygen",
+      "Sodium"
+    ],
+    "correctAnswer": "Carbon"
+  },
+  {
+    "problem": "What do we call the vertical columns on the periodic table?",
+    "grade": "7",
+    "options": [
+      "Periods",
+      "Groups",
+      "Blocks"
+    ],
+    "correctAnswer": "Groups"
+  },
+  {
+    "problem": "Which of the following is a physical change?",
+    "grade": "7",
+    "options": [
+      "Burning paper",
+      "Mixing salt in water",
+      "Rusting iron"
+    ],
+    "correctAnswer": "Mixing salt in water"
+  },
+  {
+    "problem": "What is the chemical formula for table salt?",
+    "grade": "7",
+    "options": [
+      "NaCl",
+      "H2O",
+      "CO2"
+    ],
+    "correctAnswer": "NaCl"
+  },
+  {
+    "problem": "What do we call a substance made up of two or more elements chemically bonded together?",
+    "grade": "7",
+    "options": [
+      "Mixture",
+      "Compound",
+      "Solution"
+    ],
+    "correctAnswer": "Compound"
+  },
+  {
+    "problem": "What happens to the temperature in an exothermic reaction?",
+    "grade": "7",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Stays the same"
+    ],
+    "correctAnswer": "Increases"
+  },
+  {
+    "problem": "Which of the following is a chemical change?",
+    "grade": "7",
+    "options": [
+      "Boiling water",
+      "Burning wood",
+      "Cutting paper"
+    ],
+    "correctAnswer": "Burning wood"
+  },
+  {
+    "problem": "What is the chemical symbol for iron?",
+    "grade": "7",
+    "options": [
+      "Fe",
+      "Ag",
+      "Au"
+    ],
+    "correctAnswer": "Fe"
+  },
+  {
+    "problem": "What is the state of matter of oxygen at room temperature?",
+    "grade": "7",
+    "options": [
+      "Gas",
+      "Liquid",
+      "Solid"
+    ],
+    "correctAnswer": "Gas"
+  },
+  {
+    "problem": "In a chemical reaction, what do the reactants do?",
+    "grade": "7",
+    "options": [
+      "Combine to form products",
+      "Disappear completely",
+      "Stay unchanged"
+    ],
+    "correctAnswer": "Combine to form products"
+  },
+  {
+    "problem": "Which of the following is a compound?",
+    "grade": "7",
+    "options": [
+      "Oxygen",
+      "Water",
+      "Helium"
+    ],
+    "correctAnswer": "Water"
+  },
+  {
+    "problem": "What state of matter has a definite shape and volume?",
+    "grade": "7",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Solid"
+  },
+  {
+    "problem": "What type of chemical reaction involves the exchange of ions between two compounds?",
+    "grade": "7",
+    "options": [
+      "Synthesis",
+      "Decomposition",
+      "Double replacement"
+    ],
+    "correctAnswer": "Double replacement"
+  },
+  {
+    "problem": "Which group of elements are known as the noble gases?",
+    "grade": "7",
+    "options": [
+      "Group 1",
+      "Group 2",
+      "Group 18"
+    ],
+    "correctAnswer": "Group 18"
+  },
+  {
+    "problem": "Which property of matter describes how easily a substance can be hammered into thin sheets?",
+    "grade": "7",
+    "options": [
+      "Malleability",
+      "Density",
+      "Boiling point"
+    ],
+    "correctAnswer": "Malleability"
+  },
+  {
+    "problem": "What is the balanced chemical equation for the reaction between hydrogen and oxygen to form water?",
+    "grade": "7",
+    "options": [
+      "H + O = H2O",
+      "2H2 + O2 = 2H2O",
+      "H2 + O2 = H2O"
+    ],
+    "correctAnswer": "2H2 + O2 = 2H2O"
+  },
+  {
+    "problem": "Which of the following is a chemical property of iron?",
+    "grade": "7",
+    "options": [
+      "Color",
+      "Ability to rust",
+      "Density"
+    ],
+    "correctAnswer": "Ability to rust"
+  },
+  {
+    "problem": "What is the product of the reaction between sodium and chlorine?",
+    "grade": "7",
+    "options": [
+      "NaCl",
+      "NaCl2",
+      "Na2Cl"
+    ],
+    "correctAnswer": "NaCl"
+  },
+  {
+    "problem": "What is the law of conservation of mass in chemical reactions?",
+    "grade": "7",
+    "options": [
+      "Matter cannot be created or destroyed",
+      "Matter can change form",
+      "Matter can be destroyed"
+    ],
+    "correctAnswer": "Matter cannot be created or destroyed"
+  },
+  {
+    "problem": "In a chemical reaction, what do we call the substances that are present at the beginning?",
+    "grade": "7",
+    "options": [
+      "Catalyst",
+      "Reactants",
+      "Products"
+    ],
+    "correctAnswer": "Reactants"
+  },
+  {
+    "problem": "What is the process of a gas changing directly into a solid called?",
+    "grade": "7",
+    "options": [
+      "Sublimation",
+      "Evaporation",
+      "Condensation"
+    ],
+    "correctAnswer": "Sublimation"
+  },
+  {
+    "problem": "Which element is the most reactive metal on the periodic table?",
+    "grade": "7",
+    "options": [
+      "Sodium",
+      "Iron",
+      "Gold"
+    ],
+    "correctAnswer": "Sodium"
+  },
+  {
+    "problem": "What is the pH of a neutral solution?",
+    "grade": "7",
+    "options": [
+      "Less than 7",
+      "Equal to 7",
+      "Greater than 7"
+    ],
+    "correctAnswer": "Equal to 7"
+  },
+  {
+    "problem": "What happens to the volume of a gas when the temperature is increased?",
+    "grade": "7",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Stays the same"
+    ],
+    "correctAnswer": "Increases"
+  },
+  {
+    "problem": "What is the chemical symbol for gold?",
+    "grade": "7",
+    "options": [
+      "Au",
+      "Ag",
+      "Fe"
+    ],
+    "correctAnswer": "Au"
+  },
+  {
+    "problem": "What is the chemical formula for carbon dioxide?",
+    "grade": "7",
+    "options": [
+      "CO",
+      "CO2",
+      "C2O"
+    ],
+    "correctAnswer": "CO2"
+  },
+  {
+    "problem": "Which type of chemical bond involves the transfer of electrons from one atom to another?",
+    "grade": "7",
+    "options": [
+      "Ionic bond",
+      "Covalent bond",
+      "Metallic bond"
+    ],
+    "correctAnswer": "Ionic bond"
+  },
+  {
+    "problem": "What is the main component of natural gas?",
+    "grade": "7",
+    "options": [
+      "Methane",
+      "Carbon dioxide",
+      "Nitrogen"
+    ],
+    "correctAnswer": "Methane"
+  },
+  {
+    "problem": "What is the chemical equation for the reaction between sulfuric acid and sodium hydroxide?",
+    "grade": "7",
+    "options": [
+      "H2SO4 + NaOH = Na2SO4 + H2O",
+      "H2SO4 + NaOH = NaSO4 + H2O",
+      "H2SO4 + NaOH = NaHSO4 + H2O"
+    ],
+    "correctAnswer": "H2SO4 + NaOH = Na2SO4 + H2O"
+  },
+  {
+    "problem": "Which element is known as the 'building block of life'?",
+    "grade": "7",
+    "options": [
+      "Carbon",
+      "Gold",
+      "Helium"
+    ],
+    "correctAnswer": "Carbon"
+  },
+  {
+    "problem": "What is the chemical formula for water?",
+    "grade": "7",
+    "options": [
+      "H2O2",
+      "CO2",
+      "H2O"
+    ],
+    "correctAnswer": "H2O"
+  },
+  {
+    "problem": "What is the state of matter of a substance with a definite shape and volume?",
+    "grade": "7",
+    "options": [
+      "Gas",
+      "Liquid",
+      "Solid"
+    ],
+    "correctAnswer": "Solid"
+  },
+  {
+    "problem": "What happens to the particles in a substance when it is heated and changes from a solid to a liquid?",
+    "grade": "7",
+    "options": [
+      "They slow down",
+      "They speed up",
+      "They stay the same"
+    ],
+    "correctAnswer": "They speed up"
+  },
+  {
+    "problem": "What type of chemical reaction occurs when two or more substances combine to form a new substance?",
+    "grade": "7",
+    "options": [
+      "Synthesis",
+      "Decomposition",
+      "Substitution"
+    ],
+    "correctAnswer": "Synthesis"
+  },
+  {
+    "problem": "Which element has the chemical symbol 'Fe' on the periodic table?",
+    "grade": "7",
+    "options": [
+      "Iron",
+      "Gold",
+      "Silver"
+    ],
+    "correctAnswer": "Iron"
+  },
+  {
+    "problem": "What property of a substance describes its ability to burn?",
+    "grade": "7",
+    "options": [
+      "Flammability",
+      "Density",
+      "Solubility"
+    ],
+    "correctAnswer": "Flammability"
+  },
+  {
+    "problem": "What is the balanced chemical equation for the reaction between hydrogen and oxygen to form water?",
+    "grade": "7",
+    "options": [
+      "2H2 + O2 -> 2H2O",
+      "H2O -> H2 + O2",
+      "H + O -> HO"
+    ],
+    "correctAnswer": "2H2 + O2 -> 2H2O"
+  },
+  {
+    "problem": "What type of chemical reaction occurs when a single compound breaks down into two or more simpler substances?",
+    "grade": "7",
+    "options": [
+      "Decomposition",
+      "Synthesis",
+      "Combustion"
+    ],
+    "correctAnswer": "Decomposition"
+  },
+  {
+    "problem": "What property of a substance describes its ability to react with other substances?",
+    "grade": "7",
+    "options": [
+      "Reactivity",
+      "Viscosity",
+      "Conductivity"
+    ],
+    "correctAnswer": "Reactivity"
+  },
+  {
+    "problem": "Which element has the chemical symbol 'Na' on the periodic table?",
+    "grade": "7",
+    "options": [
+      "Sodium",
+      "Nitrogen",
+      "Neon"
+    ],
+    "correctAnswer": "Sodium"
+  },
+  {
+    "problem": "What is the state of matter of a substance that has a definite volume but takes the shape of its container?",
+    "grade": "7",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Liquid"
+  },
+  {
+    "problem": "What happens to the particles in a substance when it is cooled and changes from a gas to a liquid?",
+    "grade": "7",
+    "options": [
+      "They speed up",
+      "They slow down",
+      "They stay the same"
+    ],
+    "correctAnswer": "They slow down"
+  },
+  {
+    "problem": "What type of chemical reaction occurs when a more reactive element replaces a less reactive element in a compound?",
+    "grade": "7",
+    "options": [
+      "Single displacement",
+      "Double displacement",
+      "Neutralization"
+    ],
+    "correctAnswer": "Single displacement"
+  },
+  {
+    "problem": "Which element has the chemical symbol 'C' on the periodic table?",
+    "grade": "7",
+    "options": [
+      "Calcium",
+      "Carbon",
+      "Chlorine"
+    ],
+    "correctAnswer": "Carbon"
+  },
+  {
+    "problem": "What property of a substance describes its ability to dissolve in a solvent?",
+    "grade": "7",
+    "options": [
+      "Solubility",
+      "Flammability",
+      "Reactivity"
+    ],
+    "correctAnswer": "Solubility"
+  },
+  {
+    "problem": "What is the balanced chemical equation for the reaction between sodium and chlorine to form sodium chloride?",
+    "grade": "7",
+    "options": [
+      "2Na + Cl2 -> 2NaCl",
+      "NaCl -> Na + Cl2",
+      "Na + Cl -> NaCl"
+    ],
+    "correctAnswer": "2Na + Cl2 -> 2NaCl"
+  },
+  {
+    "problem": "What type of chemical reaction occurs when two compounds exchange positive ions to form two new compounds?",
+    "grade": "7",
+    "options": [
+      "Double displacement",
+      "Single displacement",
+      "Synthesis"
+    ],
+    "correctAnswer": "Double displacement"
+  },
+  {
+    "problem": "What property of a substance describes its ability to conduct electricity?",
+    "grade": "7",
+    "options": [
+      "Conductivity",
+      "Viscosity",
+      "Flammability"
+    ],
+    "correctAnswer": "Conductivity"
+  },
+  {
+    "problem": "Which element has the chemical symbol 'O' on the periodic table?",
+    "grade": "7",
+    "options": [
+      "Oxygen",
+      "Osmium",
+      "Ozone"
+    ],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "problem": "Which of the following is a compound?",
+    "grade": "7",
+    "options": [
+      "Oxygen",
+      "Water",
+      "Helium"
+    ],
+    "correctAnswer": "Water"
+  },
+  {
+    "problem": "What is the process of a gas changing into a liquid called?",
+    "grade": "7",
+    "options": [
+      "Evaporation",
+      "Condensation",
+      "Sublimation"
+    ],
+    "correctAnswer": "Condensation"
+  },
+  {
+    "problem": "What is the law of conservation of mass?",
+    "grade": "7",
+    "options": [
+      "Mass cannot be created or destroyed",
+      "Mass changes during a chemical reaction",
+      "Mass is not related to chemical reactions"
+    ],
+    "correctAnswer": "Mass cannot be created or destroyed"
+  },
+  {
+    "problem": "Which element has the symbol 'Na' on the periodic table?",
+    "grade": "7",
+    "options": [
+      "Sodium",
+      "Nitrogen",
+      "Neon"
+    ],
+    "correctAnswer": "Sodium"
+  },
+  {
+    "problem": "What property of a substance describes its ability to burn?",
+    "grade": "7",
+    "options": [
+      "Density",
+      "Flammability",
+      "Boiling point"
+    ],
+    "correctAnswer": "Flammability"
+  },
+  {
+    "problem": "What is the chemical formula for water?",
+    "grade": "7",
+    "options": [
+      "H2O",
+      "CO2",
+      "NaCl"
+    ],
+    "correctAnswer": "H2O"
+  },
+  {
+    "problem": "What type of reaction occurs when baking soda and vinegar mix to produce bubbles?",
+    "grade": "7",
+    "options": [
+      "Combustion",
+      "Acid-base",
+      "Oxidation-reduction"
+    ],
+    "correctAnswer": "Acid-base"
+  },
+  {
+    "problem": "Which property of matter describes its ability to conduct electricity?",
+    "grade": "7",
+    "options": [
+      "Malleability",
+      "Ductility",
+      "Electrical conductivity"
+    ],
+    "correctAnswer": "Electrical conductivity"
+  },
+  {
+    "problem": "What is the balanced chemical equation for the reaction between hydrogen and oxygen to form water?",
+    "grade": "7",
+    "options": [
+      "2H2 + O2 -> 2H2O",
+      "H2O -> H2 + O2",
+      "H2O + O2 -> 2H2"
+    ],
+    "correctAnswer": "2H2 + O2 -> 2H2O"
+  },
+  {
+    "problem": "What happens to atoms during a chemical reaction?",
+    "grade": "7",
+    "options": [
+      "Atoms are created",
+      "Atoms are destroyed",
+      "Atoms are rearranged"
+    ],
+    "correctAnswer": "Atoms are rearranged"
+  },
+  {
+    "problem": "Which element is a metal on the periodic table?",
+    "grade": "7",
+    "options": [
+      "Oxygen",
+      "Iron",
+      "Carbon"
+    ],
+    "correctAnswer": "Iron"
+  },
+  {
+    "problem": "What state of matter has a definite volume but takes the shape of its container?",
+    "grade": "7",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Liquid"
+  },
+  {
+    "problem": "What is the product of the reaction between magnesium and oxygen?",
+    "grade": "7",
+    "options": [
+      "Magnesium oxide",
+      "Magnesium hydroxide",
+      "Magnesium chloride"
+    ],
+    "correctAnswer": "Magnesium oxide"
+  },
+  {
+    "problem": "Which property of a substance describes its ability to react with other substances?",
+    "grade": "7",
+    "options": [
+      "Reactivity",
+      "Density",
+      "Solubility"
+    ],
+    "correctAnswer": "Reactivity"
+  },
+  {
+    "problem": "What is the chemical formula for table salt?",
+    "grade": "7",
+    "options": [
+      "NaCl",
+      "H2O",
+      "CO2"
+    ],
+    "correctAnswer": "NaCl"
+  },
+  {
+    "problem": "What type of reaction occurs when iron rusts?",
+    "grade": "7",
+    "options": [
+      "Combustion",
+      "Oxidation",
+      "Decomposition"
+    ],
+    "correctAnswer": "Oxidation"
+  },
+  {
+    "problem": "Which property of matter describes its ability to be shaped without breaking?",
+    "grade": "7",
+    "options": [
+      "Malleability",
+      "Brittleness",
+      "Hardness"
+    ],
+    "correctAnswer": "Malleability"
+  },
+  {
+    "problem": "What is the balanced chemical equation for the reaction between sulfur and oxygen to form sulfur dioxide?",
+    "grade": "7",
+    "options": [
+      "S + O2 -> SO3",
+      "2S + 3O2 -> 2SO3",
+      "S + O2 -> SO2"
+    ],
+    "correctAnswer": "S + O2 -> SO2"
+  },
+  {
+    "problem": "What happens to energy during a chemical reaction?",
+    "grade": "7",
+    "options": [
+      "Energy is created",
+      "Energy is destroyed",
+      "Energy is transferred"
+    ],
+    "correctAnswer": "Energy is transferred"
+  },
+  {
+    "problem": "Which element is a non-metal on the periodic table?",
+    "grade": "7",
+    "options": [
+      "Sodium",
+      "Oxygen",
+      "Iron"
+    ],
+    "correctAnswer": "Oxygen"
+  },
+  {
+    "problem": "What is the charge of a proton?",
+    "grade": "8",
+    "options": ["Positive", "Negative", "Neutral"],
+    "correctAnswer": "Positive"
+  },
+  {
+    "problem": "Which part of the atom contains protons and neutrons?",
+    "grade": "8",
+    "options": ["Nucleus", "Electron cloud", "Shell"],
+    "correctAnswer": "Nucleus"
+  },
+  {
+    "problem": "Which of the following is a chemical property?",
+    "grade": "8",
+    "options": ["Flammability", "Color", "Mass"],
+    "correctAnswer": "Flammability"
+  },
+  {
+    "problem": "What is formed when two or more elements chemically combine?",
+    "grade": "8",
+    "options": ["Compound", "Mixture", "Solution"],
+    "correctAnswer": "Compound"
+  },
+  {
+    "problem": "Which element has the chemical symbol 'Fe'?",
+    "grade": "8",
+    "options": ["Iron", "Fluorine", "Francium"],
+    "correctAnswer": "Iron"
+  },
+  {
+    "problem": "What is a solution?",
+    "grade": "8",
+    "options": ["A mixture with one phase", "A chemical reaction", "An element"],
+    "correctAnswer": "A mixture with one phase"
+  },
+  {
+    "problem": "Which type of change can be reversed more easily?",
+    "grade": "8",
+    "options": ["Physical change", "Chemical change", "Nuclear change"],
+    "correctAnswer": "Physical change"
+  },
+  {
+    "problem": "What happens to atoms during a chemical reaction?",
+    "grade": "8",
+    "options": ["They rearrange", "They disappear", "They melt"],
+    "correctAnswer": "They rearrange"
+  },
+  {
+    "problem": "Which subatomic particle has no charge?",
+    "grade": "8",
+    "options": ["Neutron", "Proton", "Electron"],
+    "correctAnswer": "Neutron"
+  },
+  {
+    "problem": "What does the periodic table organize elements by?",
+    "grade": "8",
+    "options": ["Atomic number", "Mass number", "Boiling point"],
+    "correctAnswer": "Atomic number"
+  },
+  {
+    "problem": "Which of the following is a compound?",
+    "grade": "8",
+    "options": [
+      "Oxygen",
+      "Water",
+      "Helium"
+    ],
+    "correctAnswer": "Water"
+  },
+  {
+    "problem": "What is the state of matter of water at room temperature?",
+    "grade": "8",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Liquid"
+  },
+  {
+    "problem": "What type of change occurs when a plant grows?",
+    "grade": "8",
+    "options": [
+      "Physical change",
+      "Chemical change",
+      "Nuclear change"
+    ],
+    "correctAnswer": "Chemical change"
+  },
+  {
+    "problem": "Which element has the chemical symbol 'Na'?",
+    "grade": "8",
+    "options": [
+      "Sodium",
+      "Nitrogen",
+      "Neon"
+    ],
+    "correctAnswer": "Sodium"
+  },
+  {
+    "problem": "What property of metal allows it to be hammered into thin sheets?",
+    "grade": "8",
+    "options": [
+      "Malleability",
+      "Density",
+      "Boiling point"
+    ],
+    "correctAnswer": "Malleability"
+  },
+  {
+    "problem": "In the chemical equation H2 + O2 -> H2O, what is the product?",
+    "grade": "8",
+    "options": [
+      "Hydrogen",
+      "Oxygen",
+      "Water"
+    ],
+    "correctAnswer": "Water"
+  },
+  {
+    "problem": "Which of the following is a physical property of matter?",
+    "grade": "8",
+    "options": [
+      "Melting point",
+      "Reactivity",
+      "Flammability"
+    ],
+    "correctAnswer": "Melting point"
+  },
+  {
+    "problem": "What is the product of the chemical reaction between sodium and chlorine?",
+    "grade": "8",
+    "options": [
+      "Salt",
+      "Water",
+      "Oxygen"
+    ],
+    "correctAnswer": "Salt"
+  },
+  {
+    "problem": "In the chemical equation 2H2 + O2 -> 2H2O, what is the coefficient of oxygen?",
+    "grade": "8",
+    "options": [
+      "2",
+      "1",
+      "0"
+    ],
+    "correctAnswer": "1"
+  },
+  {
+    "problem": "What type of change occurs when ice melts into water?",
+    "grade": "8",
+    "options": [
+      "Physical change",
+      "Chemical change",
+      "Nuclear change"
+    ],
+    "correctAnswer": "Physical change"
+  },
+  {
+    "problem": "Which element has the atomic number 6?",
+    "grade": "8",
+    "options": [
+      "Carbon",
+      "Oxygen",
+      "Nitrogen"
+    ],
+    "correctAnswer": "Carbon"
+  },
+  {
+    "problem": "What property of a substance allows it to burn in the presence of oxygen?",
+    "grade": "8",
+    "options": [
+      "Flammability",
+      "Density",
+      "Malleability"
+    ],
+    "correctAnswer": "Flammability"
+  },
+  {
+    "problem": "What happens when a metal reacts with an acid?",
+    "grade": "8",
+    "options": [
+      "Gas is produced",
+      "Light is emitted",
+      "Sound is heard"
+    ],
+    "correctAnswer": "Gas is produced"
+  },
+  {
+    "problem": "Which of the following is a chemical change?",
+    "grade": "8",
+    "options": [
+      "Rusting of iron",
+      "Melting of ice",
+      "Boiling of water"
+    ],
+    "correctAnswer": "Rusting of iron"
+  },
+  {
+    "problem": "What is the atomic number of hydrogen?",
+    "grade": "8",
+    "options": [
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": "1"
+  },
+  {
+    "problem": "Which element has the chemical symbol 'Cu'?",
+    "grade": "8",
+    "options": [
+      "Copper",
+      "Calcium",
+      "Chlorine"
+    ],
+    "correctAnswer": "Copper"
+  },
+  {
+    "problem": "What property of a substance determines its ability to conduct electricity?",
+    "grade": "8",
+    "options": [
+      "Conductivity",
+      "Solubility",
+      "Malleability"
+    ],
+    "correctAnswer": "Conductivity"
+  },
+  {
+    "problem": "In the chemical equation 2H2 + O2 -> 2H2O, what is the coefficient of hydrogen?",
+    "grade": "8",
+    "options": [
+      "2",
+      "1",
+      "0"
+    ],
+    "correctAnswer": "2"
+  },
+  {
+    "problem": "What is the state of matter of oxygen at room temperature?",
+    "grade": "8",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Gas"
+  },
+  {
+    "problem": "Which of the following is a physical change?",
+    "grade": "8",
+    "options": [
+      "Melting of ice",
+      "Burning of wood",
+      "Decomposition of food"
+    ],
+    "correctAnswer": "Melting of ice"
+  },
+  {
+    "problem": "What is the chemical formula for water?",
+    "grade": "8",
+    "options": [
+      "H2O2",
+      "CO2",
+      "H2O"
+    ],
+    "correctAnswer": "H2O"
+  },
+  {
+    "problem": "Which of the following is a compound?",
+    "grade": "8",
+    "options": [
+      "Oxygen",
+      "Hydrogen",
+      "Carbon dioxide"
+    ],
+    "correctAnswer": "Carbon dioxide"
+  },
+  {
+    "problem": "In which state of matter do particles have the most energy and are farthest apart?",
+    "grade": "8",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Gas"
+  },
+  {
+    "problem": "What is the chemical symbol for gold?",
+    "grade": "8",
+    "options": [
+      "Au",
+      "Ag",
+      "Fe"
+    ],
+    "correctAnswer": "Au"
+  },
+  {
+    "problem": "Which property of matter describes its ability to burn?",
+    "grade": "8",
+    "options": [
+      "Density",
+      "Flammability",
+      "Hardness"
+    ],
+    "correctAnswer": "Flammability"
+  },
+  {
+    "problem": "What is the product of the chemical reaction between hydrogen and oxygen?",
+    "grade": "8",
+    "options": [
+      "Water",
+      "Carbon dioxide",
+      "Nitrogen"
+    ],
+    "correctAnswer": "Water"
+  },
+  {
+    "problem": "Which of the following is a physical property of iron?",
+    "grade": "8",
+    "options": [
+      "Corrosion",
+      "Magnetism",
+      "Flammability"
+    ],
+    "correctAnswer": "Magnetism"
+  },
+  {
+    "problem": "What is the balanced chemical equation for the reaction between sodium and chlorine?",
+    "grade": "8",
+    "options": [
+      "Na + Cl -> NaCl",
+      "NaCl -> Na + Cl",
+      "2Na + Cl2 -> 2NaCl"
+    ],
+    "correctAnswer": "2Na + Cl2 -> 2NaCl"
+  },
+  {
+    "problem": "What type of reaction is the rusting of iron?",
+    "grade": "8",
+    "options": [
+      "Combustion",
+      "Oxidation",
+      "Reduction"
+    ],
+    "correctAnswer": "Oxidation"
+  },
+  {
+    "problem": "What is the product of the chemical reaction between sulfuric acid and calcium hydroxide?",
+    "grade": "8",
+    "options": [
+      "Water",
+      "Salt",
+      "Calcium sulfate"
+    ],
+    "correctAnswer": "Water"
+  },
+  {
+    "problem": "Which element has the atomic number 6?",
+    "grade": "8",
+    "options": [
+      "Carbon",
+      "Oxygen",
+      "Nitrogen"
+    ],
+    "correctAnswer": "Carbon"
+  },
+  {
+    "problem": "What is the chemical formula for methane?",
+    "grade": "8",
+    "options": [
+      "CH4",
+      "CO2",
+      "H2O"
+    ],
+    "correctAnswer": "CH4"
+  },
+  {
+    "problem": "In which state of matter do particles have a definite shape but not a definite volume?",
+    "grade": "8",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Solid"
+  },
+  {
+    "problem": "Which property of matter describes its resistance to flow?",
+    "grade": "8",
+    "options": [
+      "Viscosity",
+      "Malleability",
+      "Conductivity"
+    ],
+    "correctAnswer": "Viscosity"
+  },
+  {
+    "problem": "What is the product of the chemical reaction between magnesium and oxygen?",
+    "grade": "8",
+    "options": [
+      "Magnesium oxide",
+      "Magnesium hydroxide",
+      "Magnesium chloride"
+    ],
+    "correctAnswer": "Magnesium oxide"
+  },
+  {
+    "problem": "Which of the following is a chemical property of copper?",
+    "grade": "8",
+    "options": [
+      "Density",
+      "Malleability",
+      "Corrosion"
+    ],
+    "correctAnswer": "Corrosion"
+  },
+  {
+    "problem": "What is the balanced chemical equation for the reaction between hydrochloric acid and sodium hydroxide?",
+    "grade": "8",
+    "options": [
+      "HCl + NaOH -> NaCl + H2O",
+      "NaCl + H2O -> HCl + NaOH",
+      "2HCl + 2NaOH -> 2NaCl + 2H2O"
+    ],
+    "correctAnswer": "2HCl + 2NaOH -> 2NaCl + 2H2O"
+  },
+  {
+    "problem": "What type of reaction is the burning of wood?",
+    "grade": "8",
+    "options": [
+      "Combustion",
+      "Decomposition",
+      "Synthesis"
+    ],
+    "correctAnswer": "Combustion"
+  },
+  {
+    "problem": "What is the product of the chemical reaction between nitric acid and potassium hydroxide?",
+    "grade": "8",
+    "options": [
+      "Water",
+      "Salt",
+      "Potassium nitrate"
+    ],
+    "correctAnswer": "Water"
+  },
+  {
+    "problem": "Which of the following is a pure substance made up of only one type of atom?",
+    "grade": "8",
+    "options": [
+      "Element",
+      "Compound",
+      "Mixture"
+    ],
+    "correctAnswer": "Element"
+  },
+  {
+    "problem": "What is the state of matter that has a definite shape and volume?",
+    "grade": "8",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Solid"
+  },
+  {
+    "problem": "In a chemical equation, what are the substances on the left side called?",
+    "grade": "8",
+    "options": [
+      "Reactants",
+      "Products",
+      "Catalysts"
+    ],
+    "correctAnswer": "Reactants"
+  },
+  {
+    "problem": "Which row in the periodic table contains the noble gases?",
+    "grade": "8",
+    "options": [
+      "Far left",
+      "Middle",
+      "Far right"
+    ],
+    "correctAnswer": "Far right"
+  },
+  {
+    "problem": "Which property of matter describes its ability to burn?",
+    "grade": "8",
+    "options": [
+      "Flammability",
+      "Density",
+      "Hardness"
+    ],
+    "correctAnswer": "Flammability"
+  },
+  {
+    "problem": "What is the balanced chemical equation for the reaction between hydrogen and oxygen to form water?",
+    "grade": "8",
+    "options": [
+      "2H₂ + O₂ → 2H₂O",
+      "H₂ + O₂ → H₂O",
+      "H₂O → H₂ + O₂"
+    ],
+    "correctAnswer": "2H₂ + O₂ → 2H₂O"
+  },
+  {
+    "problem": "Which type of chemical reaction releases energy in the form of heat and light?",
+    "grade": "8",
+    "options": [
+      "Exothermic",
+      "Endothermic",
+      "Neutral"
+    ],
+    "correctAnswer": "Exothermic"
+  },
+  {
+    "problem": "Which property of matter describes its ability to conduct electricity?",
+    "grade": "8",
+    "options": [
+      "Conductivity",
+      "Magnetism",
+      "Ductility"
+    ],
+    "correctAnswer": "Conductivity"
+  },
+  {
+    "problem": "What is the balanced chemical equation for the reaction between sodium and chlorine to form sodium chloride?",
+    "grade": "8",
+    "options": [
+      "2Na + Cl₂ → 2NaCl",
+      "Na + Cl₂ → NaCl",
+      "NaCl → Na + Cl₂"
+    ],
+    "correctAnswer": "2Na + Cl₂ → 2NaCl"
+  },
+  {
+    "problem": "During a chemical reaction, what happens to the total mass of the reactants and products?",
+    "grade": "8",
+    "options": [
+      "Remains the same",
+      "Decreases",
+      "Increases"
+    ],
+    "correctAnswer": "Remains the same"
+  },
+  {
+    "problem": "What is the state of matter that has a definite volume but takes the shape of its container?",
+    "grade": "8",
+    "options": [
+      "Liquid",
+      "Solid",
+      "Gas"
+    ],
+    "correctAnswer": "Liquid"
+  },
+  {
+    "problem": "In a chemical equation, what are the substances on the right side called?",
+    "grade": "8",
+    "options": [
+      "Products",
+      "Reactants",
+      "Catalysts"
+    ],
+    "correctAnswer": "Products"
+  },
+  {
+    "problem": "Which row in the periodic table contains the alkali metals?",
+    "grade": "8",
+    "options": [
+      "Far left",
+      "Middle",
+      "Far right"
+    ],
+    "correctAnswer": "Far left"
+  },
+  {
+    "problem": "Which property of matter describes its ability to react with other substances?",
+    "grade": "8",
+    "options": [
+      "Reactivity",
+      "Density",
+      "Melting point"
+    ],
+    "correctAnswer": "Reactivity"
+  },
+  {
+    "problem": "What is the balanced chemical equation for the reaction between carbon and oxygen to form carbon dioxide?",
+    "grade": "8",
+    "options": [
+      "C + O₂ → CO₂",
+      "2C + O₂ → 2CO₂",
+      "CO₂ → C + O₂"
+    ],
+    "correctAnswer": "C + O₂ → CO₂"
+  },
+  {
+    "problem": "Which type of chemical reaction absorbs energy from the surroundings?",
+    "grade": "8",
+    "options": [
+      "Endothermic",
+      "Exothermic",
+      "Neutral"
+    ],
+    "correctAnswer": "Endothermic"
+  },
+  {
+    "problem": "Which property of matter describes its ability to dissolve in a solvent?",
+    "grade": "8",
+    "options": [
+      "Solubility",
+      "Conductivity",
+      "Magnetism"
+    ],
+    "correctAnswer": "Solubility"
+  },
+  {
+    "problem": "What is the balanced chemical equation for the reaction between magnesium and oxygen to form magnesium oxide?",
+    "grade": "8",
+    "options": [
+      "2Mg + O₂ → 2MgO",
+      "Mg + O₂ → MgO",
+      "MgO → Mg + O₂"
+    ],
+    "correctAnswer": "2Mg + O₂ → 2MgO"
+  },
+  {
+    "problem": "During a chemical reaction, what happens to the bonds between atoms in the reactants?",
+    "grade": "8",
+    "options": [
+      "They break and form new bonds",
+      "They remain unchanged",
+      "They disappear"
+    ],
+    "correctAnswer": "They break and form new bonds"
+  },
+  {
+    "problem": "What is the state of matter that has no definite shape or volume?",
+    "grade": "8",
+    "options": [
+      "Gas",
+      "Liquid",
+      "Solid"
+    ],
+    "correctAnswer": "Gas"
+  },
+  {
+    "problem": "What is the chemical formula for water?",
+    "grade": "8",
+    "options": [
+      "H2O",
+      "CO2",
+      "NaCl"
+    ],
+    "correctAnswer": "H2O"
+  },
+  {
+    "problem": "Which of the following is a compound?",
+    "grade": "8",
+    "options": [
+      "Oxygen",
+      "Carbon",
+      "Carbon dioxide"
+    ],
+    "correctAnswer": "Carbon dioxide"
+  },
+  {
+    "problem": "What is the state of matter of water at room temperature?",
+    "grade": "8",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Liquid"
+  },
+  {
+    "problem": "What happens to water when it freezes?",
+    "grade": "8",
+    "options": [
+      "It turns into a gas",
+      "It turns into a liquid",
+      "It turns into a solid"
+    ],
+    "correctAnswer": "It turns into a solid"
+  },
+  {
+    "problem": "What does the arrow in a chemical equation represent?",
+    "grade": "8",
+    "options": [
+      "Reactants",
+      "Products",
+      "Yield"
+    ],
+    "correctAnswer": "Yield"
+  },
+  {
+    "problem": "Which of the following is a chemical property of iron?",
+    "grade": "8",
+    "options": [
+      "Color",
+      "Magnetism",
+      "Density"
+    ],
+    "correctAnswer": "Magnetism"
+  },
+  {
+    "problem": "What is the product of the reaction between sodium and chlorine?",
+    "grade": "8",
+    "options": [
+      "Sodium chloride",
+      "Sodium oxide",
+      "Sodium hydroxide"
+    ],
+    "correctAnswer": "Sodium chloride"
+  },
+  {
+    "problem": "Which of the following is a physical property of gold?",
+    "grade": "8",
+    "options": [
+      "Malleability",
+      "Flammability",
+      "Reactivity"
+    ],
+    "correctAnswer": "Malleability"
+  },
+  {
+    "problem": "What is the balanced chemical equation for the reaction between hydrogen and oxygen to form water?",
+    "grade": "8",
+    "options": [
+      "2H2 + O2 → 2H2O",
+      "H2 + O2 → H2O",
+      "H2O → H2 + O2"
+    ],
+    "correctAnswer": "2H2 + O2 → 2H2O"
+  },
+  {
+    "problem": "What type of chemical reaction is the burning of wood?",
+    "grade": "8",
+    "options": [
+      "Combustion",
+      "Neutralization",
+      "Precipitation"
+    ],
+    "correctAnswer": "Combustion"
+  },
+  {
+    "problem": "What is the atomic number of carbon on the periodic table?",
+    "grade": "8",
+    "options": [
+      "6",
+      "12",
+      "24"
+    ],
+    "correctAnswer": "6"
+  },
+  {
+    "problem": "Which group of elements on the periodic table are known as the noble gases?",
+    "grade": "8",
+    "options": [
+      "Group 18",
+      "Group 1",
+      "Group 17"
+    ],
+    "correctAnswer": "Group 18"
+  },
+  {
+    "problem": "What is the chemical symbol for potassium?",
+    "grade": "8",
+    "options": [
+      "K",
+      "P",
+      "Ka"
+    ],
+    "correctAnswer": "K"
+  },
+  {
+    "problem": "What happens to a substance when it evaporates?",
+    "grade": "8",
+    "options": [
+      "It turns into a solid",
+      "It turns into a gas",
+      "It turns into a liquid"
+    ],
+    "correctAnswer": "It turns into a gas"
+  },
+  {
+    "problem": "How many protons are in an atom of oxygen?",
+    "grade": "8",
+    "options": [
+      "6",
+      "8",
+      "16"
+    ],
+    "correctAnswer": "8"
+  },
+  {
+    "problem": "What is the chemical formula for carbon dioxide?",
+    "grade": "8",
+    "options": [
+      "CO",
+      "CO2",
+      "C2O2"
+    ],
+    "correctAnswer": "CO2"
+  },
+  {
+    "problem": "Which of the following is a chemical change?",
+    "grade": "8",
+    "options": [
+      "Melting ice",
+      "Burning wood",
+      "Cutting paper"
+    ],
+    "correctAnswer": "Burning wood"
+  },
+  {
+    "problem": "What is the mass number of an atom?",
+    "grade": "8",
+    "options": [
+      "Number of protons",
+      "Number of neutrons",
+      "Total number of protons and neutrons"
+    ],
+    "correctAnswer": "Total number of protons and neutrons"
+  },
+  {
+    "problem": "What is the chemical symbol for silver?",
+    "grade": "8",
+    "options": [
+      "S",
+      "Ag",
+      "Si"
+    ],
+    "correctAnswer": "Ag"
+  },
+  {
+    "problem": "What is the product of the reaction between hydrochloric acid and sodium hydroxide?",
+    "grade": "8",
+    "options": [
+      "Sodium chloride",
+      "Water",
+      "Hydrogen gas"
+    ],
+    "correctAnswer": "Water"
+  },
+  {
+    "problem": "Which of the following is an example of a compound?",
+    "grade": "8",
+    "options": [
+      "Oxygen",
+      "Water",
+      "Helium"
+    ],
+    "correctAnswer": "Water"
+  },
+  {
+    "problem": "What is the state of matter of water at room temperature?",
+    "grade": "8",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Liquid"
+  },
+  {
+    "problem": "What happens when iron rusts?",
+    "grade": "8",
+    "options": [
+      "Physical change",
+      "Chemical change",
+      "No change"
+    ],
+    "correctAnswer": "Chemical change"
+  },
+  {
+    "problem": "Which element is located in period 3, group 1 of the periodic table?",
+    "grade": "8",
+    "options": [
+      "Lithium",
+      "Oxygen",
+      "Fluorine"
+    ],
+    "correctAnswer": "Lithium"
+  },
+  {
+    "problem": "Which of the following is a chemical property of sodium?",
+    "grade": "8",
+    "options": [
+      "Soft metal",
+      "Silver color",
+      "Reacts violently with water"
+    ],
+    "correctAnswer": "Reacts violently with water"
+  },
+  {
+    "problem": "What is the balanced chemical equation for the reaction between hydrogen and oxygen to form water?",
+    "grade": "8",
+    "options": [
+      "H2O2 -> H2O",
+      "2H2 + O2 -> 2H2O",
+      "H2 + O2 -> H2O"
+    ],
+    "correctAnswer": "2H2 + O2 -> 2H2O"
+  },
+  {
+    "problem": "Which of the following is a chemical property of gold?",
+    "grade": "8",
+    "options": [
+      "Soft metal",
+      "Yellow color",
+      "Does not react with air or water"
+    ],
+    "correctAnswer": "Does not react with air or water"
+  },
+  {
+    "problem": "What is the balanced chemical equation for the reaction between sodium and chlorine to form sodium chloride?",
+    "grade": "8",
+    "options": [
+      "2Na + Cl2 -> NaCl",
+      "Na + Cl -> NaCl",
+      "NaCl -> Na + Cl"
+    ],
+    "correctAnswer": "2Na + Cl2 -> 2NaCl"
+  },
+  {
+    "problem": "What happens in a chemical reaction?",
+    "grade": "8",
+    "options": [
+      "Atoms are created",
+      "Atoms are destroyed",
+      "Atoms are rearranged"
+    ],
+    "correctAnswer": "Atoms are rearranged"
+  },
+  {
+    "problem": "What is the state of matter of carbon dioxide at room temperature?",
+    "grade": "8",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Gas"
+  },
+  {
+    "problem": "Which of the following is a compound?",
+    "grade": "8",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Helium"
+    ],
+    "correctAnswer": "Carbon dioxide"
+  },
+  {
+    "problem": "What is the state of matter of ice?",
+    "grade": "8",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Solid"
+  },
+  {
+    "problem": "What is the chemical symbol for potassium?",
+    "grade": "8",
+    "options": [
+      "Po",
+      "K",
+      "Pt"
+    ],
+    "correctAnswer": "K"
+  },
+  {
+    "problem": "Which property of water allows it to form droplets on a surface?",
+    "grade": "8",
+    "options": [
+      "Surface tension",
+      "Color",
+      "Density"
+    ],
+    "correctAnswer": "Surface tension"
+  },
+  {
+    "problem": "What is the balanced chemical equation for the combustion of methane (CH4) in oxygen?",
+    "grade": "8",
+    "options": [
+      "CH4 + O2 -> CO2 + H2O",
+      "CH4 -> CO2 + H2O",
+      "CH4 + O -> CO + H2O"
+    ],
+    "correctAnswer": "CH4 + 2O2 -> CO2 + 2H2O"
+  },
+  {
+    "problem": "Which of the following is a chemical property of sulfur?",
+    "grade": "8",
+    "options": [
+      "Yellow color",
+      "Hard metal",
+      "Conducts electricity"
+    ],
+    "correctAnswer": "Yellow color"
+  },
+  {
+    "problem": "What is the chemical symbol for silver?",
+    "grade": "8",
+    "options": [
+      "S",
+      "Ag",
+      "Si"
+    ],
+    "correctAnswer": "Ag"
+  },
+  {
+    "problem": "What is the state of matter of oxygen at room temperature?",
+    "grade": "8",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas"
+    ],
+    "correctAnswer": "Gas"
+  },
+  {
+    "problem": "What is formed when magnesium reacts with sulfur?",
+    "grade": "8",
+    "options": [
+      "Mixture",
+      "Compound",
+      "Solution"
+    ],
+    "correctAnswer": "Compound"
+  },
+  {
+    "problem": "What is the balanced chemical equation for the reaction between hydrochloric acid and sodium hydroxide to form salt and water?",
+    "grade": "8",
+    "options": [
+      "HCl + NaOH -> NaCl + H2O",
+      "HCl -> NaCl + H2O",
+      "HCl + NaOH -> NaOH + HCl"
+    ],
+    "correctAnswer": "HCl + NaOH -> NaCl + H2O"
+  }
+]
