@@ -100,7 +100,7 @@ export class AuthService {
 
     // Generate OTP
     const code = randomstring.generate({
-      length: 9,
+      length: 6,
       charset: 'alphanumeric',
       capitalization: 'uppercase',
     });
@@ -481,7 +481,7 @@ export class AuthService {
 
     // Check cooldown period
     const currentTime = moment().utc();
-    const expirationTime = moment(dbOTP.updated_at).add(3, 'minutes').utc();
+    const expirationTime = moment(dbOTP.updated_at).add(1, 'minutes').utc();
 
     if (moment(currentTime).isBefore(expirationTime)) {
       throw new BadRequestException({
@@ -509,7 +509,7 @@ export class AuthService {
 
     // Generate new OTP
     const code = randomstring.generate({
-      length: 9,
+      length: 6,
       charset: 'alphanumeric',
       capitalization: 'uppercase',
     });
