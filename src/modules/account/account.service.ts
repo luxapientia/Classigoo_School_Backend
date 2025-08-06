@@ -24,10 +24,7 @@ export class AccountService {
     if (!userData) {
       throw new NotFoundException('User not found');
     }
-    return {
-      ...userData,
-      _id: userData.id,
-    };
+    return userData;
   }
 
   async uploadAvatar(files: Array<ProcessedFile>, user: JwtPayload): Promise<boolean> {

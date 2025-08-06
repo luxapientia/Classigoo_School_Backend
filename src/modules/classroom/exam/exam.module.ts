@@ -6,7 +6,8 @@ import { Exam } from './schemas/exam.schema';
 import { ExamSubmission } from './schemas/exam-submission.schema';
 import { Classroom } from '../core/schemas/classroom.schema';
 import { ClassroomAccess } from '../core/schemas/classroom-access.schema';
-import { SharedModule } from '../../../shared/shared.module'; 
+import { Notification } from '../../notification/schemas/notification.schema';
+import { SharedModule } from '../../../shared/shared.module';
 
 @Module({
   imports: [
@@ -16,6 +17,7 @@ import { SharedModule } from '../../../shared/shared.module';
       ExamSubmission,
       Classroom,
       ClassroomAccess,
+      Notification,
     ]),
   ],
   controllers: [ExamController],

@@ -10,6 +10,7 @@ export interface EventSubscriber {
 }
 
 export enum EventTypes {
+  NOTIFICATION_UPDATED = 'notification.updated',
   CHATROOM_CREATED = 'chatroom.created',
   ASSIGNMENT_UPATED = 'assignment.updated',
   ASSIGNMENT_SUBMISSION_UPDATED = 'assignment_submission.updated',

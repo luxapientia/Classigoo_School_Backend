@@ -13,6 +13,7 @@ import { UpdateExamSubmissionDto } from './dto/update-exam-submission.dto';
 import { UpdateExamSubmissionMarkingsDto } from './dto/update-exam-submission-markings.dto';
 import { DeleteFileDto } from './dto/delete-file.dto';
 import { User } from '../../../modules/auth/schemas/user.schema';
+import { Notification } from '../../notification/schemas/notification.schema';
 import { PubSubService } from '../../../shared/services/pubsub.service';
 import { FileService } from '../../../shared/services/file.service';
 import { ExamGradeDto } from './dto/list-exam-grades.dto';
@@ -30,6 +31,8 @@ export class ExamService {
     private classroomRepo: Repository<Classroom>,
     @InjectRepository(ClassroomAccess)
     private classroomAccessRepo: Repository<ClassroomAccess>,
+    @InjectRepository(Notification)
+    private notificationRepo: Repository<Notification>,
     private readonly pubSubService: PubSubService,
     private fileService: FileService
   ) {}
@@ -355,12 +358,18 @@ export class ExamService {
     try {
       const submission = await this.examSubmissionRepo.findOne({
         where: { id: updateMarkingsDto.id },
-        relations: ['exam', 'exam.classroom']
+        relations: ['exam', 'exam.classroom', 'user']
       });
 
-    if (!submission) {
-      throw new NotFoundException('Submission not found');
-    }
+      if (!submission) {
+        throw new NotFoundException('Submission not found');
+      }
+
+      // Get Current User Details
+      const currentUser = await this.userRepo.findOne({ where: { id: user.user_id } });
+      if (!currentUser) {
+        throw new NotFoundException('User not found');
+      }
 
       // Check if user has permission to mark submissions
       const access = await this.classroomAccessRepo.findOne({
@@ -379,16 +388,30 @@ export class ExamService {
       submission.markings = updateMarkingsDto.markings;
       const updatedSubmission = await this.examSubmissionRepo.save(submission);
 
-    // publish event
-      await this.pubSubService.publish('exam.updated', {
-        eid: submission.exam.id,
-        cid: submission.exam.classroom.id
+      // Create notification
+      await this.notificationRepo.save({
+        user_id: submission.user.id,
+        image: currentUser.avatar.url,
+        content: `${currentUser.name} marked your submission for ${submission.exam.title}`,
+        link: `/classroom/${submission.exam.classroom.id}/exams/${submission.exam.id}/submissions/${submission.id}`,
+        is_read: false
       });
 
-    return {
-      status: 'success',
-        message: 'Markings updated successfully',
-      data: updatedSubmission
+      // Publish event
+      await this.pubSubService.publish('notification.updated', {
+        target_id: submission.user.id.toString(),
+      })
+
+      // publish event
+        await this.pubSubService.publish('exam.updated', {
+          eid: submission.exam.id,
+          cid: submission.exam.classroom.id
+        });
+
+      return {
+        status: 'success',
+          message: 'Markings updated successfully',
+        data: updatedSubmission
     };
     } catch (error) {
       if (error instanceof UnauthorizedException || error instanceof NotFoundException) {

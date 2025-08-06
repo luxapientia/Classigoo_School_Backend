@@ -6,7 +6,7 @@ import {
   NotFoundException,
 } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Repository } from 'typeorm';
+import { In, Repository } from 'typeorm';
 import { JwtService } from '@nestjs/jwt';
 import * as moment from 'moment';
 import * as randomstring from 'randomstring';
@@ -72,13 +72,13 @@ export class AuthService {
     }
     
     // Check if school staff selected school in signup
-    if (this.schoolStaffRoles.includes(role) && isSignup && !schoolId) {
-      throw new BadRequestException({
-        status: 'error',
-        message: 'School is required, Please select a school',
-        i18n: 'school_required',
-      });
-    }
+    // if (this.schoolStaffRoles.includes(role) && isSignup && !schoolId) {
+    //   throw new BadRequestException({
+    //     status: 'error',
+    //     message: 'School is required, Please select a school',
+    //     i18n: 'school_required',
+    //   });
+    // }
 
     // Check blacklist
     const blacklist = await this.blacklistRepo.findOne({ where: { ip_address: ip } });
@@ -108,8 +108,14 @@ export class AuthService {
     // Generate session token
     const session_token = uuidv4();
 
-    // Find or create user
-    let user = await this.userRepo.findOne({ where: { email: email.toLowerCase() } });
+    // Find the user with the email and role
+    let user;
+    if (role === 'parent') {
+      user = await this.userRepo.findOne({ where: { email: email.toLowerCase(), role: role } });
+    } else {
+      // find the user with email and role with array options ['teacher', 'staff', 'assistant_principal', 'principal']
+      user = await this.userRepo.findOne({ where: { email: email.toLowerCase(), role: In(this.schoolStaffRoles) } });
+    }
 
     if (isSignup) {
       if (user) {
@@ -156,16 +162,26 @@ export class AuthService {
         // const school = await this.schoolRepo.findOne({ where: { id: schoolId } });
         // if (!school) {
         // }
-        const newSchool = await this.schoolRepo.save({
-          name: school_id,
-        });
-        schoolId = newSchool.id;
 
-        await this.schoolStaffRepo.save({
-          user: { id: user.id },
-          school: { id: schoolId },
-          is_verified: false
-        });
+        // create school if user selected school in signup
+        if (schoolId) {
+          const newSchool = await this.schoolRepo.save({
+            name: school_id,
+          });
+          schoolId = newSchool.id;
+
+          await this.schoolStaffRepo.save({
+            user: { id: user.id },
+              school: { id: schoolId },
+              is_verified: false
+            });
+        } else {
+          // create school staff without school
+          await this.schoolStaffRepo.save({
+            user: { id: user.id },
+            is_verified: false
+          });
+        }
       } else {
         await this.communityMemberRepo.save({
           user: { id: user.id },
@@ -207,7 +223,7 @@ export class AuthService {
     }
 
     // Check for existing OTP
-    const oldOTP = await this.otpRepo.findOne({ where: { email: email.toLowerCase(), expired: false } });
+    const oldOTP = await this.otpRepo.findOne({ where: { user: { id: user.id }, expired: false } });
     if (oldOTP) {
       const currentTime = moment().utc();
       const expirationTime = moment(oldOTP.updated_at).add(1, 'minutes').utc();
@@ -220,11 +236,11 @@ export class AuthService {
     }
 
     // Expire old OTPs
-    await this.otpRepo.update({ email: email.toLowerCase(), expired: false }, { expired: true });
+    await this.otpRepo.update({ user: { id: user.id }, expired: false }, { expired: true });
 
     // Create new OTP
     await this.otpRepo.save({
-      email: email.toLowerCase(),
+      user: { id: user.id },
       otp: code,
       session_token,
       session_remember_me: remember_me,
@@ -315,7 +331,7 @@ export class AuthService {
     }
 
     // Find OTP
-    const dbOTP = await this.otpRepo.findOne({ where: { otp, session_token } });
+    const dbOTP = await this.otpRepo.findOne({ where: { otp, session_token }, relations: ['user'] });
 
     if (!dbOTP) {
       throw new BadRequestException({
@@ -369,7 +385,7 @@ export class AuthService {
     }
 
     // Get user
-    const user = await this.userRepo.findOne({ where: { email: dbOTP.email } });
+    const user = await this.userRepo.findOne({ where: { id: dbOTP.user.id } });
 
     if (!user) {
       throw new NotFoundException({
@@ -386,7 +402,7 @@ export class AuthService {
       {
         user_id: user.id,
         session: dbOTP.session_token,
-        email: dbOTP.email,
+        email: user.email,
         role: user.role,
       },
       {
@@ -416,7 +432,7 @@ export class AuthService {
       push_token: dbOTP.push_token,
     });
 
-    await this.userRepo.update({ email: dbOTP.email }, { status: 'active' });
+    await this.userRepo.update({id: user.id}, { status: 'active' });
 
     // verify school staff
     if (this.schoolStaffRoles.includes(user.role)) {
@@ -461,7 +477,7 @@ export class AuthService {
     const { session_token, ip } = resendOtpDto;
 
     // Find OTP
-    const dbOTP = await this.otpRepo.findOne({ where: { session_token } });
+    const dbOTP = await this.otpRepo.findOne({ where: { session_token }, relations: ['user'] });
 
     if (!dbOTP) {
       throw new BadRequestException({
@@ -515,11 +531,11 @@ export class AuthService {
     });
 
     // Update OTP
-    await this.otpRepo.update({ session_token }, { otp: code, expired: false, updated_at: moment().utc() });
+    await this.otpRepo.update({ session_token }, { otp: code, expired: false });
 
     // Send email
     const mailSent = await this.mailService.sendMail({
-      to: dbOTP.email,
+      to: dbOTP.user.email,
       subject: 'Classigoo - Your OTP for authentication',
       text: `Hi, \r\nWe have received a one time password generation request from your email address. Please use the code below to complete your authentication. Your code is valid for the next 5 minutes.\r\n\r\nYour one time login code is: ${code}\r\n\r\nIf it wasn't you who requested this code, then avoid this email. If you want to track logged-in users, then please login to the classigoo app and visit the security center to monitor logged-in users. For further help please contact our support department\r\n\r\nRegards, \r\nTeam Classigoo`,
     });

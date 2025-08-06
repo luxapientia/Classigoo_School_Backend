@@ -5,12 +5,14 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository, In } from 'typeorm';
 import { JwtPayload } from '../../../common/decorators/user.decorator';
 import { Classroom } from './schemas/classroom.schema';
+import { Notification } from '../../notification/schemas/notification.schema';
 import { ClassroomAccess } from './schemas/classroom-access.schema';
 import { MessageRoom } from '../message/schemas/message-room.schema';
 import { Message } from '../message/schemas/message.schema';
 import { ClassroomPost } from '../post/schemas/classroom-post.schema';
 import { Exam } from '../exam/schemas/exam.schema';
 import { Assignment } from '../assignment/schemas/assignment.schema';
+import { User } from '../../auth/schemas/user.schema';
 import { CreateClassroomDto, CreateClassroomResponse } from './dto/create-classroom.dto';
 import { JoinClassroomDto, JoinClassroomResponse } from './dto/join-classroom.dto';
 import { UpdateClassroomDto } from './dto/update-classroom.dto';
@@ -27,6 +29,8 @@ export class CoreService {
     @InjectRepository(ClassroomPost) private classroomPostRepo: Repository<ClassroomPost>,
     @InjectRepository(Exam) private examRepo: Repository<Exam>,
     @InjectRepository(Assignment) private assignmentRepo: Repository<Assignment>,
+    @InjectRepository(Notification) private notificationRepo: Repository<Notification>,
+    @InjectRepository(User) private userRepo: Repository<User>,
     private pubSubService: PubSubService,
     private configService: ConfigService,
   ) {}
@@ -94,9 +98,15 @@ export class CoreService {
   }
 
   async join(joinClassroomDto: JoinClassroomDto, user: JwtPayload): Promise<JoinClassroomResponse> {
-    try {
+    try { 
+      // Get current user details
+      const currentUser = await this.userRepo.findOne({ where: { id: user.user_id } });
+      if (!currentUser) {
+        throw new NotFoundException('User not found');
+      }
+
       // Find classroom by invitation code
-      const targetClassroom = await this.classroomRepo.findOne({ where: { id: joinClassroomDto.class_id } });
+      const targetClassroom = await this.classroomRepo.findOne({ where: { id: joinClassroomDto.class_id }, relations: ['owner'] });
 
       if (!targetClassroom) {
         throw new NotFoundException('Classroom not found with provided invitation code');
@@ -133,6 +143,20 @@ export class CoreService {
           status: 'accepted'
         });
       }
+
+      // Create notification for the owner who invited the user
+      await this.notificationRepo.save({
+        user: { id: targetClassroom.owner.id },
+        image: currentUser.avatar.url,
+        content: `${currentUser.name} joined ${targetClassroom.name} classroom`,
+        link: `/classroom/${joinClassroomDto.class_id}/members`,
+        is_read: false
+      });
+
+      // Publish event for the owner who invited the user
+      await this.pubSubService.publish('notification.updated', {
+        target_id: targetClassroom.owner.id.toString(),
+      })
 
       // Publish event
       await this.pubSubService.publish('classroom.updated', {
@@ -196,7 +220,7 @@ export class CoreService {
       });
 
       await this.pubSubService.publish('classroom.updated', {
-        id: updatedClassroom.id,
+        id: id,
         classroom: classroomWithOwner
       });
       

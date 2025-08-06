@@ -15,7 +15,7 @@ export class SchoolStaff {
   user: User;
 
   @ManyToOne(() => School, {
-    nullable: false,
+    nullable: true,
     onDelete: 'CASCADE'
   })
   @JoinColumn({ name: 'school_id' })

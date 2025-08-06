@@ -5,7 +5,7 @@ import { MemberController } from './member.controller';
 import { MemberService } from './member.service';
 import { Classroom } from '../core/schemas/classroom.schema';
 import { ClassroomAccess } from '../core/schemas/classroom-access.schema';
-import { Notification } from './schemas/notification.schema';
+import { Notification } from '../../notification/schemas/notification.schema';
 import { MailService } from '../../../common/utils/mail.service';
 import { User } from '../../../modules/auth/schemas/user.schema';
 

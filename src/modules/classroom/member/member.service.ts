@@ -6,7 +6,7 @@ import { JwtPayload } from '../../../common/decorators/user.decorator';
 import { Classroom } from '../core/schemas/classroom.schema';
 import { ClassroomAccess } from '../core/schemas/classroom-access.schema';
 import { User } from '../../../modules/auth/schemas/user.schema';
-import { Notification } from './schemas/notification.schema';
+import { Notification } from '../../notification/schemas/notification.schema';
 import { InviteMemberDto, InviteMemberResponse } from './dto/invite-member.dto';
 import { RemoveMemberDto, RemoveMemberResponse } from './dto/remove-member.dto';
 import { ChangeRoleDto, ChangeRoleResponse } from './dto/change-role.dto';
@@ -42,7 +42,7 @@ export class MemberService {
         where: {
           classroom: { id: class_id },
           user: { id: user.user_id },
-        status: 'accepted',
+          status: 'accepted',
           role: In(['owner', 'teacher'])
         }
       });
@@ -58,7 +58,7 @@ export class MemberService {
       }
 
       // Find user by email
-      const invitedUser = await this.userRepository.findOne({ where: { email } });
+      const invitedUser = await this.userRepository.findOne({ where: { email, role } });
       if (!invitedUser) {
         throw new BadRequestException('The user does not exist');
       }
@@ -67,7 +67,8 @@ export class MemberService {
       const existingAccess = await this.classroomAccessRepository.findOne({
         where: {
           classroom: { id: class_id },
-          user: { id: invitedUser.id }
+          user: { id: invitedUser.id },
+          status: 'accepted'
         }
       });
 
@@ -94,12 +95,17 @@ export class MemberService {
 
       // Create notification
       await this.notificationRepository.save({
-        user: { id: invitedUser.id },
-        image: process.env.NOTIFICATION_JOIN_CLASSROOM_IMAGE_URL,
+        user_id: invitedUser.id,
+        image: currentUserData.avatar.url,
         content: `${currentUserData.name} invited you to join a classroom`,
-        link: `/classrooms?action=join&code=${class_id}`,
+        link: `/classroom/${class_id}/join?code=${classroom.invitation_code}`,
         is_read: false
       });
+
+      // Publish event
+      await this.pubSubService.publish('notification.updated', {
+        target_id: invitedUser.id.toString(),
+      })
 
       // Send invitation email
       await this.mailService.sendMail({
@@ -115,6 +121,7 @@ export class MemberService {
         message: 'Successfully invited member'
       };
     } catch (error) {
+      console.log(error);
       if (error instanceof BadRequestException || error instanceof NotFoundException) {
         throw error;
       }
@@ -133,6 +140,12 @@ export class MemberService {
       });
       if (!access) {
         throw new NotFoundException('Relation not found');
+      }
+
+      // Get current user details
+      const currentUserData = await this.userRepository.findOne({ where: { id: user.user_id } });
+      if (!currentUserData) {
+        throw new BadRequestException('Current user not found');
       }
 
       // Check if trying to remove owner
@@ -165,6 +178,20 @@ export class MemberService {
 
       // Remove member
       await this.classroomAccessRepository.delete(relation_id);
+
+      // Create notification
+      await this.notificationRepository.save({
+        user: { id: access.user.id },
+        image: currentUserData.avatar.url,
+        content: `${currentUserData.name} removed you from a classroom`,
+        link: `/classrooms`,
+        is_read: false
+      });
+
+      // Publish event
+      await this.pubSubService.publish('notification.updated', {
+        target_id: access.user.id.toString(),
+      })
 
       // Publish event
       await this.pubSubService.publish('classroom.updated', {
@@ -204,6 +231,12 @@ export class MemberService {
         throw new NotFoundException('Requested access not found');
       }
 
+      // Get current user details
+      const currentUserData = await this.userRepository.findOne({ where: { id: user.user_id } });
+      if (!currentUserData) {
+        throw new BadRequestException('Current user not found');
+      }
+
       // Check if user is trying to change their own role
       if (access.user.id === user.user_id) {
         throw new BadRequestException('You are not allowed to change your own role');
@@ -214,7 +247,7 @@ export class MemberService {
         where: {
           classroom: { id: access.classroom.id },
           user: { id: user.user_id },
-        status: 'accepted',
+          status: 'accepted',
           role: In(['owner', 'teacher'])
         }
       });
@@ -225,6 +258,21 @@ export class MemberService {
 
       // Update role
       await this.classroomAccessRepository.update(accessId, { role });
+
+      // Create notification
+
+      await this.notificationRepository.save({
+        user: { id: access.user.id },
+        image: currentUserData.avatar.url,
+        content: `${currentUserData.name} changed your role to ${role}`,
+        link: `/classroom/${access.classroom.id}/members`,
+        is_read: false
+      });
+
+      // Publish event
+      await this.pubSubService.publish('notification.updated', {
+        target_id: access.user.id.toString(),
+      })
 
       // Publish event
       await this.pubSubService.publish('classroom.updated', {

@@ -1,6 +1,8 @@
 import { Entity, Column, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn, OneToMany } from 'typeorm';
 import { Session } from './session.schema';
 import { ClassroomAccess } from '../../classroom/core/schemas/classroom-access.schema';
+import { Otp } from './otp.schema';
+import { Notification } from '../../notification/schemas/notification.schema';
 
 @Entity('user')
 export class User {
@@ -10,7 +12,7 @@ export class User {
   @Column({ type: 'varchar', nullable: false })
   name: string;
 
-  @Column({ type: 'varchar', unique: true, nullable: false })
+  @Column({ type: 'varchar', nullable: false })
   email: string;
 
   @Column({ type: 'varchar', default: '' })
@@ -78,10 +80,20 @@ export class User {
   })
   sessions: Session[];
 
+  @OneToMany(() => Otp, (otp) => otp.user, {
+    cascade: true
+  })
+  otps: Otp[];
+
   @OneToMany(() => ClassroomAccess, (access) => access.user, {
     cascade: true
   })
   classroomAccesses: ClassroomAccess[];
+
+  @OneToMany(() => Notification, (notification) => notification.user, {
+    cascade: true
+  })
+  notifications: Notification[];
 
   // classroom relation
   // @OneToMany(() => Classroom, (classroom) => classroom.owner, {

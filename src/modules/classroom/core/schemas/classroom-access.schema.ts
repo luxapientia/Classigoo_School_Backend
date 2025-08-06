@@ -21,7 +21,7 @@ export class ClassroomAccess {
   @JoinColumn({ name: 'user_id' })
   user: User;
 
-  @Column({ type: 'enum', enum: ['owner', 'teacher', 'student'], nullable: false })
+  @Column({ type: 'enum', enum: ['owner', 'teacher', 'parent', 'student'], nullable: false })
   role: string;
 
   @Column({ type: 'enum', enum: ['pending', 'accepted', 'rejected'], nullable: false })

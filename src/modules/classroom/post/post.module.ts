@@ -6,7 +6,7 @@ import { ClassroomPost } from './schemas/classroom-post.schema';
 import { ClassroomPostComment } from './schemas/classroom-post-comment.schema';
 import { Classroom } from '../core/schemas/classroom.schema';
 import { ClassroomAccess } from '../core/schemas/classroom-access.schema';
-import { Notification } from '../member/schemas/notification.schema';
+import { Notification } from '../../notification/schemas/notification.schema';
 import { SharedModule } from '../../../shared/shared.module';
 
 @Module({

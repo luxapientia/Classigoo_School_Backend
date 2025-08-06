@@ -7,7 +7,7 @@ import { ClassroomPostComment } from './schemas/classroom-post-comment.schema';
 import { Classroom } from '../core/schemas/classroom.schema';
 import { ClassroomAccess } from '../core/schemas/classroom-access.schema';
 import { User } from '../../auth/schemas/user.schema';
-import { Notification } from '../member/schemas/notification.schema';
+import { Notification } from '../../notification/schemas/notification.schema';
 import { CreateClassroomPostDto } from './dto/create-classroom-post.dto';
 import { AddCommentDto } from './dto/add-comment.dto';
 import * as DOMPurify from 'dompurify';
@@ -157,6 +157,12 @@ export class PostService {
         throw new BadRequestException('Comment content is required');
       }
 
+      // Get Current User Details
+      const currentUser = await this.userRepository.findOne({ where: { id: user.user_id } });
+      if (!currentUser) {
+        throw new NotFoundException('User not found');
+      }
+
       // Check if classroom exists
       const classroom = await this.classroomRepository.findOne({
         where: { id: addCommentDto.class_id }
@@ -225,19 +231,20 @@ export class PostService {
 
       // Add notification for post author if different from commenter
       if (post.user.id !== user.user_id) {
-        const userData = await this.userRepository.findOne({
-          where: { id: user.user_id }
-        });
 
-        const notification = this.notificationRepository.create({
-          user: { id: post.user.id },
-          image: process.env.NOTIFICATION_COMMENT_CLASSROOM_IMAGE_URL,
-          content: `${userData?.name} commented on your post in ${classroom.name}`,
+        await this.notificationRepository.save({
+          user_id: post.user.id,
+          image: currentUser.avatar.url,
+          content: `${currentUser.name} commented on your post in ${classroom.name}`,
           link: `/classroom/${addCommentDto.class_id}/#${addCommentDto.post_id}`,
           is_read: false
         });
-        await this.notificationRepository.save(notification);
       }
+
+      // Publish event
+      await this.pubSubService.publish('notification.updated', {
+        target_id: post.user.id.toString(),
+      })
 
       await this.pubSubService.publish('post.updated', {
         cid: addCommentDto.class_id,

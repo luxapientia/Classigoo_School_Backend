@@ -1,6 +1,6 @@
 import { Injectable, NotFoundException, UnauthorizedException, BadRequestException, InternalServerErrorException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Repository, Brackets } from 'typeorm';
+import { Repository } from 'typeorm';
 import { JwtPayload } from '../../../common/decorators/user.decorator';
 import { Message } from './schemas/message.schema';
 import { MessageRoom } from './schemas/message-room.schema';
@@ -471,7 +471,7 @@ export class MessageService {
         .select(['message.id as id'])
         .getRawMany();
 
-      return messages;
+      return messages as { id: string }[];
     } catch (error) {
       if (error instanceof UnauthorizedException || error instanceof NotFoundException) {
         throw error;

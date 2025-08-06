@@ -10,6 +10,8 @@ import { ClassroomPost } from '../post/schemas/classroom-post.schema';
 import { Exam } from '../exam/schemas/exam.schema';
 import { Assignment } from '../assignment/schemas/assignment.schema';
 import { SharedModule } from '../../../shared/shared.module';
+import { Notification } from '../../notification/schemas/notification.schema';
+import { User } from '../../auth/schemas/user.schema';
 
 @Module({
   imports: [
@@ -22,6 +24,8 @@ import { SharedModule } from '../../../shared/shared.module';
       ClassroomPost,
       Exam,
       Assignment,
+      Notification,
+      User,
     ]),
   ],
   controllers: [CoreController],
