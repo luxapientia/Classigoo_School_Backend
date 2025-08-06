@@ -2,16 +2,11 @@ import { Injectable, CanActivate, ExecutionContext, UnauthorizedException } from
 import { JwtService } from '@nestjs/jwt';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
+import * as moment from 'moment';
 import { User } from '../../modules/auth/schemas/user.schema';
 import { Session } from '../../modules/auth/schemas/session.schema';
 import { Request } from 'express';
 import { JwtPayload } from '../../common/decorators/user.decorator';
-
-// Utility function for consistent UTC time handling
-const getCurrentUTCTime = (): Date => new Date();
-const isDateExpired = (date: Date): boolean => {
-  return getCurrentUTCTime() > date;
-};
 
 @Injectable()
 export class UserGuard implements CanActivate {
@@ -75,7 +70,7 @@ export class UserGuard implements CanActivate {
       }
 
       // Check session expiry
-      if (isDateExpired(dbSession.session_expiry)) {
+      if (moment().utc().isAfter(dbSession.session_expiry)) {
         await this.sessionRepo.update(
           { id: dbSession.id },
           { expired: true }

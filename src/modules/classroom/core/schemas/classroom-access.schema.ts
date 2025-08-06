@@ -27,9 +27,10 @@ export class ClassroomAccess {
   @Column({ type: 'enum', enum: ['pending', 'accepted', 'rejected'], nullable: false })
   status: string;
 
-  @CreateDateColumn({ name: 'created_at' })
+  // store time in utc
+  @CreateDateColumn({ name: 'created_at', type: 'timestamptz' })
   created_at: Date;
 
-  @UpdateDateColumn({ name: 'updated_at' })
+  @UpdateDateColumn({ name: 'updated_at', type: 'timestamptz' })
   updated_at: Date;
 } 

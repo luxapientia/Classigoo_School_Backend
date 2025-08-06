@@ -45,9 +45,10 @@ export class Assignment {
   @Column({ type: 'enum', enum: ['draft', 'published'], default: 'draft' })
   status: string;
 
-  @CreateDateColumn({ name: 'created_at' })
+  // store time in utc
+  @CreateDateColumn({ name: 'created_at', type: 'timestamptz' })
   created_at: Date;
 
-  @UpdateDateColumn({ name: 'updated_at' })
+  @UpdateDateColumn({ name: 'updated_at', type: 'timestamptz' })
   updated_at: Date;
 } 

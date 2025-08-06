@@ -1,5 +1,5 @@
-import { Entity, Column, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn, ManyToOne, OneToOne, JoinColumn } from 'typeorm';
-import { School } from './school.schema';
+import { Entity, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn, OneToOne, JoinColumn } from 'typeorm';
+// import { School } from './school.schema';
 import { User } from './user.schema';
 
 @Entity('community_member')
@@ -75,9 +75,10 @@ export class CommunityMember {
   // @Column({ type: 'timestamp', nullable: true })
   // last_active_at?: Date;
 
-  @CreateDateColumn({ name: 'created_at' })
+  // store time in utc
+  @CreateDateColumn({ name: 'created_at', type: 'timestamptz' })
   created_at: Date;
 
-  @UpdateDateColumn({ name: 'updated_at' })
+  @UpdateDateColumn({ name: 'updated_at', type: 'timestamptz' })
   updated_at: Date;
 } 

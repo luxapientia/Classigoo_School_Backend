@@ -1,4 +1,4 @@
-import { Entity, Column, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn, ManyToOne, JoinColumn } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn, ManyToOne, JoinColumn } from 'typeorm';
 import { Note } from './note.schema';
 import { Classroom } from '../../classroom/core/schemas/classroom.schema';
 
@@ -21,9 +21,10 @@ export class ClassroomNote {
   @JoinColumn({ name: 'class_id' })
   classroom: Classroom;
 
-  @CreateDateColumn({ name: 'created_at' })
-  created_at: Date;
+ // store time in utc
+ @CreateDateColumn({ name: 'created_at', type: 'timestamptz' })
+ created_at: Date;
 
-  @UpdateDateColumn({ name: 'updated_at' })
-  updated_at: Date;
+ @UpdateDateColumn({ name: 'updated_at', type: 'timestamptz' })
+ updated_at: Date;
 } 

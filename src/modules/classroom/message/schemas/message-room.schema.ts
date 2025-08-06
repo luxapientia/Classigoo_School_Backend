@@ -34,9 +34,10 @@ export class MessageRoom {
   @Column({ type: 'timestamp', nullable: false })
   active_at: Date;
 
-  @CreateDateColumn({ name: 'created_at' })
+  // store time in utc
+  @CreateDateColumn({ name: 'created_at', type: 'timestamptz' })
   created_at: Date;
 
-  @UpdateDateColumn({ name: 'updated_at' })
+  @UpdateDateColumn({ name: 'updated_at', type: 'timestamptz' })
   updated_at: Date;
 } 

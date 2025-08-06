@@ -8,6 +8,7 @@ import {
 import { InjectRepository } from '@nestjs/typeorm';
 import { In, Repository } from 'typeorm';
 import { JwtService } from '@nestjs/jwt';
+import * as moment from 'moment';
 import * as randomstring from 'randomstring';
 import { v4 as uuidv4 } from 'uuid';
 import { User } from './schemas/user.schema';
@@ -20,61 +21,6 @@ import { Blacklist } from './schemas/blacklist.schema';
 import { AuthNotification } from './schemas/notification.schema';
 import { MailService } from '../../common/utils/mail.service';
 import { SendOtpDto, ValidateOtpDto, ResendOtpDto } from './dto/auth.dto';
-
-// Utility functions for consistent UTC time handling
-const getCurrentUTCTime = (): Date => new Date();
-const addMinutesToDate = (date: Date, minutes: number): Date => {
-  if (!date || !(date instanceof Date) || isNaN(date.getTime())) {
-    throw new Error('Invalid date provided to addMinutesToDate');
-  }
-  if (typeof minutes !== 'number' || minutes < 0) {
-    throw new Error('Invalid minutes provided to addMinutesToDate');
-  }
-  return new Date(date.getTime() + minutes * 60 * 1000);
-};
-
-const addDaysToDate = (date: Date, days: number): Date => {
-  if (!date || !(date instanceof Date) || isNaN(date.getTime())) {
-    throw new Error('Invalid date provided to addDaysToDate');
-  }
-  if (typeof days !== 'number' || days < 0) {
-    throw new Error('Invalid days provided to addDaysToDate');
-  }
-  return new Date(date.getTime() + days * 24 * 60 * 60 * 1000);
-};
-
-const isDateExpired = (date: Date): boolean => {
-  if (!date || !(date instanceof Date) || isNaN(date.getTime())) {
-    return true; // Invalid dates are considered expired
-  }
-  return getCurrentUTCTime() > date;
-};
-
-const isDateBefore = (date1: Date, date2: Date): boolean => {
-  if (!date1 || !(date1 instanceof Date) || isNaN(date1.getTime())) {
-    return true; // Invalid first date is considered before any valid date
-  }
-  if (!date2 || !(date2 instanceof Date) || isNaN(date2.getTime())) {
-    return false; // Invalid second date means first date is not before it
-  }
-  return date1 < date2;
-};
-const getTimeDifference = (futureDate: Date, currentDate: Date = getCurrentUTCTime()): string => {
-  const diffMs = futureDate.getTime() - currentDate.getTime();
-  
-  // Handle negative time differences (past dates)
-  if (diffMs <= 0) {
-    return '0 second(s)';
-  }
-  
-  const diffMinutes = Math.floor(diffMs / (1000 * 60));
-  const diffSeconds = Math.floor((diffMs % (1000 * 60)) / 1000);
-  
-  if (diffMinutes > 0) {
-    return `${diffMinutes} minute(s) and ${diffSeconds} second(s)`;
-  }
-  return `${diffSeconds} second(s)`;
-};
 
 // Default avatar generation function
 const generateAvatar = (username: string): string => {
@@ -137,7 +83,7 @@ export class AuthService {
     // Check blacklist
     const blacklist = await this.blacklistRepo.findOne({ where: { ip_address: ip } });
     if (blacklist?.is_blocked) {
-      if (blacklist.blocked_until && isDateExpired(blacklist.blocked_until)) {
+      if (moment().utc().isAfter(blacklist.blocked_until)) {
         blacklist.attempts = 0;
         blacklist.blocked_until = null;
         blacklist.is_blocked = false;
@@ -207,7 +153,7 @@ export class AuthService {
         avatar,
         subscription: {
           status: 'inactive',
-          updated_at: getCurrentUTCTime(),
+          updated_at: new Date().toISOString(),
         },
       });
 
@@ -279,12 +225,12 @@ export class AuthService {
     // Check for existing OTP
     const oldOTP = await this.otpRepo.findOne({ where: { user: { id: user.id }, expired: false } });
     if (oldOTP) {
-      const currentTime = getCurrentUTCTime();
-      const expirationTime = addMinutesToDate(oldOTP.updated_at, 1);
+      const currentTime = moment().utc();
+      const expirationTime = moment(oldOTP.updated_at).add(1, 'minutes').utc();
 
-      if (isDateBefore(currentTime, expirationTime)) {
+      if (moment(currentTime).isBefore(expirationTime)) {
         throw new BadRequestException({
-          message: `Please wait for ${getTimeDifference(expirationTime, currentTime)} before requesting new OTP`,
+          message: `Please wait for ${moment.utc(moment(expirationTime).diff(currentTime)).format('mm [minute(s) and] ss [second(s)]')} before requesting new OTP`,
         });
       }
     }
@@ -355,7 +301,7 @@ export class AuthService {
     }
 
     if (blacklist.is_blocked) {
-      if (blacklist.blocked_until && isDateExpired(blacklist.blocked_until)) {
+      if (moment().utc().isAfter(blacklist.blocked_until)) {
         blacklist.attempts = 0;
         blacklist.blocked_until = null;
         blacklist.is_blocked = false;
@@ -372,7 +318,7 @@ export class AuthService {
 
     if (blacklist.attempts > 5) {
       blacklist.attempts = 0;
-      blacklist.blocked_until = addDaysToDate(getCurrentUTCTime(), 1);
+      blacklist.blocked_until = moment().utc().add(1, 'days').toDate();
       blacklist.is_blocked = true;
       await this.blacklistRepo.save(blacklist);
 
@@ -415,9 +361,10 @@ export class AuthService {
     }
 
     // Check OTP expiration
-    const expirationTime = addMinutesToDate(dbOTP.updated_at, 5);
+    const currentTime = moment().utc();
+    const expirationTime = moment(dbOTP.updated_at).add(5, 'minutes').utc();
 
-    if (isDateExpired(expirationTime)) {
+    if (moment(currentTime).isAfter(expirationTime)) {
       await this.otpRepo.update({ otp, session_token }, { expired: true });
       throw new BadRequestException({
         status: 'error',
@@ -468,8 +415,8 @@ export class AuthService {
 
     // Create session
     const session_expiry = dbOTP.session_remember_me
-      ? addDaysToDate(getCurrentUTCTime(), 30)
-      : addDaysToDate(getCurrentUTCTime(), 1);
+      ? moment().utc().add(30, 'days')
+      : moment().utc().add(1, 'days');
 
     await this.sessionRepo.save({
       user: { id: user.id },
@@ -549,19 +496,19 @@ export class AuthService {
     }
 
     // Check cooldown period
-    const currentTime = getCurrentUTCTime();
-    const expirationTime = addMinutesToDate(dbOTP.updated_at, 1);
+    const currentTime = moment().utc();
+    const expirationTime = moment(dbOTP.updated_at).add(1, 'minutes').utc();
 
-    if (isDateBefore(currentTime, expirationTime)) {
+    if (moment(currentTime).isBefore(expirationTime)) {
       throw new BadRequestException({
-        message: `Please wait for ${getTimeDifference(expirationTime, currentTime)} before requesting new OTP`,
+        message: `Please wait for ${moment.utc(moment(expirationTime).diff(currentTime)).format('mm [minute(s) and] ss [second(s)]')} before requesting new OTP`,
       });
     }
 
     // Check blacklist
     const blacklist = await this.blacklistRepo.findOne({ where: { ip_address: ip } });
     if (blacklist?.is_blocked) {
-      if (blacklist.blocked_until && isDateExpired(blacklist.blocked_until)) {
+      if (moment().utc().isAfter(blacklist.blocked_until)) {
         blacklist.attempts = 0;
         blacklist.blocked_until = null;
         blacklist.is_blocked = false;

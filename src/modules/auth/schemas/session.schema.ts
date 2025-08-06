@@ -34,9 +34,10 @@ export class Session {
   @Column({ type: 'boolean', default: false })
   expired: boolean;
 
-  @CreateDateColumn({ name: 'created_at' })
+  // store time in utc
+  @CreateDateColumn({ name: 'created_at', type: 'timestamptz' })
   created_at: Date;
 
-  @UpdateDateColumn({ name: 'updated_at' })
+  @UpdateDateColumn({ name: 'updated_at', type: 'timestamptz' })
   updated_at: Date;
 }
