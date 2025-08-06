@@ -32,6 +32,10 @@ import { NotificationModule } from './modules/notification/notification.module';
         database: configService.get<string>('database.postgres.name'),
         autoLoadEntities: true,
         synchronize: true,
+        timezone: 'UTC',
+        extra: {
+          timezone: 'UTC',
+        },
       }),
       inject: [ConfigService],
     }),
