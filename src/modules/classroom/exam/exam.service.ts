@@ -140,7 +140,7 @@ export class ExamService {
     };
   }
 
-  async deleteExam(examId: string, user: JwtPayload): Promise<boolean> {
+  async deleteExam(examId: string, user: JwtPayload): Promise<{ status: string, message: string }> {
     const exam = await this.examRepo.findOne({
       where: { id: examId },
       relations: ['classroom']
@@ -173,7 +173,10 @@ export class ExamService {
       cid: exam.classroom.id,
     });
 
-    return true;
+    return {
+      status: 'success',
+      message: 'Exam deleted successfully'
+    };
   }
 
   async deleteFile(deleteFileDto: DeleteFileDto, user: JwtPayload): Promise<{ status: string, message: string }> {
@@ -237,7 +240,7 @@ export class ExamService {
         where: {
           classroom: { id: submission.exam.classroom.id },
           user: { id: user.user_id },
-        status: 'accepted'
+          status: 'accepted'
         }
       });
 
@@ -246,11 +249,15 @@ export class ExamService {
       }
 
       // If user is a student, they can only view their own submissions
-      if (access.role === 'student' && submission.user.id !== user.user_id) {
+      if (access.role === 'parent' && submission.user.id !== user.user_id) {
         throw new UnauthorizedException('You can only view your own submissions');
       }
 
-      return submission;
+      return {
+        status: 'success',
+        message: 'Exam submission retrieved successfully',
+        data: submission
+      };
     } catch (error) {
       if (error instanceof UnauthorizedException) {
         throw error;
@@ -276,7 +283,6 @@ export class ExamService {
           classroom: { id: exam.classroom.id },
           user: { id: user.user_id },
           status: 'accepted',
-          role: 'student'
         }
     });
 
@@ -386,6 +392,7 @@ export class ExamService {
       }
 
       submission.markings = updateMarkingsDto.markings;
+      submission.status = updateMarkingsDto.status;
       const updatedSubmission = await this.examSubmissionRepo.save(submission);
 
       // Create notification
@@ -393,7 +400,7 @@ export class ExamService {
         user_id: submission.user.id,
         image: currentUser.avatar.url,
         content: `${currentUser.name} marked your submission for ${submission.exam.title}`,
-        link: `/classroom/${submission.exam.classroom.id}/exams/${submission.exam.id}/submissions/${submission.id}`,
+        link: `/classroom/${submission.exam.classroom.id}/exam/${submission.exam.id}/submission/${submission.id}`,
         is_read: false
       });
 
@@ -410,7 +417,7 @@ export class ExamService {
 
       return {
         status: 'success',
-          message: 'Markings updated successfully',
+        message: 'Markings updated successfully',
         data: updatedSubmission
     };
     } catch (error) {
@@ -555,8 +562,7 @@ export class ExamService {
         where: {
           classroom: { id: exam.classroom.id },
           user: { id: user.user_id },
-        status: 'accepted',
-          role: In(['owner', 'teacher'])
+          status: 'accepted',
         }
       });
 
@@ -612,7 +618,7 @@ export class ExamService {
         where: {
           classroom: { id: exam.classroom.id },
           user: { id: user.user_id },
-        status: 'accepted'
+          status: 'accepted'
         }
       });
 
@@ -621,7 +627,7 @@ export class ExamService {
       }
 
       // If user is a student, they can only view their own submissions
-      if (access.role === 'student' && userId !== user.user_id) {
+      if (access.role === 'parent' && userId !== user.user_id) {
         throw new UnauthorizedException('You can only view your own submissions');
       }
 
@@ -666,7 +672,7 @@ export class ExamService {
         where: {
           classroom: { id: classId },
           user: { id: user.user_id },
-        status: 'accepted'
+          status: 'accepted'
         }
       });
       

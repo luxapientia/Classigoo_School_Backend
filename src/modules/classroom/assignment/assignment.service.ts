@@ -36,7 +36,7 @@ export class AssignmentService {
         where: {
           classroom: { id: createAssignmentDto.class_id },
           user: { id: user.user_id },
-        status: 'accepted',
+          status: 'accepted',
           role: In(['owner', 'teacher'])
         }
       });
@@ -88,7 +88,7 @@ export class AssignmentService {
         where: {
           classroom: { id: assignment.classroom.id },
           user: { id: user.user_id },
-        status: 'accepted',
+          status: 'accepted',
           role: In(['owner', 'teacher'])
         }
       });
@@ -134,7 +134,7 @@ export class AssignmentService {
         where: {
           classroom: { id: deleteFileDto.classroom_id },
           user: { id: user.user_id },
-        status: 'accepted',
+          status: 'accepted',
         }
       });
 
@@ -170,7 +170,7 @@ export class AssignmentService {
         where: {
           classroom: { id: assignment.classroom.id },
           user: { id: user.user_id },
-        status: 'accepted',
+          status: 'accepted',
           role: In(['owner', 'teacher'])
         }
       });
@@ -206,7 +206,7 @@ export class AssignmentService {
     try {
       const submission = await this.assignmentSubmissionRepo.findOne({
         where: { id: submissionId },
-        relations: ['assignment']
+        relations: ['assignment', 'user']
       });
       if (!submission) {
         return null;
@@ -268,8 +268,7 @@ export class AssignmentService {
         where: {
           classroom: { id: assignment.classroom.id },
           user: { id: user.user_id },
-        status: 'accepted',
-        role: 'student'
+          status: 'accepted',
         }
       });
 
@@ -314,7 +313,7 @@ export class AssignmentService {
     try {
       const submission = await this.assignmentSubmissionRepo.findOne({
         where: { id: updateAssignmentSubmissionDto.id },
-        relations: ['assignment']
+        relations: ['assignment', 'user']
       });
       if (!submission) {
         throw new NotFoundException('Submission not found');
@@ -357,7 +356,7 @@ export class AssignmentService {
         where: {
           classroom: { id: classId },
           user: { id: user.user_id },
-        status: 'accepted',
+          status: 'accepted',
         }
       });
 
@@ -375,7 +374,7 @@ export class AssignmentService {
         status: 'success',
         message: 'Assignments retrieved successfully',
         data: result.map(assignment => ({
-          _id: assignment.id,
+          id: assignment.id,
           status: assignment.status,
           title: assignment.title,
           content: assignment.content,
@@ -415,7 +414,7 @@ export class AssignmentService {
         where: {
           classroom: { id: assignment.classroom.id },
           user: { id: user.user_id },
-        status: 'accepted',
+          status: 'accepted',
         }
       });
 
@@ -426,7 +425,7 @@ export class AssignmentService {
       // Get assignment with owner and submissions using TypeORM
       const result = await this.assignmentRepo.findOne({
         where: { id },
-        relations: ['creator', 'submissions', 'submissions.user']
+        relations: ['classroom', 'creator', 'submissions', 'submissions.user']
       });
 
       if (!result) {

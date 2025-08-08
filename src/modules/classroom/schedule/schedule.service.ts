@@ -1,6 +1,6 @@
 import { Injectable, NotFoundException, UnauthorizedException, InternalServerErrorException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Repository } from 'typeorm';
+import { In, Repository } from 'typeorm';
 import { Schedule } from './schemas/schedule.schema';
 import { Classroom } from '../core/schemas/classroom.schema';
 import { ClassroomAccess } from '../core/schemas/classroom-access.schema';
@@ -27,7 +27,7 @@ export class ScheduleService {
         classroom: { id: classId },
         user: { id: userId },
         status: 'accepted',
-        role: 'teacher' // TypeORM will handle the IN condition through the entity definition
+        role: In(['teacher', 'owner']) // TypeORM will handle the IN condition through the entity definition
       }
     });
 

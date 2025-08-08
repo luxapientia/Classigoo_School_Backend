@@ -57,7 +57,7 @@ export class PostService {
         where: {
           classroom: { id: classroom_id },
           user: { id: user.user_id },
-        status: 'accepted'
+          status: 'accepted'
         }
       });
 
@@ -65,8 +65,8 @@ export class PostService {
         throw new BadRequestException('User not a member of the classroom');
       }
 
-      // Check if child-only classroom and user is student
-      if (classroom.child_only && userAccess.role === 'student') {
+      // Check if child-only classroom and user is parent
+      if (classroom.child_only && userAccess.role === 'parent') {
         throw new BadRequestException('Only teachers can post in this classroom');
       }
 
@@ -74,7 +74,7 @@ export class PostService {
       const allMembers = await this.classroomAccessRepository.find({
         where: {
           classroom: { id: classroom_id },
-        status: 'accepted'
+          status: 'accepted'
         },
         relations: ['user']
       });
@@ -131,7 +131,7 @@ export class PostService {
         where: {
           classroom: { id: deleteFileDto.classroom_id },
           user: { id: user.user_id },
-        status: 'accepted',
+          status: 'accepted',
         }
       });
 
@@ -176,7 +176,7 @@ export class PostService {
         where: {
           classroom: { id: addCommentDto.class_id },
           user: { id: user.user_id },
-        status: 'accepted'
+          status: 'accepted'
         }
       });
 
@@ -184,8 +184,8 @@ export class PostService {
         throw new UnauthorizedException('You are not a member of this classroom');
       }
 
-      // If child-only classroom, check if user is a student
-      if (classroom.child_only && access.role === 'student') {
+      // If child-only classroom, check if user is a parent
+      if (classroom.child_only && access.role === 'parent') {
         throw new UnauthorizedException('Students cannot comment in this classroom');
       }
 
@@ -279,11 +279,11 @@ export class PostService {
         where: {
           classroom: { id: comment.classroom.id },
           user: { id: user.user_id },
-        status: 'accepted'
+          status: 'accepted'
         }
       });
 
-      if (!access || (access.role === 'student' && comment.user.id !== user.user_id)) {
+      if (!access || (access.role === 'parent' && comment.user.id !== user.user_id)) {
         throw new UnauthorizedException('You do not have permission to delete this comment');
       }
 
@@ -325,11 +325,11 @@ export class PostService {
         where: {
           classroom: { id: post.classroom.id },
           user: { id: user.user_id },
-        status: 'accepted'
+          status: 'accepted'
         }
       });
 
-      if (!access || (access.role === 'student' && post.user.id !== user.user_id)) {
+      if (!access || (access.role === 'parent' && post.user.id !== user.user_id)) {
         throw new UnauthorizedException('You do not have permission to delete this post');
       }
 
@@ -376,7 +376,7 @@ export class PostService {
         where: {
           classroom: { id: cid },
           user: { id: user.user_id },
-        status: 'accepted'
+          status: 'accepted'
         }
       });
 
@@ -455,7 +455,7 @@ export class PostService {
         where: {
           classroom: { id: post.classroom.id },
           user: { id: user.user_id },
-        status: 'accepted'
+          status: 'accepted'
         }
       });
 

@@ -69,9 +69,22 @@ export class NoteService {
         throw new NotFoundException('Note not found');
       }
 
-      if (note.owner.id !== user.user_id) {
+      // check if the note is shared with the user
+      const classroomAccess = await this.classroomAccessRepository.findOne({
+        where: {
+          classroom: { id: note.classroom_notes[0].classroom.id },
+          user: { id: user.user_id },
+          status: 'accepted'
+        }
+      });
+
+      if (!classroomAccess) {
         throw new UnauthorizedException('You do not have permission to view this note');
       }
+
+      // if (note.owner.id !== user.user_id) {
+      //   throw new UnauthorizedException('You do not have permission to view this note');
+      // }
 
       // Format the response exactly like MongoDB's output
       const formattedNote = {

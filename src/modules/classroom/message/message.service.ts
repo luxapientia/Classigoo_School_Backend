@@ -327,6 +327,7 @@ export class MessageService {
       const room = await this.messageRoomRepository
         .createQueryBuilder('room')
         .leftJoinAndSelect('room.users', 'roomUser')
+        .leftJoinAndSelect('roomUser.user', 'user')
         .where('room.id = :roomId', { roomId })
         .getOne();
 
@@ -375,6 +376,7 @@ export class MessageService {
 
       return { messages: formattedMessages };
     } catch (error) {
+      console.log(error);
       if (error instanceof UnauthorizedException || error instanceof NotFoundException) {
         throw error;
       }
@@ -388,6 +390,7 @@ export class MessageService {
       const room = await this.messageRoomRepository
         .createQueryBuilder('room')
         .leftJoinAndSelect('room.users', 'roomUser')
+        .leftJoinAndSelect('roomUser.user', 'user')
         .where('room.id = :roomId', { roomId })
         .getOne();
 
@@ -437,6 +440,7 @@ export class MessageService {
         }
       };
     } catch (error) {
+      console.log(error);
       if (error instanceof UnauthorizedException || error instanceof NotFoundException) {
         throw error;
       }
@@ -450,6 +454,7 @@ export class MessageService {
       const room = await this.messageRoomRepository
         .createQueryBuilder('room')
         .leftJoinAndSelect('room.users', 'roomUser')
+        .leftJoinAndSelect('roomUser.user', 'user')
         .where('room.id = :roomId', { roomId })
         .getOne();
 
@@ -473,6 +478,7 @@ export class MessageService {
 
       return messages as { id: string }[];
     } catch (error) {
+      console.log(error);
       if (error instanceof UnauthorizedException || error instanceof NotFoundException) {
         throw error;
       }

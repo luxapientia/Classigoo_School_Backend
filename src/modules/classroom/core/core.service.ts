@@ -195,7 +195,7 @@ export class CoreService {
           classroom: { id: updateClassroomDto.id },
           user: { id: user.user_id },
           status: 'accepted',
-          role: In(['owner', 'teacher'])
+          role: 'owner'
         }
       });
 
@@ -245,7 +245,7 @@ export class CoreService {
       });
 
       return result.map(access => ({
-        _id: access.classroom.id,
+        id: access.classroom.id,
         name: access.classroom.name,
         // owner: access.classroom.owner,
         room: access.classroom.room,
@@ -350,8 +350,8 @@ export class CoreService {
         where: {
           classroom: { id: id },
           user: { id: user.user_id },
-        status: 'accepted',
-        role: 'owner'
+          status: 'accepted',
+          role: 'owner'
         }
       });
 
@@ -360,13 +360,13 @@ export class CoreService {
       }
 
       // Delete all related data
-      await Promise.all([
-        this.classroomAccessRepo.delete({ classroom: { id } }),
-        this.classroomPostRepo.delete({ classroom: { id } }),
-        this.messageRoomRepo.delete({ classroom: { id } }),
-        this.examRepo.delete({ classroom: { id } }),
-        this.assignmentRepo.delete({ classroom: { id } })
-      ]);
+      // await Promise.all([
+      //   this.classroomAccessRepo.delete({ classroom: { id } }),
+      //   this.classroomPostRepo.delete({ classroom: { id } }),
+      //   this.messageRoomRepo.delete({ classroom: { id } }),
+      //   this.examRepo.delete({ classroom: { id } }),
+      //   this.assignmentRepo.delete({ classroom: { id } })
+      // ]);
 
       // Delete the classroom
       const result = await this.classroomRepo.delete(id);
@@ -402,7 +402,7 @@ export class CoreService {
         where: {
           classroom: { id: input.classroom_id },
           user: { id: user.user_id },
-        status: 'accepted',
+          status: 'accepted',
           role: In(['owner', 'teacher'])
         }
       });
@@ -450,7 +450,7 @@ export class CoreService {
         where: {
           classroom: { id: input.classroom_id },
           user: { id: user.user_id },
-        status: 'accepted',
+          status: 'accepted',
           role: In(['owner', 'teacher'])
         }
       });
@@ -521,7 +521,7 @@ export class CoreService {
       const results = await this.classroomAccessRepo.find({
         where: {
           user: { id: uid },
-            status: 'accepted',
+          status: 'accepted',
           role: In(['owner', 'teacher'])
         },
         relations: ['classroom']
