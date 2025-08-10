@@ -23,7 +23,7 @@ export class SubscriptionService {
     private configService: ConfigService,
   ) {
     this.stripe = new Stripe(this.configService.get<string>('env.stripe.secretKey') || '', {
-      apiVersion: '2024-12-18.acacia',
+      apiVersion: '2025-02-24.acacia',
     });
   }
 

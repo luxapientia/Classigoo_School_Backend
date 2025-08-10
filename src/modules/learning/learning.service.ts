@@ -7,6 +7,12 @@ import { BiologyData } from './schemas/biology_data.schema';
 import { ChemistryData } from './schemas/chemistry_data.schema';
 import { PhysicsData } from './schemas/physics_data.schema';
 import { MathsData } from './schemas/maths_data.schema';
+import { BiologyDataNys } from './schemas/biology_data_nys.schema';
+import { ChemistryDataNys } from './schemas/chemistry_data_nys.schema';
+import { PhysicsDataNys } from './schemas/physics_data_nys.schema';
+import { EarthDataNys } from './schemas/earth_data_nys_schema';
+import { SpaceDataNys } from './schemas/space_data_nys_schema';
+import { EnvironmentDataNys } from './schemas/environment_data_nys.schema';
 
 @Injectable()
 export class LearningService {
@@ -23,6 +29,18 @@ export class LearningService {
     private readonly physicsDataModel: Model<PhysicsData>,
     @InjectModel(MathsData.name)
     private readonly mathsDataModel: Model<MathsData>,
+    @InjectModel(BiologyDataNys.name)
+    private readonly biologyDataNysModel: Model<BiologyDataNys>,
+    @InjectModel(ChemistryDataNys.name)
+    private readonly chemistryDataNysModel: Model<ChemistryDataNys>,
+    @InjectModel(PhysicsDataNys.name)
+    private readonly physicsDataNysModel: Model<PhysicsDataNys>,
+    @InjectModel(EarthDataNys.name)
+    private readonly earthDataNysModel: Model<EarthDataNys>,
+    @InjectModel(SpaceDataNys.name)
+    private readonly spaceDataNysModel: Model<SpaceDataNys>,
+    @InjectModel(EnvironmentDataNys.name)
+    private readonly environmentDataNysModel: Model<EnvironmentDataNys>,
   ) {}
 
   async getRandomMatchingWord(): Promise<{ status: string, message: string, data: MatchingWord | null } | null> {
@@ -165,6 +183,345 @@ export class LearningService {
         status: 'error',
         message: 'Failed to retrieve maths question',
         data: null,
+      };
+    }
+  }
+
+  // NYS Regents Exam - Practice Mode (Single Random Question)
+  async getRandomBiologyNysQuestion(grade: string): Promise<{ status: string, message: string, data: BiologyDataNys | null } | null> {
+    try {
+      const count = await this.biologyDataNysModel.countDocuments({ grade });
+      if (count === 0) {
+        return {
+          status: 'error',
+          message: `No biology NYS questions found for grade ${grade}`,
+          data: null,
+        };
+      }
+      const random = Math.floor(Math.random() * count);
+      const docs = await this.biologyDataNysModel.find({ grade }).skip(random).limit(1);
+      return {
+        status: 'success',
+        message: 'Biology NYS question retrieved successfully',
+        data: docs[0] || null,
+      };
+    } catch (error) {
+      return {
+        status: 'error',
+        message: 'Failed to retrieve biology NYS question',
+        data: null,
+      };
+    }
+  }
+
+  async getRandomChemistryNysQuestion(grade: string): Promise<{ status: string, message: string, data: ChemistryDataNys | null } | null> {
+    try {
+      const count = await this.chemistryDataNysModel.countDocuments({ grade });
+      if (count === 0) {
+        return {
+          status: 'error',
+          message: `No chemistry NYS questions found for grade ${grade}`,
+          data: null,
+        };
+      }
+      const random = Math.floor(Math.random() * count);
+      const docs = await this.chemistryDataNysModel.find({ grade }).skip(random).limit(1);
+      return {
+        status: 'success',
+        message: 'Chemistry NYS question retrieved successfully',
+        data: docs[0] || null,
+      };
+    } catch (error) {
+      return {
+        status: 'error',
+        message: 'Failed to retrieve chemistry NYS question',
+        data: null,
+      };
+    }
+  }
+
+  async getRandomPhysicsNysQuestion(grade: string): Promise<{ status: string, message: string, data: PhysicsDataNys | null } | null> {
+    try {
+      const count = await this.physicsDataNysModel.countDocuments({ grade });
+      if (count === 0) {
+        return {
+          status: 'error',
+          message: `No physics NYS questions found for grade ${grade}`,
+          data: null,
+        };
+      }
+      const random = Math.floor(Math.random() * count);
+      const docs = await this.physicsDataNysModel.find({ grade }).skip(random).limit(1);
+      return {
+        status: 'success',
+        message: 'Physics NYS question retrieved successfully',
+        data: docs[0] || null,
+      };
+    } catch (error) {
+      return {
+        status: 'error',
+        message: 'Failed to retrieve physics NYS question',
+        data: null,
+      };
+    }
+  }
+
+  async getRandomEarthNysQuestion(grade: string): Promise<{ status: string, message: string, data: EarthDataNys | null } | null> {
+    try {
+      const count = await this.earthDataNysModel.countDocuments({ grade });
+      if (count === 0) {
+        return {
+          status: 'error',
+          message: `No earth science NYS questions found for grade ${grade}`,
+          data: null,
+        };
+      }
+      const random = Math.floor(Math.random() * count);
+      const docs = await this.earthDataNysModel.find({ grade }).skip(random).limit(1);
+      return {
+        status: 'success',
+        message: 'Earth science NYS question retrieved successfully',
+        data: docs[0] || null,
+      };
+    } catch (error) {
+      return {
+        status: 'error',
+        message: 'Failed to retrieve earth science NYS question',
+        data: null,
+      };
+    }
+  }
+
+  async getRandomSpaceNysQuestion(grade: string): Promise<{ status: string, message: string, data: SpaceDataNys | null } | null> {
+    try {
+      const count = await this.spaceDataNysModel.countDocuments({ grade });
+      if (count === 0) {
+        return {
+          status: 'error',
+          message: `No space science NYS questions found for grade ${grade}`,
+          data: null,
+        };
+      }
+      const random = Math.floor(Math.random() * count);
+      const docs = await this.spaceDataNysModel.find({ grade }).skip(random).limit(1);
+      return {
+        status: 'success',
+        message: 'Space science NYS question retrieved successfully',
+        data: docs[0] || null,
+      };
+    } catch (error) {
+      return {
+        status: 'error',
+        message: 'Failed to retrieve space science NYS question',
+        data: null,
+      };
+    }
+  }
+
+  async getRandomEnvironmentNysQuestion(grade: string): Promise<{ status: string, message: string, data: EnvironmentDataNys | null } | null> {
+    try {
+      const count = await this.environmentDataNysModel.countDocuments({ grade });
+      if (count === 0) {
+        return {
+          status: 'error',
+          message: `No environment science NYS questions found for grade ${grade}`,
+          data: null,
+        };
+      }
+      const random = Math.floor(Math.random() * count);
+      const docs = await this.environmentDataNysModel.find({ grade }).skip(random).limit(1);
+      return {
+        status: 'success',
+        message: 'Environment science NYS question retrieved successfully',
+        data: docs[0] || null,
+      };
+    } catch (error) {
+      return {
+        status: 'error',
+        message: 'Failed to retrieve environment science NYS question',
+        data: null,
+      };
+    }
+  }
+
+  // NYS Regents Exam - Exam Mode (Multiple Questions)
+  async getBiologyNysQuestions(grade: string, count: number): Promise<{ status: string, message: string, data: BiologyDataNys[] } | null> {
+    try {
+      const totalCount = await this.biologyDataNysModel.countDocuments({ grade });
+      if (totalCount === 0) {
+        return {
+          status: 'error',
+          message: `No biology NYS questions found for grade ${grade}`,
+          data: [],
+        };
+      }
+      
+      // Get random questions
+      const questions = await this.biologyDataNysModel.aggregate([
+        { $match: { grade } },
+        { $sample: { size: Math.min(count, totalCount) } }
+      ]);
+      
+      return {
+        status: 'success',
+        message: `${questions.length} biology NYS questions retrieved successfully`,
+        data: questions,
+      };
+    } catch (error) {
+      return {
+        status: 'error',
+        message: 'Failed to retrieve biology NYS questions',
+        data: [],
+      };
+    }
+  }
+
+  async getChemistryNysQuestions(grade: string, count: number): Promise<{ status: string, message: string, data: ChemistryDataNys[] } | null> {
+    try {
+      const totalCount = await this.chemistryDataNysModel.countDocuments({ grade });
+      if (totalCount === 0) {
+        return {
+          status: 'error',
+          message: `No chemistry NYS questions found for grade ${grade}`,
+          data: [],
+        };
+      }
+      
+      const questions = await this.chemistryDataNysModel.aggregate([
+        { $match: { grade } },
+        { $sample: { size: Math.min(count, totalCount) } }
+      ]);
+      
+      return {
+        status: 'success',
+        message: `${questions.length} chemistry NYS questions retrieved successfully`,
+        data: questions,
+      };
+    } catch (error) {
+      return {
+        status: 'error',
+        message: 'Failed to retrieve chemistry NYS questions',
+        data: [],
+      };
+    }
+  }
+
+  async getPhysicsNysQuestions(grade: string, count: number): Promise<{ status: string, message: string, data: PhysicsDataNys[] } | null> {
+    try {
+      const totalCount = await this.physicsDataNysModel.countDocuments({ grade });
+      if (totalCount === 0) {
+        return {
+          status: 'error',
+          message: `No physics NYS questions found for grade ${grade}`,
+          data: [],
+        };
+      }
+      
+      const questions = await this.physicsDataNysModel.aggregate([
+        { $match: { grade } },
+        { $sample: { size: Math.min(count, totalCount) } }
+      ]);
+      
+      return {
+        status: 'success',
+        message: `${questions.length} physics NYS questions retrieved successfully`,
+        data: questions,
+      };
+    } catch (error) {
+      return {
+        status: 'error',
+        message: 'Failed to retrieve physics NYS questions',
+        data: [],
+      };
+    }
+  }
+
+  async getEarthNysQuestions(grade: string, count: number): Promise<{ status: string, message: string, data: EarthDataNys[] } | null> {
+    try {
+      const totalCount = await this.earthDataNysModel.countDocuments({ grade });
+      if (totalCount === 0) {
+        return {
+          status: 'error',
+          message: `No earth science NYS questions found for grade ${grade}`,
+          data: [],
+        };
+      }
+      
+      const questions = await this.earthDataNysModel.aggregate([
+        { $match: { grade } },
+        { $sample: { size: Math.min(count, totalCount) } }
+      ]);
+      
+      return {
+        status: 'success',
+        message: `${questions.length} earth science NYS questions retrieved successfully`,
+        data: questions,
+      };
+    } catch (error) {
+      return {
+        status: 'error',
+        message: 'Failed to retrieve earth science NYS questions',
+        data: [],
+      };
+    }
+  }
+
+  async getSpaceNysQuestions(grade: string, count: number): Promise<{ status: string, message: string, data: SpaceDataNys[] } | null> {
+    try {
+      const totalCount = await this.spaceDataNysModel.countDocuments({ grade });
+      if (totalCount === 0) {
+        return {
+          status: 'error',
+          message: `No space science NYS questions found for grade ${grade}`,
+          data: [],
+        };
+      }
+      
+      const questions = await this.spaceDataNysModel.aggregate([
+        { $match: { grade } },
+        { $sample: { size: Math.min(count, totalCount) } }
+      ]);
+      
+      return {
+        status: 'success',
+        message: `${questions.length} space science NYS questions retrieved successfully`,
+        data: questions,
+      };
+    } catch (error) {
+      return {
+        status: 'error',
+        message: 'Failed to retrieve space science NYS questions',
+        data: [],
+      };
+    }
+  }
+
+  async getEnvironmentNysQuestions(grade: string, count: number): Promise<{ status: string, message: string, data: EnvironmentDataNys[] } | null> {
+    try {
+      const totalCount = await this.environmentDataNysModel.countDocuments({ grade });
+      if (totalCount === 0) {
+        return {
+          status: 'error',
+          message: `No environment science NYS questions found for grade ${grade}`,
+          data: [],
+        };
+      }
+      
+      const questions = await this.environmentDataNysModel.aggregate([
+        { $match: { grade } },
+        { $sample: { size: Math.min(count, totalCount) } }
+      ]);
+      
+      return {
+        status: 'success',
+        message: `${questions.length} environment science NYS questions retrieved successfully`,
+        data: questions,
+      };
+    } catch (error) {
+      return {
+        status: 'error',
+        message: 'Failed to retrieve environment science NYS questions',
+        data: [],
       };
     }
   }
