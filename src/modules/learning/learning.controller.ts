@@ -135,6 +135,29 @@ export class LearningController {
     }
     return this.learningService.getRandomEnvironmentNysQuestion(grade);
   }
+  @Get('nys/algebra1/random')
+  async getAlgebra1NysQuestion(@Query('grade') grade: string) {
+    if (!grade) {
+      return {
+        status: 'error',
+        message: 'Grade parameter is required',
+        data: null,
+      };
+    }
+    return this.learningService.getAlgebra1NysQuestion(grade);
+  }
+
+  @Get('nys/algebra2/random')
+  async getAlgebra2NysQuestion(@Query('grade') grade: string) {
+    if (!grade) {
+      return {
+        status: 'error',
+        message: 'Grade parameter is required',
+        data: null,
+      };
+    }
+    return this.learningService.getAlgebra2NysQuestion(grade);
+  }
 
   // NYS Regents Exam - Exam Mode (Multiple Questions)
   @Get('nys/biology/exam')
@@ -249,5 +272,43 @@ export class LearningController {
       };
     }
     return this.learningService.getEnvironmentNysQuestions(grade, parseInt(count));
+  }
+
+  @Get('nys/algebra1/exam')
+  async getAlgebra1NysQuestions(@Query('grade') grade: string, @Query('count') count: string) {
+    if (!grade) {
+      return {
+        status: 'error',
+        message: 'Grade parameter is required',
+        data: null,
+      };
+    }
+    if (!count) {
+      return {
+        status: 'error',
+        message: 'Count parameter is required',
+        data: null,
+      };
+    }
+    return this.learningService.getAlgebra1NysQuestions(grade, parseInt(count));
+  }
+
+  @Get('nys/algebra2/exam')
+  async getAlgebra2NysQuestions(@Query('grade') grade: string, @Query('count') count: string) {
+    if (!grade) {
+      return {
+        status: 'error',
+        message: 'Grade parameter is required',
+        data: null,
+      };
+    }
+    if (!count) {
+      return {
+        status: 'error',
+        message: 'Count parameter is required',
+        data: null,
+      };
+    }
+    return this.learningService.getAlgebra2NysQuestions(grade, parseInt(count));
   }
 } 

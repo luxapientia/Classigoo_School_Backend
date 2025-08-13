@@ -12,6 +12,8 @@ import { PhysicsDataNys, PhysicsDataNysSchema } from './schemas/physics_data_nys
 import { EarthDataNys, EarthDataNysSchema } from './schemas/earth_data_nys_schema';
 import { SpaceDataNys, SpaceDataNysSchema } from './schemas/space_data_nys_schema';
 import { EnvironmentDataNys, EnvironmentDataNysSchema } from './schemas/environment_data_nys.schema';
+import { Algebra1DataNys, Algebra1DataNysSchema } from './schemas/algebra1_data_nys.schema';
+import { Algebra2DataNys, Algebra2DataNysSchema } from './schemas/algebra2_data_nys.schema';
 import { LearningService } from './learning.service';
 import { LearningController } from './learning.controller';
 import { SharedModule } from '../../shared/shared.module';
@@ -31,6 +33,8 @@ import { SharedModule } from '../../shared/shared.module';
       { name: EarthDataNys.name, schema: EarthDataNysSchema },
       { name: SpaceDataNys.name, schema: SpaceDataNysSchema },
       { name: EnvironmentDataNys.name, schema: EnvironmentDataNysSchema },
+      { name: Algebra1DataNys.name, schema: Algebra1DataNysSchema },
+      { name: Algebra2DataNys.name, schema: Algebra2DataNysSchema },
     ]),
     SharedModule,
   ],

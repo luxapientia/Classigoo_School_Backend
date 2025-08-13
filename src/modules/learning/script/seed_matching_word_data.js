@@ -134,6 +134,30 @@ const ChemistryDataNysSchema = new mongoose.Schema({
   collection: 'chemistry_data_nys',
 });
 
+const Algebra1DataNysSchema = new mongoose.Schema({
+  problem: { type: String, required: true },
+  grade: { type: String, required: true },
+  options: { type: Object, required: true },
+  correctAnswer: { type: String, required: true },
+  explanation: { type: String, required: true },
+  topic: { type: String, required: true },
+}, {
+  timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' },
+  collection: 'algebra1_data_nys',
+});
+
+const Algebra2DataNysSchema = new mongoose.Schema({
+  problem: { type: String, required: true },
+  grade: { type: String, required: true },
+  options: { type: Object, required: true },
+  correctAnswer: { type: String, required: true },
+  explanation: { type: String, required: true },
+  topic: { type: String, required: true },
+}, {
+  timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' },
+  collection: 'algebra2_data_nys',
+});
+
 // Update this URI as needed
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/classigoo';
 
@@ -161,6 +185,10 @@ const environmentDataNysPath = path.join(__dirname, 'environment_data_nys.json')
 const environmentDataNys = JSON.parse(fs.readFileSync(environmentDataNysPath, 'utf-8'));
 const chemistryDataNysPath = path.join(__dirname, 'chemistry_data_nys.json');
 const chemistryDataNys = JSON.parse(fs.readFileSync(chemistryDataNysPath, 'utf-8'));
+const algebra1DataNysPath = path.join(__dirname, 'algebra1_data_nys.json');
+const algebra1DataNys = JSON.parse(fs.readFileSync(algebra1DataNysPath, 'utf-8'));
+const algebra2DataNysPath = path.join(__dirname, 'algebra2_data_nys.json');
+const algebra2DataNys = JSON.parse(fs.readFileSync(algebra2DataNysPath, 'utf-8'));
 
 const MatchingWord = mongoose.model('MatchingWord', MatchingWordSchema);
 const CompleteWord = mongoose.model('CompleteWord', CompleteWordSchema);
@@ -174,6 +202,8 @@ const SpaceDataNys = mongoose.model('SpaceDataNys', SpaceDataNysSchema);
 const EarthDataNys = mongoose.model('EarthDataNys', EarthDataNysSchema);
 const EnvironmentDataNys = mongoose.model('EnvironmentDataNys', EnvironmentDataNysSchema);
 const ChemistryDataNys = mongoose.model('ChemistryDataNys', ChemistryDataNysSchema);
+const Algebra1DataNys = mongoose.model('Algebra1DataNys', Algebra1DataNysSchema);
+const Algebra2DataNys = mongoose.model('Algebra2DataNys', Algebra2DataNysSchema);
 
 async function seed() {
   await mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
@@ -214,6 +244,12 @@ async function seed() {
   await ChemistryDataNys.deleteMany({}); // Optional: clear existing
   await ChemistryDataNys.insertMany(chemistryDataNys);
   console.log('Seeded chemistry data nys!');
+  await Algebra1DataNys.deleteMany({}); // Optional: clear existing
+  await Algebra1DataNys.insertMany(algebra1DataNys);
+  console.log('Seeded algebra 1 data nys!');
+  await Algebra2DataNys.deleteMany({}); // Optional: clear existing
+  await Algebra2DataNys.insertMany(algebra2DataNys);
+  console.log('Seeded algebra 2 data nys!');
   await mongoose.disconnect();
 
 }

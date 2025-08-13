@@ -13,6 +13,8 @@ import { PhysicsDataNys } from './schemas/physics_data_nys.schema';
 import { EarthDataNys } from './schemas/earth_data_nys_schema';
 import { SpaceDataNys } from './schemas/space_data_nys_schema';
 import { EnvironmentDataNys } from './schemas/environment_data_nys.schema';
+import { Algebra1DataNys } from './schemas/algebra1_data_nys.schema';
+import { Algebra2DataNys } from './schemas/algebra2_data_nys.schema';
 
 @Injectable()
 export class LearningService {
@@ -41,6 +43,10 @@ export class LearningService {
     private readonly spaceDataNysModel: Model<SpaceDataNys>,
     @InjectModel(EnvironmentDataNys.name)
     private readonly environmentDataNysModel: Model<EnvironmentDataNys>,
+    @InjectModel(Algebra1DataNys.name)
+    private readonly algebra1DataNysModel: Model<Algebra1DataNys>,
+    @InjectModel(Algebra2DataNys.name)
+    private readonly algebra2DataNysModel: Model<Algebra2DataNys>,
   ) {}
 
   async getRandomMatchingWord(): Promise<{ status: string, message: string, data: MatchingWord | null } | null> {
@@ -344,6 +350,58 @@ export class LearningService {
     }
   }
 
+  async getAlgebra1NysQuestion(grade: string): Promise<{ status: string, message: string, data: Algebra1DataNys | null } | null> {
+    try {
+      const count = await this.algebra1DataNysModel.countDocuments({ grade });
+      if (count === 0) {
+        return {
+          status: 'error',
+          message: `No algebra 1 NYS questions found for grade ${grade}`,
+          data: null,
+        };
+      }
+      const random = Math.floor(Math.random() * count);
+      const docs = await this.algebra1DataNysModel.find({ grade }).skip(random).limit(1);
+      return {
+        status: 'success',
+        message: 'Algebra 1 NYS question retrieved successfully',
+        data: docs[0] || null,
+      };
+    } catch (error) {
+      return {
+        status: 'error',
+        message: 'Failed to retrieve algebra 1 NYS question',
+        data: null,
+      };
+    }
+  }
+  
+  async getAlgebra2NysQuestion(grade: string): Promise<{ status: string, message: string, data: Algebra2DataNys | null } | null> {
+    try {
+      const count = await this.algebra2DataNysModel.countDocuments({ grade });
+      if (count === 0) {
+        return {
+          status: 'error',
+          message: `No algebra 2 NYS questions found for grade ${grade}`,
+          data: null,
+        };
+      }
+      const random = Math.floor(Math.random() * count);
+      const docs = await this.algebra2DataNysModel.find({ grade }).skip(random).limit(1);
+      return {
+        status: 'success',
+        message: 'Algebra 2 NYS question retrieved successfully',
+        data: docs[0] || null,
+      };
+    } catch (error) {
+      return {
+        status: 'error',
+        message: 'Failed to retrieve algebra 2 NYS question',
+        data: null,
+      };
+    }
+  }
+
   // NYS Regents Exam - Exam Mode (Multiple Questions)
   async getBiologyNysQuestions(grade: string, count: number): Promise<{ status: string, message: string, data: BiologyDataNys[] } | null> {
     try {
@@ -521,6 +579,66 @@ export class LearningService {
       return {
         status: 'error',
         message: 'Failed to retrieve environment science NYS questions',
+        data: [],
+      };
+    }
+  }
+
+  async getAlgebra1NysQuestions(grade: string, count: number): Promise<{ status: string, message: string, data: Algebra1DataNys[] } | null> {
+    try {
+      const totalCount = await this.algebra1DataNysModel.countDocuments({ grade });
+      if (totalCount === 0) {
+        return {
+          status: 'error',
+          message: `No algebra 1 NYS questions found for grade ${grade}`,
+          data: [],
+        };
+      }
+      
+      const questions = await this.algebra1DataNysModel.aggregate([
+        { $match: { grade } },
+        { $sample: { size: Math.min(count, totalCount) } }
+      ]);
+      
+      return {
+        status: 'success',
+        message: `${questions.length} algebra 1 NYS questions retrieved successfully`,
+        data: questions,
+      };
+    } catch (error) {
+      return {
+        status: 'error',
+        message: 'Failed to retrieve algebra 1 NYS questions',
+        data: [],
+      };
+    }
+  }
+
+  async getAlgebra2NysQuestions(grade: string, count: number): Promise<{ status: string, message: string, data: Algebra2DataNys[] } | null> {
+    try {
+      const totalCount = await this.algebra2DataNysModel.countDocuments({ grade });
+      if (totalCount === 0) {
+        return {
+          status: 'error',
+          message: `No algebra 2 NYS questions found for grade ${grade}`,
+          data: [],
+        };
+      }
+      
+      const questions = await this.algebra2DataNysModel.aggregate([
+        { $match: { grade } },
+        { $sample: { size: Math.min(count, totalCount) } }
+      ]);
+      
+      return {
+        status: 'success',
+        message: `${questions.length} algebra 2 NYS questions retrieved successfully`,
+        data: questions,
+      };
+    } catch (error) {
+      return {
+        status: 'error',
+        message: 'Failed to retrieve algebra 2 NYS questions',
         data: [],
       };
     }
