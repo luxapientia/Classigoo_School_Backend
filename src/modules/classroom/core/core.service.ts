@@ -40,6 +40,11 @@ export class CoreService {
     user: JwtPayload
   ): Promise<CreateClassroomResponse> {
     try {
+      // check if use is a teacher for permission check
+      if (user.role !== 'teacher' && user.role !== 'assistant_principal' && user.role !== 'principal') {
+        throw new UnauthorizedException('You are not authorized to create a classroom');
+      }
+      
       // Generate invitation code
       const invitationCode = randomstring.generate({
         length: 7,
