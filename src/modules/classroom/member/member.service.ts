@@ -703,6 +703,26 @@ export class MemberService {
         throw new BadRequestException('Only parents can connect to virtual students');
       }
 
+      // Add parent as a member of the classroom
+      const parentAccess = await this.classroomAccessRepository.findOne({
+        where: {
+          classroom: { id: virtualStudent.classroom.id },
+          user: { id: user.user_id }
+        }
+      });
+
+      if (!parentAccess) {
+        await this.classroomAccessRepository.save({
+          classroom: { id: virtualStudent.classroom.id },
+          user: { id: user.user_id },
+          status: 'accepted'
+        });
+      } else {
+        await this.classroomAccessRepository.update(parentAccess.id, {
+          status: 'accepted'
+        });
+      }
+
       // Check if parent is already connected to this student
       if (virtualStudent.parent && virtualStudent.parent.id === user.user_id) {
         throw new BadRequestException('You are already connected to this virtual student');
