@@ -28,6 +28,9 @@ export class EnvironmentDataNys extends Document {
 
   @Prop({ required: true })
   topic: string;
+
+  @Prop({ default: false })
+  is_approved: boolean;
 }
 
 export const EnvironmentDataNysSchema = SchemaFactory.createForClass(EnvironmentDataNys); 

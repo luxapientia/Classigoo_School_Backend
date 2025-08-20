@@ -69,6 +69,7 @@ const PhysicsDataNysSchema = new mongoose.Schema({
   correctAnswer: { type: String, required: true },
   explanation: { type: String, required: true },
   topic: { type: String, required: true },
+  is_approved: { type: Boolean, default: false },
 }, {
   timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' },
   collection: 'physics_data_nys',
@@ -81,6 +82,7 @@ const BiologyDataNysSchema = new mongoose.Schema({
   correctAnswer: { type: String, required: true },
   explanation: { type: String, required: true },
   topic: { type: String, required: true },
+  is_approved: { type: Boolean, default: false },
 }, {
   timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' },
   collection: 'biology_data_nys',
@@ -93,6 +95,7 @@ const SpaceDataNysSchema = new mongoose.Schema({
   correctAnswer: { type: String, required: true },
   explanation: { type: String, required: true },
   topic: { type: String, required: true },
+  is_approved: { type: Boolean, default: false },
 }, {
   timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' },
   collection: 'space_data_nys',
@@ -105,6 +108,7 @@ const EarthDataNysSchema = new mongoose.Schema({
   correctAnswer: { type: String, required: true },
   explanation: { type: String, required: true },
   topic: { type: String, required: true },
+  is_approved: { type: Boolean, default: false },
 }, {
   timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' },
   collection: 'earth_data_nys',
@@ -117,6 +121,7 @@ const EnvironmentDataNysSchema = new mongoose.Schema({
   correctAnswer: { type: String, required: true },
   explanation: { type: String, required: true },
   topic: { type: String, required: true },
+  is_approved: { type: Boolean, default: false },
 }, {
   timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' },
   collection: 'environment_data_nys',
@@ -129,6 +134,7 @@ const ChemistryDataNysSchema = new mongoose.Schema({
   correctAnswer: { type: String, required: true },
   explanation: { type: String, required: true },
   topic: { type: String, required: true },
+  is_approved: { type: Boolean, default: false },
 }, {
   timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' },
   collection: 'chemistry_data_nys',
@@ -141,6 +147,7 @@ const Algebra1DataNysSchema = new mongoose.Schema({
   correctAnswer: { type: String, required: true },
   explanation: { type: String, required: true },
   topic: { type: String, required: true },
+  is_approved: { type: Boolean, default: false },
 }, {
   timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' },
   collection: 'algebra1_data_nys',
@@ -153,6 +160,7 @@ const Algebra2DataNysSchema = new mongoose.Schema({
   correctAnswer: { type: String, required: true },
   explanation: { type: String, required: true },
   topic: { type: String, required: true },
+  is_approved: { type: Boolean, default: false },
 }, {
   timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' },
   collection: 'algebra2_data_nys',

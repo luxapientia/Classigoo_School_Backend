@@ -643,4 +643,199 @@ export class LearningService {
       };
     }
   }
+
+  // Question Review and Approval Methods
+  async getQuestionsForReview(subject: string, grade: string): Promise<{ status: string, message: string, data: any } | null> {
+    try {
+      let model;
+      
+      // Map subject to the appropriate model
+      switch (subject) {
+        case 'biology':
+          model = this.biologyDataNysModel;
+          break;
+        case 'chemistry':
+          model = this.chemistryDataNysModel;
+          break;
+        case 'physics':
+          model = this.physicsDataNysModel;
+          break;
+        case 'earth':
+          model = this.earthDataNysModel;
+          break;
+        case 'space':
+          model = this.spaceDataNysModel;
+          break;
+        case 'environment':
+          model = this.environmentDataNysModel;
+          break;
+        case 'algebra1':
+          model = this.algebra1DataNysModel;
+          break;
+        case 'algebra2':
+          model = this.algebra2DataNysModel;
+          break;
+        default:
+          return {
+            status: 'error',
+            message: `Invalid subject: ${subject}`,
+            data: [],
+          };
+      }
+
+      // Get all questions for the grade (approved and unapproved)
+      const questions = await model.find({ grade }).sort({ created_at: -1 });
+      
+      // Calculate statistics
+      const total = questions.length;
+      const approved = questions.filter(q => q.is_approved).length;
+      const unapproved = total - approved;
+
+      return {
+        status: 'success',
+        message: `${total} questions retrieved for review`,
+        data: {
+          questions,
+          stats: {
+            total,
+            approved,
+            unapproved
+          }
+        },
+      };
+    } catch (error) {
+      return {
+        status: 'error',
+        message: 'Failed to retrieve questions for review',
+        data: [],
+      };
+    }
+  }
+
+  async approveQuestion(subject: string, id: string, questionData: any): Promise<{ status: string, message: string, data?: any } | null> {
+    try {
+      let model;
+      
+      // Map subject to the appropriate model
+      switch (subject) {
+        case 'biology':
+          model = this.biologyDataNysModel;
+          break;
+        case 'chemistry':
+          model = this.chemistryDataNysModel;
+          break;
+        case 'physics':
+          model = this.physicsDataNysModel;
+          break;
+        case 'earth':
+          model = this.earthDataNysModel;
+          break;
+        case 'space':
+          model = this.spaceDataNysModel;
+          break;
+        case 'environment':
+          model = this.environmentDataNysModel;
+          break;
+        case 'algebra1':
+          model = this.algebra1DataNysModel;
+          break;
+        case 'algebra2':
+          model = this.algebra2DataNysModel;
+          break;
+        default:
+          return {
+            status: 'error',
+            message: `Invalid subject: ${subject}`,
+          };
+      }
+
+      // Update the question with new data and mark as approved
+      const updatedQuestion = await model.findByIdAndUpdate(
+        id,
+        {
+          ...questionData,
+          is_approved: true,
+          updated_at: new Date(),
+        },
+        { new: true }
+      );
+
+      if (!updatedQuestion) {
+        return {
+          status: 'error',
+          message: 'Question not found',
+        };
+      }
+
+      return {
+        status: 'success',
+        message: 'Question approved successfully',
+        data: updatedQuestion,
+      };
+    } catch (error) {
+      return {
+        status: 'error',
+        message: 'Failed to approve question',
+      };
+    }
+  }
+
+  async rejectQuestion(subject: string, id: string): Promise<{ status: string, message: string } | null> {
+    try {
+      let model;
+      
+      // Map subject to the appropriate model
+      switch (subject) {
+        case 'biology':
+          model = this.biologyDataNysModel;
+          break;
+        case 'chemistry':
+          model = this.chemistryDataNysModel;
+          break;
+        case 'physics':
+          model = this.physicsDataNysModel;
+          break;
+        case 'earth':
+          model = this.earthDataNysModel;
+          break;
+        case 'space':
+          model = this.spaceDataNysModel;
+          break;
+        case 'environment':
+          model = this.environmentDataNysModel;
+          break;
+        case 'algebra1':
+          model = this.algebra1DataNysModel;
+          break;
+        case 'algebra2':
+          model = this.algebra2DataNysModel;
+          break;
+        default:
+          return {
+            status: 'error',
+            message: `Invalid subject: ${subject}`,
+          };
+      }
+
+      // Delete the question permanently
+      const deletedQuestion = await model.findByIdAndDelete(id);
+
+      if (!deletedQuestion) {
+        return {
+          status: 'error',
+          message: 'Question not found',
+        };
+      }
+
+      return {
+        status: 'success',
+        message: 'Question rejected and deleted successfully',
+      };
+    } catch (error) {
+      return {
+        status: 'error',
+        message: 'Failed to reject question',
+      };
+    }
+  }
 } 

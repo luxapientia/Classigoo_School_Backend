@@ -28,6 +28,9 @@ export class Algebra2DataNys extends Document {
 
   @Prop({ required: true })
   topic: string;
+
+  @Prop({ default: false })
+  is_approved: boolean;
 }
 
 export const Algebra2DataNysSchema = SchemaFactory.createForClass(Algebra2DataNys); 

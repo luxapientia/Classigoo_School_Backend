@@ -1,4 +1,4 @@
-import { Controller, Get, Query } from '@nestjs/common';
+import { Controller, Get, Query, Param, Put, Delete, Body } from '@nestjs/common';
 import { LearningService } from './learning.service';
 
 @Controller('v1/learning')
@@ -310,5 +310,28 @@ export class LearningController {
       };
     }
     return this.learningService.getAlgebra2NysQuestions(grade, parseInt(count));
+  }
+
+  // Question Review and Approval Endpoints
+  @Get('nys/:subject/review')
+  async getQuestionsForReview(@Param('subject') subject: string, @Query('grade') grade: string) {
+    if (!grade) {
+      return {
+        status: 'error',
+        message: 'Grade parameter is required',
+        data: null,
+      };
+    }
+    return this.learningService.getQuestionsForReview(subject, grade);
+  }
+
+  @Put('nys/:subject/approve/:id')
+  async approveQuestion(@Param('subject') subject: string, @Param('id') id: string, @Body() questionData: any) {
+    return this.learningService.approveQuestion(subject, id, questionData);
+  }
+
+  @Delete('nys/:subject/reject/:id')
+  async rejectQuestion(@Param('subject') subject: string, @Param('id') id: string) {
+    return this.learningService.rejectQuestion(subject, id);
   }
 } 

@@ -28,6 +28,9 @@ export class PhysicsDataNys extends Document {
 
   @Prop({ required: true })
   topic: string;
+
+  @Prop({ default: false })
+  is_approved: boolean;
 }
 
 export const PhysicsDataNysSchema = SchemaFactory.createForClass(PhysicsDataNys); 

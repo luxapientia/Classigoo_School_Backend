@@ -28,6 +28,9 @@ export class ChemistryDataNys extends Document {
 
   @Prop({ required: true })
   topic: string;
+
+  @Prop({ default: false })
+  is_approved: boolean;
 }
 
 export const ChemistryDataNysSchema = SchemaFactory.createForClass(ChemistryDataNys); 
