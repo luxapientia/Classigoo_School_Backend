@@ -309,6 +309,12 @@ export class MemberService {
         .where('id = :id', { id: virtual_student_id })
         .execute();
 
+      // Remove parent from classroom access
+      await this.classroomAccessRepository.delete({
+        user: { id: virtualStudent.parent.id },
+        classroom: { id: virtualStudent.classroom.id }
+      });
+
       // Generate new invitation code
       const newCode = await this.invitationCodeUtil.generateUniqueCode();
       await this.virtualStudentRepository.update(virtual_student_id, {
@@ -715,6 +721,7 @@ export class MemberService {
         await this.classroomAccessRepository.save({
           classroom: { id: virtualStudent.classroom.id },
           user: { id: user.user_id },
+          role: 'parent',
           status: 'accepted'
         });
       } else {
